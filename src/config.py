@@ -23,7 +23,7 @@ EFFORT = {
     "queries": "low",
     "supervisor": "low",
     "analyst": "medium",
-    "writer": "low",
+    "writer": "medium",
     "reviewer": "medium",
     "baseline": "medium",
 }

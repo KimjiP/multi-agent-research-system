@@ -23,7 +23,7 @@ Use this exact structure:
 ## Key Findings
 Organize by theme/category (use the claim categories provided).
 Every factual statement must cite its source: [Source Title](url)
-Give the confidence level of key claims exactly as labelled in the claims list: (high confidence), (medium confidence) or (low confidence). When a sentence combines claims, use the lowest of their labels.
+Give the confidence level of key claims exactly as labelled in the claims list: (high confidence), (medium confidence) or (low confidence). Do not merge claims with different labels into one sentence; give each its own sentence and label. Cite each statement to a source of the claim it comes from.
 
 ## Contradictions & Uncertainties
 List any contradictions between sources.

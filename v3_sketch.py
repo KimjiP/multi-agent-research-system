@@ -23,7 +23,7 @@ from typing import Literal
 from pydantic import BaseModel
 
 from src.benchmarks import BENCHMARK_QUESTIONS, mentions_current_annex_iii_date
-from src.config import EFFORT, MODEL_NAME
+from src.config import EFFORT, MODEL_NAME, OFFICIAL_DOMAINS
 from src.llm import generate_structured, generate_text, usage
 from src.nodes.analyst import analyze
 from src.nodes.researcher import search_sources
@@ -92,8 +92,10 @@ def supervisor_decompose(question: str) -> Decomposition:
 
 
 def research_subtopic(subtopic: Subtopic) -> list[SourceDoc]:
+    """One researcher: the same searches as a V2 research round, for one subtopic."""
     seen_urls: set[str] = set()
-    sources = [s for query in subtopic.search_queries for s in search_sources(query, seen_urls)]
+    sources = search_sources(subtopic.search_queries[0], seen_urls, include_domains=OFFICIAL_DOMAINS)
+    sources += [s for query in subtopic.search_queries for s in search_sources(query, seen_urls)]
     logger.info(f"  Subtopic '{subtopic.title}': found {len(sources)} sources")
     return sources
 

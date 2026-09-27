@@ -40,6 +40,12 @@ def test_link_check_accepts_gathered_sources():
     assert reviewer.check_source_links("See [AI Act](https://eur-lex.europa.eu/a).", [SOURCE]).passed
 
 
+def test_link_check_handles_parentheses_in_urls():
+    url = "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/698792/EPRS_BRI(2021)698792_EN.pdf"
+    source = SOURCE.model_copy(update={"url": url})
+    assert reviewer.check_source_links(f"See [EPRS briefing]({url}).", [source]).passed
+
+
 def test_link_check_rejects_unknown_url():
     check = reviewer.check_source_links("See [Press](https://ec.europa.eu/fake).", [SOURCE])
     assert not check.passed

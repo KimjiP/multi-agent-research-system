@@ -35,7 +35,8 @@ LLM_CHECKS = [
     "knowledge_gaps",
 ]
 
-_MARKDOWN_LINK = re.compile(r"\]\((https?://[^)\s]+)\)")
+# The URL of a markdown link; it may contain balanced parentheses, e.g. ...EPRS_BRI(2021)698792_EN.pdf
+_MARKDOWN_LINK = re.compile(r"\]\((https?://(?:[^()\s]|\([^()\s]*\))+)\)")
 
 
 class Review(BaseModel):
