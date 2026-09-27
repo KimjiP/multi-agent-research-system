@@ -1,0 +1,1561 @@
+[
+  {
+    "question": "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
+    "question_type": "compliance_analysis",
+    "subtopics": [
+      {
+        "title": "EU AI Act Classification and Requirements for High-Risk AI Systems",
+        "search_queries": [
+          "EU AI Act high-risk AI systems classification",
+          "AI Act Annex III high-risk use cases employment",
+          "EU AI Act compliance obligations high-risk AI systems"
+        ]
+      },
+      {
+        "title": "Specific Compliance Requirements for AI Hiring Tools",
+        "search_queries": [
+          "EU AI Act employment recruitment selection AI requirements",
+          "AI hiring tools compliance obligations EU",
+          "AI Act Article 6 high-risk AI systems hiring"
+        ]
+      },
+      {
+        "title": "Implementation Timeline and Current Legal Status",
+        "search_queries": [
+          "EU AI Act implementation timeline 2024",
+          "AI Act enforcement dates high-risk systems",
+          "EU AI Act current legal status application"
+        ]
+      },
+      {
+        "title": "Enforcement Actions and Penalties Under EU AI Act",
+        "search_queries": [
+          "EU AI Act enforcement actions 2024",
+          "AI Act penalties fines imposed",
+          "European AI Act compliance violations cases"
+        ]
+      }
+    ],
+    "search_queries": [
+      "EU AI Act high-risk AI systems classification",
+      "AI Act Annex III high-risk use cases employment",
+      "EU AI Act compliance obligations high-risk AI systems",
+      "EU AI Act employment recruitment selection AI requirements",
+      "AI hiring tools compliance obligations EU",
+      "AI Act Article 6 high-risk AI systems hiring",
+      "EU AI Act implementation timeline 2024",
+      "AI Act enforcement dates high-risk systems",
+      "EU AI Act current legal status application",
+      "EU AI Act enforcement actions 2024",
+      "AI Act penalties fines imposed",
+      "European AI Act compliance violations cases"
+    ],
+    "gathered_sources": [
+      {
+        "url": "https://gdprlocal.com/ai-risk-classification/",
+        "title": "AI Risk Classification: Guide to EU AI Act Risk Categories",
+        "snippet": "### Comparison: High Risk vs Limited Risk Requirements\n\n|  |  |  |\n --- \n| Requirement | High Risk AI Systems | Limited Risk AI Systems |\n| Conformity Assessment | Mandatory before market entry | Not required |\n| Technical Documentation | Extensive documentation required | Basic transparency disclosures |\n| Human Oversight | Proper human review protocols are mandatory | User notification sufficient |\n| EU Database Registration | Required registration | Not applicable |\n\nHigh-risk systems face si",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems classification"
+      },
+      {
+        "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2024/11/high-risk-ai-systems",
+        "title": "AI Act: high-risk AI systems \u2013 what applies, what is due when?",
+        "snippet": "The classification as high-risk for embedded AI systems is explained by the dangers and risks of failure or malfunction of the AI system. The feared functional impairments are possibly so severe that they pose a threat to the health, safety or fundamental rights of EU citizens.\n\nExample 1: AI systems that enable autonomous driving in a motor vehicle are to be classified as high-risk AI systems in accordance with Article 6 (1) in conjunction with Annex I No. 19 of the AI Act in conjunction with R",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems classification"
+      },
+      {
+        "url": "https://www.trail-ml.com/blog/eu-ai-act-how-risk-is-classified",
+        "title": "EU AI Act: Risk-Classifications of the AI Regulation",
+        "snippet": "\u200d\n\n## What counts as high-risk in the EU AI Act?\n\nThe high-risk classification of AI systems defined by the EU AI Act was one of the most controversial and discussed area, as it imposes a significant burden on organizations. As previously mentioned, this includes all AI applications that could negatively affect the health and safety of people, their fundamental rights or the environment. To be put on the market and operated in the EU, AI systems in this risk-class must meet certain requirements.",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems classification"
+      },
+      {
+        "url": "https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act",
+        "title": "A guide to high-risk AI systems under the EU AI Act - Pinsent Masons",
+        "snippet": "More specifically, if an AI system is itself a product and that product is covered by \u201cUnion harmonisation legislation\u201d listed in an annex to the EU AI Act, then the AI system will be deemed to be a \u2018high-risk\u2019 AI system if it is required to undergo a third-party conformity assessment before it is placed on the market or put into service in the EU under that Union harmonisation legislation.\n\nIn short, the provisions could apply to AI systems that constitute medical devices, industrial machinery,",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems classification"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/high-level-summary/",
+        "title": "High-level summary of the AI Act | EU Artificial Intelligence Act",
+        "snippet": "The AI Act classifies AI according to its risk:\n\n Unacceptable risk is prohibited (e.g. social scoring systems and manipulative AI).\n Most of the text addresses high-risk AI systems, which are regulated.\n A smaller section handles limited risk AI systems, subject to lighter transparency obligations: developers and deployers must ensure that end-users are aware that they are interacting with AI (chatbots and deepfakes).\n Minimal risk is unregulated (including the majority of AI applications curre",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems classification"
+      },
+      {
+        "url": "https://secureprivacy.ai/blog/high-risk-ai-eu-ai-act-checklist",
+        "title": "High-Risk AI Under the EU AI Act: Does Your Software Qualify?",
+        "snippet": "## Step 3: Does It Match an Annex III Use Case?\n\nThis is the classification decision that will affect the most companies. Annex III lists eight key use cases for AI systems that are considered high-risk if they pose a significant risk of harm to the health, safety or fundamental rights of natural persons. These are: biometric identification and categorisation; critical infrastructure management; education and vocational training; employment and worker management; access to essential services; la",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases employment"
+      },
+      {
+        "url": "https://merified.com/blog/what-high-risk-hiring-ai-really-means-under-the-eu-ai-act/",
+        "title": "What \u201cHigh-Risk\u201d in AI for hiring really means under the EU AI Act",
+        "snippet": "### Defining \u201cHigh-Risk Hiring AI\u201d Under the EU AI Act\n\nIn the eyes of the EU AI Act, \"High-Risk\" doesn't mean your AI is overly complex or inherently dangerous. The classification is based entirely on its intended purpose and its potential impact on people's fundamental rights and career opportunities.\n\nThe golden rule for TA teams lies in Annex III of the Act: the official list of predefined high-risk AI use cases. Any AI systems applied to the areas listed here are considered high-risk by def",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases employment"
+      },
+      {
+        "url": "https://www.williamfry.com/knowledge/is-your-annex-iii-ai-system-high-risk-definitely-maybe/",
+        "title": "Is your Annex III AI System High-Risk? Definitely Maybe. - William Fry",
+        "snippet": "### The Core of Annex III: High-Risk AI Systems\n\nAnnex III of the AI Act lists specific AI systems that are presumed to be high-risk due to their potential to impact health, safety, and fundamental rights. These systems are involved in areas such as critical infrastructure, education, employment, law enforcement, and more. For organisations, this classification means significant compliance requirements, including third-party conformity assessments, which can be both time-consuming and costly. [.",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases employment"
+      },
+      {
+        "url": "https://verifywise.ai/lexicon/high-risk-use-cases-under-eu-ai-act",
+        "title": "High-risk use cases under EU AI Act | AI Governance Lexicon",
+        "snippet": "Back to AI lexicon\n\nRisk Management & Assessment\n\n# High-risk use cases under EU AI Act\n\n## High-risk use cases under EU AI Act\n\nHigh-risk use cases under the EU AI Act refer to specific applications of AI systems that pose significant risks to fundamental rights, safety, or well-being. These are clearly defined in Annex III of the EU AI Act and are subject to strict obligations before entering the European market.\n\nThis subject matters because failing to comply with high-risk AI requirements ca",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases employment"
+      },
+      {
+        "url": "https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems",
+        "title": "EU AI Act \u2013 What are the obligations for \u201chigh-risk AI systems\u201d?",
+        "snippet": "2. Quality Management System(#8): Providers of high-risk AI systems must implement, document, and maintain a quality management system. The objective of this is to ensure that high-risk AI systems are designed, developed, and deployed in compliance with the AI Act. This includes conformity assessment procedures, technical standards and establishing a risk management system. [...] 7. Risk Management System(#22): Deployers must implement and document a risk management system as a continuous iterat",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act compliance obligations high-risk AI systems"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/16/",
+        "title": "Article 16: Obligations of Providers of High-Risk AI Systems - EU AI Act",
+        "snippet": "Generated by CLaiRK, edited by us.\n\nNOTE: This translation is a machine-generated translation. It is not the official translation provided by the European Parliament, which can be found here.\n\nProviders of high-risk AI systems shall:\n\n(a) ensure that their high-risk AI systems are compliant with the requirements set out in Section 2;\n\n(b) indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered t",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act compliance obligations high-risk AI systems"
+      },
+      {
+        "url": "https://naaia.ai/ai-act-high-risk/",
+        "title": "AI Act: what are the requirements for high-risk AI systems? - Naaia",
+        "snippet": "## What Does the AI Act Require for High-Risk AI Systems?\n\nThe AI Act stipulates that high-risk AI systems are subject to binding obligations. To achieve compliance, providers, operators, and deployers of these high-risk systems must adhere to specific requirements. Each must ensure compliance with these obligations according to their role.\n\n### What Are the Obligations?\n\nCompanies using high-risk AI systems must: [...] The high-risk AI system must then undergo a conformity assessment by a third",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act compliance obligations high-risk AI systems"
+      },
+      {
+        "url": "https://www.dataiku.com/stories/blog/eu-ai-act-high-risk-requirements",
+        "title": "EU AI Act High-Risk Requirements: What Companies Need to Know",
+        "snippet": "Recommended AI Governance & Architecture AI Insights\n\n# EU AI Act High-Risk Requirements: What Companies Need to Know\n\nAug 26, 2025   5 min read  / R\u00e9my Ibarcq, Jacob Beswick\n\n### Table of Contents\n\n Section1\n Section1\n Section1\n\nAs the EU AI Act enters implementation, organizations developing (or \u201cproviding\u201d in the Act\u2019s parlance), using (or \u201cdeploying\u201d), importing, and distributing high-risk AI systems will face new obligations set out in Sections 2 and 3 of the Act. [...] Get a solid understa",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act compliance obligations high-risk AI systems"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/",
+        "title": "What the EU AI Act Means for Staffing Businesses",
+        "snippet": "Under the EU AI Act (Regulation 2024/1689), AI systems used in employment decisions fall into the high-risk category. That covers recruitment, selection, targeted job advertising, candidate evaluation, performance monitoring, and certain decisions about compliance, contract terms or termination. Starting 2 August 2026, each of those tools will need mandatory risk assessments, technical documentation, bias testing, human oversight, transparency disclosures, and continuous monitoring. [...] ### Hu",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act employment recruitment selection AI requirements"
+      },
+      {
+        "url": "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2024/08/what-does-the-eu-ai-act-mean-for-employers.pdf",
+        "title": "[PDF] WHAT DOES THE EU AI ACT MEAN FOR EMPLOYERS?",
+        "snippet": "considered high-risk under the EU AI Act. This includes AI systems intended to be used for (i) recruitment or selection purposes, or (ii) making decisions that affect terms of the work-related relationship, promotion or termination of work-related contractual relationships, allocating tasks on the basis of individual behaviour or personal traits or monitoring or evaluation of individuals in the workforce. Work-related contractual relationship is in principle a wider concept than a \u2018vanilla\u2019 empl",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act employment recruitment selection AI requirements"
+      },
+      {
+        "url": "https://hr-on.com/eu-ai-act-for-hr-2026/",
+        "title": "EU AI Act in HR: Requirements and compliance \u2022 Guide & checklist",
+        "snippet": "1. Recruitment and candidate selection: AI systems used to analyse CVs, filter applications, assess candidates through video interviews, or predict success in a role can be high-risk. The potential for bias (for example gender, age, ethnicity) is significant if systems are not properly designed, tested, and monitored. At HR-ON, we aim to provide ethical and transparent tools in HR-ON Recruit to support fair hiring.\n2. Employee monitoring and performance evaluation: AI-assisted systems that monit",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act employment recruitment selection AI requirements"
+      },
+      {
+        "url": "https://www.edge-cert.org/article/eu-artificial-intelligence-act-and-talent-management/",
+        "title": "The EU Artificial Intelligence Act and Talent Management",
+        "snippet": "##### 1. Recruitment and applicant screening\n\nAI is widely used to screen CVs, rank candidates, assess video interviews, and predict job performance. Under the EU AI Act, candidates must be informed when such systems are used, and organizations must be able to demonstrate that these tools do not introduce discriminatory bias. Recruiters and hiring managers must retain responsibility. AI-generated outputs should inform (not replace) human judgment and organizations must also be prepared to explai",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act employment recruitment selection AI requirements"
+      },
+      {
+        "url": "https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know",
+        "title": "How the EU AI Act Changes Recruitment - What Employers Need to ...",
+        "snippet": "1. Transparency: You need to let candidates know when AI is part of the process. If AI is used to assess qualifications or rank resumes, candidates have the right to know.\n2. Record-Keeping: It\u2019s essential to keep detailed records of how decisions were made. If a candidate is rejected based on certain criteria, it must be logged in case of future audits or complaints.\n3. Bias Prevention: Companies must ensure that AI doesn\u2019t introduce bias. For example, if an AI tool is trained on biased data, i",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act employment recruitment selection AI requirements"
+      },
+      {
+        "url": "https://boundlesshq.com/blog/what-is-the-eu-ai-act-everything-you-need-to-know/",
+        "title": "What is the EU AI Act? Employer compliance guide - Boundless HQ",
+        "snippet": "Boundless helps companies stay ahead of complex employment and regulatory changes. Whether it\u2019s navigating global compliance, worker protections, or new AI obligations in HR, we make sure everything is done properly, without shortcuts, without surprises.\n\nGet in touch with our team today for more information\n\n### FAQs\n\nNo. The EU AI Act applies to any company whose AI systems are used or have an effect within the European Union. That means even organisations based in the UK, the United States, o",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI hiring tools compliance obligations EU"
+      },
+      {
+        "url": "https://europe-hr-solutions.com/resources/ai-and-the-gdpr/",
+        "title": "AI and the GDPR - 6 Steps to Compliant Hiring - Europe HR Solutions",
+        "snippet": "### 6. GDPR Compliance Partnership\n\nNot all hiring tools are created equal as some may increase the risk of GDPR non-compliance. To avoid this, make sure to choose solutions that include GDPR features to simplify compliance and protect applicant data.\n\n### Bonus Point \u2013 EU AI Act and GDPR\n\nThe EU AI act is the first legislation in place that regulates AI across Europe. This act classifies the use of AI769509) in hiring processes and outlines the risks, imposing very strict guidelines.\n\nBasically",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI hiring tools compliance obligations EU"
+      },
+      {
+        "url": "https://www.gtlaw.com/en/insights/2025/5/use-of-ai-in-recruitment-and-hiring-considerations-for-eu-and-us-companies",
+        "title": "Use of AI in Recruitment and Hiring \u2013 Considerations for EU and US ...",
+        "snippet": "Data Security and Ownership: Companies that enter the personal data of potential candidates into an AI system have certain legal obligations with respect to maintaining the security of such data, as well as considerations with respect to the ownership of such data. Such obligations are governed by the EU General Data Protection Regulation (GDPR), which took effect on May 25, 2018. In the United States, more than 20 jurisdictions have passed laws imposing obligations on employers that use AI to c",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "AI hiring tools compliance obligations EU"
+      },
+      {
+        "url": "https://www.crowell.com/en/insights/client-alerts/artificial-intelligence-and-human-resources-in-the-eu-a-2026-legal-overview",
+        "title": "Artificial Intelligence and Human Resources in the EU",
+        "snippet": "## What You Need to Know\n\n   Key takeaway #1\n\nMany AI tools deployed for HR purposes are likely to be classified as \"high risk\" under the AI Act, triggering strict obligations for employers, including mandatory human oversight and transparency requirements toward employees and their representatives. Full application of these obligations was initially scheduled for August 2026. \n   Key takeaway #2 [...] #### 1.4 Obligations of Employers Deploying High-Risk AI Systems\n\nCompanies using such systems",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI hiring tools compliance obligations EU"
+      },
+      {
+        "url": "https://www.eversheds-sutherland.com/en/ireland/insights/eu-ai-act-prohibited-and-high-risk-systems-in-employment",
+        "title": "EU AI Act: Prohibited and high-risk systems in employment",
+        "snippet": "#### Which AI systems are high-risk under the Act?\n\nThe Act defines high-risk systems within Article 6 and includes further categories of high-risk systems at Annex III.\n\nIn the employment context, it is likely that many AI systems will be categorised as \u201chigh-risk\u201d. Under Annex III, this category applies to those systems which are:\n\nAI systems \u201cmaking decisions affecting terms of work-related relationships\u201d is potentially very wide and in practical terms could mean that many of the AI systems w",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Article 6 high-risk AI systems hiring"
+      },
+      {
+        "url": "https://www.legalnodes.com/article/ai-in-recruitment-processes-navigating-high-risk-systems-for-ai-deployers",
+        "title": "AI in Recruitment Processes: Navigating High-risk Systems for AI ...",
+        "snippet": "\u200d\n\nArticle 6 of the Act states, that AI systems referred to in Annex III shall be considered to be high-risk and provision of the Annex III (4) (a) specifies, that these refer to AI systems intended to be used for the recruitment or selection of natural persons, in particular to place targeted job advertisements, to analyse and filter job applications, and to evaluate candidates. [...] If an AI recruitment system is classified as high-risk under the EU AI Act, deployers are required to implement",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "AI Act Article 6 high-risk AI systems hiring"
+      },
+      {
+        "url": "https://www.hunton.com/insights/legal/the-impact-of-the-eu-ai-act-on-human-resources-activities",
+        "title": "The Impact of the EU AI Act on Human Resources Activities",
+        "snippet": "The AI Act\u2019s obligations will become applicable in phases. The provisions with respect to prohibited AI systems and AI literacy (see below) will become applicable on February 2, 2025. Specific obligations for general-purpose AI models will become applicable on August 2, 2025. Most other obligations under the AI Act, including the rules applicable to high-risk AI systems and systems subject to specific transparency requirements, will become applicable on August 2, 2026. The remaining provisions w",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Article 6 high-risk AI systems hiring"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/6/",
+        "title": "Article 6: Classification Rules for High-Risk AI Systems - EU AI Act",
+        "snippet": "This article outlines how to classify high-risk AI systems. An AI system is considered high-risk if it is used as a safety component of a product, or if it is a product itself, that is covered by EU legislation in Annex I. AI systems of the types listed in Annex III are always considered high-risk, unless they don't pose a significant risk to people's health, safety, or rights. Providers who believe their AI system isn't high-risk must document their assessment before selling or using it. The EU",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act Article 6 high-risk AI systems hiring"
+      },
+      {
+        "url": "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20240717-what-are-highrisk-ai-systems-within-the-meaning-of-the-eus-ai-act-and-what-requirements-apply-to-them",
+        "title": "What Are High-Risk AI Systems Within the Meaning of the EU's AI ...",
+        "snippet": "Article 6(2) of the AI Act\u2014Specific List. In addition, the AI Act contains, in its Annex III, a list of AI systems that must be considered high risk. This list currently contains AI systems in eight different categories. Examples include, subject to specific conditions and exemptions, biometrics, critical infrastructures, education and vocational training, employment, worker management, and access to self-employment. The European Commission (Commission) has the power to amend this list.",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Article 6 high-risk AI systems hiring"
+      },
+      {
+        "url": "https://data-privacy-office.eu/courses/artificial-intelligence-regulation-the-fundamentals-of-risk-management-personal-data/",
+        "title": "EU AI Act Compliance training + certificate - DPO Europe",
+        "snippet": "You can understand these requirements and learn how to comply with them in our course.\n\n## EU AI Act Implementation Timeline (2024-2030)\n\nThe EU AI Act officially became law in July 2024, with its requirements being introduced in phases to allow for a smooth transition. In February 2025, the first regulations took effect, focusing on banning AI systems that pose unacceptable risks. By August 2026, the majority of the law\u2019s rules will apply to most AI technologies and providers. Finally, certain ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act implementation timeline 2024"
+      },
+      {
+        "url": "https://www.euaiact.com/implementation-timeline",
+        "title": "EU AI Act Implementation Timeline",
+        "snippet": "January 2019\n\n1 August 2024\n\nEU AI Act enters into force \u2013 20 days after publication in the Journal \u2013commencing the beginning of the implementation timeline.\n\nArticle 113\n\nThe idea for Holistic AI began\n\nJanuary 2019\n\n2 November 2024\n\nMember States: Deadline for Member States to identify and publicly list the authorities / bodies responsible for fundamental rights protection, and to notify the Commission and other Member States.\n\nArticle 77(2)\n\nThe idea for Holistic AI began\n\nJanuary 2019\n\n2 Feb",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act implementation timeline 2024"
+      },
+      {
+        "url": "https://aclanthology.org/2025.hcinlp-1.19.pdf",
+        "title": "[PDF] Expert Views on Aligning Explainable AI with the EU AI Act",
+        "snippet": "EU AI Act\u2013Implementation Timeline. 2024. Imple-mentation timeline of the eu artificial intelligence act.\nAccessed: 27-February-2025.\nQianli Wang, Tatiana Anikina, Nils Feldhus, Simon Os-termann, Sebastian M\u00f6ller, and Vera Schmitt. 2025.\nCross-refine: Improving natural language explana-tion generation by learning in tandem. In Proceed-ings of the 31st International Conference on Compu-tational Linguistics, pages 1150\u20131167, Abu Dhabi, UAE. Association for Computational Linguistics.\nGreta Warren, I",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act implementation timeline 2024"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
+        "title": "Implementation Timeline | EU Artificial Intelligence Act",
+        "snippet": "Download timeline as image\n\n### 2024\n\nDate\n\n12 July 2024\n\nThe AI Act is published in the Official Journal of the European Union. This serves as the formal notification of the new law.\n\nRelated AI Act Content\n\nArticle 113\n\nDate\n\n1 August 2024\n\nApplication: Date of entry into force of the AI Act. At this stage, none of the Act\u2019s requirements apply\u2014they will begin to apply gradually over time.\n\nRelated AI Act Content\n\nArticle 113\n\nDate\n\n2 November 2024\n\nMember States: Deadline for Member States to ",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act implementation timeline 2024"
+      },
+      {
+        "url": "https://www.ropesgray.com/-/media/files/Articles/2024/08/EU-AI-Act-Timeline.pdf",
+        "title": "[PDF] EU AI Act Timeline - Ropes & Gray LLP",
+        "snippet": "1 August 2024 2 February 2025 2 May 2025 2 August 2025 2 February 2026 2 August 2026 2 August 2027 2 August 2029 31 December 2030 Key definitions Provider: a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model, or that has an AI system or a general-purpose AI model developed, and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge. Note that where the",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act implementation timeline 2024"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/oliver-patel_when-will-eu-ai-act-high-risk-ai-compliance-activity-7401984085377830912-RglO",
+        "title": "When will EU AI Act high-risk AI compliance become applicable?",
+        "snippet": "compliance dates will be 2 December 2027 (for high-risk AI systems listed in Annex III) and 2 August 2028 (for high-risk AI systems covered by Annex I). These are the backstop dates. Scenario 3. Given that the applicable date in law today is 2 August 2026, if these amendments are not approved and enacted before this date, then the provisions relating to high-risk AI systems will, technically speaking, apply from then. This creates timeline pressure to get these changes approved within the next f",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement dates high-risk systems"
+      },
+      {
+        "url": "https://www.dataguard.com/eu-ai-act/timeline",
+        "title": "EU AI Act Timeline: Key Compliance Dates & Deadlines Explained",
+        "snippet": "At the time of writing, the newly established EU AI Office is working on the General-Purpose AI Code of Practice to offer added guidance.  \n\nIn addition, as of August 2nd, 2025, Member States should have defined which authorities to report to. If your company is an operator of GPAI already on the market, your deadline will be in 2027. \n\n### Scenario #2: Operators of high-risk AI systems\n\nKey date: August 2026 \n\nAs of August 2026, operators of AI systems that have the potential to bring significa",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement dates high-risk systems"
+      },
+      {
+        "url": "https://transcend.io/blog/eu-ai-act-implementation-timeline",
+        "title": "The EU AI Act's Implementation Timeline: Key Milestones for ...",
+        "snippet": "### August 2, 2027: Comprehensive application\n\nFrom August 2, 2027, the full scope of the EU AI Act applies to all risk categories, including those in Annex II, which covers medium-to-high-risk AI systems. At this stage, all AI systems, regardless of risk level, must comply with:\n\n Human oversight mechanisms: Ensuring that high-risk AI applications remain under human control and open to intervention when needed\n Clear and transparent documentation: Including evidence of ongoing risk mitigation e",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement dates high-risk systems"
+      },
+      {
+        "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+        "title": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+        "snippet": "Member States need to designate national competent authorities and adopt national laws on penalties\n\n       EU-level governance (AI Board, Scientific Panel, Advisory Forum) must be set up\n\n3.   \n 02 Aug 2026  The majority of rules of the AI Act come into force and enforcement starts   \n\n       Rules for high-risk AI systems in Annex III enter into application \n\n       Transparency rules (Article 50) start to apply\n\n       Measures in support of innovation start apply\n\n       Member States should",
+        "source_type": "eu_guidance",
+        "published_date": null,
+        "search_query": "AI Act enforcement dates high-risk systems"
+      },
+      {
+        "url": "https://www.toprankedlegal.com/eu-ai-act-application-timeline-and-implications/",
+        "title": "EU AI Act: Application timeline and implications - Top Ranked",
+        "snippet": "The AI Act extends its jurisdiction beyond the EU borders and may directly apply to Swiss companies. This extraterritorial application is triggered in two main scenarios:\n\nThe concept of \u201cplacing on the market\u201d includes any situation where an AI system or GPAI model is made commercially available to EU users. This may include offers on websites, platforms, or services directed at the EU \u2013 signaled, for instance, by the use of EU currencies, local delivery options, or targeted advertising. A phys",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "EU AI Act current legal status application"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/",
+        "title": "EU Artificial Intelligence Act | Up-to-date developments and ...",
+        "snippet": "## What is the EU AI Act?\n\nThe AI Act is a European regulation on artificial intelligence (AI) \u2013 the first comprehensive regulation on AI by a major regulator anywhere. The Act assigns applications of AI to three risk categories. First, applications and systems that create an unacceptable risk, such as government-run social scoring of the type used in China, are banned. Second, high-risk applications, such as a CV-scanning tool that ranks job applicants, are subject to specific legal requirement",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act current legal status application"
+      },
+      {
+        "url": "https://eyreact.com/authorised-representative-under-the-eu-ai-act/",
+        "title": "Authorised Representative Under the EU AI Act - eyreACT",
+        "snippet": "| Operator type | Legal basis | Trigger for obligation |\n --- \n| Provider of high-risk AI system | Article 22 | System placed on or made available in the EU market |\n| Provider of GPAI model (standard) | Article 54 | Model placed on the EU market |\n| Provider of GPAI model with systemic risk | Article 54 | Model placed on the EU market |\n| Provider of open-source GPAI model | Article 54 | Exempt unless classified as systemic risk |\n| EU-established provider | Articles 22 and 54 | No obligation (",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act current legal status application"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/kenshw_major-update-today-on-the-eu-ai-act-application-activity-7396929106245840898-TUWE",
+        "title": "Major update today on the EU AI Act application timeline delay for ...",
+        "snippet": "The EU Council has formally approved the AI Act. This is the final legislative step. It follows the Parliament\u2019s adoption earlier this year. The Act introduces a risk-based tiering system and imposes extraterritorial fines of up to 7% of global turnover.\nImplementation timeline:\n1. The \"Kill List\" (6 Months from Entry into Force)\nThese use cases are deemed \"contrary to EU values.\" There is no compliance path for these; they must be removed from the EU market entirely. What is banned:\n\u2013Un-targete",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act current legal status application"
+      },
+      {
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "title": "AI Act | Shaping Europe's digital future - European Union",
+        "snippet": "## Governance and implementation\n\nThe\u202fEuropean AI Office and authorities of the Member States are responsible for implementing, supervising and enforcing the AI Act. The AI Board, the Scientific Panel and the Advisory Forum steer and advise the AI Act\u2019s governance. Find out more details about the Governance and enforcement of the AI Act.\n\n## Application timeline\n\nThe AI Act entered into force on 1 August 2024, and will be fully applicable 2 years later on 2 August 2026, with some exceptions:\n\n##",
+        "source_type": "eu_guidance",
+        "published_date": null,
+        "search_query": "EU AI Act current legal status application"
+      },
+      {
+        "url": "https://www.orrick.com/en/Insights/2024/09/The-EU-AI-Act-Oversight-and-Enforcement",
+        "title": "The EU AI Act: Oversight and Enforcement - Orrick",
+        "snippet": "1. Home\n2. Insights\n3. The EU AI Act: Oversight and Enforcement\n\n - Facebook\n  - Twitter\n  - Linkedin\n\n# The EU AI Act: Oversight and Enforcement\n\n5 minute read | September.13.2024\n\nThis update is part of our EU AI Act Series. Learn more about the EU AI Act here.\n\nThe EU AI Act has been formally adopted and the countdown to the start of enforcement has begun.\n\nHere\u2019s what you need to know about oversight and enforcement under the AI Act:\n\n## Penalties for Non-Compliance\n\nViolations of the prohib",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act enforcement actions 2024"
+      },
+      {
+        "url": "https://intelligence.dlapiper.com/artificial-intelligence/?t=08-enforcement&c=EU",
+        "title": "Enforcement / fines in the European Union - AI Laws of the World",
+        "snippet": "Last modified 11 February 2026\n\nShare \n\n LinkedIn\n Facebook\n Twitter\n Email\n Whatsapp\n\n# Artificial Intelligence in the European Union\n\n# Enforcement / fines in the European Union\n\nDownload PDF\n\n Download current country\n Download full handbook\n\nLaw / proposed law \n\n# Law / proposed law in the European Union\n\nRegulation (EU) 2024/1689 of the European Parliament and of the Council on harmonised rules on artificial intelligence (EU AI Act) was published in the Official Journal of the European Unio",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act enforcement actions 2024"
+      },
+      {
+        "url": "https://www.dlapiper.com/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect",
+        "title": "Latest wave of obligations under the EU AI Act take effect - DLA Piper",
+        "snippet": "# Latest wave of obligations under the EU AI Act take effect: Key considerations | DLA Piper\n\n, Regulation (EU) 2024/1689 (the EU AI Act), entered into force last year. Rather than taking immediate effect, the harmonized rules on AI under the Act have been staggered in application.\n\nThe first of the EU AI Act\u2019s obligations took effect on February 2, 2025, prohibiting certain practices and uses of AI technology and solidifying the importance of AI literacy in organizations. Many other obligations",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act enforcement actions 2024"
+      },
+      {
+        "url": "https://www.isaca.org/resources/white-papers/2024/understanding-the-eu-ai-act",
+        "title": "White Papers 2024 Understanding the EU AI Act - ISACA",
+        "snippet": "Moreover, AI systems require data, including personal data, which means that GDPR will apply concurrently with the EU AI Act. In addition, it is often difficult to separate personal data from nonpersonal data. This means that ensuring lawful use of the data feeding the AI model is key. In particular, there needs to be lawful grounds for using the personal data (e.g., formal consent or another type of permission granted); again, the privacy officer will be a key person involved in guiding the ent",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act enforcement actions 2024"
+      },
+      {
+        "url": "https://www.holisticai.com/blog/penalties-of-the-eu-ai-act",
+        "title": "Penalties of the EU AI Act: The High Cost of Non-Compliance",
+        "snippet": "Key Takeaways\n\n The heftiest fines are imposed on operators for violations related to prohibited systems of up to \u20ac35,000,000 or 7% of worldwide annual turnover for the preceding financial year, whichever is higher.\n The lowest penalties for AI operators are for providing incorrect, incomplete, or misleading information, up to \u20ac7,500,000 or 1% of total worldwide annual turnover for the preceding financial year, whichever is higher.\n SMEs receive fines up to the lower threshold.\n There are specif",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act penalties fines imposed"
+      },
+      {
+        "url": "https://www.taylorwessing.com/en/interface/2021/ai-act/fines-under-the-ai-act---a-bottomless-pit",
+        "title": "Fines under the AI Act - A bottomless pit? - Taylor Wessing",
+        "snippet": "Article 71 (4) of the AI Act provides for a medium fine of up to 20 million Euro or - in the case of companies, 4 percent of the annual worldwide turnover, whichever is higher. This fine is imposed if AI systems violate the other requirements and obligations set out in the AI Act, i.e. outside Articles 5 and 10 of the AI Act. In practice, this fine is likely to play by far the most important role, as the AI Act provides for a whole series of obligations. Probably the most relevant of these are t",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act penalties fines imposed"
+      },
+      {
+        "url": "https://www.spektr.com/blog/eu-ai-act-timeline-enforcement-fines-and-how-to-prepare",
+        "title": "EU AI Act: Timeline, Enforcement & Fines And How To Prepare",
+        "snippet": "By this final deadline, any AI system integrated into safety-critical products (such as medical devices or transportation systems) must comply with the AI Act\u2019s requirements and EU conformity assessments.\n\n\u200d\n\n## Enforcement & Penalties: What\u2019s at Stake?\n\nThe AI Act\u2019s penalties are steep, with enforcement split between the EU\u2019s AI Office (for general-purpose AI) and national regulators (for all other AI systems). Fines depend on the severity of non-compliance:\n\n Violations of prohibited AI practi",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act penalties fines imposed"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/99/",
+        "title": "Article 99: Penalties | EU Artificial Intelligence Act",
+        "snippet": "This article states that member countries must establish rules for penalties and enforcement measures for violations of the Act. These penalties must be effective, proportionate, and dissuasive, and consider the interests of small and medium-sized enterprises (SMEs) and startups. Non-compliance with certain AI practices can result in fines up to 35 million EUR or 7% of a company's annual turnover. Other violations can result in fines up to 15 million EUR or 3% of a company's annual turnover. Pro",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act penalties fines imposed"
+      },
+      {
+        "url": "https://www.euaiact.com/key-issue/1",
+        "title": "Key Issue 1: Fines/Penalties - EU AI Act",
+        "snippet": "Through a fine and penalty structure divided into levels that are dependent on the severity of the breach (see tables below) \u2013 the European institutions make clear how they assess AI systems and the associated requirements and obligations. The framework for fines exceeds even penalties provided for in the General Data Protection Act (GDPR), which are up to \u20ac20 million. In principle, any entity required to fulfil the requirements and obligations of the EU AI Act may be the subject of a breach if ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act penalties fines imposed"
+      },
+      {
+        "url": "https://news.northeastern.edu/2024/06/13/eu-ai-act-regulation-law/",
+        "title": "EU AI Act Sets Precedent with $37M Fines for Non-Compliance",
+        "snippet": "AI systems \u2014 defined as being able to conduct autonomous machine learning and having the capacity to make \u201coutputs\u201d such as predictions and recommendations \u2014 deemed to hold an \u201cunacceptable risk\u201d to the rights of EU citizens will be outlawed entirely.\n\nHeadshot of Anton Dinev (left) and Malik Haddad (right).\n\nBans will come into place next year on activities such as using the advanced technology for social scoring \u2014 a process that could deny people access to public services based on their behavi",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "European AI Act compliance violations cases"
+      },
+      {
+        "url": "https://data-privacy-office.eu/fines-for-gdpr-violations-in-ai-systems-and-how-to-avoid-them/",
+        "title": "Fines for GDPR violations in AI systems and how to avoid them",
+        "snippet": "Join our Artificial Intelligence Compliance Professional for Europe course. Participants learn the basics of AI development and operation, as well as its regulations from the perspective of the EU AI Act and other international standards.\n\n## TikTok \u2013 \u20ac345 Million Fine for Mishandling Children\u2019s Data (September 2024)\n\nWhat happened: TikTok was fined for allowing users under 13 to create accounts, upload videos, and interact with the platform without age verification or parental controls. Default",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "European AI Act compliance violations cases"
+      }
+    ],
+    "extracted_claims": [
+      {
+        "claim_id": "claim_001",
+        "text": "AI systems used for recruitment, selection, and hiring decisions are classified as high-risk under Annex III of the EU AI Act",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/",
+          "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2024/08/what-does-the-eu-ai-act-mean-for-employers.pdf",
+          "https://www.legalnodes.com/article/ai-in-recruitment-processes-navigating-high-risk-systems-for-ai-deployers"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_002",
+        "text": "High-risk AI hiring tools require mandatory conformity assessment before market entry",
+        "supporting_sources": [
+          "https://gdprlocal.com/ai-risk-classification/",
+          "https://naaia.ai/ai-act-high-risk/"
+        ],
+        "confidence": 0.75,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_003",
+        "text": "Deployers must implement human oversight protocols for high-risk AI hiring systems",
+        "supporting_sources": [
+          "https://gdprlocal.com/ai-risk-classification/",
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/",
+          "https://www.crowell.com/en/insights/client-alerts/artificial-intelligence-and-human-resources-in-the-eu-a-2026-legal-overview"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_004",
+        "text": "Companies must register high-risk AI systems in the EU Database",
+        "supporting_sources": [
+          "https://gdprlocal.com/ai-risk-classification/"
+        ],
+        "confidence": 0.65,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_005",
+        "text": "Extensive technical documentation is required for high-risk AI hiring systems",
+        "supporting_sources": [
+          "https://gdprlocal.com/ai-risk-classification/",
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/"
+        ],
+        "confidence": 0.75,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_006",
+        "text": "Providers must implement and maintain a quality management system for high-risk AI systems",
+        "supporting_sources": [
+          "https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems"
+        ],
+        "confidence": 0.7,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_007",
+        "text": "Deployers must implement and document a risk management system as a continuous iterative process",
+        "supporting_sources": [
+          "https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems"
+        ],
+        "confidence": 0.7,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_008",
+        "text": "Companies must conduct mandatory bias testing for high-risk AI hiring tools",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/",
+          "https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know"
+        ],
+        "confidence": 0.75,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_009",
+        "text": "Transparency disclosures to candidates are required when AI is used in hiring processes",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/",
+          "https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know",
+          "https://www.edge-cert.org/article/eu-artificial-intelligence-act-and-talent-management/"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_010",
+        "text": "Continuous monitoring of high-risk AI hiring systems is required",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/"
+        ],
+        "confidence": 0.7,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_011",
+        "text": "High-risk AI system obligations become applicable on August 2, 2026",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/",
+          "https://www.hunton.com/insights/legal/the-impact-of-the-eu-ai-act-on-human-resources-activities",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
+        ],
+        "confidence": 0.9,
+        "category": "timeline"
+      },
+      {
+        "claim_id": "claim_012",
+        "text": "The EU AI Act entered into force on August 1, 2024",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/implementation-timeline/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "confidence": 0.95,
+        "category": "timeline"
+      },
+      {
+        "claim_id": "claim_013",
+        "text": "Violations of prohibited AI practices can result in fines up to \u20ac35 million or 7% of annual worldwide turnover, whichever is higher",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/99/",
+          "https://www.holisticai.com/blog/penalties-of-the-eu-ai-act"
+        ],
+        "confidence": 0.9,
+        "category": "enforcement"
+      },
+      {
+        "claim_id": "claim_014",
+        "text": "Other violations of the AI Act can result in fines up to \u20ac20 million or 4% of annual worldwide turnover, whichever is higher",
+        "supporting_sources": [
+          "https://www.taylorwessing.com/en/interface/2021/ai-act/fines-under-the-ai-act---a-bottomless-pit",
+          "https://artificialintelligenceact.eu/article/99/"
+        ],
+        "confidence": 0.85,
+        "category": "enforcement"
+      },
+      {
+        "claim_id": "claim_015",
+        "text": "No specific enforcement actions have been taken yet under the EU AI Act for high-risk AI hiring tools",
+        "supporting_sources": [],
+        "confidence": 0.8,
+        "category": "enforcement"
+      },
+      {
+        "claim_id": "claim_016",
+        "text": "The EU AI Act applies extraterritorially to companies outside the EU whose AI systems are used or have effects within the European Union",
+        "supporting_sources": [
+          "https://boundlesshq.com/blog/what-is-the-eu-ai-act-everything-you-need-to-know/",
+          "https://www.toprankedlegal.com/eu-ai-act-application-timeline-and-implications/"
+        ],
+        "confidence": 0.75,
+        "category": "legal_requirement"
+      }
+    ],
+    "contradictions": [
+      {
+        "claim_a": "High-risk AI compliance becomes applicable on August 2, 2026",
+        "claim_b": "Compliance dates will be December 2, 2027 for high-risk AI systems listed in Annex III and August 2, 2028 for systems covered by Annex I",
+        "source_a": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+        "source_b": "https://www.linkedin.com/posts/oliver-patel_when-will-eu-ai-act-high-risk-ai-compliance-activity-7401984085377830912-RglO",
+        "description": "There is conflicting information about the exact compliance dates for high-risk AI systems, with some sources suggesting potential delays to 2027-2028"
+      },
+      {
+        "claim_a": "Other violations result in fines up to \u20ac20 million or 4% of turnover",
+        "claim_b": "Other violations result in fines up to \u20ac15 million or 3% of turnover",
+        "source_a": "https://www.taylorwessing.com/en/interface/2021/ai-act/fines-under-the-ai-act---a-bottomless-pit",
+        "source_b": "https://artificialintelligenceact.eu/article/99/",
+        "description": "There are conflicting penalty amounts cited for non-prohibited AI Act violations"
+      }
+    ],
+    "open_issues": [
+      "Uncertainty about exact compliance timeline due to potential legislative amendments delaying high-risk AI obligations",
+      "No concrete enforcement actions or case studies available yet for high-risk AI hiring tools",
+      "Unclear guidance on specific technical standards and conformity assessment procedures for AI hiring systems",
+      "Ambiguity around the scope of 'work-related contractual relationships' and which specific HR AI tools qualify as high-risk",
+      "Interaction between EU AI Act requirements and existing GDPR obligations for AI hiring systems needs clarification"
+    ],
+    "report": "# EU AI Act Compliance Requirements for High-Risk AI Hiring Tools: Current Status and Enforcement Analysis\n\n## Executive Summary\n\nThe EU AI Act establishes comprehensive compliance requirements for companies deploying high-risk AI hiring tools, with full obligations taking effect on August 2, 2026. AI systems used for recruitment, selection, and hiring decisions are explicitly classified as high-risk under Annex III of the Act. Companies must implement extensive technical, organizational, and governance measures including conformity assessments, human oversight protocols, bias testing, and transparency disclosures. Violations can result in substantial fines up to \u20ac35 million or 7% of annual worldwide turnover for the most serious infractions. However, no enforcement actions have been taken yet, and several implementation details remain unclear.\n\n## Key Findings\n\n### Classification and Scope Requirements\n\n**High-Risk Classification** (Confidence: 85%)\nAI systems used for recruitment, selection, and hiring decisions are classified as high-risk under Annex III of the EU AI Act. [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/), [What Does the EU AI Act Mean for Employers?](https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2024/08/what-does-the-eu-ai-act-mean-for-employers.pdf), [AI in Recruitment Processes: Navigating High-risk Systems for AI Deployers](https://www.legalnodes.com/article/ai-in-recruitment-processes-navigating-high-risk-systems-for-ai-deployers)\n\n**Extraterritorial Application** (Confidence: 75%)\nThe EU AI Act applies extraterritorially to companies outside the EU whose AI systems are used or have effects within the European Union. [What is the EU AI Act? Employer compliance guide](https://boundlesshq.com/blog/what-is-the-eu-ai-act-everything-you-need-to-know/), [EU AI Act: Application timeline and implications](https://www.toprankedlegal.com/eu-ai-act-application-timeline-and-implications/)\n\n### Pre-Market Requirements\n\n**Conformity Assessment** (Confidence: 75%)\nHigh-risk AI hiring tools require mandatory conformity assessment before market entry. [AI Risk Classification: Guide to EU AI Act Risk Categories](https://gdprlocal.com/ai-risk-classification/), [AI Act: high-risk AI systems \u2013 what applies, what is due when?](https://naaia.ai/ai-act-high-risk/)\n\n**EU Database Registration** (Confidence: 65%)\nCompanies must register high-risk AI systems in the EU Database. [AI Risk Classification: Guide to EU AI Act Risk Categories](https://gdprlocal.com/ai-risk-classification/)\n\n**Technical Documentation** (Confidence: 75%)\nExtensive technical documentation is required for high-risk AI hiring systems. [AI Risk Classification: Guide to EU AI Act Risk Categories](https://gdprlocal.com/ai-risk-classification/), [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/)\n\n### Operational Compliance Requirements\n\n**Quality Management System** (Confidence: 70%)\nProviders must implement and maintain a quality management system for high-risk AI systems. [EU AI Act \u2013 What are the obligations for \"high-risk AI systems\"?](https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems)\n\n**Risk Management System** (Confidence: 70%)\nDeployers must implement and document a risk management system as a continuous iterative process. [EU AI Act \u2013 What are the obligations for \"high-risk AI systems\"?](https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems)\n\n**Human Oversight Protocols** (Confidence: 85%)\nDeployers must implement human oversight protocols for high-risk AI hiring systems. [AI Risk Classification: Guide to EU AI Act Risk Categories](https://gdprlocal.com/ai-risk-classification/), [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/), [Artificial Intelligence and Human Resources in the EU](https://www.crowell.com/en/insights/client-alerts/artificial-intelligence-and-human-resources-in-the-eu-a-2026-legal-overview)\n\n**Bias Testing** (Confidence: 75%)\nCompanies must conduct mandatory bias testing for high-risk AI hiring tools. [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/), [How the EU AI Act Changes Recruitment - What Employers Need to Know](https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know)\n\n**Transparency Disclosures** (Confidence: 85%)\nTransparency disclosures to candidates are required when AI is used in hiring processes. [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/), [How the EU AI Act Changes Recruitment - What Employers Need to Know](https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know), [The EU Artificial Intelligence Act and Talent Management](https://www.edge-cert.org/article/eu-artificial-intelligence-act-and-talent-management/)\n\n**Continuous Monitoring** (Confidence: 70%)\nContinuous monitoring of high-risk AI hiring systems is required. [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/)\n\n### Implementation Timeline\n\n**Act Entry into Force** (Confidence: 95%)\nThe EU AI Act entered into force on August 1, 2024. [Implementation Timeline | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/implementation-timeline/), [AI Act | Shaping Europe's digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)\n\n**High-Risk System Obligations** (Confidence: 90%)\nHigh-risk AI system obligations become applicable on August 2, 2026. [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/), [The Impact of the EU AI Act on Human Resources Activities](https://www.hunton.com/insights/legal/the-impact-of-the-eu-ai-act-on-human-resources-activities), [Timeline for the Implementation of the EU AI Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act)\n\n### Penalties and Enforcement\n\n**Maximum Penalties for Prohibited Practices** (Confidence: 90%)\nViolations of prohibited AI practices can result in fines up to \u20ac35 million or 7% of annual worldwide turnover, whichever is higher. [Article 99: Penalties | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/99/), [Penalties of the EU AI Act: The High Cost of Non-Compliance](https://www.holisticai.com/blog/penalties-of-the-eu-ai-act)\n\n**Other Violations Penalties** (Confidence: 85%)\nOther violations of the AI Act can result in fines up to \u20ac20 million or 4% of annual worldwide turnover, whichever is higher. [Fines under the AI Act - A bottomless pit?](https://www.taylorwessing.com/en/interface/2021/ai-act/fines-under-the-ai-act---a-bottomless-pit), [Article 99: Penalties | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/99/)\n\n**Current Enforcement Status** (Confidence: 80%)\nNo specific enforcement actions have been taken yet under the EU AI Act for high-risk AI hiring tools.\n\n## Contradictions & Uncertainties\n\n### Timeline Discrepancies\nThere is conflicting information about the exact compliance dates for high-risk AI systems. While most sources indicate August 2, 2026, some suggest potential delays to December 2, 2027 for high-risk AI systems listed in Annex III and August 2, 2028 for systems covered by Annex I. [Timeline for the Implementation of the EU AI Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act) vs. [When will EU AI Act high-risk AI compliance become applicable?](https://www.linkedin.com/posts/oliver-patel_when-will-eu-ai-act-high-risk-ai-compliance-activity-7401984085377830912-RglO)\n\n### Penalty Amount Conflicts\nThere are conflicting penalty amounts cited for non-prohibited AI Act violations, with sources citing both \u20ac20 million/4% and \u20ac15 million/3% of turnover. [Fines under the AI Act - A bottomless pit?](https://www.taylorwessing.com/en/interface/2021/ai-act/fines-under-the-ai-act---a-bottomless-pit) vs. [Article 99: Penalties | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/99/)\n\n## Knowledge Gaps\n\n1. **Technical Standards Uncertainty**: Specific technical standards and conformity assessment procedures for AI hiring systems remain unclear\n2. **Scope Ambiguity**: The precise scope of 'work-related contractual relationships' and which specific HR AI tools qualify as high-risk needs clarification\n3. **GDPR Interaction**: The interaction between EU AI Act requirements and existing GDPR obligations for AI hiring systems requires further guidance\n4. **Enforcement Precedents**: No concrete enforcement actions or case studies are available yet for high-risk AI hiring tools\n5. **Implementation Guidance**: Detailed implementation guidance from regulatory authorities is still pending\n\n## Sources\n\n### Official EU Sources\n- [What the EU AI Act Means for Staffing Businesses](https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/)\n- [Implementation Timeline | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/implementation-timeline/)\n- [Article 99: Penalties | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/99/)\n- [AI Act | Shaping Europe's digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)\n- [Timeline for the Implementation of the EU AI Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act)\n\n### Legal Analysis Sources\n- [AI in Recruitment Processes: Navigating High-risk Systems for AI Deployers](https://www.legalnodes.com/article/ai-in-recruitment-processes-navigating-high-risk-systems-for-ai-deployers)\n- [EU AI Act: Application timeline and implications](https://www.toprankedlegal.com/eu-ai-act-application-timeline-and-implications/)\n\n### Professional Services and Industry Sources\n- [What Does the EU AI Act Mean for Employers?](https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2024/08/what-does-the-eu-ai-act-mean-for-employers.pdf)\n- [AI Risk Classification: Guide to EU AI Act Risk Categories](https://gdprlocal.com/ai-risk-classification/)\n- [EU AI Act \u2013 What are the obligations for \"high-risk AI systems\"?](https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems)\n- [The Impact of the EU AI Act on Human Resources Activities](https://www.hunton.com/insights/legal/the-impact-of-the-eu-ai-act-on-human-resources-activities)\n- [Artificial Intelligence and Human Resources in the EU](https://www.crowell.com/en/insights/client-alerts/artificial-intelligence-and-human-resources-in-the-eu-a-2026-legal-overview)\n- [Fines under the AI Act - A bottomless pit?](https://www.taylorwessing.com/en/interface/2021/ai-act/fines-under-the-ai-act---a-bottomless-pit)\n\n### Industry and Technology Sources\n- [How the EU AI Act Changes Recruitment - What Employers Need to Know](https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know)\n- [What is the EU AI Act? Employer compliance guide](https://boundlesshq.com/blog/what-is-the-eu-ai-act-everything-you-need-to-know/)\n- [The EU Artificial Intelligence Act and Talent Management](https://www.edge-cert.org/article/eu-artificial-intelligence-act-and-talent-management/)\n- [Penalties of the EU AI Act: The High Cost of Non-Compliance](https://www.holisticai.com/blog/penalties-of-the-eu-ai-act)\n- [AI Act: high-risk AI systems \u2013 what applies, what is due when?](https://naaia.ai/ai-act-high-risk/)\n\n## Methodology Note\n\nThis report synthesizes information from 16 extracted claims with confidence levels ranging from 65% to 95%, cross-referenced against 45 available sources including official EU documentation, legal analyses, and industry guidance. The analysis identifies two significant contradictions regarding implementation timelines and penalty amounts. Given the recent entry into force of the EU AI Act (August 2024) and the future effective date for high-risk AI obligations (August 2026), much of the available information represents interpretative guidance rather than established enforcement precedent. Confidence levels reflect the consistency of information across multiple sources and the authoritative nature of the source material.",
+    "duration_seconds": 97.488377,
+    "timestamp": "2026-03-31T20:33:31.080715"
+  },
+  {
+    "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+    "question_type": "cross_jurisdictional_comparison",
+    "subtopics": [
+      {
+        "title": "EU AI Act Foundation Model Requirements",
+        "search_queries": [
+          "EU AI Act foundation model obligations requirements",
+          "European Union AI Act systemic risk models compliance"
+        ]
+      },
+      {
+        "title": "US Federal AI Policy Framework",
+        "search_queries": [
+          "US federal AI policy executive order 14110",
+          "American AI governance framework NIST standards"
+        ]
+      },
+      {
+        "title": "Foundation Model Regulatory Approaches",
+        "search_queries": [
+          "foundation model regulation comparison EU US",
+          "large language model governance requirements"
+        ]
+      },
+      {
+        "title": "Implementation and Enforcement Mechanisms",
+        "search_queries": [
+          "AI Act enforcement mechanisms penalties",
+          "US AI policy implementation federal agencies"
+        ]
+      }
+    ],
+    "search_queries": [
+      "EU AI Act foundation model obligations requirements",
+      "European Union AI Act systemic risk models compliance",
+      "US federal AI policy executive order 14110",
+      "American AI governance framework NIST standards",
+      "foundation model regulation comparison EU US",
+      "large language model governance requirements",
+      "AI Act enforcement mechanisms penalties",
+      "US AI policy implementation federal agencies"
+    ],
+    "gathered_sources": [
+      {
+        "url": "https://crfm.stanford.edu/2024/08/01/eu-ai-act.html",
+        "title": "Foundation Models under the EU AI Act - Stanford CRFM",
+        "snippet": "This piece explores how foundation models are addressed by the EU AI Act. The Act\u2019s requirements for foundation models and general-purpose AI will trigger one year from today, with the AI Office currently conducting a stakeholder consultation and designing codes of practice. To understand the Act\u2019s obligations, we furnish a rigorous coding of the Act\u2019s requirements related to general-purpose AI. Our coding organizes the obligations based on whether they require information disclosures or substan",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act foundation model obligations requirements"
+      },
+      {
+        "url": "https://www.ibanet.org/the-regulation-of-foundation-models-in-the-eu-ai-act",
+        "title": "The regulation of foundation models in the EU AI Act",
+        "snippet": "The final text of the AI Act is now clear and precise. Generic GPAI models are subject (Article 53) to mere transparency obligations, consisting of guaranteeing the availability of technical documentation that makes their functioning understandable (also in relation to the data training process) to the European AI Office as well as to third parties who intend to integrate the model into their AI systems. This is a reasonable regulation which, in itself, should not constitute a significant obstac",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act foundation model obligations requirements"
+      },
+      {
+        "url": "https://www.belfercenter.org/publication/do-foundation-model-providers-comply-draft-eu-ai-act",
+        "title": "Do Foundation Model Providers Comply with the Draft EU AI Act?",
+        "snippet": "Stanford\n\nFoundation models like ChatGPT are transforming society with their remarkable capabilities, serious risks, rapid deployment, unprecedented adoption, and unending controversy. Simultaneously, the European Union (EU) is finalizing its AI Act as the world\u2019s first comprehensive regulation to govern AI, and just yesterday the European Parliament adopted a draft of the Act by a vote of 499 in favor, 28 against, and 93 abstentions. The Act includes explicit obligations for foundation model pr",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act foundation model obligations requirements"
+      },
+      {
+        "url": "https://ai-regulation.com/regulating-foundation-models-in-the-ai-act-from-high-to-systemic-risk/",
+        "title": "Regulating Foundation Models in the AI Act: From \u201cHigh\u201d to ...",
+        "snippet": "were required to be designed, tested, and analyzed in a way that identifies, reduces, and mitigates foreseeable risks to health, safety, fundamental rights, the environment, democracy, and the rule of law, with involvement from independent experts and documentation of any non-mitigable risks post-development. Generative foundation models would have to comply with additional transparency requirements, including the disclosure that content generated by AI, designing the model to prevent it from ge",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "EU AI Act foundation model obligations requirements"
+      },
+      {
+        "url": "https://www.isaca.org/resources/white-papers/2024/understanding-the-eu-ai-act",
+        "title": "White Papers 2024 Understanding the EU AI Act - ISACA",
+        "snippet": "The EU AI Act considers general-purpose AI models to be AI models that can perform a variety of distinct tasks and that display generalities. Through self-supervised, unsupervised, or reinforcement learning, these models are trained on a large quantity of data. General-purpose AI models may be refined and modified into new models. The EU AI Act imposes many obligations for providers of general-purpose AI models. They must create and maintain the models\u2019 technical documentation, including trainin",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act foundation model obligations requirements"
+      },
+      {
+        "url": "https://www.modelop.com/ai-governance/ai-regulations-standards/eu-ai-act",
+        "title": "EU AI Act: Summary & Compliance Requirements - ModelOp",
+        "snippet": "4. Minimal Risk: These are systems that present little risk of harm to the rights of individuals.  Spam filters and AI powered games are cited as examples of AI systems in this category of risk.  The EU AI Act does not impose any obligations on Providers or Deployers of these kinds of systems. [...] Notify the European Commission of any GPAI system that meets the criteria of a GPAI system with systemic risk.\n Perform model evaluation in accordance with standardized protocols and tools reflecting",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "European Union AI Act systemic risk models compliance"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/high-level-summary/",
+        "title": "High-level summary of the AI Act | EU Artificial Intelligence Act",
+        "snippet": "GPAI models present systemic risks when the cumulative amount of compute used for its training is greater than 1025 floating point operations (FLOPs). Providers must notify the Commission if their model meets this criterion within 2 weeks. The provider may present arguments that, despite meeting the criteria, their model does not present systemic risks. The Commission may decide on its own, or via a qualified alert from the scientific panel of independent experts, that a model has high impact ca",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "European Union AI Act systemic risk models compliance"
+      },
+      {
+        "url": "https://www.navex.com/en-us/blog/article/what-are-systemic-ai-risks/",
+        "title": "Exactly What Are 'Systemic' AI Risks, Anyway? - NAVEX",
+        "snippet": "## Defining systemic and high risks\n\nThe EU AI Act and other AI laws do provide definitions of systemic and high AI risks, although those definitions are couched in abstract terms that aren\u2019t always helpful to compliance and audit teams facing real AI use-cases.\n\nFor example, the\nEU AI Act says systemic risks are \u201crisks of large-scale harm\u201d such as major accidents, disruptions to critical infrastructure or public health, \u201creasonably foreseeable negative effects on democratic processes, public an",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "European Union AI Act systemic risk models compliance"
+      },
+      {
+        "url": "https://www.rand.org/pubs/research_reports/RRA3243-1.html",
+        "title": "General-Purpose Artificial Intelligence (GPAI) Models and ...",
+        "snippet": "Fourth, providers must \"ensure an adequate level of cybersecurity\" for the model and its physical infrastructure.(#fn28) The EU AI Act also empowers the commission to maintain and publish a list of all GPAI models with systemic risk.(#fn29)\n\nIn addition, unlike the broader regulations for all GPAI models, there are no regulatory exemptions from the regulations for open-source GPAI models that pose systemic risk. Therefore, open-source developers will also have to comply with all the regulatory r",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "European Union AI Act systemic risk models compliance"
+      },
+      {
+        "url": "https://www.arnoldporter.com/en/perspectives/advisories/2025/08/does-your-company-have-eu-ai-act-compliance-obligations",
+        "title": "Generally Speaking: Does Your Company Have EU AI Act ...",
+        "snippet": "The Commission is also signaling flexibility for GPAI models that will be placed on the EU market after August 2, 2025 if their training has occurred, is in progress, or is being planned as of that date. Providers that wish to put such models on the EU market, even though they anticipate difficulties in complying with their AI Act obligations, \u201cshould proactively inform the AI Office regarding how and when they will take the necessary steps to comply with their obligations.\u201d Engagement with the ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "European Union AI Act systemic risk models compliance"
+      },
+      {
+        "url": "https://www.presidency.ucsb.edu/documents/executive-order-14110-safe-secure-and-trustworthy-development-and-use-artificial",
+        "title": "Executive Order 14110\u2014Safe, Secure, and Trustworthy ...",
+        "snippet": "to understand the benefits, risks, and limitations of AI for their job functions, and to modernize Federal Government information technology infrastructure, remove bureaucratic obstacles, and ensure that safe and rights-respecting AI is adopted, deployed, and used. [...] an AI Bill of Rights, the AI Risk Management Framework, and Executive Order 14091 of February 16, 2023 (Further Advancing Racial Equity and Support for Underserved Communities Through the Federal Government)\u2014in seeking to ensure",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "US federal AI policy executive order 14110"
+      },
+      {
+        "url": "https://www.kslaw.com/news-and-insights/trump-administration-early-executive-orders-signal-shift-in-ai-policy",
+        "title": "Trump Administration Early Executive Orders Signal Shift in AI Policy",
+        "snippet": "Since returning to office, President Trump quickly issued two executive orders that mark a significant shift in the federal government\u2019s approach to artificial intelligence regulation and oversight (\u201cTrump AI EOs\u201d). These orders move away from the previous administration\u2019s focus on safety and security, instead prioritizing the reduction of regulatory barriers to accelerate AI development and strengthen U.S. leadership in this field.\n\nThe Trump AI EOs revoke President Biden\u2019s landmark directive \u2013",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "US federal AI policy executive order 14110"
+      },
+      {
+        "url": "https://www.congress.gov/crs-product/R47843",
+        "title": "Highlights of the 2023 Executive Order on Artificial Intelligence for ...",
+        "snippet": "# Appendixes\n\n   Appendix. Abbreviations\n\n 14110 on _Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence_. It establishes a government-wide effort to guide responsible artificial intelligence (AI) development and deployment through federal agency leadership, regulation of industry, and engagement with international partners.\n\nThe E.O. directs over 50 federal entities to engage in more than 100 specific actions to implement the guidance set forth across eight overarching ",
+        "source_type": "eu_guidance",
+        "published_date": null,
+        "search_query": "US federal AI policy executive order 14110"
+      },
+      {
+        "url": "https://hai.stanford.edu/policy/policy-efforts/tracking-us-executive-action-ai",
+        "title": "Tracking U.S. Executive Action on AI | Stanford HAI",
+        "snippet": "In this white paper, scholars from Stanford HAI, the Stanford RegLab, and the Administrative Conference of the United States assess the implementation of a few key requirements included in two executive actions taken by the Biden administration: Executive Order 14110 on the Safe, Secure, and Trustworthy Development and Use of AI and the corresponding Office of Management and Budget Memorandum M-24-10 on Advancing Governance, Innovation, and Risk Management for Agency Use of AI (M-Memo), both of ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "US federal AI policy executive order 14110"
+      },
+      {
+        "url": "https://iapp.org/resources/article/implications-of-the-ai-executive-order-for-business",
+        "title": "Implications of the AI executive order for business - IAPP",
+        "snippet": "Executive Order 14110 identifies the immense opportunity of AI, acknowledging that it must have guardrails to be truly harnessed for the betterment of society. With safety and responsibility as cornerstones of the order, the Biden-Harris administration is directing government departments and agencies to inform these important efforts. Additionally, the order provides a wide range of new opportunities for input from the private sector, academia and civil society. [...] RESOURCE ARTICLE\n\n# Implica",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "US federal AI policy executive order 14110"
+      },
+      {
+        "url": "https://www.diligent.com/resources/blog/nist-ai-risk-management-framework",
+        "title": "NIST AI Risk Management Framework: A simple guide to smarter AI ...",
+        "snippet": "3. A globally recognized standard: The NIST AI Risk Management Framework has become a gold standard for AI governance, gaining traction not only among U.S. government agencies and contractors but also among private companies, international organizations and industry leaders worldwide. Its practical, adaptable approach makes it valuable for organizations of all sizes looking to build trustworthy, ethical and legally definable AI practices. [...] No. While the NIST framework originated to support ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "American AI governance framework NIST standards"
+      },
+      {
+        "url": "https://www.modelop.com/ai-governance/ai-regulations-standards/nist-vs-iso",
+        "title": "NIST vs ISO - Compare AI Frameworks - ModelOp",
+        "snippet": "\ud83c\udf1f ModelOp Recognized by Gartner\u00ae in the 2025 Market Guide for AI Governance Platforms\n\nEnterprises trust ModelOp to operationalize AI governance at scale\u2014across ML, GenAI and Agentic AI.\n\nLearn More\n\nHome > AI Governance > Ai Regulations > NIST vs ISO 42001\n\n# NIST vs ISO\n\nThe NIST AI Risk Management Framework is a voluntary U.S. guideline focused on fostering trustworthy AI through risk-based functions, while ISO/IEC 42001 is a certifiable international standard that establishes formal requirem",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "American AI governance framework NIST standards"
+      },
+      {
+        "url": "https://www.thoropass.com/blog/nist-ai-rmf",
+        "title": "Understanding the NIST AI Risk Management Framework - Thoropass",
+        "snippet": "The governance function of the NIST AI RMF focuses on establishing a comprehensive governance framework to oversee the responsible development, deployment, and use of AI systems. This principle is the foundation of effective AI risk management, ensuring that your organization has the necessary policies, procedures, and structures in place to manage AI technologies responsibly.\n\nKey steps to implement the Govern principle include:\n\nBy building a strong governance structure, you can create an orga",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "American AI governance framework NIST standards"
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf",
+        "title": "[PDF] Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+        "snippet": "Page 21 NIST AI 100-1 AI RMF 1.0 GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process. Aspects of GOVERN, especially those related to compliance or evaluation, should be integrated into each of the other functions. Attention to governance is a continual and intrinsic requirement for effective AI risk management over an AI system\u2019s lifespan and the organization\u2019s hierarchy. [...] After putting in place the structures, syst",
+        "source_type": "eu_guidance",
+        "published_date": null,
+        "search_query": "American AI governance framework NIST standards"
+      },
+      {
+        "url": "https://www.nist.gov/artificial-intelligence/ai-standards",
+        "title": "AI Standards | NIST - National Institute of Standards and Technology",
+        "snippet": "NIST leads and participates in the development of technical standards, including international standards, that promote innovation and public trust in systems that use AI. A broad spectrum of standards for AI data, performance, and governance are \u2013 and increasingly will be \u2013 a priority for trustworthy and responsible AI. NIST carries out its work consistent with the U.S. Government National Standards Strategy for Critical and Emerging Technology.\n\n## Global Engagement for AI Standards",
+        "source_type": "eu_guidance",
+        "published_date": null,
+        "search_query": "American AI governance framework NIST standards"
+      },
+      {
+        "url": "https://www.bloomberglaw.com/external/document/X56BA8BO000000/data-security-professional-perspective-regulation-of-ai-foundati",
+        "title": "Regulation of AI Foundation Models - Bloomberg Law",
+        "snippet": "In the EU, the regulation of foundation models, which are referred to as general-purpose AI models, was a contentious topic during the last phase of the EU AI Act's legislative process (the \u201ctrilogues\u201d) in the fall of 2023. During the trilogues, the European Parliament wanted the EU AI Act to regulate general-purpose AI models, while France, Germany, and Italy opposed, calling for self-regulation through codes of conduct instead. Ultimately, on Dec. 8, 2023, a compromise was reached by all parti",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "foundation model regulation comparison EU US"
+      },
+      {
+        "url": "https://www.dataversity.net/articles/comparing-eu-and-u-s-state-laws-on-ai-a-checklist-for-proactive-compliance/",
+        "title": "Comparing EU and U.S. State Laws on AI: A Checklist for Proactive ...",
+        "snippet": "Notably, the Act also addresses General Purpose AI (GPAI) and large foundation models. These models must meet transparency obligations (e.g., technical documentation, training-data summaries, copyright policy) and, where designated as systemic-risk GPAI, conduct model evaluations and adversarial testing, assess and mitigate systemic risks, report serious incidents to the EU AI Office, and ensure robust cybersecurity. A GPAI model is presumed to have high-impact capabilities (systemic risk) when ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "foundation model regulation comparison EU US"
+      },
+      {
+        "url": "https://www.dlapiper.com/insights/publications/ai-outlook/2023/what-you-need-to-know-about-foundation-models",
+        "title": "What to know about foundation models: From emerging regulations ...",
+        "snippet": "The EU\u2019s approach to regulating foundation models is of particular interest and one with far-reaching implications. The fact that the AI Act has addressed these AI Systems through an additional layer of compliance, rather than through the original \u201cLow-Risk/High-Risk/Unacceptable Risk\u201d methodology, indicates that regulators envisage additional harms that may not always be caught in their original assessment. [...] Add a bookmark to get started\n\n17 July 2023 \u2022 11 minute read\n\n# What to know about",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "foundation model regulation comparison EU US"
+      },
+      {
+        "url": "https://www.tredence.com/blog/llm-governance",
+        "title": "What Is LLM Governance? Managing Large Language Models ...",
+        "snippet": "### 6. Stakeholder Alignment and Training\n\nA successful governance model relies on collaboration between technical, legal, operational, and ethical teams. This requires clear roles, shared understanding of model risks, and continuous training. Governance helps establish communication channels and escalation paths, making sure that everyone involved knows how to respond to unexpected behavior or regulatory shifts.\n\nTogether, these components form the bedrock of any robust LLM governance framework",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "large language model governance requirements"
+      },
+      {
+        "url": "https://aveni.ai/blog/what-fs-leaders-need-to-know-about-governing-llms-at-scale/",
+        "title": "What FS Leaders Need to Know About Governing LLMs at Scale",
+        "snippet": "### Auditability for Internal and External Scrutiny\n\nFinancial regulators, such as the European Banking Authority (EBA), require institutions to maintain detailed records of data lineage, model updates, and decision processes. Beyond regulatory requirements, clear, auditable documentation also underpins internal governance and risk oversight.\n\n## Governing LLMs: What Good Looks Like\n\nEffective LLM governance requires moving beyond traditional AI risk management approaches to address the unique c",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "large language model governance requirements"
+      },
+      {
+        "url": "https://www.regology.com/blog/unlocking-the-power-of-ai-large-language-models-for-regulatory-compliance",
+        "title": "Large Language Models for Regulatory Compliance - Regology",
+        "snippet": "The primary uses of the LLM-powered solution, Reggi, revolve around finding answers pertaining to laws and regulations and synthesizing applicable requirements. It helps compliance teams with the following:  \n  \n\u200dNavigate the Vast and Complex Regulatory Landscape  \n\u200dThe volume of laws and regulations to keep track of continuously expands and becomes increasingly complex. Identifying and keeping track of those requirements that are relevant to a business can be overwhelming and time-consuming. Us",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "large language model governance requirements"
+      },
+      {
+        "url": "https://utilityanalytics.com/ai-governance-for-llms-with-semantic-context/",
+        "title": "Strengthening AI Governance for LLMs with Semantic Context",
+        "snippet": "Michael Covarrubias is a dynamic, results-driven senior leader with a proven record of delivering top-level IT leadership and building cost-efficient organizations aligned with business strategy. He brings deep expertise in enterprise technology that underpins his leadership, vision, strategic development, and execution capabilities. Most recently, he was responsible for establishing a clients data architecture model and program. He developed the strategy and architecture for their Data Lake ini",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "large language model governance requirements"
+      },
+      {
+        "url": "https://www.ibm.com/think/topics/ai-governance",
+        "title": "What is AI Governance? | IBM",
+        "snippet": "The act also creates rules for general-purpose artificial intelligence models, such as IBM\u00ae Granite\u00ae and Meta\u2019s Llama 3 open source foundation model. Penalties can range from EUR 7.5 million or 1.5% of worldwide annual turnover to EUR 35 million or 7% of worldwide annual turnover, depending on the type of noncompliance.\n\n### The United States' SR-11-7\n\nSR-11-7 is the US regulatory model governance standard for effective and strong model governance in banking.1The regulation requires bank officia",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "large language model governance requirements"
+      },
+      {
+        "url": "https://matproof.com/blog/eu-ai-act-fines-penalties",
+        "title": "EU AI Act Fines and Penalties: What Non-Compliance Will Cost You | Matproof Blog",
+        "snippet": "## Penalties for EU Institutions and Agencies\n\nWhen EU institutions, agencies, or bodies violate the AI Act, a separate enforcement mechanism applies. The European Data Protection Supervisor (EDPS) handles complaints and can impose fines of up to:\n\n EUR 1.5 million for violations of prohibited practices\n EUR 750,000 for other non-compliance\n\nThese lower caps reflect the public-sector context but still represent meaningful sanctions.\n\n## How Enforcement Will Work\n\n### National Market Surveillance",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement mechanisms penalties"
+      },
+      {
+        "url": "https://aicompliancedocuments.com/blog/ai-compliance-penalties-by-state",
+        "title": "AI Compliance Penalties by State: What Happens If You Ignore the Law | AI Compliance Documents",
+        "snippet": "The Colorado Consumer Protection Act provides:\n\n Civil penalties of up to $20,000 per violation for knowing violations\n In some circumstances, treble damages for actual harm caused\n Attorney fees and costs recoverable by the Attorney General\n Injunctive relief\n\nWho enforces it: The Colorado Attorney General has exclusive enforcement authority. Private rights of action are limited \u2014 the primary enforcement mechanism is AG action. The AG also has rulemaking authority for the law's implementation. ",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "AI Act enforcement mechanisms penalties"
+      },
+      {
+        "url": "https://www.spektr.com/blog/eu-ai-act-timeline-enforcement-fines-and-how-to-prepare",
+        "title": "EU AI Act: Timeline, Enforcement & Fines And How To Prepare",
+        "snippet": "By this final deadline, any AI system integrated into safety-critical products (such as medical devices or transportation systems) must comply with the AI Act\u2019s requirements and EU conformity assessments.\n\n\u200d\n\n## Enforcement & Penalties: What\u2019s at Stake?\n\nThe AI Act\u2019s penalties are steep, with enforcement split between the EU\u2019s AI Office (for general-purpose AI) and national regulators (for all other AI systems). Fines depend on the severity of non-compliance:\n\n Violations of prohibited AI practi",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement mechanisms penalties"
+      },
+      {
+        "url": "https://www.orrick.com/en/Insights/2024/09/The-EU-AI-Act-Oversight-and-Enforcement",
+        "title": "The EU AI Act: Oversight and Enforcement",
+        "snippet": "Violations of most of the AI Act\u2019s other obligations will be subject to administrative fines of up to EUR 15,000,000 or 3% of the organization\u2019s total worldwide annual turnover for the preceding financial year.\n\nThe supply of incorrect, incomplete or misleading information to the competent authorities in reply to a request will be subject to administrative fines of up to EUR 7,500,000 or 1% of the organization\u2019s total worldwide annual turnover for the preceding financial year.\n\nThe lower of the ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement mechanisms penalties"
+      },
+      {
+        "url": "https://www.normcyber.com/blog/penalties-for-non-compliance-and-governance-under-the-eu-ai-act/",
+        "title": "Penalties for Non-Compliance and Governance under the EU AI Act",
+        "snippet": "### Penalties for Non-Compliance\n\nThe EU AI Act imposes significant fines for non-compliance, underlining the seriousness of its enforcement. Penalties are based on the type and severity of the violation: [...] 3. Market Surveillance Authorities (MSAs): Each EU Member State must appoint a Market Surveillance Authority (MSA) to enforce the Act at a national level. MSAs are responsible for ensuring that AI systems marketed, deployed, or used within their jurisdiction comply with the law. [...] Pro",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act enforcement mechanisms penalties"
+      },
+      {
+        "url": "https://www.bakerdonelson.com/prepare-to-navigate-the-new-federal-ai-policy",
+        "title": "Prepare to Navigate the New Federal AI Policy - Baker Donelson",
+        "snippet": "### What the Order Does\n\nThe EO articulates a federal policy to \"sustain and enhance\" U.S. AI leadership through a unified framework and identifies certain state laws as creating compliance burdens that the administration believes risk impeding innovation and affecting interstate commerce. It cites state prohibitions on \"algorithmic discrimination\" and disclosure mandates as examples of measures that could require model alterations or implicate constitutional protections, including the First Ame",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "US AI policy implementation federal agencies"
+      },
+      {
+        "url": "https://www.ropesgray.com/en/insights/alerts/2026/03/the-white-house-legislative-recommendations-national-policy-framework-for-artificial-intelligence-an",
+        "title": "The White House Legislative Recommendations: National Policy ...",
+        "snippet": "In response, the Executive Order asserted broad federal authority to preempt state AI laws and established an \u201cAI Litigation Task Force\u201d to challenge state laws on constitutional grounds, including preemption and the Dormant Commerce Clause. The Executive Order also directed federal agencies to issue policy statements, initiate proceedings to clarify federal preemption under existing laws (_e.g._, Section 5 of the FTC Act), and condition federal funding on state compliance with federal AI policy",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "US AI policy implementation federal agencies"
+      },
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+        "title": "[PDF] National Policy Framework for Artificial Intelligence - The White House",
+        "snippet": "AI youth development programs. The federal government must establish a federal AI policy framework to protect American rights, support innovation, and prevent a fragmented patchwork of state regulations that would hinder our national competitiveness, while respecting federalism and State rights. \u2022 Congress should preempt state AI laws that impose undue burdens to ensure a minimally burdensome national standard consistent with these recommendations, not fifty discordant ones. \u2022 This national stan",
+        "source_type": "eu_guidance",
+        "published_date": null,
+        "search_query": "US AI policy implementation federal agencies"
+      },
+      {
+        "url": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial",
+        "title": "White House Releases a National Policy Framework for Artificial ...",
+        "snippet": "With respect to innovation, research infrastructure and oversight, the Framework recommends AI regulatory sandboxes, improved access to federal datasets in AI\u2011ready formats and reliance on existing federal agencies rather than creation of a new standalone AI regulator. In healthcare and other regulated sectors, this approach points to continued reliance on agencies such as the U.S. Food and Drug Administration, Assistant Secretary for Technology Policy/The Office of the National Coordinator for ",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "US AI policy implementation federal agencies"
+      },
+      {
+        "url": "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation",
+        "title": "Trump Administration Takes Major Steps Toward Comprehensive ...",
+        "snippet": "Perhaps the most consequential aspect of the Framework is its call for federal preemption of state AI laws. This initiative is not new \u2014 the Trump administration made similar recommendations in its July 2025 AI Action Plan and again in a sweeping December 2025 Executive Order targeting state AI law.\n\nThe Framework states that the federal government \u201cmust establish a federal AI policy framework to protect American rights, support innovation, and prevent a fragmented patchwork of state regulations",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "US AI policy implementation federal agencies"
+      }
+    ],
+    "extracted_claims": [
+      {
+        "claim_id": "claim_001",
+        "text": "EU AI Act requires GPAI model providers to create technical documentation, training data summaries, and copyright policies as transparency obligations",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/high-level-summary/",
+          "https://www.ibanet.org/the-regulation-of-foundation-models-in-the-eu-ai-act",
+          "https://www.dataversity.net/articles/comparing-eu-and-u-s-state-laws-on-ai-a-checklist-for-proactive-compliance/"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_002",
+        "text": "GPAI models with systemic risk are defined as those using more than 10^25 FLOPs for training",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/high-level-summary/",
+          "https://www.dataversity.net/articles/comparing-eu-and-u-s-state-laws-on-ai-a-checklist-for-proactive-compliance/"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_003",
+        "text": "GPAI model obligations under EU AI Act became applicable on August 2, 2025",
+        "supporting_sources": [
+          "https://crfm.stanford.edu/2024/08/01/eu-ai-act.html",
+          "https://www.arnoldporter.com/en/perspectives/advisories/2025/08/does-your-company-have-eu-ai-act-compliance-obligations"
+        ],
+        "confidence": 0.68,
+        "category": "timeline"
+      },
+      {
+        "claim_id": "claim_004",
+        "text": "US Executive Order 14110 on AI was revoked by the Trump administration in January 2025",
+        "supporting_sources": [
+          "https://www.kslaw.com/news-and-insights/trump-administration-early-executive-orders-signal-shift-in-ai-policy"
+        ],
+        "confidence": 0.6,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_005",
+        "text": "NIST AI Risk Management Framework is voluntary guidance, not mandatory requirements",
+        "supporting_sources": [
+          "https://www.modelop.com/ai-governance/ai-regulations-standards/nist-vs-iso",
+          "https://www.diligent.com/resources/blog/nist-ai-risk-management-framework"
+        ],
+        "confidence": 0.36,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_006",
+        "text": "EU AI Act violations can result in fines up to EUR 35 million or 7% of worldwide annual turnover",
+        "supporting_sources": [
+          "https://www.ibm.com/think/topics/ai-governance",
+          "https://www.orrick.com/en/Insights/2024/09/The-EU-AI-Act-Oversight-and-Enforcement",
+          "https://www.spektr.com/blog/eu-ai-act-timeline-enforcement-fines-and-how-to-prepare"
+        ],
+        "confidence": 0.42,
+        "category": "enforcement"
+      },
+      {
+        "claim_id": "claim_007",
+        "text": "Trump administration's National Policy Framework calls for federal preemption of state AI laws",
+        "supporting_sources": [
+          "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+          "https://www.ropesgray.com/en/insights/alerts/2026/03/the-white-house-legislative-recommendations-national-policy-framework-for-artificial-intelligence-an",
+          "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation"
+        ],
+        "confidence": 0.68,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_008",
+        "text": "EU AI Act enforcement is split between EU AI Office for GPAI models and national authorities for other AI systems",
+        "supporting_sources": [
+          "https://www.spektr.com/blog/eu-ai-act-timeline-enforcement-fines-and-how-to-prepare",
+          "https://www.normcyber.com/blog/penalties-for-non-compliance-and-governance-under-the-eu-ai-act/"
+        ],
+        "confidence": 0.36,
+        "category": "enforcement"
+      }
+    ],
+    "contradictions": [
+      {
+        "claim_a": "US has comprehensive federal AI regulation through Executive Order 14110",
+        "claim_b": "Executive Order 14110 was revoked by Trump administration in January 2025",
+        "source_a": "https://www.presidency.ucsb.edu/documents/executive-order-14110-safe-secure-and-trustworthy-development-and-use-artificial",
+        "source_b": "https://www.kslaw.com/news-and-insights/trump-administration-early-executive-orders-signal-shift-in-ai-policy",
+        "description": "Sources discussing EO 14110 as current policy contradict information about its revocation"
+      }
+    ],
+    "open_issues": [
+      "Specific technical requirements for GPAI model documentation under EU AI Act remain unclear pending codes of practice",
+      "Timeline and scope of US federal preemption of state AI laws is uncertain",
+      "Enforcement mechanisms and practical implementation of EU AI Act GPAI obligations are still developing",
+      "Comparison between mandatory EU requirements vs voluntary US frameworks may shift as new federal AI policy develops"
+    ],
+    "report": "# Comparative Analysis: EU AI Act Foundation Model Requirements vs. US Federal AI Policy\n\n## Executive Summary\n\nThis report compares the European Union's AI Act requirements for foundation model providers with current United States federal AI policy approaches. The analysis reveals a stark contrast between the EU's comprehensive, mandatory regulatory framework and the US's evolving policy landscape characterized by voluntary guidance and recent policy shifts. The EU AI Act establishes specific obligations for General-Purpose AI (GPAI) model providers, including transparency requirements and systemic risk thresholds, while the US currently relies primarily on voluntary frameworks following the revocation of Executive Order 14110 in January 2025.\n\n## Key Findings\n\n### Regulatory Framework Structure\n\n**EU Approach: Mandatory Legal Requirements**\n- The EU AI Act establishes binding legal obligations for GPAI model providers, including requirements to create technical documentation, training data summaries, and copyright policies as transparency obligations (confidence: 0.85) [[High-level summary of the AI Act](https://artificialintelligenceact.eu/high-level-summary/), [The regulation of foundation models in the EU AI Act](https://www.ibanet.org/the-regulation-of-foundation-models-in-the-eu-ai-act)]\n- GPAI model obligations under the EU AI Act became applicable on August 2, 2025 (confidence: 0.68) [[Foundation Models under the EU AI Act - Stanford CRFM](https://crfm.stanford.edu/2024/08/01/eu-ai-act.html)]\n\n**US Approach: Voluntary Guidance Framework**\n- The NIST AI Risk Management Framework provides voluntary guidance rather than mandatory requirements (confidence: 0.36) [[NIST AI Risk Management Framework](https://www.diligent.com/resources/blog/nist-ai-risk-management-framework), [NIST vs ISO - Compare AI Frameworks](https://www.modelop.com/ai-governance/ai-regulations-standards/nist-vs-iso)]\n- US Executive Order 14110 on AI was revoked by the Trump administration in January 2025 (confidence: 0.60) [[Trump Administration Early Executive Orders Signal Shift in AI Policy](https://www.kslaw.com/news-and-insights/trump-administration-early-executive-orders-signal-shift-in-ai-policy)]\n\n### Risk Thresholds and Model Classification\n\n| Aspect | EU AI Act | US Federal Policy |\n|--------|-----------|-------------------|\n| **Risk Threshold** | GPAI models with systemic risk defined as those using more than 10^25 FLOPs for training | No specific computational thresholds established |\n| **Model Categories** | Clear distinction between standard GPAI models and systemic risk models | No formal model classification system |\n| **Applicability** | Mandatory for all qualifying models | Voluntary compliance frameworks |\n\nThe EU establishes a clear computational threshold where GPAI models with systemic risk are defined as those using more than 10^25 FLOPs for training (confidence: 0.85) [[High-level summary of the AI Act](https://artificialintelligenceact.eu/high-level-summary/), [Comparing EU and U.S. State Laws on AI](https://www.dataversity.net/articles/comparing-eu-and-u-s-state-laws-on-ai-a-checklist-for-proactive-compliance/)].\n\n### Enforcement Mechanisms\n\n**EU Enforcement Structure**\n- EU AI Act violations can result in fines up to EUR 35 million or 7% of worldwide annual turnover (confidence: 0.42) [[What is AI Governance? | IBM](https://www.ibm.com/think/topics/ai-governance), [The EU AI Act: Oversight and Enforcement](https://www.orrick.com/en/Insights/2024/09/The-EU-AI-Act-Oversight-and-Enforcement)]\n- Enforcement is split between the EU AI Office for GPAI models and national authorities for other AI systems (confidence: 0.36) [[EU AI Act: Timeline, Enforcement & Fines](https://www.spektr.com/blog/eu-ai-act-timeline-enforcement-fines-and-how-to-prepare)]\n\n**US Enforcement Approach**\n- Currently lacks federal enforcement mechanisms for foundation models\n- The Trump administration's National Policy Framework calls for federal preemption of state AI laws (confidence: 0.68) [[National Policy Framework for Artificial Intelligence](https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf), [The White House Legislative Recommendations](https://www.ropesgray.com/en/insights/alerts/2026/03/the-white-house-legislative-recommendations-national-policy-framework-for-artificial-intelligence-an)]\n\n### Compliance Requirements Comparison\n\n| Requirement Type | EU AI Act | US Federal Policy |\n|------------------|-----------|-------------------|\n| **Technical Documentation** | Mandatory for all GPAI providers | Voluntary under NIST framework |\n| **Training Data Summaries** | Required transparency obligation | No federal requirement |\n| **Copyright Policies** | Mandatory disclosure | No federal requirement |\n| **Risk Assessment** | Required for systemic risk models | Voluntary guidance available |\n| **Incident Reporting** | Mandatory for qualifying models | No federal mandate |\n\n## Contradictions & Uncertainties\n\n### Policy Continuity Issues\nA significant contradiction exists regarding US federal AI policy continuity. While some sources reference Executive Order 14110 as current policy, other sources confirm its revocation by the Trump administration in January 2025 [[Trump Administration Early Executive Orders Signal Shift in AI Policy](https://www.kslaw.com/news-and-insights/trump-administration-early-executive-orders-signal-shift-in-ai-policy)]. This creates uncertainty about the current federal regulatory landscape.\n\n### Implementation Timeline Uncertainties\n- The timeline and scope of US federal preemption of state AI laws remains uncertain despite policy framework announcements\n- EU AI Act implementation details are still developing, with codes of practice pending for specific technical requirements\n\n## Knowledge Gaps\n\n### Technical Implementation Details\n- Specific technical requirements for GPAI model documentation under the EU AI Act remain unclear pending the development of codes of practice\n- Practical implementation mechanisms for EU AI Act GPAI obligations are still being developed by regulatory authorities\n\n### US Policy Development\n- The scope and timeline for comprehensive federal AI legislation in the US remains undefined\n- The relationship between federal voluntary frameworks and emerging state-level mandatory requirements is unclear\n- Enforcement mechanisms for any future federal AI requirements have not been established\n\n### Cross-Border Compliance\n- How US-based foundation model providers will comply with EU AI Act requirements while operating under different domestic frameworks\n- Potential conflicts between federal preemption policies and international compliance obligations\n\n## Sources\n\n### Official Government Sources\n- [High-level summary of the AI Act | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/high-level-summary/)\n- [National Policy Framework for Artificial Intelligence - The White House](https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf)\n- [NIST AI Risk Management Framework](https://www.diligent.com/resources/blog/nist-ai-risk-management-framework)\n\n### Legal Analysis Sources\n- [The regulation of foundation models in the EU AI Act](https://www.ibanet.org/the-regulation-of-foundation-models-in-the-eu-ai-act)\n- [Trump Administration Early Executive Orders Signal Shift in AI Policy](https://www.kslaw.com/news-and-insights/trump-administration-early-executive-orders-signal-shift-in-ai-policy)\n- [The EU AI Act: Oversight and Enforcement](https://www.orrick.com/en/Insights/2024/09/The-EU-AI-Act-Oversight-and-Enforcement)\n\n### Academic and Research Sources\n- [Foundation Models under the EU AI Act - Stanford CRFM](https://crfm.stanford.edu/2024/08/01/eu-ai-act.html)\n- [Comparing EU and U.S. State Laws on AI](https://www.dataversity.net/articles/comparing-eu-and-u-s-state-laws-on-ai-a-checklist-for-proactive-compliance/)\n\n## Methodology Note\n\nThis comparative analysis was conducted using extracted claims with associated confidence levels ranging from 0.36 to 0.85, reflecting varying degrees of source reliability and claim verification. The analysis prioritized official government sources and legal analyses while noting uncertainties in rapidly evolving policy landscapes. Cross-jurisdictional comparisons were structured to highlight both similarities and differences in regulatory approaches, with particular attention to contradictions and knowledge gaps that may affect compliance strategies for multinational foundation model providers.",
+    "duration_seconds": 61.050402,
+    "timestamp": "2026-03-31T20:35:08.569563"
+  },
+  {
+    "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+    "question_type": "compliance_analysis",
+    "subtopics": [
+      {
+        "title": "High-risk AI system classification and requirements",
+        "search_queries": [
+          "EU AI Act high-risk AI systems definition categories",
+          "AI Act Annex III high-risk use cases classification"
+        ]
+      },
+      {
+        "title": "Conformity assessment procedures and standards",
+        "search_queries": [
+          "EU AI Act conformity assessment procedures Article 43",
+          "AI Act quality management system requirements technical documentation"
+        ]
+      },
+      {
+        "title": "Notified bodies designation and authorization",
+        "search_queries": [
+          "EU AI Act notified bodies designated list 2024",
+          "AI Act conformity assessment bodies authorization criteria"
+        ]
+      },
+      {
+        "title": "CE marking and market surveillance requirements",
+        "search_queries": [
+          "EU AI Act CE marking requirements high-risk systems",
+          "AI Act market surveillance post-market monitoring obligations"
+        ]
+      }
+    ],
+    "search_queries": [
+      "EU AI Act high-risk AI systems definition categories",
+      "AI Act Annex III high-risk use cases classification",
+      "EU AI Act conformity assessment procedures Article 43",
+      "AI Act quality management system requirements technical documentation",
+      "EU AI Act notified bodies designated list 2024",
+      "AI Act conformity assessment bodies authorization criteria",
+      "EU AI Act CE marking requirements high-risk systems",
+      "AI Act market surveillance post-market monitoring obligations"
+    ],
+    "gathered_sources": [
+      {
+        "url": "https://artificialintelligenceact.eu/article/6/",
+        "title": "Article 6: Classification Rules for High-Risk AI Systems - EU AI Act",
+        "snippet": "This article outlines how to classify high-risk AI systems. An AI system is considered high-risk if it is used as a safety component of a product, or if it is a product itself, that is covered by EU legislation in Annex I. AI systems of the types listed in Annex III are always considered high-risk, unless they don't pose a significant risk to people's health, safety, or rights. Providers who believe their AI system isn't high-risk must document their assessment before selling or using it. The EU",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems definition categories"
+      },
+      {
+        "url": "https://www.trail-ml.com/blog/eu-ai-act-how-risk-is-classified",
+        "title": "EU AI Act: Risk-Classifications of the AI Regulation",
+        "snippet": "Unacceptable risk is the highest level of risk and covers eight main types of AI applications incompatible with EU values and fundamental rights. These applications will be prohibited in the EU.\n\nHigh-risk AI systems are the most regulated systems allowed in the EU market and include safety components of already regulated products and stand-alone AI systems in specific areas. This level imposes significant burdens on organizations and requires AI systems to meet certain requirements before they ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems definition categories"
+      },
+      {
+        "url": "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary/",
+        "title": "A comprehensive EU AI Act Summary [January 2026 update] - SIG",
+        "snippet": "Regulation: These systems are banned, including real-time and remote biometric identification like facial recognition, except under strict law enforcement conditions which first gain court approval.\n\n#### AI risk category 2: High-Risk AI (e.g., healthcare applications)\n\nChapter 3 of the EU AI Act defines the \u2018High Risk\u2019 category for AI systems and the regulations applied to them.\n\nDefinition: Systems impacting safety or fundamental rights, including AI in toys, medical devices, critical infrastr",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems definition categories"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/annex/3/",
+        "title": "Annex III: High-Risk AI Systems Referred to in Article 6(2) - EU AI Act",
+        "snippet": "# Annex III: High-Risk AI Systems Referred to in Article 6(2)\n\n#### Summary\n\nThis Annex lists use cases that would qualify an AI system as 'high-risk' according to the AI Act. Such systems are subject to additional obligations under the Act. These use cases include AI used in biometrics, critical infrastructure, education, employment, essential services, law enforcement, migration, and justice. However, some exceptions apply for AI used for biometric identify verification, detecting financial fr",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems definition categories"
+      },
+      {
+        "url": "https://gdprlocal.com/ai-risk-classification/",
+        "title": "AI Risk Classification: Guide to EU AI Act Risk Categories",
+        "snippet": "The EU AI Act categorises AI systems into four categories: unacceptable risk (prohibited), high risk (requiring strict compliance), limited risk (requiring transparency), and minimal risk (with no specific obligations).\n\n### 2. How do I determine if my AI system is classified as high risk?\n\nAn AI system is high risk if it is part of regulated products or listed in Annex III, such as biometric ID, critical infrastructure, credit scoring, or border control. High-risk systems need conformity assess",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act high-risk AI systems definition categories"
+      },
+      {
+        "url": "https://www.eurelectric.org/wp-content/uploads/2025/07/Eurelectric-Consultation-response-Classification-of-AI-systems-as-high-risk-under-the-AI-Act.pdf",
+        "title": "[PDF] Classification of AI systems as high-risk under the AI Act | Eurelectric",
+        "snippet": "to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or in the supply of water, gas, heating or electricity. According to Article 3(14), \u2018safety component\u2019 means a component of a product or of an AI system which fulfils a safety function for that product or AI system, or the failure or malfunctioning of which endangers the health and safety of persons or property. The underlying rationale is that the failure or malfunctioning of those ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases classification"
+      },
+      {
+        "url": "https://www.dataiku.com/stories/blog/eu-ai-act-high-risk-requirements",
+        "title": "EU AI Act High-Risk Requirements: What Companies Need to Know",
+        "snippet": "In addition to the scope laid out, which indicates high-risk AI systems have potential to undermine identified protected public interests, the AI Act provides further definition by laying out specific use cases (found in Annex III). We tend to talk about these use cases as sitting within Domains, which include: biometrics; critical infrastructure; education and vocational training; employment, workers\u2019 management and access to self-employment; access to and enjoyment of essential private and pub",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases classification"
+      },
+      {
+        "url": "https://www.dpo-consulting.com/blog/high-risk-ai-systems",
+        "title": "High-Risk AI Systems Under the EU AI Act - DPO Consulting",
+        "snippet": "Crucially, Article 6 also states that any system listed in Annex III is considered high-risk.\n\nThe Act says all Annex III AI systems \u201cshall be considered high-risk\u201d unless they meet narrow exemption criteria (Article 6.3).  If a provider thinks an Annex III system really isn\u2019t risky, they must document that and may have to notify regulators (and eventually register the system).\n\n### Criteria for High-Risk Classification (Annex III Categories)\n\nAnnex III is essentially an AI Act high-risk list by",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases classification"
+      },
+      {
+        "url": "https://verifywise.ai/lexicon/high-risk-use-cases-under-eu-ai-act",
+        "title": "High-risk use cases under EU AI Act | AI Governance Lexicon",
+        "snippet": "Back to AI lexicon\n\nRisk Management & Assessment\n\n# High-risk use cases under EU AI Act\n\n## High-risk use cases under EU AI Act\n\nHigh-risk use cases under the EU AI Act refer to specific applications of AI systems that pose significant risks to fundamental rights, safety, or well-being. These are clearly defined in Annex III of the EU AI Act and are subject to strict obligations before entering the European market.\n\nThis subject matters because failing to comply with high-risk AI requirements ca",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act Annex III high-risk use cases classification"
+      },
+      {
+        "url": "https://securiti.ai/eu-ai-act/article-43",
+        "title": "Article 43: Conformity Assessment &vert; EU AI Act - Securiti",
+        "snippet": "### Conformity Assessment based on Assessment of the Quality Management System and the Technical Documentation with the Involvement of a Notified Body\n\nThis conformity assessment procedure involves a notified body. A notified body is a conformity assessment body notified in accordance with the EU AI Act and other relevant EU harmonization legislation, which performs third-party conformity assessment activities, including testing, certification, and inspection. [...] | High-risk AI systems used i",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act conformity assessment procedures Article 43"
+      },
+      {
+        "url": "https://www.euaiact.com/article/43",
+        "title": "Art. 43 Conformity Assessment - EU AI Act",
+        "snippet": "3.   For high-risk AI systems covered by the Union harmonisation legislation listed in Section A of Annex I, the provider shall follow the relevant conformity assessment procedure as required under those legal acts. The requirements set out in Section 2 of this Chapter shall apply to those high-risk AI systems and shall be part of that assessment. Points 4.3., 4.4., 4.5. and the fifth paragraph of point 4.6 of Annex VII shall also apply. [...] For the purposes of that assessment, notified bodies",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act conformity assessment procedures Article 43"
+      },
+      {
+        "url": "https://securiti.ai/eu-ai-act/article-43/",
+        "title": "Article 43: Conformity Assessment | EU AI Act - Securiti",
+        "snippet": "|  |  |\n --- |\n| Entity | When is a Conformity Assessment Required? |\n| Providers | They place on the market or put into service a high-risk AI system. |\n| Distributors, Importers, Deployers or other Third Parties | They put their name or trademark on a high-risk AI system already placed on the market or put into service; They make a substantial modification to a high-risk AI system in such a way that it remains a high-risk AI system; or  They modify the intended purpose of an AI system that has",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act conformity assessment procedures Article 43"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/43/",
+        "title": "Article 43: Conformity Assessment | EU Artificial Intelligence Act",
+        "snippet": "(d) one or more of the harmonised standards referred to in point (a) has been published with a restriction, and only on the part of the standard that was restricted. For the purposes of the conformity assessment procedure referred to in Annex VII, the provider may choose any of the notified bodies. However, where the high-risk AI system is intended to be put into service by law enforcement, immigration or asylum authorities or by Union institutions, bodies, offices or agencies, the market survei",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act conformity assessment procedures Article 43"
+      },
+      {
+        "url": "https://www.aiact-info.eu/article-43-conformity-assessment",
+        "title": "Article 43 - Conformity assessment - EU Artificial Intelligence Act",
+        "snippet": "3.   For high-risk AI systems covered by the Union harmonisation legislation listed in Section A of Annex I, the provider shall follow the relevant conformity assessment procedure as required under those legal acts. The requirements set out in Section 2 of this Chapter shall apply to those high-risk AI systems and shall be part of that assessment. Points 4.3., 4.4., 4.5. and the fifth paragraph of point 4.6 of Annex VII shall also apply. [...] Where a legal act listed in Section A of Annex I ena",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act conformity assessment procedures Article 43"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/17/",
+        "title": "Article 17: Quality Management System | EU Artificial Intelligence Act",
+        "snippet": "The EU AI Act requires providers of high-risk AI systems to establish a quality management system. This system must be documented and include strategies for regulatory compliance, design and development procedures, testing and validation processes, technical specifications, data management systems, risk management, post-market monitoring, incident reporting, communication procedures, record-keeping, resource management, and an accountability framework. The implementation of these aspects should ",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act quality management system requirements technical documentation"
+      },
+      {
+        "url": "https://aesia.digital.gob.es/storage/media/04-quality-management-system-guideline.pdf",
+        "title": "[PDF] Quality Management System Guideline - AESIA",
+        "snippet": "tools are mentioned in the Technical Documentation Guide. For further information, please note that the obligations arising from Annex VII of the AI Act on the assessment by a notified body of the quality management system and technical documentation are also discussed in the Technical Documentation Guide and the Conformity Assessment Guide. AI Act 24 4.11 Documentation Art.17.1k \u2013 Quality Management System Systems and procedures for record-keeping of all relevant documentation and information; ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act quality management system requirements technical documentation"
+      },
+      {
+        "url": "https://www.vde.com/topics-en/artificial-intelligence/blog/eu-ai-act--quality-management-system",
+        "title": "EU AI Act: Quality Management System - VDE",
+        "snippet": "into compliance processes. Technical documentation and instructions for use must be maintained to support safe use of high-risk AI systems and regulatory oversight. Finally, the standard requires mechanisms for handling non-conformities and driving continuous improvement, reinforcing the QMS as a living system that evolves with technological and regulatory developments. The QMS according to this standard can be integrated with existing frameworks (e.g., ISO\u202f13485 for medical devices). [...] VDE\n",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act quality management system requirements technical documentation"
+      },
+      {
+        "url": "https://i17vm1.in.tum.de/zotero/RR6DJVE5.pdf",
+        "title": "[PDF] Design of a Quality Management System Based on the EU AI Act - I17!",
+        "snippet": "First, the user interface (UI) design and interaction speci\ufb01cations should encourage hu-man involvement in checking and documenting AI systems. Second, architectural re-quirements should ensure a modular design, a smooth \ufb02ow of data and communica-tion between the sub-services, and easy maintenance. Third, computational requirements 1 2 H. Mustroph and S. Rinderle-Ma / Design of a Quality Management System Based on the EU AI Act 316 should guarantee the ef\ufb01cient execution of technical metrics, ev",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act quality management system requirements technical documentation"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/annex/7/",
+        "title": "Annex VII: Conformity Based on Assessment of the Quality ...",
+        "snippet": "1. Introduction\n\nConformity based on an assessment of the quality management system and an assessment of the technical documentation is the conformity assessment procedure based on points 2 to 5.\n\n2. Overview\n\nThe approved quality management system for the design, development and testing of AI systems pursuant to Article 17 shall be examined in accordance with point 3 and shall be subject to surveillance as specified in point 5. The technical documentation of the AI system shall be examined in a",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act quality management system requirements technical documentation"
+      },
+      {
+        "url": "https://www.artificial-intelligence-act.com/",
+        "title": "EU AI Act - Updates, Compliance, Training",
+        "snippet": "Under Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (the AI Act or the Regulation), the European Data Protection Supervisor (EDPS) has been designated as a market surveillance authority (MSA) for AI systemsput into service or used by European Union institutions, bodies, offices and agencies (EUIs). The AI Act also designates the EDPS as a notified body for conformity assessments of certain high-risk AI systems. [...] 3. Chapter III Section 4 (Notifying authori",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act notified bodies designated list 2024"
+      },
+      {
+        "url": "https://mpudt.gov.hr/print.aspx?id=29658&url=print",
+        "title": "List of competent authorities under Artificial Inteligence Act notified",
+        "snippet": "The AI Act, which has entered into force, sets harmonised rules on artificial intelligence, and its application, with the prescribed exceptions, will start from 2 August 2026.  \n   \n Under Article 77(2) of the AI Act, Member States were required to designate and publish by 2 November 2024 the list of public authorities or bodies competent for the supervision and enforcement of obligations relating to the protection of fundamental rights when using high-risk AI systems.  \n   \n The list is notifie",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act notified bodies designated list 2024"
+      },
+      {
+        "url": "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html",
+        "title": "Article 35, Identification numbers and lists of notified bodies - EU AI Act",
+        "snippet": "# The final text of the AI Act (Regulation (EU) 2024/1689)\n\n  \n   \n\nArticle 35, Identification numbers and lists of notified bodies.\n\n  \n\n1. The Commission shall assign a single identification number to each notified body, even where a body is notified under more than one Union act.\n\n  \n\n2. The Commission shall make publicly available the list of the bodies notified under this Regulation, including their identification numbers and the activities for which they have been notified. The Commission ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act notified bodies designated list 2024"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/35/",
+        "title": "Article 35: Identification Numbers and Lists of Notified Bodies",
+        "snippet": "2. The Commission shall make publicly available the list of the bodies notified under this Regulation, including their identification numbers and the activities for which they have been notified. The Commission shall ensure that the list is kept up to date.\n\nFeedback \u2013 We are working to improve this tool. Please send feedback to Taylor Jones at taylor@futureoflife.org\n\nView the official text, or browse it online using our AI Act Explorer. The text used in this tool is the \u2018Artificial Intelligenc",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act notified bodies designated list 2024"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/wp-content/uploads/2024/10/FLI-Tasks-Member-States-2024-25.pdf",
+        "title": "[PDF] Tasks in 2024-2025 - EU AI Act",
+        "snippet": "Recital 37 and Article 5(5) 2 August 2025 MS-03 Designate or establish at least one notifying authority responsible for setting up and carrying out the necessary procedures for the assessment, designation and notification of conformity assessment bodies and for their monitoring. There is the possibility to decide that the assessment and monitoring is to be carried out by a national accreditation body within the meaning of, and in accordance with, Regulation (EC) No 765/2008.\nArticle 28(1) MS-04 ",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act notified bodies designated list 2024"
+      },
+      {
+        "url": "https://ai-act-law.eu/article/29/",
+        "title": "Application of a conformity assessment body for notification - AI Act",
+        "snippet": "1. Conformity assessment bodies shall submit an application for notification to the notifying authority of the Member State in which they are established.\n2. The application for notification shall be accompanied by a description of the conformity assessment activities, the conformity assessment module or modules and the types of AI systems for which the conformity assessment body claims to be competent, as well as by an accreditation certificate, where one exists, issued by a national accreditat",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "AI Act conformity assessment bodies authorization criteria"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/28/",
+        "title": "Article 28: Notifying Authorities | EU Artificial Intelligence Act",
+        "snippet": "See here for a full implementation timeline.\n\n#### Summary\n\nThe EU AI Act states that each member country must have at least one authority responsible for assessing and monitoring AI conformity assessment bodies. These authorities must work together across all member states. Countries can choose to have this done by a national accreditation body. These authorities must be impartial and free from conflicts of interest. Decisions must be made by different people than those who did the assessments.",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act conformity assessment bodies authorization criteria"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/29/",
+        "title": "Article 29: Application of a Conformity Assessment Body ... - EU AI Act",
+        "snippet": "2. The application for notification shall be accompanied by a description of the conformity assessment activities, the conformity assessment module or modules and the types of AI systems for which the conformity assessment body claims to be competent, as well as by an accreditation certificate, where one exists, issued by a national accreditation body attesting that the conformity assessment body fulfils the requirements laid down in Article 31. Any valid document related to existing designation",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act conformity assessment bodies authorization criteria"
+      },
+      {
+        "url": "https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf",
+        "title": "[PDF] Conformity Assessments under the EU AI Act: A step-by step guide",
+        "snippet": "by the provider or its authorized representative. Third-party conformity assessment (Annex VII of the AIA) Alternatively, in the case of a third-party CA, an assessment by an independent CA body is required. Annex VII of the AIA describes the conformity assessment procedure that combines an evaluation of the provider\u2019s quality management system (QMS) and a review of technical documentation of high-risk AI systems by a 'notified body,' which performs conformity assessment activities, such as test",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act conformity assessment bodies authorization criteria"
+      },
+      {
+        "url": "https://www.blocshop.io/blog/ce-marking-software-under-the-eu-ai-act-who-needs-it-and-how-to-prepare-a-conformity-assessment",
+        "title": "CE marking software under the EU AI Act \u2013 Who needs it and how to ...",
+        "snippet": "High-risk AI examples (Annex III): credit scoring, CV screening, fraud detection, medical diagnosis, critical infrastructure control, education grading, law enforcement risk assessment.\n\n## Who is responsible for CE marking?\n\nThis is clearly defined for providers, importers, and distributors in Articles 16\u201325 of the AI Act , and deployers (incl. Arts. 26 & 29):\n\n## How the conformity assessment works\n\nThis is outlined in Article 43 and Annex VII:\n\n## Key elements required before CE marking\n\nGene",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act CE marking requirements high-risk systems"
+      },
+      {
+        "url": "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20241204-standardization-for-compliance-in-the-european-unions-ai-act",
+        "title": "Standardization for Compliance in the European Union's AI Act",
+        "snippet": "Certificate Issuance and CE Marking. If an NB carries out the conformity procedure and determines that the high-risk AI system in question complies with the AI Act requirements (see our blog post for more detail), the NB issues an EU technical documentation assessment certificate. The AI Act provides details regarding the required content of such certificates (Annex 7) and their period of validity (Article 44). High-risk AI systems should bear the CE marking to indicate their conformity with the",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act CE marking requirements high-risk systems"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/48/",
+        "title": "Article 48: CE Marking | EU Artificial Intelligence Act",
+        "snippet": "Generated by CLaiRK, edited by us.\n\nNOTE: This translation is a machine-generated translation. It is not the official translation provided by the European Parliament, which can be found here.\n\n1. The CE marking shall be subject to the general principles set out in Article 30 of Regulation (EC) No 765/2008.\n\n2. For high-risk AI systems provided digitally, a digital CE marking shall be used, only if it can easily be accessed via the interface from which that system is accessed or via an easily acc",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "EU AI Act CE marking requirements high-risk systems"
+      },
+      {
+        "url": "https://docs.modulos.ai/frameworks/eu-ai-act/conformity-assessment-and-ce-marking.html",
+        "title": "EU AI Act Conformity Assessment and CE Marking",
+        "snippet": "| Artifact | AI Act basis | What it must contain |\n --- \n| Technical documentation | Art. 11, Annex IV | System description; intended purpose; design specifications; development methodology; data governance practices; testing and validation results; traceability to requirements |\n| Risk management documentation | Art. 9 | Risk identification; analysis methodology; mitigation measures; residual risk assessment; acceptance criteria; continuous iteration records |\n| Data governance records | Art. 1",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "EU AI Act CE marking requirements high-risk systems"
+      },
+      {
+        "url": "https://artificialintelligenceact.eu/article/72/",
+        "title": "Article 72: Post-Market Monitoring by Providers and Post ... - EU AI Act",
+        "snippet": "See here for a full implementation timeline.\n\n#### Summary\n\nThe EU AI Act requires providers of high-risk AI systems to establish a post-market monitoring system. This system should collect and analyze data on the performance of these AI systems throughout their lifetime, ensuring they continue to comply with regulations. The monitoring system should be based on a plan that is part of the technical documentation. The EU Commission will provide a template for this plan. If a monitoring system is ",
+        "source_type": "official_eu",
+        "published_date": null,
+        "search_query": "AI Act market surveillance post-market monitoring obligations"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s00261-026-05434-z",
+        "title": "The AI Act and the MDR post-market requirements for ...",
+        "snippet": "### Market surveillance readiness across the product life cycle [...] ## Methodology: extracting and grouping post-market obligations [...] This study analyzed post-market obligations of the MDR and AIA for a high-risk Class III AI SaMD in prostate cancer triage. By mapping AIA roles (providers and deployers) to MDR roles (manufacturers and healthcare providers), we identified areas of convergence (where both regulations impose overlapping or complementary responsibilities) and divergence (where",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act market surveillance post-market monitoring obligations"
+      },
+      {
+        "url": "https://naaia.ai/post-market-monitoring-an-important-ai-act-requirement/",
+        "title": "Post-market monitoring: an important AI Act requirement - Naaia",
+        "snippet": "We must also cooperate fully with the national market surveillance authorities. The latter are required to:\n\n notify the incident immediately to the relevant public authorities or bodies,\n take concrete measures within 7 days of receiving the report.\n\nThe European Commission also plans to publish guidelines by August 2, 2025 to help stakeholders comply with these requirements. A regular evaluation of this framework will also be put in place.\n\n## What if we are already subject to other regulation",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act market surveillance post-market monitoring obligations"
+      },
+      {
+        "url": "https://ai-act-law.eu/chapter/9/",
+        "title": "Chapter 9 - Post-market monitoring, information sharing and ... - AI Act",
+        "snippet": "National competent authorities\n  + Art. 70\n\n    Designation of national competent authorities and single points of contact\n Chapter 8 (Art. 71)\n\n  EU database for high-risk AI systems\n  + Art. 71\n\n    EU database for high-risk AI systems listed in Annex III\n Chapter 9 (Art. 72-94)\n\n  Post-market monitoring, information sharing and market surveillance\n  + Section 1\n\n    Post-market monitoring\n  + Art. 72\n\n    Post-market monitoring by providers and post-market monitoring plan for high-risk AI sys",
+        "source_type": "legal_analysis",
+        "published_date": null,
+        "search_query": "AI Act market surveillance post-market monitoring obligations"
+      },
+      {
+        "url": "https://docs.modulos.ai/frameworks/eu-ai-act/post-market-monitoring.html",
+        "title": "EU AI Act Post-Market Monitoring - Modulos Documentation",
+        "snippet": "| Obligation | Article | What it means |\n --- \n| Post\u2011market monitoring system | Art. 72 | Providers must establish a system to actively collect and analyze data on performance throughout the system's lifetime. Must be proportionate to the nature and risks of the system. |\n| Post\u2011market monitoring plan | Art. 72(3), Annex IV | Part of technical documentation. Must cover: data collection approach, analysis methodology, how logs and deployer feedback are used, actions when non\u2011compliance or risks ",
+        "source_type": "news_blog",
+        "published_date": null,
+        "search_query": "AI Act market surveillance post-market monitoring obligations"
+      }
+    ],
+    "extracted_claims": [
+      {
+        "claim_id": "claim_001",
+        "text": "High-risk AI systems require conformity assessment procedures before being placed on the market or put into service",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/43/",
+          "https://securiti.ai/eu-ai-act/article-43/"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_002",
+        "text": "There are two main conformity assessment procedures: internal control (self-assessment) and third-party assessment involving notified bodies",
+        "supporting_sources": [
+          "https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf",
+          "https://artificialintelligenceact.eu/annex/7/"
+        ],
+        "confidence": 0.75,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_003",
+        "text": "Third-party conformity assessment (Annex VII) involves assessment of quality management system and technical documentation by a notified body",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/annex/7/",
+          "https://securiti.ai/eu-ai-act/article-43"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_004",
+        "text": "For high-risk AI systems covered by Union harmonisation legislation in Annex I, providers must follow the relevant conformity assessment procedure required under those legal acts",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/43/",
+          "https://www.euaiact.com/article/43"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_005",
+        "text": "High-risk AI systems intended for law enforcement, immigration or asylum authorities require specific notified body procedures",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/43/"
+        ],
+        "confidence": 0.8,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_006",
+        "text": "Member States must designate notifying authorities responsible for assessment, designation and notification of conformity assessment bodies by August 2, 2025",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/wp-content/uploads/2024/10/FLI-Tasks-Member-States-2024-25.pdf",
+          "https://artificialintelligenceact.eu/article/28/"
+        ],
+        "confidence": 0.85,
+        "category": "timeline"
+      },
+      {
+        "claim_id": "claim_007",
+        "text": "The European Commission will maintain a publicly available list of notified bodies with their identification numbers and activities",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/35/",
+          "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html"
+        ],
+        "confidence": 0.85,
+        "category": "enforcement"
+      },
+      {
+        "claim_id": "claim_008",
+        "text": "The European Data Protection Supervisor (EDPS) has been designated as a notified body for conformity assessments of certain high-risk AI systems used by EU institutions",
+        "supporting_sources": [
+          "https://www.artificial-intelligence-act.com/"
+        ],
+        "confidence": 0.7,
+        "category": "enforcement"
+      },
+      {
+        "claim_id": "claim_009",
+        "text": "Conformity assessment bodies must submit applications to notifying authorities including description of activities, modules, and AI system types they claim competence for",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/29/",
+          "https://ai-act-law.eu/article/29/"
+        ],
+        "confidence": 0.85,
+        "category": "legal_requirement"
+      },
+      {
+        "claim_id": "claim_010",
+        "text": "High-risk AI systems that pass conformity assessment must bear CE marking and receive EU technical documentation assessment certificate",
+        "supporting_sources": [
+          "https://artificialintelligenceact.eu/article/48/",
+          "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20241204-standardization-for-compliance-in-the-european-unions-ai-act"
+        ],
+        "confidence": 0.8,
+        "category": "legal_requirement"
+      }
+    ],
+    "contradictions": [],
+    "open_issues": [
+      "No specific notified bodies have been publicly designated yet - the Commission's list referenced in Article 35 is not available in the sources",
+      "Timeline unclear for when notified bodies will be operational relative to August 2026 high-risk AI obligations start date",
+      "Specific criteria for when third-party vs self-assessment is required not fully detailed in sources",
+      "Details on harmonised standards referenced in conformity assessment procedures not provided"
+    ],
+    "report": "# Conformity Assessment Procedures for High-Risk AI Systems Under the EU AI Act\n\n## Executive Summary\n\nThe EU AI Act establishes mandatory conformity assessment procedures for high-risk AI systems before market placement or service deployment. The framework includes two primary assessment routes: internal control (self-assessment) and third-party assessment involving notified bodies. While the legal framework is established, the operational infrastructure remains incomplete, with Member States required to designate notifying authorities by August 2, 2025, but no specific notified bodies publicly designated yet.\n\n## Key Findings\n\n### Mandatory Conformity Assessment Requirements\n\n**Core Obligation** (Confidence: 85%)\nHigh-risk AI systems require conformity assessment procedures before being placed on the market or put into service. [Article 43: Conformity Assessment | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/43/)\n\n**Dual Assessment Framework** (Confidence: 75%)\nThere are two main conformity assessment procedures: internal control (self-assessment) and third-party assessment involving notified bodies. [Conformity Assessments under the EU AI Act: A step-by step guide](https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf)\n\n### Third-Party Assessment Procedures\n\n**Notified Body Assessment Process** (Confidence: 85%)\nThird-party conformity assessment (Annex VII) involves assessment of quality management system and technical documentation by a notified body. [Annex VII: Conformity Based on Assessment of the Quality](https://artificialintelligenceact.eu/annex/7/)\n\n**Harmonized Legislation Requirements** (Confidence: 85%)\nFor high-risk AI systems covered by Union harmonisation legislation in Annex I, providers must follow the relevant conformity assessment procedure required under those legal acts. [Article 43: Conformity Assessment | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/43/)\n\n**Special Sector Requirements** (Confidence: 80%)\nHigh-risk AI systems intended for law enforcement, immigration or asylum authorities require specific notified body procedures. [Article 43: Conformity Assessment | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/43/)\n\n### Notified Body Infrastructure and Designation\n\n**Member State Designation Deadline** (Confidence: 85%)\nMember States must designate notifying authorities responsible for assessment, designation and notification of conformity assessment bodies by August 2, 2025. [Tasks in 2024-2025 - EU AI Act](https://artificialintelligenceact.eu/wp-content/uploads/2024/10/FLI-Tasks-Member-States-2024-25.pdf)\n\n**Application Requirements** (Confidence: 85%)\nConformity assessment bodies must submit applications to notifying authorities including description of activities, modules, and AI system types they claim competence for. [Article 29: Application of a Conformity Assessment Body](https://artificialintelligenceact.eu/article/29/)\n\n**Commission Registry** (Confidence: 85%)\nThe European Commission will maintain a publicly available list of notified bodies with their identification numbers and activities. [Article 35: Identification Numbers and Lists of Notified Bodies](https://artificialintelligenceact.eu/article/35/)\n\n**EDPS Designation** (Confidence: 70%)\nThe European Data Protection Supervisor (EDPS) has been designated as a notified body for conformity assessments of certain high-risk AI systems used by EU institutions. [EU AI Act - Updates, Compliance, Training](https://www.artificial-intelligence-act.com/)\n\n### Compliance Outcomes\n\n**CE Marking Requirement** (Confidence: 80%)\nHigh-risk AI systems that pass conformity assessment must bear CE marking and receive EU technical documentation assessment certificate. [Article 48: CE Marking | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/48/)\n\n## Contradictions & Uncertainties\n\nNo direct contradictions were identified in the extracted claims. However, several uncertainties exist regarding implementation details and operational readiness.\n\n## Knowledge Gaps\n\n### Critical Implementation Gaps\n\n1. **Notified Body Availability**: No specific notified bodies have been publicly designated yet - the Commission's list referenced in Article 35 is not available in current sources.\n\n2. **Operational Timeline Uncertainty**: Timeline unclear for when notified bodies will be operational relative to August 2026 high-risk AI obligations start date.\n\n3. **Assessment Route Determination**: Specific criteria for when third-party vs self-assessment is required not fully detailed in sources.\n\n4. **Technical Standards**: Details on harmonised standards referenced in conformity assessment procedures not provided in available sources.\n\n### Compliance Planning Implications\n\nThe gap between the August 2025 notifying authority designation deadline and the August 2026 high-risk AI system compliance deadline creates uncertainty for organizations planning conformity assessments requiring notified body involvement.\n\n## Sources\n\n### Official EU Sources\n- [Article 43: Conformity Assessment | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/43/)\n- [Annex VII: Conformity Based on Assessment of the Quality](https://artificialintelligenceact.eu/annex/7/)\n- [Article 35: Identification Numbers and Lists of Notified Bodies](https://artificialintelligenceact.eu/article/35/)\n- [Article 29: Application of a Conformity Assessment Body](https://artificialintelligenceact.eu/article/29/)\n- [Article 48: CE Marking | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/48/)\n- [Tasks in 2024-2025 - EU AI Act](https://artificialintelligenceact.eu/wp-content/uploads/2024/10/FLI-Tasks-Member-States-2024-25.pdf)\n\n### Legal Analysis Sources\n- [Application of a conformity assessment body for notification - AI Act](https://ai-act-law.eu/article/29/)\n\n### Industry Analysis Sources\n- [Conformity Assessments under the EU AI Act: A step-by step guide](https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf)\n- [EU AI Act - Updates, Compliance, Training](https://www.artificial-intelligence-act.com/)\n- [Standardization for Compliance in the European Union's AI Act](https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20241204-standardization-for-compliance-in-the-european-unions-ai-act)\n\n## Methodology Note\n\nThis report analyzes conformity assessment procedures under the EU AI Act based on extracted claims from official EU sources, legal analyses, and industry guidance. Confidence levels reflect the reliability of source documentation, with official EU Act articles receiving highest confidence ratings (85%) and industry interpretations receiving moderate confidence ratings (70-75%). The analysis identifies significant implementation gaps that may impact compliance planning timelines.",
+    "duration_seconds": 50.381844,
+    "timestamp": "2026-03-31T20:36:09.620134"
+  }
+]

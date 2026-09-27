@@ -1,0 +1,17 @@
+[project]
+name = "mas"
+version = "0.1.0"
+description = "Multi-Agent Research System — LangGraph pipeline for structured, cited research reports"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-anthropic>=0.3.0",
+    "langchain-community>=0.3.0",
+    "tavily-python>=0.5.0",
+    "langsmith>=0.2.0",
+    "streamlit>=1.40.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
