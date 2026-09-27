@@ -1,123 +1,123 @@
 import json
 import logging
 import os
-from urllib.parse import urlparse
+from datetime import date
 
-from langchain_anthropic import ChatAnthropic
+from pydantic import BaseModel
 from tavily import TavilyClient
 
 from src.config import (
-    DOMAIN_TO_SOURCE_TYPE,
-    MODEL_NAME,
+    EFFORT,
+    OFFICIAL_DOMAINS,
     QUERIES_PER_ITERATION,
-    TEMPERATURE,
+    RESULTS_PER_QUERY,
+    SNIPPET_CHARS,
 )
+from src.llm import LLMError, generate_structured
+from src.sources import classify_source, published_date
 from src.state import ResearchState, SourceDoc
 
 logger = logging.getLogger(__name__)
 
-llm = ChatAnthropic(model=MODEL_NAME, temperature=TEMPERATURE)
-tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+_tavily: TavilyClient | None = None
+
+QUERY_SYSTEM = (
+    "You write web search queries for regulatory research. Today's date is {today}. "
+    "Prefer queries that surface primary sources, such as legal texts and official "
+    "guidance, and recent developments."
+)
 
 
-def _classify_source_type(url: str) -> str:
-    """Classify source type based on URL domain."""
-    domain = urlparse(url).netloc.lower().removeprefix("www.")
-    for known_domain, source_type in DOMAIN_TO_SOURCE_TYPE.items():
-        if known_domain in domain:
-            return source_type
-    if domain.endswith(".gov") or domain.endswith(".europa.eu"):
-        return "eu_guidance"
-    if any(kw in domain for kw in ["law", "legal", "compliance"]):
-        return "legal_analysis"
-    return "news_blog"
+class SearchQueries(BaseModel):
+    queries: list[str]
 
 
-def _generate_queries(
+def _get_tavily() -> TavilyClient:
+    global _tavily
+    if _tavily is None:
+        _tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+    return _tavily
+
+
+def generate_queries(
     question: str,
-    iteration: int,
     previous_queries: list[str],
     sources: list[SourceDoc],
 ) -> list[str]:
-    """Use LLM to generate diverse search queries."""
-    if iteration == 0:
+    """Use the LLM to write diverse search queries; follow-ups target gaps."""
+    if not previous_queries:
         prompt = (
-            f"Generate exactly {QUERIES_PER_ITERATION} diverse web search queries "
-            f"to research this question:\n\n\"{question}\"\n\n"
-            "Vary the queries by specificity, angle, and focus. "
-            "Return ONLY a JSON array of strings, no other text."
+            f"Write {QUERIES_PER_ITERATION} diverse web search queries to research this "
+            f"question:\n\n{question}\n\nVary them by specificity, angle and focus."
         )
     else:
-        source_summary = "\n".join(
-            f"- {s.title} ({s.source_type})" for s in sources[:10]
-        )
+        source_summary = "\n".join(f"- {s.title} ({s.source_type})" for s in sources[:10])
         prompt = (
-            f"Generate exactly {QUERIES_PER_ITERATION} follow-up search queries "
-            f"to fill gaps in research on:\n\n\"{question}\"\n\n"
-            f"Previous queries already tried: {json.dumps(previous_queries)}\n\n"
+            f"Write {QUERIES_PER_ITERATION} follow-up web search queries that fill gaps in "
+            f"the research on:\n\n{question}\n\n"
+            f"Queries already run: {json.dumps(previous_queries)}\n\n"
             f"Sources found so far:\n{source_summary}\n\n"
-            "Generate NEW queries that target gaps or missing perspectives. "
-            "Return ONLY a JSON array of strings, no other text."
+            "Target missing perspectives and primary sources."
         )
-
-    response = llm.invoke(prompt)
-    text = response.content.strip()
-    # Strip markdown code fences if present
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
-        if text.endswith("```"):
-            text = text[:-3].strip()
+    system = QUERY_SYSTEM.format(today=date.today().isoformat())
     try:
-        queries = json.loads(text)
-        if isinstance(queries, list):
-            return [str(q) for q in queries[:QUERIES_PER_ITERATION]]
-    except json.JSONDecodeError:
-        logger.warning("Failed to parse LLM query response as JSON, using fallback")
-    return [question]
+        result = generate_structured(system, prompt, SearchQueries, effort=EFFORT["queries"])
+    except LLMError as e:
+        logger.warning(f"Query generation failed ({e}); searching for the question itself")
+        return [question]
+    queries = [q.strip() for q in result.queries if q.strip()][:QUERIES_PER_ITERATION]
+    return queries or [question]
+
+
+def search_sources(
+    query: str,
+    seen_urls: set[str],
+    include_domains: list[str] | None = None,
+) -> list[SourceDoc]:
+    """Run one web search and return results not seen before, adding them to seen_urls."""
+    try:
+        results = _get_tavily().search(
+            query=query,
+            max_results=RESULTS_PER_QUERY,
+            search_depth="advanced",
+            include_domains=include_domains or [],
+            include_raw_content=False,
+            include_answer=False,
+        )
+    except Exception as e:
+        logger.warning(f"Tavily search failed for query '{query}': {e}")
+        return []
+
+    sources: list[SourceDoc] = []
+    for r in results.get("results", []):
+        url = r.get("url", "")
+        if not url or url in seen_urls:
+            continue
+        seen_urls.add(url)
+        sources.append(
+            SourceDoc(
+                url=url,
+                title=r.get("title", ""),
+                snippet=r.get("content", "")[:SNIPPET_CHARS],
+                source_type=classify_source(url),
+                published_date=published_date(r),
+                search_query=query,
+            )
+        )
+    return sources
 
 
 def researcher_node(state: ResearchState) -> dict:
-    """L3 tool-calling node: generate queries, search via Tavily, collect sources."""
+    """Tool-calling node: generate queries, search via Tavily, collect sources."""
     iteration = state.get("iteration_count", 0)
     previous_queries = state.get("search_queries", [])
     existing_sources = state.get("gathered_sources", [])
-    existing_urls = {s.url for s in existing_sources}
+    seen_urls = {s.url for s in existing_sources}
 
     logger.info(f"Researcher iteration {iteration}: generating queries")
-
-    queries = _generate_queries(
-        state["question"], iteration, previous_queries, existing_sources
-    )
-    all_queries = previous_queries + queries
-
-    new_sources: list[SourceDoc] = []
-    for query in queries:
-        try:
-            results = tavily_client.search(
-                query=query,
-                max_results=5,
-                search_depth="advanced",
-                include_raw_content=False,
-                include_answer=False,
-            )
-            for r in results.get("results", []):
-                url = r.get("url", "")
-                if url in existing_urls:
-                    continue
-                existing_urls.add(url)
-                new_sources.append(
-                    SourceDoc(
-                        url=url,
-                        title=r.get("title", ""),
-                        snippet=r.get("content", "")[:500],
-                        source_type=_classify_source_type(url),
-                        published_date=r.get("published_date"),
-                        search_query=query,
-                    )
-                )
-        except Exception as e:
-            logger.warning(f"Tavily search failed for query '{query}': {e}")
-
+    queries = generate_queries(state["question"], previous_queries, existing_sources)
+    new_sources = search_sources(queries[0], seen_urls, include_domains=OFFICIAL_DOMAINS)
+    new_sources += [s for query in queries for s in search_sources(query, seen_urls)]
     all_sources = existing_sources + new_sources
 
     logger.info(
@@ -126,7 +126,7 @@ def researcher_node(state: ResearchState) -> dict:
     )
 
     return {
-        "search_queries": all_queries,
+        "search_queries": previous_queries + queries,
         "gathered_sources": all_sources,
         "iteration_count": iteration + 1,
         "research_complete": False,

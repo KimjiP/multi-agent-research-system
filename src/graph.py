@@ -34,8 +34,8 @@ def build_graph():
         "reviewer",
         review_decision,
         {
-            "approved": END,
             "revise": "writer",
+            "end": END,
         },
     )
 

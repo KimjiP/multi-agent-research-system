@@ -1,155 +1,139 @@
-import json
 import logging
+from datetime import date
+from typing import Literal
 
-from langchain_anthropic import ChatAnthropic
+from pydantic import BaseModel
 
-from src.config import (
-    MODEL_NAME,
-    RECENCY_MULTIPLIERS,
-    SOURCE_AUTHORITY_WEIGHTS,
-    TEMPERATURE,
-)
+from src.confidence import score_claim
+from src.config import EFFORT
+from src.llm import generate_structured
 from src.state import Claim, Contradiction, ResearchState, SourceDoc
 
 logger = logging.getLogger(__name__)
 
-llm = ChatAnthropic(model=MODEL_NAME, temperature=TEMPERATURE)
+ANALYST_SYSTEM_PROMPT = """You are a regulatory research analyst specializing in AI governance and compliance. Today's date is {today}.
 
-ANALYST_SYSTEM_PROMPT = """You are a regulatory research analyst specializing in AI governance and compliance.
+Given a research question and numbered sources, you:
+1. Extract the factual claims the sources make that are relevant to the question.
+2. Detect contradictions between sources.
+3. List open issues: what the sources leave unanswered.
 
-Given a research question and a set of sources, you must:
-1. Extract factual claims from the sources
-2. Assess confidence for each claim using the formula below
-3. Detect contradictions between sources
-4. Identify open issues and knowledge gaps
+Rules:
+- Support every claim with the numbers of the sources that state it. Do not state anything no source supports.
+- Keep what a law requires separate from interpretation, and adopted law separate from proposals.
+- When sources disagree about whether something was adopted, or about a date, record a contradiction and say in the claim which source says what.
+- Use the publication dates, where given, to tell current information from outdated information.
+- Do not score confidence. It is computed from the sources afterwards."""
 
-## Confidence Scoring
 
-confidence = authority_weight × recency_multiplier × corroboration_factor
+class ExtractedClaim(BaseModel):
+    text: str
+    source_numbers: list[int]
+    category: Literal["legal_requirement", "timeline", "enforcement", "interpretation"]
 
-### Source Authority Weights:
-{authority_weights}
 
-### Recency Multipliers (based on source publication date):
-{recency_multipliers}
+class ExtractedContradiction(BaseModel):
+    claim_a: str
+    claim_b: str
+    source_a: int
+    source_b: int
+    description: str
 
-### Corroboration Factor:
-- 1.0 if single source supports the claim
-- 1.2 if 2 sources agree
-- 1.4 if 3+ sources agree (cap at 1.4)
 
-Cap final confidence at 1.0.
-
-## Rules:
-- If a claim is about what the law actually requires, primary EU legal text (official_eu) should dominate. Secondary sources can explain but should not override.
-- Be precise about what is established law vs. interpretation vs. proposed changes.
-
-## DOMAIN-SPECIFIC ALERTS:
-- US Executive Order 14110 on AI was REVOKED on January 20, 2025. Any source discussing it as active policy is STALE — flag this.
-- The EU AI Act Digital Omnibus (proposed Nov 2025) may extend high-risk system deadlines — flag as PROPOSED, NOT ADOPTED.
-- GPAI model obligations: applicable since August 2, 2025.
-- High-risk AI system obligations: applicable from August 2, 2026 (original timeline).
-
-## Output Format
-
-Respond with ONLY valid JSON, no markdown code fences, no preamble:
-{{
-  "claims": [
-    {{
-      "claim_id": "claim_001",
-      "text": "The factual claim in plain language",
-      "supporting_sources": ["https://source-url.com"],
-      "confidence": 0.85,
-      "category": "legal_requirement | timeline | enforcement | interpretation"
-    }}
-  ],
-  "contradictions": [
-    {{
-      "claim_a": "claim_id or description",
-      "claim_b": "claim_id or description",
-      "source_a": "https://source-a-url.com",
-      "source_b": "https://source-b-url.com",
-      "description": "What the contradiction is"
-    }}
-  ],
-  "open_issues": [
-    "Description of a gap or unresolved question"
-  ]
-}}"""
+class Analysis(BaseModel):
+    claims: list[ExtractedClaim]
+    contradictions: list[ExtractedContradiction]
+    open_issues: list[str]
 
 
 def _format_sources(sources: list[SourceDoc]) -> str:
-    """Format sources for the analyst prompt."""
+    """Number the sources for the prompt; the Analyst cites them by number."""
     parts = []
     for i, s in enumerate(sources, 1):
         parts.append(
-            f"Source {i}:\n"
-            f"  URL: {s.url}\n"
-            f"  Title: {s.title}\n"
-            f"  Type: {s.source_type}\n"
-            f"  Published: {s.published_date or 'Unknown'}\n"
-            f"  Content: {s.snippet}"
+            f"[{i}] {s.title}\n"
+            f"    URL: {s.url}\n"
+            f"    Type: {s.source_type} | Published: {s.published_date or 'no date'}\n"
+            f"    Content: {s.snippet}"
         )
     return "\n\n".join(parts)
 
 
-def _parse_analyst_response(text: str) -> dict:
-    """Parse the LLM's JSON response, handling common formatting issues."""
-    text = text.strip()
-    # Strip markdown code fences if present
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
-        if text.endswith("```"):
-            text = text[:-3].strip()
-    return json.loads(text)
+def build_findings(
+    analysis: Analysis,
+    sources: list[SourceDoc],
+    today: date,
+) -> tuple[list[Claim], list[Contradiction], list[str]]:
+    """Map source numbers to sources, drop claims without a valid source, score confidence."""
+
+    def source(number: int) -> SourceDoc | None:
+        return sources[number - 1] if 1 <= number <= len(sources) else None
+
+    claims: list[Claim] = []
+    dropped = 0
+    for extracted in analysis.claims:
+        supporting = list({s.url: s for n in extracted.source_numbers if (s := source(n))}.values())
+        if not supporting:
+            dropped += 1
+            continue
+        claims.append(
+            Claim(
+                claim_id=f"claim_{len(claims) + 1:03d}",
+                text=extracted.text,
+                supporting_sources=[s.url for s in supporting],
+                category=extracted.category,
+                confidence=score_claim(supporting, today),
+            )
+        )
+    if dropped:
+        logger.warning(f"Dropped {dropped} claims that cited no valid source number")
+
+    contradictions = [
+        Contradiction(
+            claim_a=c.claim_a,
+            claim_b=c.claim_b,
+            source_a=s_a.url if (s_a := source(c.source_a)) else "",
+            source_b=s_b.url if (s_b := source(c.source_b)) else "",
+            description=c.description,
+        )
+        for c in analysis.contradictions
+    ]
+    return claims, contradictions, analysis.open_issues
 
 
-def analyst_node(state: ResearchState) -> dict:
-    """Extract claims, assess confidence, detect contradictions."""
-    question = state["question"]
-    sources = state["gathered_sources"]
-
-    logger.info(f"Analyst processing {len(sources)} sources")
-
-    system_prompt = ANALYST_SYSTEM_PROMPT.format(
-        authority_weights=json.dumps(SOURCE_AUTHORITY_WEIGHTS, indent=2),
-        recency_multipliers=json.dumps(RECENCY_MULTIPLIERS, indent=2),
-    )
-
+def analyze(
+    question: str,
+    sources: list[SourceDoc],
+    today: date | None = None,
+) -> tuple[list[Claim], list[Contradiction], list[str]]:
+    """Extract claims, contradictions and open issues from the sources."""
+    today = today or date.today()
     user_prompt = (
         f"Research Question: {question}\n\n"
         f"Sources ({len(sources)} total):\n\n"
         f"{_format_sources(sources)}"
     )
-
-    response = llm.invoke(
-        [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ]
+    analysis = generate_structured(
+        ANALYST_SYSTEM_PROMPT.format(today=today.isoformat()),
+        user_prompt,
+        Analysis,
+        effort=EFFORT["analyst"],
     )
+    return build_findings(analysis, sources, today)
 
-    try:
-        parsed = _parse_analyst_response(response.content)
-    except json.JSONDecodeError:
-        logger.error("Failed to parse analyst JSON response")
-        return {
-            "extracted_claims": [],
-            "contradictions": [],
-            "open_issues": ["ERROR: Analyst failed to produce valid JSON output"],
-            "current_phase": "analyzing",
-        }
 
-    claims = [Claim(**c) for c in parsed.get("claims", [])]
-    contradictions = [Contradiction(**c) for c in parsed.get("contradictions", [])]
-    open_issues = parsed.get("open_issues", [])
+def analyst_node(state: ResearchState) -> dict:
+    """Extract claims, compute their confidence, detect contradictions."""
+    sources = state["gathered_sources"]
+    logger.info(f"Analyst processing {len(sources)} sources")
+
+    claims, contradictions, open_issues = analyze(state["question"], sources)
 
     logger.info(
         f"Analyst extracted {len(claims)} claims, "
         f"found {len(contradictions)} contradictions, "
         f"{len(open_issues)} open issues"
     )
-
     return {
         "extracted_claims": claims,
         "contradictions": contradictions,

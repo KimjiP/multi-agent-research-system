@@ -1,139 +1,146 @@
-import json
 import logging
+import re
 
-from langchain_anthropic import ChatAnthropic
+from pydantic import BaseModel
 
-from src.config import MODEL_NAME, TEMPERATURE
-from src.state import Claim, Contradiction, ResearchState
+from src.config import EFFORT, MAX_REVIEWS
+from src.llm import LLMError, generate_structured
+from src.nodes.writer import format_claims, format_contradictions, format_source_list
+from src.state import CheckResult, Claim, Contradiction, ResearchState, SourceDoc
 
 logger = logging.getLogger(__name__)
 
-llm = ChatAnthropic(model=MODEL_NAME, temperature=TEMPERATURE)
-
 REVIEWER_SYSTEM_PROMPT = """You are a research report reviewer specializing in AI governance and regulatory compliance.
 
-Your job is to evaluate a research report against the structured claims that were extracted from sources. You are a strict quality gate — only approve reports that meet all criteria.
+Your job is to evaluate a research report against the structured claims extracted from its sources, which are the ground truth. You are a strict quality gate.
 
 ## Review Checklist
 
-Evaluate the report against each of these criteria:
+1. citation_coverage: Does every factual statement in the report have a citation (markdown link)?
+2. hallucination_check: Does every factual statement match an extracted claim? Flag any fact, number or date that the claims do not contain, including numbers or dates that differ from the claims.
+3. contradiction_disclosure: Are contradictions and uncertainties between sources disclosed?
+4. confidence_assessment: Do key claims carry confidence levels consistent with their scores?
+5. executive_summary_accuracy: Does the executive summary accurately reflect the findings in the body?
+6. knowledge_gaps: Are knowledge gaps and open issues clearly stated?
 
-1. **Citation Coverage**: Does every factual claim in the report have a citation (markdown link)?
-2. **Hallucination Check**: Does the report reference any factual claim that is NOT in the provided extracted claims list? If so, flag it.
-3. **Contradiction Disclosure**: Are contradictions and uncertainties between sources properly disclosed in the report?
-4. **Confidence Assessment**: Does the report include confidence levels (high/medium/low) for key claims?
-5. **Executive Summary Accuracy**: Does the executive summary accurately reflect the findings in the body?
-6. **Knowledge Gaps**: Are knowledge gaps and open issues clearly stated?
+For each item, give passed and short notes that name the specific problem, quoting the sentence at fault. If any item fails, give clear, actionable revision instructions; otherwise leave them empty.
+Be strict but fair: minor formatting issues are not failures."""
 
-## Output Format
+LLM_CHECKS = [
+    "citation_coverage",
+    "hallucination_check",
+    "contradiction_disclosure",
+    "confidence_assessment",
+    "executive_summary_accuracy",
+    "knowledge_gaps",
+]
 
-Respond with ONLY valid JSON, no markdown code fences, no preamble:
-{{
-  "approved": true or false,
-  "checklist": {{
-    "citation_coverage": {{"pass": true/false, "notes": "..."}},
-    "hallucination_check": {{"pass": true/false, "notes": "..."}},
-    "contradiction_disclosure": {{"pass": true/false, "notes": "..."}},
-    "confidence_assessment": {{"pass": true/false, "notes": "..."}},
-    "executive_summary_accuracy": {{"pass": true/false, "notes": "..."}},
-    "knowledge_gaps": {{"pass": true/false, "notes": "..."}}
-  }},
-  "revision_instructions": "Specific instructions for revision, or null if approved"
-}}
-
-## Rules
-- Set approved=true ONLY if all 6 checklist items pass.
-- If any item fails, set approved=false and provide clear, actionable revision instructions.
-- Be strict but fair — minor formatting issues are not failures."""
+_MARKDOWN_LINK = re.compile(r"\]\((https?://[^)\s]+)\)")
 
 
-def _format_claims_for_review(claims: list[Claim]) -> str:
-    parts = []
-    for c in claims:
-        parts.append(
-            f"- [{c.claim_id}] ({c.category}, confidence={c.confidence:.2f}): {c.text}\n"
-            f"  Sources: {', '.join(c.supporting_sources)}"
+class Review(BaseModel):
+    citation_coverage: CheckResult
+    hallucination_check: CheckResult
+    contradiction_disclosure: CheckResult
+    confidence_assessment: CheckResult
+    executive_summary_accuracy: CheckResult
+    knowledge_gaps: CheckResult
+    revision_instructions: str
+
+
+def check_source_links(report: str, sources: list[SourceDoc]) -> CheckResult:
+    """Deterministic check: every link in the report points to a gathered source."""
+    known = {s.url for s in sources}
+    unknown = sorted({url for url in _MARKDOWN_LINK.findall(report) if url not in known})
+    if unknown:
+        return CheckResult(
+            passed=False,
+            notes=f"Links to URLs that are not among the gathered sources: {', '.join(unknown[:5])}",
         )
-    return "\n".join(parts)
+    return CheckResult(passed=True, notes="Every link points to a gathered source.")
 
 
-def _format_contradictions_for_review(contradictions: list[Contradiction]) -> str:
-    if not contradictions:
-        return "None detected."
-    parts = []
-    for ct in contradictions:
-        parts.append(f"- {ct.description} (between {ct.source_a} and {ct.source_b})")
-    return "\n".join(parts)
+def review_report(
+    question: str,
+    report: str,
+    claims: list[Claim],
+    contradictions: list[Contradiction],
+    open_issues: list[str],
+    sources: list[SourceDoc],
+) -> tuple[dict[str, CheckResult], str]:
+    """Run the link check and the LLM checklist. Returns the checklist and revision instructions.
 
-
-def _parse_reviewer_response(text: str) -> dict:
-    text = text.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
-        if text.endswith("```"):
-            text = text[:-3].strip()
-    return json.loads(text)
-
-
-def reviewer_node(state: ResearchState) -> dict:
-    """Evaluate report against extracted claims. Approve or request revision."""
-    report = state["report"]
-    claims = state["extracted_claims"]
-    contradictions = state["contradictions"]
-    question = state["question"]
-    review_count = state.get("review_count", 0)
-
-    logger.info(f"Reviewer evaluating report (review #{review_count + 1})")
+    Raises LLMError if the LLM review cannot be completed.
+    """
+    checklist = {"source_links": check_source_links(report, sources)}
 
     user_prompt = (
         f"Research Question: {question}\n\n"
         f"## Report to Review\n\n{report}\n\n"
-        f"## Extracted Claims (ground truth)\n\n{_format_claims_for_review(claims)}\n\n"
-        f"## Known Contradictions\n\n{_format_contradictions_for_review(contradictions)}"
+        f"## Extracted Claims (ground truth)\n\n{format_claims(claims)}\n\n"
+        f"## Known Contradictions\n\n{format_contradictions(contradictions)}\n\n"
+        f"## Open Issues\n\n" + "\n".join(f"- {issue}" for issue in open_issues) + "\n\n"
+        f"## Sources\n\n{format_source_list(sources)}"
     )
+    review = generate_structured(
+        REVIEWER_SYSTEM_PROMPT, user_prompt, Review, effort=EFFORT["reviewer"]
+    )
+    for name in LLM_CHECKS:
+        checklist[name] = getattr(review, name)
 
-    response = llm.invoke(
-        [
-            {"role": "system", "content": REVIEWER_SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ]
-    )
+    instructions = review.revision_instructions.strip()
+    if not checklist["source_links"].passed:
+        instructions = (
+            f"{instructions}\n" if instructions else ""
+        ) + f"Remove or replace these links; cite only the listed sources. {checklist['source_links'].notes}"
+    return checklist, instructions
+
+
+def reviewer_node(state: ResearchState) -> dict:
+    """Evaluate the report. Approve only if every check passes; fail closed if the review fails."""
+    review_count = state.get("review_count", 0) + 1
+    logger.info(f"Reviewer evaluating report (review #{review_count})")
 
     try:
-        parsed = _parse_reviewer_response(response.content)
-    except json.JSONDecodeError:
-        logger.error("Failed to parse reviewer JSON response, forcing approval")
+        checklist, instructions = review_report(
+            state["question"],
+            state["report"],
+            state["extracted_claims"],
+            state["contradictions"],
+            state["open_issues"],
+            state["gathered_sources"],
+        )
+    except LLMError as e:
+        logger.error(f"Review failed ({e}); report not approved")
         return {
             "review_feedback": None,
-            "approved": True,
-            "review_count": review_count + 1,
+            "review_checklist": {},
+            "review_status": "review_failed",
+            "approved": False,
+            "review_count": review_count,
             "current_phase": "reviewing",
+            "error": f"Review failed: {e}",
         }
 
-    approved = parsed.get("approved", False)
-    revision_instructions = parsed.get("revision_instructions")
+    approved = all(check.passed for check in checklist.values())
+    if approved:
+        status = "approved"
+    elif review_count >= MAX_REVIEWS:
+        status = "not_approved"
+    else:
+        status = "revision_requested"
 
-    checklist = parsed.get("checklist", {})
-    passed = sum(1 for v in checklist.values() if isinstance(v, dict) and v.get("pass"))
-    total = len(checklist)
-
-    logger.info(
-        f"Reviewer: {passed}/{total} checks passed, "
-        f"{'APPROVED' if approved else 'REVISION REQUESTED'}"
-    )
-
-    if not approved and checklist:
-        failed_items = [
-            f"- {k}: {v.get('notes', '')}"
-            for k, v in checklist.items()
-            if isinstance(v, dict) and not v.get("pass")
-        ]
-        if failed_items:
-            logger.info("Failed checks:\n" + "\n".join(failed_items))
+    passed = sum(check.passed for check in checklist.values())
+    logger.info(f"Reviewer: {passed}/{len(checklist)} checks passed, {status}")
+    for name, check in checklist.items():
+        if not check.passed:
+            logger.info(f"  failed {name}: {check.notes}")
 
     return {
-        "review_feedback": revision_instructions if not approved else None,
+        "review_feedback": None if approved else instructions,
+        "review_checklist": checklist,
+        "review_status": status,
         "approved": approved,
-        "review_count": review_count + 1,
+        "review_count": review_count,
         "current_phase": "reviewing",
     }

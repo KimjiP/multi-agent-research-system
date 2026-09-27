@@ -1,20 +1,22 @@
-"""Run all 3 benchmark questions through the V2 pipeline and save results."""
+"""Run the benchmark questions through the V2 pipeline and save results."""
 
 import json
 import logging
+import time
 from datetime import datetime
+from pathlib import Path
 
+from src.benchmarks import BENCHMARK_QUESTIONS, mentions_current_annex_iii_date
+from src.config import MODEL_NAME
 from src.graph import build_graph
-from src.state import SourceDoc, Claim, Contradiction
+from src.llm import usage
+from src.state import initial_state
 
 logging.basicConfig(level=logging.INFO)
+logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
-BENCHMARK_QUESTIONS = [
-    "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
-    "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
-    "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
-]
+RESULTS_DIR = Path("results")
 
 
 def serialize_state(state: dict) -> dict:
@@ -29,10 +31,34 @@ def serialize_state(state: dict) -> dict:
         "open_issues": state["open_issues"],
         "report": state["report"],
         "review_feedback": state["review_feedback"],
+        "review_checklist": {k: v.model_dump() for k, v in state["review_checklist"].items()},
+        "review_status": state["review_status"],
         "approved": state["approved"],
         "review_count": state["review_count"],
-        "current_phase": state["current_phase"],
+        "error": state.get("error"),
     }
+
+
+def run_v2(question: str, graph=None) -> dict:
+    """Run one question through the V2 graph and return the serialized result with run stats."""
+    graph = graph or build_graph()
+    usage.reset()
+    start = time.time()
+    final_state = graph.invoke(initial_state(question))
+    result = serialize_state(final_state)
+    result.update(
+        {
+            "model": MODEL_NAME,
+            "duration_seconds": round(time.time() - start, 1),
+            "llm_calls": usage.calls,
+            "input_tokens": usage.input_tokens,
+            "output_tokens": usage.output_tokens,
+            "cost_usd": round(usage.cost_usd, 4),
+            "mentions_current_annex_iii_date": mentions_current_annex_iii_date(result["report"]),
+            "timestamp": datetime.now().isoformat(timespec="seconds"),
+        }
+    )
+    return result
 
 
 def run_benchmark():
@@ -40,48 +66,17 @@ def run_benchmark():
     all_results = []
 
     for i, question in enumerate(BENCHMARK_QUESTIONS, 1):
-        print(f"\n{'='*60}")
-        print(f"BENCHMARK Q{i}: {question[:80]}...")
-        print(f"{'='*60}\n")
-
-        start_time = datetime.now()
-
-        initial_state = {
-            "question": question,
-            "search_queries": [],
-            "gathered_sources": [],
-            "iteration_count": 0,
-            "research_complete": False,
-            "extracted_claims": [],
-            "contradictions": [],
-            "open_issues": [],
-            "report": "",
-            "review_feedback": None,
-            "approved": False,
-            "review_count": 0,
-            "current_phase": "",
-            "error": None,
-        }
-
-        final_state = graph.invoke(initial_state)
-
-        duration = (datetime.now() - start_time).total_seconds()
-
-        result = serialize_state(final_state)
-        result["duration_seconds"] = duration
-        result["timestamp"] = start_time.isoformat()
+        print(f"\n{'=' * 60}\nBENCHMARK Q{i}: {question[:80]}...\n{'=' * 60}\n")
+        result = run_v2(question, graph)
         all_results.append(result)
+        print(
+            f"\n--- Q{i}: {result['duration_seconds']}s, ${result['cost_usd']}, "
+            f"{len(result['gathered_sources'])} sources, {len(result['extracted_claims'])} claims, "
+            f"{result['review_count']} review round(s), status {result['review_status']}"
+        )
 
-        print(f"\n--- Q{i} Complete ---")
-        print(f"Duration: {duration:.1f}s")
-        print(f"Sources: {len(final_state['gathered_sources'])}")
-        print(f"Claims: {len(final_state['extracted_claims'])}")
-        print(f"Contradictions: {len(final_state['contradictions'])}")
-        print(f"Report: {len(final_state['report'].split())} words")
-        print(f"Review rounds: {final_state['review_count']}")
-        print(f"Approved: {final_state['approved']}")
-
-    output_file = f"v2_benchmark_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    RESULTS_DIR.mkdir(exist_ok=True)
+    output_file = RESULTS_DIR / f"v2_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     with open(output_file, "w") as f:
         json.dump(all_results, f, indent=2)
     print(f"\n\nResults saved to {output_file}")
