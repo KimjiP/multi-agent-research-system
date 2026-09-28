@@ -116,7 +116,11 @@ def researcher_node(state: ResearchState) -> dict:
 
     logger.info(f"Researcher iteration {iteration}: generating queries")
     queries = generate_queries(state["question"], previous_queries, existing_sources)
-    new_sources = search_sources(queries[0], seen_urls, include_domains=OFFICIAL_DOMAINS)
+    # Official sources first, then the open web
+    new_sources = [
+        s for query in queries
+        for s in search_sources(query, seen_urls, include_domains=OFFICIAL_DOMAINS)
+    ]
     new_sources += [s for query in queries for s in search_sources(query, seen_urls)]
     all_sources = existing_sources + new_sources
 

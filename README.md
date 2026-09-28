@@ -1,109 +1,132 @@
 # Multi-Agent Research System (MAS)
 
-A LangGraph-based research pipeline that takes a research question and produces a structured, cited report with confidence-weighted claims. Built as a portfolio project demonstrating the same system at three complexity levels.
+A LangGraph research pipeline that turns a research question into a cited report. Every claim carries a confidence score computed from its sources, and a reviewer checks the report against the extracted claims before it is approved. Demoed on EU AI Act compliance; nothing in the architecture is specific to it. The same system is built at three levels of complexity.
 
 ## The Three Versions
 
 | Version | Architecture | What it demonstrates |
 |---------|-------------|---------------------|
-| **V1** — Single API Call | One Claude call, no tools | Baseline: what a single LLM can and cannot do |
-| **V2** — LangGraph Pipeline | StateGraph with 4 nodes + conditional loops | Production-grade: web search, source quality assessment, review loop |
-| **V3** — Multi-Agent | Supervisor + parallel researchers | Demo: when to escalate complexity (and the cost of doing so) |
+| **V1**: Single API call | One Claude call, no tools | Baseline: what a model knows from training alone |
+| **V2**: LangGraph pipeline | StateGraph with 4 nodes, a research loop and a review loop | Web search, source authority, confidence computed in code, a reviewer that can reject |
+| **V3**: Multi-agent sketch | Supervisor + parallel researchers, no review | When to escalate complexity, and what the quality gate is worth |
 
 **The portfolio narrative:** "I built the same system at three complexity levels. Most clients need V2. Here's why, and here's how I know when to escalate to V3."
+
+## September 2026 update
+
+The March 2026 version was audited and rebuilt. What changed, and why:
+
+- **No facts hardcoded in prompts.** The Analyst prompt stated that the EU's Digital Omnibus was "proposed, not adopted" and that high-risk obligations apply from 2 August 2026. Both became false when Regulation (EU) 2026/1744 entered into force on 27 July 2026, so the guard against stale information was injecting stale information. Prompts now carry today's date, and current facts have to come from sources.
+- **Confidence is computed in code** ([src/confidence.py](src/confidence.py)). Before, the formula was text in the prompt and the model wrote the number: none of the saved sources had a publication date, yet recency was "applied", and 12 claims scored above the maximum the formula allows. Now the Analyst only says which sources support a claim, by number, and the score follows from those sources.
+- **Sources are classified deterministically** ([src/sources.py](src/sources.py)) with a wider domain list. Unknown hosts used to count as news, and US `.gov` sites were labelled EU guidance.
+- **Official sources are searched explicitly.** Every query also runs restricted to `europa.eu`. Open web search mostly returned blogs and vendor pages, so current facts from official sources were missing and scored low.
+- **The reviewer fails closed.** It used to approve the report when its own output could not be parsed. It now adds a deterministic check that every link points to a gathered source, and a report that still fails after the last round ends as "not approved" instead of being approved anyway.
+- **Structured outputs** (`messages.parse` with Pydantic models) replace hand-written JSON parsing.
+- **Claude Sonnet 5**, called through the Anthropic SDK (`claude-sonnet-4-20250514` is deprecated). The LangChain wrappers are gone; LangGraph remains the orchestrator.
+- **One question set** for V1, V2 and V3 ([src/benchmarks.py](src/benchmarks.py)), with a new Q4 on a date the Omnibus changed.
 
 ## Architecture (V2)
 
 ```mermaid
 graph TD
-    START([Start]) --> R[Researcher<br/>L3 tool-calling]
+    START([Start]) --> R[Researcher<br/>LLM queries + Tavily search<br/>each query also on official EU sites]
     R --> CR{should_continue<br/>_research}
     CR -->|"< 5 sources AND<br/>< 3 iterations"| R
-    CR -->|"≥ 5 sources OR<br/>≥ 3 iterations"| A[Analyst<br/>L1/L2 structured LLM]
-    A --> W[Writer<br/>L1/L2 structured LLM]
-    W --> RV[Reviewer<br/>L1/L2 structured LLM]
+    CR -->|"≥ 5 sources OR<br/>≥ 3 iterations"| A[Analyst<br/>claims cite sources by number<br/>confidence computed in code]
+    A --> W[Writer]
+    W --> RV[Reviewer<br/>link check + 6-point checklist]
     RV --> RD{review_decision}
-    RD -->|approved| END([End])
-    RD -->|"revise (max 2)"| W
+    RD -->|"revision requested<br/>(max 2 review rounds)"| W
+    RD -->|"approved, not approved,<br/>or review failed"| END([End])
 ```
 
-- **Researcher** — generates diverse search queries via LLM, executes Tavily web searches, classifies sources by domain (official EU, guidance, legal analysis, news)
-- **Analyst** — extracts factual claims, computes confidence scores using source authority × recency × corroboration, detects contradictions
-- **Writer** — produces a markdown report with citations and confidence levels; revises based on reviewer feedback
-- **Reviewer** — 6-point quality gate checking citation coverage, hallucinations, contradiction disclosure, confidence assessment, executive summary accuracy, knowledge gaps
+- **Researcher**: writes search queries with Claude, runs each through Tavily twice, once restricted to `europa.eu` and once on the open web, classifies each source by domain, and reads a publication date from the search result or the URL when there is one.
+- **Analyst**: extracts claims, contradictions and open issues as a structured output. Each claim cites source numbers; claims without a valid source are dropped. Confidence is computed from the cited sources.
+- **Writer**: writes a markdown report with a citation for every statement and the confidence label of each claim; on revision, it works from the reviewer's instructions.
+- **Reviewer**: checks that every link is a gathered source, then runs a six-point checklist against the extracted claims: citation coverage, hallucinations (including changed numbers and dates), contradiction disclosure, confidence labels, executive summary accuracy, knowledge gaps. It approves only when every check passes.
 
-## Confidence-Weighted Synthesis
+## Confidence
 
-Every claim gets a confidence score: `authority × recency × corroboration`
+Every claim gets `authority × recency × corroboration`, capped at 1.0, computed in [src/confidence.py](src/confidence.py):
 
-**Source Authority Weights:**
-| Source Type | Weight | Examples |
+- **Authority and recency** come from the strongest single source supporting the claim.
+- **Corroboration** counts distinct domains, so three pages from one site are one source.
+
+| Source type | Authority | Examples |
 |------------|--------|----------|
-| Official EU | 1.0 | EUR-Lex, AI Act text |
-| EU Guidance | 0.85 | European Commission, AI Office |
-| National Authority | 0.7 | Member-state regulators |
-| Legal Analysis | 0.5 | Law firms, policy institutions |
-| Industry | 0.3 | Compliance vendors, trade press |
-| News/Blog | 0.15 | General news, blogs |
+| Official EU | 1.0 | EUR-Lex, Official Journal |
+| EU guidance | 0.85 | Commission, AI Office, Council, Parliament |
+| National authority | 0.7 | Member-state and Norwegian regulators, US federal agencies |
+| Legal analysis | 0.5 | Law firms, policy institutes |
+| Industry | 0.3 | Compliance vendors, consultancies |
+| News/Blog | 0.15 | Everything else |
 
-**Recency decay:** 0–90 days = 1.0×, 3–6 months = 0.8×, 6–12 months = 0.5×, 12+ months = 0.2×
+**Recency:** 0–90 days 1.0×, 3–6 months 0.8×, 6–12 months 0.5×, over 12 months 0.2×. A source without a publication date gets 0.8×: it may be current, but nothing shows it.
 
-**Corroboration:** single source = 1.0×, 2 sources agree = 1.2×, 3+ sources = 1.4× (capped)
+**Corroboration:** one domain 1.0×, two 1.2×, three or more 1.4×.
 
-## V1 vs V2: Why V2 Matters
+**Labels:** high from 0.7, medium from 0.4, low below.
 
-The key demonstration: V1 treats the revoked US Executive Order 14110 as active policy. V2 catches this via web search.
+## Results (September 2026, Claude Sonnet 5)
 
-| | V1 (Single Call) | V2 (Pipeline) |
-|---|---|---|
-| **EO 14110** | References as active policy | Correctly flags as **revoked** Jan 2025 |
-| **Sources** | None (LLM knowledge only) | 12–15 verified web sources per question |
-| **Citations** | Fabricated or vague | Real URLs with source type classification |
-| **Confidence** | None | Scored per-claim with authority/recency weights |
-| **Quality control** | None | Reviewer catches hallucinations and unsourced claims |
+Four benchmark questions through all three versions, run on 27 September 2026 ([results/](results/)).
 
-### Benchmark Comparison
-
-| Question | V1 Duration | V2 Duration | V2 Sources | V2 Claims |
-|----------|------------|------------|------------|-----------|
-| Q1: High-risk AI hiring compliance | 23.5s | 53.5s | 15 | 10 |
-| Q2: EU AI Act vs US federal AI policy | 27.3s | 45.1s | 12 | 8 |
-| Q3: Conformity assessment procedures | 22.7s | 46.4s | 14 | 10 |
-
-V2 takes ~2× longer but produces verified, cited, confidence-scored output instead of ungrounded LLM assertions.
-
-## V3 Tradeoffs
-
-V3 adds a supervisor that decomposes questions into subtopics and runs parallel researchers. More sources, but more cost and latency.
-
-| | V2 | V3 | Tradeoff |
+| Question | V1 | V2 | V3 |
 |---|---|---|---|
-| **Q1 Sources** | 15 | 52 | 3.5× more coverage |
-| **Q1 Duration** | 53.5s | 97.5s | 1.8× slower |
-| **Q2 Sources** | 12 | 38 | 3.2× more coverage |
-| **Q2 Duration** | 45.1s | 61.1s | 1.4× slower |
-| **Q3 Sources** | 14 | 37 | 2.6× more coverage |
-| **Q3 Duration** | 46.4s | 50.4s | 1.1× slower |
-| **LLM Calls** | 4–6 | 3 + no review | No quality gate |
-| **Reliability** | Review loop catches errors | No review loop | V2 more reliable |
+| Q1: High-risk AI hiring tool compliance | 40s, $0.04 | 143s, $0.25, 2 review rounds, not approved | 115s, $0.19 |
+| Q2: EU AI Act vs current US federal policy | 42s, $0.04 | 182s, $0.30, 2 review rounds, approved | 87s, $0.16 |
+| Q3: Conformity assessment and notified bodies | 37s, $0.03 | 147s, $0.25, 2 review rounds, approved | 88s, $0.15 |
+| Q4: When Annex III obligations apply | 24s, $0.02 | 85s, $0.13, 1 review round, approved | 92s, $0.14 |
 
-**When to use V3:** Complex multi-faceted questions where source coverage matters more than reliability. For most use cases, V2 is the right choice.
+| Question | V2 sources (official/EU) | V2 claims (high confidence) | V3 sources (official/EU) | V3 claims (high confidence) |
+|---|---|---|---|---|
+| Q1 | 27 (14) | 22 (7) | 84 (44) | 18 (15) |
+| Q2 | 27 (12) | 24 (4) | 87 (41) | 25 (15) |
+| Q3 | 28 (14) | 18 (3) | 80 (40) | 26 (8) |
+| Q4 | 23 (10) | 11 (5) | 59 (30) | 12 (9) |
 
-## How It Works
+### V1 vs V2: why V2 matters
 
-A sample execution for *"What are the compliance requirements for deploying a high-risk AI hiring tool under the EU AI Act?"*:
+**Q4 is the question whose answer changed in 2026.** V1, a single call to the same model, says the Annex III obligations apply from 2 August 2026 and hedges about "ongoing regulatory discussion about potential delays". V2 and V3 find the Commission's announcement that the AI Omnibus entered into force on 27 July 2026, the AI Act Service Desk FAQ and the consolidated text on EUR-Lex, and give **2 December 2027**, with a note that many compliance sites still show the old date. A model's knowledge has a date; the pipeline reads today's sources and shows where each statement came from.
 
-1. **Researcher** generates 3 search queries (compliance requirements, enforcement actions, conformity assessment), runs Tavily searches, collects 15 deduplicated sources classified by authority type
-2. **Analyst** extracts 10 claims with confidence scores (0.15–0.85), identifies 2 contradictions between sources on penalty amounts, flags 5 knowledge gaps
-3. **Writer** produces a 694-word report with markdown citations, confidence labels, and a knowledge gaps section
-4. **Reviewer** runs 6-point checklist — approves on round 1 (or sends back for revision if unsourced claims are found)
+The March 2026 example no longer separates them: V1 treated the revoked US Executive Order 14110 as current policy. With Claude Sonnet 5, V1 knows it was revoked in January 2025.
+
+V2 approved 3 of the 4 reports. Q1 ended not approved after two rounds: the reviewer found penalty figures stated more strongly than the extracted claims support, and an open issue missing from the knowledge gaps.
+
+## Does the reviewer catch errors?
+
+The reviewer is the pipeline's quality gate, so it has its own test ([eval_reviewer.py](eval_reviewer.py)). One error of a known type is planted in copies of finished V2 reports, and the reviewer runs on every copy and on the unmodified report.
+
+| Planted error | Caught | Checks that flagged it |
+|---|---|---|
+| A sentence citing a URL that is not among the gathered sources | 4 of 4 | link check 4, hallucination 4, confidence 4 |
+| A plausible obligation, cited to a real source, that no claim supports | 4 of 4 | hallucination 4 |
+| An extracted claim restated without a citation | 4 of 4 | citation coverage 3, confidence 1 |
+| A date in Key Findings moved by one year | 1 of 1 | hallucination 1 (only one report had a date in that format) |
+| **Unmodified report** (false alarm) | 1 of 4 rejected | confidence labels |
+
+13 of 13 planted errors caught, one false alarm in four clean reports, for $0.72 in 17 reviewer calls. The reports came from a V2 run made before the official-site search covered every query ([results/v2_20260927_234643_first_query_only.json](results/v2_20260927_234643_first_query_only.json)); the reviewer is the same.
+
+**What it cannot catch:** an error already inside an extracted claim, because it checks the report against the claims. In the Q4 report, the Analyst combined the European Parliament's summary, which says high-risk obligations apply "36 months after the entry into force" (that is the date for AI in regulated products, Annex I), with the Annex III date, 2 August 2026, which is 24 months after. The claim is wrong, the report repeats it, and the reviewer approves. Checking each claim against the text of its sources is the next step.
+
+## V3 trade-offs
+
+| | V2 | V3 |
+|---|---|---|
+| Time for the 4 questions | 558s | 381s |
+| Cost for the 4 questions | $0.92 | $0.64 |
+| Sources per report | 23–28 (10–14 official/EU) | 59–87 (30–44 official/EU) |
+| High-confidence claims per report | 3–7 | 8–15 |
+| Quality gate | Reviewer: 3 of 4 approved, 13 of 13 planted errors caught | None |
+
+With parallel search and no review loop, V3 is now faster, cheaper and better sourced than V2. (In March 2026 it was slower.) What it gives up is the check: nothing stops a report with a fabricated link or an unsupported claim from going out.
+
+**When to use V3:** broad questions where coverage matters more than a quality gate. For anything a person will rely on without re-checking, use V2, or add V2's reviewer to V3's parallel research, which is the obvious next version.
 
 ## Setup
 
 ```bash
 # Prerequisites: Python 3.14+, uv
-
-# Install dependencies
 uv sync
 
 # Configure API keys
@@ -114,38 +137,46 @@ cp .env.example .env
 #   LANGCHAIN_API_KEY=lsv2_...  (optional, for LangSmith tracing)
 #   LANGCHAIN_ENDPOINT=https://eu.api.smith.langchain.com  (if EU instance)
 #   LANGCHAIN_TRACING_V2=true
-#   LANGCHAIN_PROJECT=ProjectA2
 ```
 
 ## Usage
 
 ```bash
-# Streamlit UI (V2 + V3 benchmarks and live queries)
+# Streamlit UI: V1, V2 and V3 benchmark results, and live runs
 uv run streamlit run app.py
 
-# Run V1 baseline
+# Benchmarks (each saves to results/)
 uv run python v1_baseline.py
-
-# Run V2 benchmarks
-uv run python run_benchmark.py
-
-# Run V3 benchmarks
+uv run python run_benchmark.py      # V2
 uv run python v3_sketch.py
+
+# Planted-error test of the V2 reviewer (uses the latest results/v2_*.json)
+uv run python eval_reviewer.py
+
+# Unit tests (no API calls)
+uv run pytest
 ```
 
 ## Tech Stack
 
-- **LangGraph** — StateGraph with conditional edges for research and review loops
-- **LangChain + ChatAnthropic** — Claude Sonnet for all LLM calls (cost/quality balance)
-- **Tavily** — Web search API (advanced depth, 5 results per query)
-- **Pydantic** — Structured data models for sources, claims, contradictions
-- **Streamlit** — UI with real-time pipeline status and benchmark result explorer
-- **LangSmith** — Tracing and observability (optional)
+- **LangGraph**: StateGraph with conditional edges for the research and review loops
+- **Anthropic SDK**: Claude Sonnet 5 for every LLM call, with structured outputs
+- **Tavily**: web search (advanced depth, 5 results per query)
+- **Pydantic**: sources, claims, confidence, review checklist
+- **Streamlit**: UI with pipeline status and a benchmark explorer
+- **LangSmith**: tracing (optional)
 
 ## Design Decisions
 
-- **Claude Sonnet over Opus** — sufficient quality for structured extraction at ~5× lower cost
-- **Deterministic edges** — research and review loops use simple threshold checks, not LLM decisions, for reliability
-- **Source authority hierarchy** — confidence scoring prioritizes primary legal text over commentary, with recency decay
-- **Domain-specific alerts** — hardcoded checks for known stale information (EO 14110 revocation, Digital Omnibus status, GPAI/high-risk timelines)
-- **No review loop in V3** — intentional, to demonstrate the reliability tradeoff vs V2
+- **Claude Sonnet over Opus**: enough quality for extraction and review at a lower cost. Effort is set per node: low for search queries, medium for extraction and writing, medium for review.
+- **Deterministic edges**: the research and review loops use threshold checks, not LLM decisions.
+- **The number is never the LLM's**: the model says which sources support a claim; code computes the confidence.
+- **Fail closed**: a report is approved only when every check passes, including when the review itself fails.
+- **No review loop in V3**, on purpose, to show what the quality gate is worth.
+
+## Limitations
+
+- **Few dated sources**: Tavily returns publication dates only for news searches, and most pages have no date in the URL, so most sources count as undated.
+- **Domain lists are hand-made**: sources from unknown domains count as news, which understates reputable but unlisted sources.
+- **The reviewer is an LLM, and it checks the report against the claims**: the planted-error test above shows what it catches; errors already inside a claim pass through.
+- **Small benchmark**: four questions. The results show behaviour, not statistics.

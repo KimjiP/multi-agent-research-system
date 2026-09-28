@@ -94,7 +94,10 @@ def supervisor_decompose(question: str) -> Decomposition:
 def research_subtopic(subtopic: Subtopic) -> list[SourceDoc]:
     """One researcher: the same searches as a V2 research round, for one subtopic."""
     seen_urls: set[str] = set()
-    sources = search_sources(subtopic.search_queries[0], seen_urls, include_domains=OFFICIAL_DOMAINS)
+    sources = [
+        s for query in subtopic.search_queries
+        for s in search_sources(query, seen_urls, include_domains=OFFICIAL_DOMAINS)
+    ]
     sources += [s for query in subtopic.search_queries for s in search_sources(query, seen_urls)]
     logger.info(f"  Subtopic '{subtopic.title}': found {len(sources)} sources")
     return sources

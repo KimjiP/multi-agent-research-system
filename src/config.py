@@ -8,8 +8,8 @@ MIN_SOURCES = 5
 QUERIES_PER_ITERATION = 3
 RESULTS_PER_QUERY = 5
 SNIPPET_CHARS = 500
-# Each research round also runs its first query restricted to these domains. Open web
-# search mostly returns blogs and vendor pages, and authority is part of the confidence.
+# Each query also runs restricted to these domains. Open web search mostly returns
+# blogs and vendor pages, and authority is part of the confidence.
 OFFICIAL_DOMAINS = ["europa.eu"]
 
 # --- Reviewer Node ---

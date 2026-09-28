@@ -29,7 +29,7 @@ The V2 pipeline is a LangGraph `StateGraph` over a shared `ResearchState` TypedD
 
 **Graph flow:** `Researcher → [loop?] → Analyst → Writer → Reviewer → [revise?] → END`
 
-- **Researcher** (`src/nodes/researcher.py`) — Tool-calling node. Generates search queries via LLM, runs them via Tavily (one of them restricted to `OFFICIAL_DOMAINS`), classifies each source deterministically (`src/sources.py`). Loops up to `MAX_SEARCH_ITERATIONS` or until `MIN_SOURCES` reached.
+- **Researcher** (`src/nodes/researcher.py`) — Tool-calling node. Generates search queries via LLM, runs each via Tavily twice (restricted to `OFFICIAL_DOMAINS`, then the open web), classifies each source deterministically (`src/sources.py`). Loops up to `MAX_SEARCH_ITERATIONS` or until `MIN_SOURCES` reached.
 - **Analyst** (`src/nodes/analyst.py`) — Extracts claims, contradictions and open issues with a structured output. Claims cite sources by number; claims with no valid source are dropped. Confidence is computed in code (`src/confidence.py`), never by the LLM.
 - **Writer** (`src/nodes/writer.py`) — Produces the markdown report from analyst output. On revision, incorporates `review_feedback` rather than regenerating.
 - **Reviewer** (`src/nodes/reviewer.py`) — A deterministic link check plus a six-item LLM checklist. Approves only when every check passes; if the review itself fails, the report is not approved (fail closed). At most `MAX_REVIEWS` rounds.
