@@ -62,4 +62,4 @@ uv run pytest                    # unit tests, no API calls
 
 - Few sources have a publication date, so most count as undated.
 - Source types come from a hand-made domain list; reputable sites that are not on it count as blogs.
-- Four benchmark questions: the results show behaviour, not statistics.
+- Four benchmark questions: the results show behavior, not statistics.
