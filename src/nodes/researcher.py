@@ -69,6 +69,20 @@ def generate_queries(
     return queries or [question]
 
 
+def source_from_result(result: dict, query: str) -> SourceDoc:
+    """One search result as a source: the snippet is cut to SNIPPET_CHARS, and the
+    type and date come from the URL (src/sources.py)."""
+    url = result.get("url", "")
+    return SourceDoc(
+        url=url,
+        title=result.get("title", ""),
+        snippet=result.get("content", "")[:SNIPPET_CHARS],
+        source_type=classify_source(url),
+        published_date=published_date(result),
+        search_query=query,
+    )
+
+
 def search_sources(
     query: str,
     seen_urls: set[str],
@@ -94,16 +108,7 @@ def search_sources(
         if not url or url in seen_urls:
             continue
         seen_urls.add(url)
-        sources.append(
-            SourceDoc(
-                url=url,
-                title=r.get("title", ""),
-                snippet=r.get("content", "")[:SNIPPET_CHARS],
-                source_type=classify_source(url),
-                published_date=published_date(r),
-                search_query=query,
-            )
-        )
+        sources.append(source_from_result(r, query))
     return sources
 
 

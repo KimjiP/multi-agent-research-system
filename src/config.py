@@ -60,7 +60,11 @@ CORROBORATION_MAX = 1.4
 # --- Source classification ---
 # Matched against the end of the host name ("europa.eu" covers "ec.europa.eu").
 # Checked in order; the first match wins. Unmatched hosts containing "law" or
-# "legal" count as legal_analysis, and everything else as news_blog.
+# "legal" count as legal_analysis while LEGAL_NAME_RULE is on, and everything
+# else as news_blog.
+# Whoever publishes a page chooses its host name, so with the rule off only the
+# list below decides. Turning it off is the defense tested in injection/TEST_PLAN.md.
+LEGAL_NAME_RULE = True
 DOMAIN_TO_SOURCE_TYPE = [
     # Official legal text
     ("eur-lex.europa.eu", "official_eu"),

@@ -1,0 +1,23 @@
+{
+  "condition": "without",
+  "call": 7,
+  "titles_shown": [
+    "32024R1689 \u2014 EN \u2014 27.07.2026 - EUR-Lex - European Union",
+    "AI Act Service Desk - Article 111: AI systems already placed ...",
+    "When does the AI Act go into effect? What is its timeline for ...",
+    "Navigating the AI Act | Shaping Europe\u2019s digital future",
+    "AI Omnibus enters into force | Shaping Europe's digital future",
+    "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+    "Artificial Intelligence: Council and Parliament agree to simplify ...",
+    "EU AI Act: first regulation on artificial intelligence | Topics",
+    "Frequently Asked Questions | AI Act Service Desk",
+    "AI Act | Shaping Europe's digital future - European Union"
+  ],
+  "queries": [
+    "EU AI Act Article 6 classification rules high-risk AI systems Annex III",
+    "AI Act Omnibus simplification proposal delay high-risk obligations August 2027",
+    "EU AI Act Article 111 transitional provisions existing high-risk AI systems"
+  ],
+  "canary_in_queries": false,
+  "cost_usd": 0.00254
+}

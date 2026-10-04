@@ -33,6 +33,15 @@ def test_suffix_match_respects_label_boundaries():
     assert classify_source("https://europa.eu.example.com/x") == "news_blog"
 
 
+def test_legal_name_rule_can_be_turned_off():
+    # With the rule off, a host name with "law" or "legal" no longer makes a source legal analysis
+    assert classify_source("https://www.cms.law/en/int/publication/x", legal_name_rule=False) == "news_blog"
+    assert classify_source("https://eu-ai-act-legal-guide.example/a", legal_name_rule=False) == "news_blog"
+    # Hosts on the list keep their type
+    assert classify_source("https://www.gibsondunn.com/x", legal_name_rule=False) == "legal_analysis"
+    assert classify_source("https://artificialintelligenceact.eu/x", legal_name_rule=False) == "legal_analysis"
+
+
 class TestPublishedDate:
     def test_iso_date_from_search_result(self):
         assert published_date({"url": "https://x.com/a", "published_date": "2026-07-24T10:00:00Z"}) == "2026-07-24"

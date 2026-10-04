@@ -5,7 +5,7 @@ from datetime import date, datetime
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
 
-from src.config import DOMAIN_TO_SOURCE_TYPE
+from src.config import DOMAIN_TO_SOURCE_TYPE, LEGAL_NAME_RULE
 
 # A date in the URL path, e.g. /2026/05/28/ or /2025-11-19-omnibus
 _URL_DATE = re.compile(r"/(20\d{2})[/-](0?[1-9]|1[0-2])(?:[/-](0?[1-9]|[12]\d|3[01]))?(?=[/-]|$)")
@@ -15,13 +15,17 @@ def host_of(url: str) -> str:
     return urlparse(url).netloc.lower().removeprefix("www.")
 
 
-def classify_source(url: str) -> str:
-    """Source type from the URL's host, using config.DOMAIN_TO_SOURCE_TYPE."""
+def classify_source(url: str, legal_name_rule: bool = LEGAL_NAME_RULE) -> str:
+    """Source type from the URL's host, using config.DOMAIN_TO_SOURCE_TYPE.
+
+    With legal_name_rule (config.LEGAL_NAME_RULE), an unmatched host that contains
+    "law" or "legal" counts as legal_analysis.
+    """
     host = host_of(url)
     for suffix, source_type in DOMAIN_TO_SOURCE_TYPE:
         if host == suffix or host.endswith("." + suffix):
             return source_type
-    if re.search(r"law|legal", host):
+    if legal_name_rule and re.search(r"law|legal", host):
         return "legal_analysis"
     return "news_blog"
 
