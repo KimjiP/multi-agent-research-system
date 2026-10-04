@@ -13,3 +13,5 @@ wheels/
 # directories
 .DS_Store
 llm/
+# calibration figure fonts (downloaded)
+calibration/.fontcache/

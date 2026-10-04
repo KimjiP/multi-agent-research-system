@@ -42,6 +42,28 @@ Four benchmark questions through all three versions, on Claude Sonnet 5 ([result
 
 `authority × recency × corroboration`, capped at 1.0, computed in [src/confidence.py](src/confidence.py). Authority comes from a fixed list of source types in [src/sources.py](src/sources.py), from official EU text (1.0) down to news and blogs (0.15). Corroboration counts distinct domains. Labels: high from 0.7, medium from 0.4.
 
+## Calibration
+
+Does the confidence score predict whether a claim is correct? The 156 scored claims of the September V2 and V3 runs were checked against official sources (EUR-Lex, the Commission, NANDO and US government pages), with the rules fixed before checking in [calibration/ANALYSIS_PLAN.md](calibration/ANALYSIS_PLAN.md). Claude Opus 5.5 drafted each label with its evidence, blind to the scores, and checked all of them in a second pass. 15 claims could not be settled and are left out.
+
+| Label | Claims checked | Correct | Mean score |
+|---|---|---|---|
+| High | 63 | 81% | 0.91 |
+| Medium | 34 | 85% | 0.62 |
+| Low | 44 | 84% | 0.15 |
+
+- **No ranking.** AUROC 0.47 (95% bootstrap interval 0.33 to 0.61), so a correct claim is no more likely than a wrong one to have the higher score.
+- **Why.** 22 of the 24 wrong claims were partly right: a date, number or article changed between an official source and the claim. The score rates the source, so it cannot see this, and 12 of the 24 were labeled high.
+- **Checking by score.** Sending every claim below 0.7 to a person means checking 58% of all claims, and 12 of the 24 wrong claims still pass.
+- **Recalibration** (Platt scaling, 5-fold cross-validation) makes the numbers match only by predicting 78% to 88% for every claim.
+- **Other signals.** Asking the agent's model (Claude Sonnet 5) for the probability that each claim is correct ranked claims better: AUROC 0.66 (0.54 to 0.78), calibration error 0.08. Agreement over 5 repeated checks reached 0.61, but the answers differed for only 7 of the 156 claims. The 936 calls cost $2.38.
+
+```bash
+uv run python -m calibration.analyze                     # results.json from claims.csv, no API calls
+uv run --group analysis python -m calibration.figures    # figures in calibration/figures/
+uv run python -m calibration.signals                     # the model's own signals (API, about $2.38)
+```
+
 ## Run it
 
 Needs Python 3.14+, `uv`, an Anthropic API key and a Tavily API key.
