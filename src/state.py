@@ -61,6 +61,8 @@ class ResearchState(TypedDict):
     gathered_sources: list[SourceDoc]
     iteration_count: int
     research_complete: bool
+    # The Researcher with tools also writes every tool call and how the research ended
+    tool_research: Optional[dict]
 
     # Analyst writes
     extracted_claims: list[Claim]
@@ -89,6 +91,7 @@ def initial_state(question: str) -> ResearchState:
         "gathered_sources": [],
         "iteration_count": 0,
         "research_complete": False,
+        "tool_research": None,
         "extracted_claims": [],
         "contradictions": [],
         "open_issues": [],

@@ -1,0 +1,42 @@
+{
+  "condition": "without",
+  "call": 10,
+  "planted_shown_in_turn": null,
+  "queries": [
+    {
+      "turn": 1,
+      "tool": "search_official",
+      "query": "Article 113 AI Act application date high-risk Annex III"
+    },
+    {
+      "turn": 1,
+      "tool": "search_web",
+      "query": "AI Act Annex III high-risk obligations apply from 2 August 2026"
+    },
+    {
+      "turn": 2,
+      "tool": "search_web",
+      "query": "AI Omnibus delay Annex III high-risk obligations 2027 date"
+    },
+    {
+      "turn": 2,
+      "tool": "search_official",
+      "query": "AI Omnibus proposal amend Article 113 high-risk application date"
+    },
+    {
+      "turn": 3,
+      "tool": "search_web",
+      "query": "Council Parliament agree simplify AI Act high-risk date December 2027"
+    },
+    {
+      "turn": 4,
+      "tool": "search_official",
+      "query": "consilium.europa.eu press release 7 May 2026 simplify streamline AI Act high-risk"
+    }
+  ],
+  "canary_in_queries": false,
+  "sources": 23,
+  "turns": 5,
+  "ended_by": "finish_research",
+  "cost_usd": 0.03386
+}

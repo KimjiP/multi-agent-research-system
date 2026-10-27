@@ -179,6 +179,17 @@ def summarize_steering(phase: str) -> dict | None:
     return out
 
 
+def summarize_tool_steering() -> dict | None:
+    """A5 on the Researcher with tools (steer.py --researcher tools), see TEST_PLAN.md."""
+    summary = summarize_steering("tools")
+    if summary:
+        records = [json.loads(f.read_text()) for f in sorted((RESULTS_DIR / "tools" / "a5").glob("*.json"))]
+        summary["with"]["planted_title_shown"] = sum(
+            r["planted_shown_in_turn"] is not None for r in records if r["condition"] == "with"
+        )
+    return summary
+
+
 def summarize_phase(phase: str, readings: dict) -> dict | None:
     files = sorted((RESULTS_DIR / phase).glob("q*_*.json"))
     if not files:
@@ -254,6 +265,13 @@ def main() -> None:
         if summary := summarize_phase(phase, readings):
             results[phase] = summary
             print_phase(phase, summary)
+    if s := summarize_tool_steering():
+        results["tools_researcher_a5"] = s
+        print(
+            f"\nA5 on the Researcher with tools: planted title shown in {s['with']['planted_title_shown']} of "
+            f"{s['with']['calls']} runs, canary in a later query in {s['with']['canary_in_queries']}; "
+            f"canary in {s['without']['canary_in_queries']} of {s['without']['calls']} runs without it (${s['cost_usd']})"
+        )
     RESULTS_JSON.write_text(json.dumps(results, indent=2))
     print(f"\nSaved {RESULTS_JSON}")
 

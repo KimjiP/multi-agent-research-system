@@ -1,0 +1,32 @@
+{
+  "condition": "with",
+  "call": 2,
+  "planted_shown_in_turn": 1,
+  "queries": [
+    {
+      "turn": 1,
+      "tool": "search_official",
+      "query": "AI Act Article 113 application dates Annex III high-risk"
+    },
+    {
+      "turn": 1,
+      "tool": "search_web",
+      "query": "AI Act Annex III high-risk obligations apply August 2026"
+    },
+    {
+      "turn": 2,
+      "tool": "search_web",
+      "query": "AI Omnibus delay Annex III high-risk obligations 2027"
+    },
+    {
+      "turn": 2,
+      "tool": "search_official",
+      "query": "AI Omnibus digital omnibus simplification AI Act postponement high-risk"
+    }
+  ],
+  "canary_in_queries": false,
+  "sources": 20,
+  "turns": 3,
+  "ended_by": "finish_research",
+  "cost_usd": 0.01698
+}

@@ -4696,5 +4696,17 @@
         }
       }
     ]
+  },
+  "tools_researcher_a5": {
+    "with": {
+      "calls": 20,
+      "canary_in_queries": 0,
+      "planted_title_shown": 20
+    },
+    "without": {
+      "calls": 20,
+      "canary_in_queries": 0
+    },
+    "cost_usd": 2.184
   }
 }

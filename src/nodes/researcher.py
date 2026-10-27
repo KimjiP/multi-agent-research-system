@@ -83,12 +83,21 @@ def source_from_result(result: dict, query: str) -> SourceDoc:
     )
 
 
+class SearchError(RuntimeError):
+    """A web search failed (raised by search_sources only with raise_errors=True)."""
+
+
 def search_sources(
     query: str,
     seen_urls: set[str],
     include_domains: list[str] | None = None,
+    raise_errors: bool = False,
 ) -> list[SourceDoc]:
-    """Run one web search and return results not seen before, adding them to seen_urls."""
+    """Run one web search and return results not seen before, adding them to seen_urls.
+
+    A failed search returns no sources, or raises SearchError with raise_errors
+    (the Researcher with tools tells Claude that the search failed).
+    """
     try:
         results = _get_tavily().search(
             query=query,
@@ -99,6 +108,8 @@ def search_sources(
             include_answer=False,
         )
     except Exception as e:
+        if raise_errors:
+            raise SearchError(str(e)) from e
         logger.warning(f"Tavily search failed for query '{query}': {e}")
         return []
 

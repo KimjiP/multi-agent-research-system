@@ -3,6 +3,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Research Node ---
+# Which Researcher the graph uses:
+#   "fixed": Claude writes 3 queries a round, and the code runs each one twice,
+#            on official sites and on the open web (src/nodes/researcher.py)
+#   "tools": Claude picks its own searches with tools (src/nodes/tool_researcher.py)
+# The published benchmark, calibration and injection results were measured with "fixed".
+RESEARCHER = "fixed"
 MAX_SEARCH_ITERATIONS = 3
 MIN_SOURCES = 5
 QUERIES_PER_ITERATION = 3
@@ -11,6 +17,10 @@ SNIPPET_CHARS = 500
 # Each query also runs restricted to these domains. Open web search mostly returns
 # blogs and vendor pages, and authority is part of the confidence.
 OFFICIAL_DOMAINS = ["europa.eu"]
+# Limits for the Researcher with tools. The search limit is the fixed Researcher's
+# maximum (3 rounds × 3 queries × 2 searches), so both can spend the same at most.
+MAX_TOOL_SEARCHES = MAX_SEARCH_ITERATIONS * QUERIES_PER_ITERATION * 2
+MAX_TOOL_TURNS = 12
 
 # --- Reviewer Node ---
 MAX_REVIEWS = 2
@@ -21,6 +31,7 @@ MAX_TOKENS = 16000
 # Effort per step: writing search queries is simple; extraction and review need judgment
 EFFORT = {
     "queries": "low",
+    "researcher": "low",
     "supervisor": "low",
     "analyst": "medium",
     "writer": "medium",
