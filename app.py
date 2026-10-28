@@ -1,6 +1,13 @@
-"""Streamlit UI for the Multi-Agent Research System."""
+"""Streamlit UI for the Multi-Agent Research System.
 
+Live runs call the APIs and cost money. On Google Cloud Run the app is read-only:
+it shows the saved results, and live runs need the access code in LIVE_RUN_CODE.
+"""
+
+import hmac
 import json
+import os
+import threading
 import time
 from collections import Counter
 from pathlib import Path
@@ -31,6 +38,45 @@ STATUS_LABELS = {
     "revision_requested": "Revision requested",
     "pending": "Not reviewed",
 }
+
+
+def live_runs_allowed() -> bool:
+    """Whether this visitor may start live runs.
+
+    Without LIVE_RUN_CODE they are allowed on your own machine, as before, and never
+    on Cloud Run (which sets K_SERVICE), so a missing secret leaves the app read-only.
+    """
+    code = os.getenv("LIVE_RUN_CODE")
+    if not code:
+        if os.getenv("K_SERVICE"):
+            st.sidebar.info("Live runs are turned off. The tabs show saved benchmark results.")
+            return False
+        return True
+    entered = st.sidebar.text_input("Access code for live runs", type="password")
+    if hmac.compare_digest(entered.encode(), code.encode()):
+        return True
+    if entered:
+        st.sidebar.error("Wrong access code.")
+    st.sidebar.info("The tabs show saved benchmark results. Live runs need an access code.")
+    return False
+
+
+@st.cache_resource
+def _live_run_lock() -> threading.Lock:
+    """One lock shared by every visitor."""
+    return threading.Lock()
+
+
+def run_live(run) -> None:
+    """Call run() unless another live run is going on, so there is one live run at a time."""
+    lock = _live_run_lock()
+    if not lock.acquire(blocking=False):
+        st.warning("Another live run is going on. Please try again in a few minutes.")
+        return
+    try:
+        run()
+    finally:
+        lock.release()
 
 
 def latest_results(prefix: str) -> tuple[Path | None, list[dict]]:
@@ -174,9 +220,62 @@ def render_benchmarks(prefix: str, render) -> None:
             render(result)
 
 
+def render_v1(result: dict) -> None:
+    cols = st.columns(3)
+    cols[0].metric("Duration", f"{result['duration_seconds']:.0f}s")
+    cols[1].metric("Output tokens", result["output_tokens"])
+    cols[2].metric("Cost", f"${result['cost_usd']:.3f}")
+    _render_currency_check(result, result["response"])
+    st.markdown(result["response"])
+
+
+def live_v1(question: str) -> None:
+    with st.spinner("Calling the model ..."):
+        result = run_v1_baseline(question)
+    render_v1(result)
+
+
+def live_v2(question: str) -> None:
+    graph = build_graph()
+    state = initial_state(question)
+    usage.reset()
+    start = time.time()
+    status = st.status("Researcher: searching ...", state="running")
+    for event in graph.stream(state, stream_mode="updates"):
+        for node_name, output in event.items():
+            state.update(output)
+            if node_name == "researcher":
+                status.write(f"Researcher: {len(state['gathered_sources'])} sources so far")
+            elif node_name == "analyst":
+                status.write(
+                    f"Analyst: {len(state['extracted_claims'])} claims, "
+                    f"{len(state['contradictions'])} contradictions"
+                )
+            elif node_name == "writer":
+                status.write(f"Writer: {len(state['report'].split())} words")
+            elif node_name == "reviewer":
+                status.write(
+                    f"Reviewer round {state['review_count']}: "
+                    f"{STATUS_LABELS.get(state['review_status'], state['review_status'])}"
+                )
+    status.update(label="Done", state="complete")
+    result = serialize_state(state)
+    result.update(duration_seconds=time.time() - start, cost_usd=usage.cost_usd)
+    st.divider()
+    render_pipeline_result(result, "v2")
+
+
+def live_v3(question: str) -> None:
+    with st.spinner("Supervisor, parallel research, analysis and writing ..."):
+        result = run_v3_pipeline(question)
+    render_pipeline_result(result, "v3")
+
+
 # =============================================================================
 # Tabs
 # =============================================================================
+
+LIVE_RUNS = live_runs_allowed()
 
 v1_tab, v2_tab, v3_tab = st.tabs(
     ["V1 — Single LLM call", "V2 — LangGraph pipeline", "V3 — Parallel multi-agent"]
@@ -185,69 +284,34 @@ v1_tab, v2_tab, v3_tab = st.tabs(
 with v1_tab:
     st.header("V1: one LLM call, no tools")
     st.caption("The baseline: what the model says from its training data alone, with no sources.")
-
-    def render_v1(result: dict) -> None:
-        cols = st.columns(3)
-        cols[0].metric("Duration", f"{result['duration_seconds']:.0f}s")
-        cols[1].metric("Output tokens", result["output_tokens"])
-        cols[2].metric("Cost", f"${result['cost_usd']:.3f}")
-        _render_currency_check(result, result["response"])
-        st.markdown(result["response"])
-
     render_benchmarks("v1", render_v1)
-    st.divider()
-    st.subheader("Run new query")
-    v1_question = st.text_area("Research question", key="v1_question", height=80)
-    if st.button("Run V1", type="primary", disabled=not v1_question, key="v1_run"):
-        with st.spinner("Calling the model ..."):
-            render_v1(run_v1_baseline(v1_question))
+    if LIVE_RUNS:
+        st.divider()
+        st.subheader("Run new query")
+        v1_question = st.text_area("Research question", key="v1_question", height=80)
+        if st.button("Run V1", type="primary", disabled=not v1_question, key="v1_run"):
+            run_live(lambda: live_v1(v1_question))
 
 with v2_tab:
     st.header("V2: LangGraph StateGraph pipeline")
     st.caption("Researcher → Analyst → Writer → Reviewer, with a research loop and a review loop")
     render_benchmarks("v2", lambda r: render_pipeline_result(r, "v2"))
 
-    st.divider()
-    st.subheader("Run new query")
-    v2_question = st.text_area("Research question", key="v2_question", height=80)
-    if st.button("Run V2 pipeline", type="primary", disabled=not v2_question, key="v2_run"):
-        graph = build_graph()
-        state = initial_state(v2_question)
-        usage.reset()
-        start = time.time()
-        status = st.status("Researcher: generating queries and searching ...", state="running")
-        for event in graph.stream(state, stream_mode="updates"):
-            for node_name, output in event.items():
-                state.update(output)
-                if node_name == "researcher":
-                    status.write(f"Researcher: {len(state['gathered_sources'])} sources so far")
-                elif node_name == "analyst":
-                    status.write(
-                        f"Analyst: {len(state['extracted_claims'])} claims, "
-                        f"{len(state['contradictions'])} contradictions"
-                    )
-                elif node_name == "writer":
-                    status.write(f"Writer: {len(state['report'].split())} words")
-                elif node_name == "reviewer":
-                    status.write(
-                        f"Reviewer round {state['review_count']}: "
-                        f"{STATUS_LABELS.get(state['review_status'], state['review_status'])}"
-                    )
-        status.update(label="Done", state="complete")
-        result = serialize_state(state)
-        result.update(duration_seconds=time.time() - start, cost_usd=usage.cost_usd)
+    if LIVE_RUNS:
         st.divider()
-        render_pipeline_result(result, "v2")
+        st.subheader("Run new query")
+        v2_question = st.text_area("Research question", key="v2_question", height=80)
+        if st.button("Run V2 pipeline", type="primary", disabled=not v2_question, key="v2_run"):
+            run_live(lambda: live_v2(v2_question))
 
 with v3_tab:
     st.header("V3: supervisor and parallel researchers")
     st.caption("Supervisor → parallel researchers → Analyst → topic-aware Writer, no review loop")
     render_benchmarks("v3", lambda r: render_pipeline_result(r, "v3"))
 
-    st.divider()
-    st.subheader("Run new query")
-    v3_question = st.text_area("Research question", key="v3_question", height=80)
-    if st.button("Run V3 pipeline", type="primary", disabled=not v3_question, key="v3_run"):
-        with st.spinner("Supervisor, parallel research, analysis and writing ..."):
-            result = run_v3_pipeline(v3_question)
-        render_pipeline_result(result, "v3")
+    if LIVE_RUNS:
+        st.divider()
+        st.subheader("Run new query")
+        v3_question = st.text_area("Research question", key="v3_question", height=80)
+        if st.button("Run V3 pipeline", type="primary", disabled=not v3_question, key="v3_run"):
+            run_live(lambda: live_v3(v3_question))

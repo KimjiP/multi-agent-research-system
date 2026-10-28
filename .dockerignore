@@ -1,0 +1,13 @@
+# Never in the image: keys, the local environment and private notes
+.env*
+.venv/
+llm/
+
+# Not needed to run the app
+.git/
+.github/
+.claude/
+**/__pycache__/
+.pytest_cache/
+**/.DS_Store
+calibration/.fontcache/

@@ -1,0 +1,14 @@
+# What `gcloud run deploy --source .` does not upload to Cloud Build (.gitignore syntax).
+# The same list as .dockerignore, so keys and private notes never leave this machine.
+.gcloudignore
+.env*
+.venv/
+llm/
+
+.git/
+.github/
+.claude/
+__pycache__/
+.pytest_cache/
+.DS_Store
+calibration/.fontcache/
