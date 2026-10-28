@@ -30,7 +30,7 @@ graph LR
 Four benchmark questions through all three versions, on Claude Sonnet 5 ([results/](results/)).
 
 - **The deadline that moved.** Asked when the Annex III obligations apply, V1 answers 2 August 2026, the original date. V2 finds the Commission's announcement that the AI Omnibus entered into force on 27 July 2026, and answers 2 December 2027.
-- **The reviewer, tested with planted errors** ([eval_reviewer.py](eval_reviewer.py)): 13 of 13 caught (4 invented links, 4 unsupported claims, 4 uncited claims, 1 changed date), and 1 false alarm in 4 clean reports, for $0.72. It checks the report against the extracted claims, so an error already inside a claim passes through.
+- **The reviewer, tested with planted errors** ([eval_reviewer.py](eval_reviewer.py)): 13 errors planted in the reports of a saved run (4 invented links, 4 unsupported claims, 4 uncited claims, 1 changed date). In 6 runs on two saved runs it caught 75 of the 78, and the 3 it missed were uncited claims. It also rejected 1 to 3 of 4 unchanged reports, at about $0.80 a run. It checks the report against the extracted claims, so an error already inside a claim passes through.
 - **V2 against V3**, for the four questions:
 
 | | V2 | V3 |
@@ -92,6 +92,42 @@ uv run python -m injection.steer                      # A5: 40 calls to the quer
 uv run python -m injection.analyze                    # results.json from the saved runs, no API calls
 uv run --group analysis python -m injection.figures   # injection/figures/outcomes.png
 ```
+
+## The researcher picks its own tools
+
+In V2 the code decides how to search: Claude writes 3 queries, and each one runs twice, on official EU sites and on the open web. With `RESEARCHER = "tools"` in [src/config.py](src/config.py), Claude decides instead. It gets three tools, `search_official`, `search_web` and `finish_research`, and a plain loop in [src/llm.py](src/llm.py) runs every tool call and sends the result back. A search result shows the title, address, type and date of each new source, but not its text.
+
+1. **When it stops.** The loop ends when Claude calls `finish_research`, when it answers without calling a tool, or after 12 answers. At most 18 searches can run, the fixed researcher's maximum, and a search after that gets an error. If Claude tries to finish with fewer than 5 sources, it is told once to search more, and a failed search goes back to it as an error.
+2. **The comparison.** I ran the 4 benchmark questions 3 times with each researcher, one right after the other, so both searched the web at about the same time ([results/researcher_comparison/](results/researcher_comparison/)):
+
+| | Fixed | With tools |
+|---|---|---|
+| Reports approved | 11 of 12 | 11 of 12 |
+| Q4 gives the current date | 3 of 3 | 3 of 3 |
+| Sources per run | 27.0 | 29.8 |
+| Share from official EU sites | 49% | 47% |
+| Searches per run | 6 | 6.4 (5 to 9) |
+| Cost per run | $0.21 | $0.25 |
+| Time per run | 132 s | 146 s |
+
+3. **What changed.** On these checks the two researchers did the same. The new one cost more in all 4 questions, and $0.03 of the difference per run is the tool loop itself. It searched more where the question was narrow (8 searches and 38 sources on average for Q3, on conformity assessment) and used the open web more for Q2, which asks about US policy (30% from official EU sites). It ended the research itself in all 12 runs and never reached a limit. The fixed researcher stays the default, so the results above still describe it.
+4. **A planted title.** The new researcher reads the titles in its search results and picks the next search itself, so I ran A5 again on it. The planted title with an instruction to search for a made-up word came back in a search result in all 20 runs, and no later query used the word (0 of 20, and 0 of 20 without the title). The searches replayed the saved Q4 sources, so every run saw the same results. The 40 runs cost $2.18.
+
+```bash
+uv run python compare_researchers.py                  # the comparison: 24 full runs (API and Tavily, about $5.50)
+uv run python compare_researchers.py --summary        # summary.json from the saved runs, no API calls
+uv run python -m injection.steer --researcher tools   # A5 on the new researcher (API, about $2.20)
+```
+
+## Tests and deployment
+
+The repository has three GitHub Actions workflows, and every action in them is pinned to a commit:
+
+1. **[tests.yml](.github/workflows/tests.yml)**, on every push and pull request: the unit tests (117, no API calls), and a check that `injection/results.json`, `calibration/results.json` and the comparison's `summary.json` rebuild unchanged from the saved runs.
+2. **[planted-errors.yml](.github/workflows/planted-errors.yml)**, by hand and on pushes to main that change `src/` or `eval_reviewer.py`: the reviewer test as a gate (`eval_reviewer.py --gate`, on the saved run `v2_20260927_235716.json`). The reviewer's verdicts vary between runs: in 3 local runs on that file it caught 13, 13 and 12 of the 13 planted errors, and it rejected 3 of 4 clean reports each time. So the gate fails when 2 or more planted errors get through, or when all 4 clean reports are rejected. It uses an API key stored as a GitHub secret, and pull requests never run it, so code from a fork never sees the key.
+3. **[deploy.yml](.github/workflows/deploy.yml)**, on pushes to main: the tests, then a deploy to Google Cloud Run in Finland (`europe-north1`). GitHub signs in to Google Cloud with Workload Identity Federation, which accepts only this repository's main branch, so no key file is stored anywhere.
+
+The app runs at https://mas-demo-956845653269.europe-north1.run.app. It shows the saved results, and live runs need an access code. The API keys are kept in Google Secret Manager, not in the image, and only the app's own service account can read them. Cloud Run runs at most 1 instance, stops when nobody uses the app and has a monthly spend cap, and the app's Anthropic key has its own spend limit.
 
 ## Run it
 
