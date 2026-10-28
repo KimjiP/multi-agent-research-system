@@ -1,0 +1,780 @@
+{
+  "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+  "search_queries": [
+    "EU AI Act general-purpose AI model obligations Article 53",
+    "EU AI Act foundation model providers requirements GPAI code of practice",
+    "US federal AI policy 2025 executive order Trump AI Action Plan",
+    "systemic risk general-purpose AI model Article 55 obligations",
+    "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption",
+    "NIST AI Risk Management Framework voluntary foundation model safety"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+      "title": "Article 53: Obligations for providers of general-purpose AI models | AI Act Service Desk",
+      "snippet": "Summary \n\nThe article details the obligations of providers of general-purpose AI models. Providers must maintain technical documentation and make it available to authorities and providers of AI systems who intend to integrate the general-purpose AI model into their AI systems. They must also put in place a copyright policy and provide a public summary of training data. Open-source general-purpose AI models are exempt from some documentation requirements, unless they are classified as general-pur",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations Article 53"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+      "title": "General-Purpose AI Models in the AI Act \u2013 Questions & Answers | Shaping Europe\u2019s digital future",
+      "snippet": "In the case of a modification or fine-tuning of an existing general-purpose AI model, the obligations for providers of general-purpose AI models in Article 53 AI Act should be limited to the modification or fine-tuning, for example, by complementing the already existing technical documentation with information on the modifications (Recital 109). The obligations for providers of general-purpose AI models with systemic risk in Article 55 AI Act should only apply in clearly specified cases. The Com",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations Article 53"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content",
+      "title": "Template for general-purpose AI model providers to summarise their training content | Shaping Europe\u2019s digital future",
+      "snippet": "How do these guidelines and the template support providers of general-purpose AI models in complying with the AI Act\u2019s obligation? \n\nUnder Article 53(1)(d) of the AI Act, using the Template is mandatory. It enables providers to meet their transparency requirements in a simple, consistent, and effective manner, while minimising the administrative burden to only what is necessary to fulfil the objective of the Summary.\n\nWho is expected to publish a summary of the training content? \n\nAny provider o",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations Article 53"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3",
+      "title": "Article 3: Definitions | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations Article 53"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations Article 53"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/introduction-to-code-of-practice",
+      "title": "An Introduction to the Code of Practice for General-Purpose AI | EU Artificial Intelligence Act",
+      "snippet": "Purpose: The AI Act Code of Practice (introduced in Article 56) is a set of guidelines for compliance with the AI Act. It is a crucial tool for ensuring compliance with the EU AI Act obligations, especially in the interim period between when General Purpose AI (GPAI) model provider obligations came into effect (August 2025) and the adoption of standards (August 2027 or later). Though they are not legally binding, GPAI model providers can adhere to the Code of Practice to demonstrate compliance w",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act foundation model providers requirements GPAI code of practice"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/General-Purpose_AI_Code_of_Practice",
+      "title": "General-Purpose AI Code of Practice - Wikipedia",
+      "snippet": "Print/export\n\n Download as PDF\n Printable version; \"Printable version of this page [p]\")\n\nIn other projects\n\n Wikidata item\n\nAppearance\n\nFrom Wikipedia, the free encyclopedia\n\nEU AI governance framework\n\nThe General-Purpose AI Code of Practice (GPAI CoP) is a compliance tool released by the European Commission on 10 July 2025 to support compliance with the European Union Artificial Intelligence Act (AI Act). It provides operational guidance for providers of general-purpose AI models, particularl",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act foundation model providers requirements GPAI code of practice"
+    },
+    {
+      "url": "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20250724-european-commission-issues-guidelines-for-providers-of-general-purpose-ai-models",
+      "title": "European Commission Issues Guidelines for Providers of General-Purpose AI Models",
+      "snippet": "## Share and Download\n\nDownloadDownload\n\nOn July 18, 2025, the European Commission published its guidelines on the scope of obligations for providers of general-purpose artificial intelligence (GPAI) models under Regulation (EU) 2024/1689 (AI Act). The publication of these GPAI guidelines complements the release of the GPAI Code of Practice, a voluntary compliance mechanism that plays a central role in the interim regulatory landscape. The code offers practical guidance to AI model providers on ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act foundation model providers requirements GPAI code of practice"
+    },
+    {
+      "url": "https://www.stibbe.com/publications-and-insights/eus-gpai-code-of-practice-the-worlds-first-guidance-for-general-purpose",
+      "title": "EU\u2019s GPAI Code of Practice: the world\u2019s first guidance for General Purpose AI model compliance | Stibbe",
+      "snippet": "## 1.  Transparency requirements for GPAI models\n\nProviders of GPAI models must prepare comprehensive technical documentation for each model. The Code introduces a standardized Model Documentation Form covering details such as the model\u2019s training data sources, intended use cases, and licensing information. This extensive documentation meets the AI acts' transparency requirements and ensures that essential facts about the model is recorded in one place. [...] # EU\u2019s GPAI Code of Practice: the wo",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act foundation model providers requirements GPAI code of practice"
+    },
+    {
+      "url": "https://www.glocertinternational.com/resources/guides/eu-ai-act-gpai-and-foundation-model-compliance",
+      "title": "GPAI & Foundation Model Compliance Under the EU AI Act | Glocert International",
+      "snippet": "Chapter V of the EU AI Act creates a two-tier framework for general-purpose AI (GPAI) models: core obligations for all GPAI models and additional obligations for those with systemic risk\n All GPAI model providers must comply with transparency requirements, provide technical documentation, and respect EU copyright law \u2014 obligations effective from August 2, 2025\n GPAI models trained with more than 10^25 FLOPs are presumed to carry systemic risk and face additional obligations including adversarial",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act foundation model providers requirements GPAI code of practice"
+    },
+    {
+      "url": "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security",
+      "title": "New executive order shifts US AI policy toward national security",
+      "snippet": "On January 23, 2025, President Trump issued EO 14179, Removing Barriers to American Leadership in Artificial Intelligence, which revoked the prior administration\u2019s AI policies and directed agencies to remove barriers to US AI leadership. In July 2025, the White House released Winning the AI Race: America\u2019s AI Action Plan, a three-pillar strategy focused on accelerating innovation, building AI infrastructure, and leading in international diplomacy and security, with a stated goal of removing \u201cred",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order Trump AI Action Plan"
+    },
+    {
+      "url": "https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next",
+      "title": "America's AI Action Plan: What's In, What's Out, What's Next | Insights | Holland & Knight",
+      "snippet": "The White House released \"Winning the Race: America's AI Action Plan\" (Plan) on July 23, 2025, in accordance with President Donald Trump's Jan. 23, 2025, executive order on \"Removing Barriers to American Leadership in Artificial Intelligence.\"\n\nSpecifically, the 28-page Plan details more than 90 federal policy actions the Trump Administration intends to implement over the next few years, emphasizing that the U.S. needs to \"innovate faster and more comprehensively than our competitors in the deve",
+      "source_type": "legal_analysis",
+      "published_date": "2025-07-01",
+      "search_query": "US federal AI policy 2025 executive order Trump AI Action Plan"
+    },
+    {
+      "url": "https://www.caidp.org/public-voice/ai-action-plan-ostp-2025",
+      "title": "AI Action Plan (OSTP 2025) - Center for AI and Digital Policy",
+      "snippet": "Center for AI and Digital Policy\n\n1. Public Voice\n2. AI Action Plan (OSTP 2025)\n\n---\n\n# Request for Information on the Development of an Artificial Intelligence (AI) Action Plan\n\n---\n\n\n\n\"On January 23, 2025, President Trump signed Executive Order 14179 (Removing Barriers to American Leadership in Artificial Intelligence) to establish U.S. policy for sustaining and enhancing America's AI dominance in order to promote human flourishing, economic competitiveness, and national security. This Order d",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order Trump AI Action Plan"
+    },
+    {
+      "url": "https://www.seyfarth.com/news-insights/trump-administration-releases-ai-action-plan-and-three-executive-orders-on-ai-what-employment-practitioners-need-to-know.html",
+      "title": "Trump Administration Releases AI Action Plan and Three Executive Orders on AI: What Employment Practitioners Need to Know | Seyfarth Shaw LLP",
+      "snippet": "The AI Action Plan was issued pursuant to Executive Order 14179, \u201cRemoving Barriers to American Leadership in Artificial Intelligence,\u201d signed by President Trump on January 23, 2025. Executive Order 14179 specifically called for the removal of regulatory barriers that impede AI innovation and directed the development of the AI Action Plan to achieve the policy goal of sustaining and enhancing \u201cAmerica\u2019s global AI dominance\u201d to promote \u201chuman flourishing, economic competitiveness, and national se",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order Trump AI Action Plan"
+    },
+    {
+      "url": "https://www.sidley.com/en/insights/newsupdates/2025/12/unpacking-the-december-11-2025-executive-order",
+      "title": "Unpacking the December 11, 2025 Executive Order: Ensuring a National Policy Framework for Artificial Intelligence | Insights | Sidley Austin LLP",
+      "snippet": "Sidley\n\n## Explore Sidley\n\n##### Privacy and Cybersecurity Update\n\n# Unpacking the December 11, 2025 Executive Order: Ensuring a National Policy Framework for Artificial Intelligence\n\nOn December 11, 2025, President Trump issued a new Executive Order (EO) to protect American Artificial Intelligence (AI) innovation from \u201cthe most onerous and excessive laws emerging from the States that threaten to stymie innovation.\u201d Consistent with the President\u2019s July 2025 America\u2019s AI Action Plan, the EO furth",
+      "source_type": "news_blog",
+      "published_date": "2025-12-01",
+      "search_query": "US federal AI policy 2025 executive order Trump AI Action Plan"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55",
+      "title": "Article 55: Obligations of providers of general-purpose AI models with systemic risk | AI Act Service Desk",
+      "snippet": "Summary \n\nThe article specifies additional obligations for providers of general-purpose AI models with systemic risk. These providers must evaluate models using standardised protocols, assess and mitigate systemic risks, report serious incidents, and ensure cybersecurity. They can adhere to codes of practice (until a harmonised standard is published) or harmonised standards to demonstrate compliance, or demonstrate alternative means of compliance.\n\nThe summaries are meant to provide helpful expl",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "systemic risk general-purpose AI model Article 55 obligations"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-114",
+      "title": "Recital 114 | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "systemic risk general-purpose AI model Article 55 obligations"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-82",
+      "title": "Article 82: Compliant AI systems which present a risk | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "systemic risk general-purpose AI model Article 55 obligations"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16",
+      "title": "Article 16: Obligations of providers of high-risk AI systems | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "systemic risk general-purpose AI model Article 55 obligations"
+    },
+    {
+      "url": "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+      "title": "White House Executive Order: State Artificial Intelligence Regulation : Moore & Van Allen",
+      "snippet": "On December 11, 2025, the White House issued an Executive Order titled \u201cEnsuring a National Policy Framework for Artificial Intelligence.\u201d  This EO aims to establish a uniform and \u201cminimally burdensome\u201d Federal standard for AI regulation, including by directing the development of a federal legislative recommendation to preempt the current patchwork of varying state AI laws, except in a few discrete areas: \u201c(i) child safety protections; (ii) AI compute and data center infrastructure, other than g",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption"
+    },
+    {
+      "url": "https://www.maynardnexsen.com/publication-white-house-issues-executive-order-on-national-ai-policy-framework-and-preemption-of-state-ai-laws",
+      "title": "White House Issues Executive Order on National AI Policy Framework and Preemption Of State AI Laws",
+      "snippet": "Main Content Main Menu\n\n# White House Issues Executive Order on National AI Policy Framework and Preemption of State AI Laws PDF\n\nOn December 11, 2025, the White House issued an executive order (\u201cEnsuring a National Policy Framework for Artificial Intelligence\u201d), calling for a single federal AI policy to ensure \u201cnational and economic security and dominance\u201d and preempting state AI laws (with a few exceptions \u2013 see Section 8 below) to avoid \u201ccumbersome regulation\u201d that would \u201cthwart\u201d these \u201cimper",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption"
+    },
+    {
+      "url": "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+      "title": "AI Executive Order Targets State Laws and Seeks Uniform Federal Standards",
+      "snippet": "On December 11, 2025, President Trump signed an executive order titled \u201cEnsuring a National Policy Framework for Artificial Intelligence\u201d (the Order). The Order aims to \u201csustain and enhance the United States\u2019 global AI dominance\u201d by establishing a \u201cminimally burdensome national policy framework for AI\u201d and reducing the web of diverging state laws and regulations that has emerged over the past few years.\n\nAmong other things, the Order (i) calls for federal standards and legislation that would pre",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption"
+    },
+    {
+      "url": "https://www.wiley.law/alert-White-House-Issues-Executive-Order-to-Promote-National-AI-Policy-Framework-and-Challenge-Certain-State-AI-Laws",
+      "title": "White House Issues Executive Order to Promote National AI Policy Framework and Challenge Certain State AI Laws: Wiley",
+      "snippet": "On December 11, 2025, President Trump signed an Executive Order titled, Ensuring a National Policy Framework for Artificial Intelligence (AI National Framework EO), which establishes a federal policy to \u201csustain and enhance the United States\u2019 global AI dominance through a minimally burdensome national policy framework for AI,\u201d and outlines a series of steps to challenge or preempt state laws that conflict with that policy statement. Specific directives include launching a Federal Communications ",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf",
+      "title": "Federal AI Preemption: Enterprise Compliance and Security",
+      "snippet": "On December 11, 2025, President Trump signed an executive order titled \"Ensuring a National Policy Framework for Artificial Intelligence,\" signaling a direct federal challenge to this growing body of state regulation . The order directed the Attorney General to establish an AI Litigation Task Force within 30 days, charged with identifying and challenging state AI laws inconsistent with the administration's policy of a \"minimally burdensome national policy framework\" . The order simultaneously di",
+      "source_type": "news_blog",
+      "published_date": "2026-04-01",
+      "search_query": "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption"
+    },
+    {
+      "url": "https://arxiv.org/html/2401.15229v1",
+      "title": "Evolving AI Risk Management: A Maturity Model based on the NIST AI Risk Management Framework",
+      "snippet": "### 2.3. NIST AI RMF\n\nThe NIST AI RMF, the basis of our maturity model, is a voluntary framework describing best practices for AI risk management, including concrete activities for the development and deployment of AI in a socially responsible way. It is one of the most well-respected documents on AI governance and is growing in influence, especially in light of the October 2023 Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence that specifically ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NIST AI Risk Management Framework voluntary foundation model safety"
+    },
+    {
+      "url": "https://www.hlc.com/en/publications/nist-and-ntia-publish-key-resources-on-ai-risk-management-and-safety",
+      "title": "NIST and NTIA publish key resources on AI risk management and safety",
+      "snippet": "The draft document NIST AI 800-1: Managing the Risk of Misuse for Dual-Use Foundation Models identifies risk management best practices for dual-use foundation model developers to manage risks of deliberate, malicious misuse. It is the first guidance document from NIST\u2019s new Artificial Intelligence Safety Institute (AISI). AISI identifies seven objectives and voluntary practices to manage misuse risks, along with recommendations on implementation and providing transparency about risk management a",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NIST AI Risk Management Framework voluntary foundation model safety"
+    },
+    {
+      "url": "https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps",
+      "title": "The AI risk management framework: NIST AI RMF for models and agents (with implementation steps) | Collibra",
+      "snippet": "## What is the NIST AI RMF?\n\nThe NIST AI Risk Management Framework is a voluntary framework published by the US National Institute of Standards and Technology to help organizations manage AI risk and build trustworthy AI. It's organized around four core functions, Govern, Map, Measure and Manage, and a set of characteristics that define what trustworthy AI looks like in practice. [...] What is an AI risk management framework? An AI risk management framework is a structured, repeatable approach t",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NIST AI Risk Management Framework voluntary foundation model safety"
+    },
+    {
+      "url": "https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf",
+      "title": "NIST AI Risk Management Framework (RMF): A Complete Guide for Enterprise AI Governance | Avolution",
+      "snippet": "What is the NIST AI Risk Management Framework?\n\nThe NIST AI Risk Management Framework is a voluntary framework from the National Institute of Standards and Technology that helps organizations identify, assess, manage, and govern risks related to artificial intelligence systems.\n\nWhat are the four functions of the NIST AI RMF?\n\nThe four functions of the NIST AI RMF are Govern, Map, Measure, and Manage. These functions help organizations establish accountability, understand AI system context, asse",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NIST AI Risk Management Framework voluntary foundation model safety"
+    },
+    {
+      "url": "https://cdp.cooley.com/us-expands-artificial-intelligence-guidance-with-nist-ai-risk-management-framework",
+      "title": "US Expands Artificial Intelligence Guidance with NIST AI Risk Management Framework - cyber/data/privacy insights",
+      "snippet": "On January 26, 2023, the US Commerce Department\u2019s National Institute of Standards and Technology (NIST) published the Artificial Intelligence Risk Management Framework (AI RMF). The AI RMF is a voluntary resource designed to aid a variety of actors in the artificial intelligence sphere \u2013 such as technology companies developing AI and life sciences entities deploying AI \u2013 in identifying and managing the risks of AI while promoting \u201ctrustworthy and responsible development and use of AI systems.\u201d T",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NIST AI Risk Management Framework voluntary foundation model safety"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "Under Article 53 of the EU AI Act, providers of general-purpose AI models must maintain technical documentation, make it available to authorities and downstream AI system providers, put in place a copyright policy, and publish a public summary of training data; open-source GPAI models are exempt from some documentation requirements unless classified as having systemic risk.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "Under Article 53(1)(d), use of the Commission's official template to summarise training content is mandatory for GPAI model providers.",
+      "supporting_sources": [
+        "https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "Article 55 imposes additional obligations on providers of GPAI models with systemic risk, including evaluating models using standardised protocols, assessing and mitigating systemic risks, reporting serious incidents, and ensuring cybersecurity; such providers may rely on codes of practice or harmonised standards to demonstrate compliance.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "GPAI models trained with more than 10^25 FLOPs are presumed to carry systemic risk and face additional obligations such as adversarial testing.",
+      "supporting_sources": [
+        "https://www.glocertinternational.com/resources/guides/eu-ai-act-gpai-and-foundation-model-compliance"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "Chapter V of the EU AI Act creates a two-tier framework for GPAI models: core obligations for all GPAI models (transparency, technical documentation, copyright compliance) effective from August 2, 2025, and additional obligations for systemic-risk models.",
+      "supporting_sources": [
+        "https://www.glocertinternational.com/resources/guides/eu-ai-act-gpai-and-foundation-model-compliance"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "GPAI model provider obligations under the AI Act came into effect in August 2025, with the adoption of harmonised standards expected in August 2027 or later; the Code of Practice serves as an interim compliance tool during that period.",
+      "supporting_sources": [
+        "https://artificialintelligenceact.eu/introduction-to-code-of-practice"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.4,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "The European Commission released the General-Purpose AI Code of Practice on 10 July 2025 to provide operational guidance for GPAI model providers, particularly ahead of binding regulatory deadlines.",
+      "supporting_sources": [
+        "https://en.wikipedia.org/wiki/General-Purpose_AI_Code_of_Practice"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "On July 18, 2025, the European Commission published guidelines clarifying the scope of GPAI provider obligations under the AI Act, complementing the GPAI Code of Practice.",
+      "supporting_sources": [
+        "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20250724-european-commission-issues-guidelines-for-providers-of-general-purpose-ai-models"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "The GPAI Code of Practice introduces a standardized Model Documentation Form covering training data sources, intended use cases, and licensing information to meet AI Act transparency requirements.",
+      "supporting_sources": [
+        "https://www.stibbe.com/publications-and-insights/eus-gpai-code-of-practice-the-worlds-first-guidance-for-general-purpose"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "The Code of Practice, though not legally binding, allows GPAI providers to demonstrate compliance with the AI Act.",
+      "supporting_sources": [
+        "https://artificialintelligenceact.eu/introduction-to-code-of-practice"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.4,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "If an existing GPAI model is modified or fine-tuned, Article 53 obligations apply only to the modification, and Article 55 systemic-risk obligations apply only in specified cases.",
+      "supporting_sources": [
+        "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "On January 23, 2025, President Trump issued Executive Order 14179, 'Removing Barriers to American Leadership in Artificial Intelligence,' which revoked the prior administration's AI policies and directed agencies to remove barriers to US AI leadership.",
+      "supporting_sources": [
+        "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security",
+        "https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next",
+        "https://www.caidp.org/public-voice/ai-action-plan-ostp-2025",
+        "https://www.seyfarth.com/news-insights/trump-administration-releases-ai-action-plan-and-three-executive-orders-on-ai-what-employment-practitioners-need-to-know.html"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "In July 2025, the White House released 'Winning the AI Race: America's AI Action Plan,' a non-binding, voluntary policy document (not legislation) outlining more than 90 federal policy actions across three pillars: accelerating innovation, building infrastructure, and international diplomacy/security.",
+      "supporting_sources": [
+        "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security",
+        "https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "The AI Action Plan was issued pursuant to and in accordance with Executive Order 14179.",
+      "supporting_sources": [
+        "https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next",
+        "https://www.seyfarth.com/news-insights/trump-administration-releases-ai-action-plan-and-three-executive-orders-on-ai-what-employment-practitioners-need-to-know.html"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.14,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "On December 11, 2025, President Trump signed an Executive Order titled 'Ensuring a National Policy Framework for Artificial Intelligence,' aiming to establish a uniform, minimally burdensome federal AI standard and to preempt state AI laws, with limited exceptions such as child safety protections and AI infrastructure.",
+      "supporting_sources": [
+        "https://www.sidley.com/en/insights/newsupdates/2025/12/unpacking-the-december-11-2025-executive-order",
+        "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+        "https://www.maynardnexsen.com/publication-white-house-issues-executive-order-on-national-ai-policy-framework-and-preemption-of-state-ai-laws",
+        "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+        "https://www.wiley.law/alert-White-House-Issues-Executive-Order-to-Promote-National-AI-Policy-Framework-and-Challenge-Certain-State-AI-Laws",
+        "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "The December 2025 EO directs development of federal legislative recommendations to preempt the patchwork of state AI laws, except in discrete areas including child safety protections and AI compute/data center infrastructure.",
+      "supporting_sources": [
+        "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+        "https://www.maynardnexsen.com/publication-white-house-issues-executive-order-on-national-ai-policy-framework-and-preemption-of-state-ai-laws",
+        "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+        "https://www.wiley.law/alert-White-House-Issues-Executive-Order-to-Promote-National-AI-Policy-Framework-and-Challenge-Certain-State-AI-Laws"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "The December 2025 EO directs the Attorney General to establish an AI Litigation Task Force within 30 days to identify and challenge state AI laws inconsistent with the administration's 'minimally burdensome' policy.",
+      "supporting_sources": [
+        "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.07,
+        "authority": 0.15,
+        "recency": 0.5,
+        "corroboration": 1.0,
+        "undated": false
+      }
+    },
+    {
+      "claim_id": "claim_018",
+      "text": "The December 2025 EO also directs actions including launching a Federal Communications Commission-related initiative to challenge conflicting state AI laws.",
+      "supporting_sources": [
+        "https://www.wiley.law/alert-White-House-Issues-Executive-Order-to-Promote-National-AI-Policy-Framework-and-Challenge-Certain-State-AI-Laws"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.4,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_019",
+      "text": "The NIST AI Risk Management Framework (AI RMF), published January 26, 2023 by the US Commerce Department's NIST, is a voluntary, non-binding framework to help organizations identify and manage AI risks and promote trustworthy AI; it is not a binding foundation-model-specific regulation.",
+      "supporting_sources": [
+        "https://arxiv.org/html/2401.15229v1",
+        "https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps",
+        "https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf",
+        "https://cdp.cooley.com/us-expands-artificial-intelligence-guidance-with-nist-ai-risk-management-framework"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.17,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_020",
+      "text": "The NIST AI RMF is organized around four core functions: Govern, Map, Measure, and Manage.",
+      "supporting_sources": [
+        "https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps",
+        "https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.14,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_021",
+      "text": "NIST's draft document AI 800-1, 'Managing the Risk of Misuse for Dual-Use Foundation Models,' issued by NIST's AI Safety Institute, identifies voluntary risk-management practices specifically for dual-use foundation model developers, including seven objectives for managing misuse risk and transparency recommendations.",
+      "supporting_sources": [
+        "https://www.hlc.com/en/publications/nist-and-ntia-publish-key-resources-on-ai-risk-management-and-safety"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_022",
+      "text": "The October 2023 Executive Order on Safe, Secure, and Trustworthy AI (prior administration) referenced the NIST AI RMF, but this EO was revoked by EO 14179 in January 2025.",
+      "supporting_sources": [
+        "https://arxiv.org/html/2401.15229v1",
+        "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_023",
+      "text": "Unlike the EU AI Act's binding legal obligations on foundation model (GPAI) providers, current US federal AI policy (EO 14179, the AI Action Plan, NIST AI RMF, and NIST AI 800-1) consists of executive orders and voluntary guidance documents rather than enacted legislation imposing binding compliance obligations on foundation model providers.",
+      "supporting_sources": [
+        "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security",
+        "https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next",
+        "https://arxiv.org/html/2401.15229v1",
+        "https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps",
+        "https://cdp.cooley.com/us-expands-artificial-intelligence-guidance-with-nist-ai-risk-management-framework"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [],
+  "open_issues": [
+    "No source specifies the current binding US federal statute (if any) that directly regulates foundation/frontier AI model providers analogous to EU AI Act Articles 53 and 55.",
+    "The sources do not clarify the final content or legal status of federal AI legislation that the December 2025 EO calls for Congress to enact, including whether or when any such preemption law might pass.",
+    "No source details specific enforcement mechanisms, penalties, or sanctions the EU imposes for GPAI provider non-compliance, comparable detail to US enforcement actions is similarly absent.",
+    "The interaction between the December 2025 EO's state-law preemption effort and existing state AI laws (e.g., in California, Colorado) is not detailed beyond listed exceptions.",
+    "Sources do not clarify whether the GPAI Code of Practice signatories face different obligations or liability compared to non-signatories under Article 53/55.",
+    "No source provides a direct side-by-side legal comparison or formal US regulatory equivalent to the EU's systemic-risk FLOP threshold (10^25) for foundation models.",
+    "The current status (finalized vs. still draft) of NIST AI 800-1 is not confirmed by the sources.",
+    "No source indicates whether US federal agencies (e.g., FTC) have adopted any binding foundation model-specific rules as of the research date."
+  ],
+  "report": "# EU AI Act Foundation Model Requirements vs. US Federal AI Policy: A Comparative Analysis\n\n## Executive Summary\nThe EU AI Act imposes binding, legally enforceable obligations on providers of general-purpose AI (GPAI) models, including technical documentation, training-data transparency, and enhanced requirements for systemic-risk models (high confidence). By contrast, current US federal AI policy relies on executive orders, voluntary frameworks, and non-binding guidance rather than enacted legislation targeting foundation model providers directly (medium confidence). The most recent US development\u2014a December 2025 executive order\u2014seeks to preempt state AI laws in favor of a \"minimally burdensome\" federal approach, signaling a deregulatory trajectory distinct from the EU's compliance-focused regime (medium confidence).\n\n## Key Findings\n\n### EU AI Act: Binding Obligations for GPAI Providers\nUnder Article 53 of the EU AI Act, GPAI model providers must maintain technical documentation, share it with authorities and downstream providers, adopt a copyright policy, and publish a public summary of training data, using the Commission's official template; open-source models receive partial exemptions unless classified as systemic risk (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53), [Digital Strategy](https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content)). Providers of GPAI models deemed to carry systemic risk face additional duties under Article 55, including standardized model evaluation, risk mitigation, incident reporting, and cybersecurity measures, with compliance demonstrable via codes of practice or harmonised standards (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55)). One source suggests models trained above 10^25 FLOPs are presumed systemic-risk, though this claim carries low confidence and limited corroboration ([Glocert International](https://www.glocertinternational.com/resources/guides/eu-ai-act-gpai-and-foundation-model-compliance)). Modified or fine-tuned models trigger Article 53 obligations only for the modification itself, with Article 55 applying in specified circumstances (medium confidence) ([Digital Strategy FAQ](https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers)).\n\n### Implementation Timeline and Interim Guidance\nCore GPAI obligations took effect in August 2025, with harmonised standards not expected until August 2027 or later, and the Commission's GPAI Code of Practice serves as an interim compliance mechanism that, while not legally binding, allows providers to demonstrate AI Act compliance (medium confidence) ([AI Act EU](https://artificialintelligenceact.eu/introduction-to-code-of-practice)). The specific claim that the Code of Practice was released on July 10, 2025 carries only low confidence given limited corroboration (low confidence) ([Wikipedia](https://en.wikipedia.org/wiki/General-Purpose_AI_Code_of_Practice)). Supplementary Commission guidelines clarifying GPAI scope reportedly followed on July 18, 2025, though this specific date is likewise low confidence (low confidence) ([WilmerHale](https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20250724-european-commission-issues-guidelines-for-providers-of-general-purpose-ai-models)).\n\n### US Federal Approach: Executive Orders and Voluntary Frameworks\nPresident Trump's January 2025 Executive Order 14179 revoked prior administration AI policies and directed agencies to remove barriers to US AI leadership (medium confidence) ([McDermott Will & Emery](https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security)). This was followed by the non-binding \"Winning the AI Race: America's AI Action Plan\" in July 2025, outlining over 90 voluntary policy actions (medium confidence) ([Holland & Knight](https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next)). Most significantly, a December 11, 2025 executive order seeks to establish a uniform, minimally burdensome federal AI standard and preempt state AI laws except for narrow exceptions like child safety and infrastructure, and directs development of federal legislative recommendations toward that end (medium confidence) ([Sidley Austin](https://www.sidley.com/en/insights/newsupdates/2025/12/unpacking-the-december-11-2025-executive-order), [Moore & Van Allen](https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions)). Separately, a report that the order directs the Attorney General to establish an AI Litigation Task Force within 30 days to challenge inconsistent state AI laws rests on a single, lower-authority source and is treated as low confidence (low confidence) ([Cloud Security Alliance](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf)).\n\nThe NIST AI Risk Management Framework, published January 2023, remains the primary federal risk-management tool\u2014voluntary, organized around Govern/Map/Measure/Manage functions, but not foundation-model-specific regulation (low confidence) ([arXiv](https://arxiv.org/html/2401.15229v1), [Collibra](https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps)). NIST's draft AI 800-1 addresses dual-use foundation models specifically but remains voluntary guidance (low confidence) ([HLC](https://www.hlc.com/en/publications/nist-and-ntia-publish-key-resources-on-ai-risk-management-and-safety)).\n\n### Core Distinction\nUnlike the EU's binding legal obligations, US federal policy consists of executive orders and voluntary guidance without enacted legislation imposing compliance duties on foundation model providers (medium confidence) ([McDermott](https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security), [Holland & Knight](https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next)).\n\n## Contradictions & Uncertainties\nNo direct contradictions were identified between sources. However, several claims carry low confidence (below 0.4) and warrant caution: the 10^25 FLOP systemic-risk threshold, the Code of Practice's exact release date, the Commission's July 18 guidelines date, the AI Litigation Task Force detail, and NIST AI 800-1 specifics.\n\n## Knowledge Gaps\nNo source identifies a binding US federal statute directly regulating foundation models comparable to EU Articles 53/55. The eventual content and passage likelihood of federal preemption legislation called for by the December 2025 EO remains unclear. Specific EU enforcement penalties for non-compliance are not detailed, nor are comparable US enforcement mechanisms. The interaction between federal preemption efforts and existing state laws (e.g., California, Colorado) beyond stated exceptions is unaddressed, as is NIST AI 800-1's finalization status.\n\n## Sources\n1. [Article 53: AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53)\n2. [Article 55: AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55)\n3. [GPAI Template - Digital Strategy](https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content)\n4. [GPAI Q&A - Digital Strategy](https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers)\n5. [Code of Practice Introduction - AI Act EU](https://artificialintelligenceact.eu/introduction-to-code-of-practice)\n6. [General-Purpose AI Code of Practice - Wikipedia](https://en.wikipedia.org/wiki/General-Purpose_AI_Code_of_Practice)\n7. [WilmerHale Guidelines Analysis](https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20250724-european-commission-issues-guidelines-for-providers-of-general-purpose-ai-models)\n8. [Stibbe GPAI Code Analysis](https://www.stibbe.com/publications-and-insights/eus-gpai-code-of-practice-the-worlds-first-guidance-for-general-purpose)\n9. [Glocert International GPAI Compliance Guide](https://www.glocertinternational.com/resources/guides/eu-ai-act-gpai-and-foundation-model-compliance)\n10. [McDermott Will & Emery EO Analysis](https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security)\n11. [Holland & Knight AI Action Plan Analysis](https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next) (2025-07-01)\n12. [CAIDP AI Action Plan](https://www.caidp.org/public-voice/ai-action-plan-ostp-2025)\n13. [Seyfarth Shaw AI Action Plan Analysis](https://www.seyfarth.com/news-insights/trump-administration-releases-ai-action-plan-and-three-executive-orders-on-ai-what-employment-practitioners-need-to-know.html)\n14. [Sidley Austin December EO Analysis](https://www.sidley.com/en/insights/newsupdates/2025/12/unpacking-the-december-11-2025-executive-order) (2025-12-01)\n15. [Moore & Van Allen State AI Regulation](https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions)\n16. [Maynard Nexsen EO Analysis](https://www.maynardnexsen.com/publication-white-house-issues-executive-order-on-national-ai-policy-framework-and-preemption-of-state-ai-laws)\n17. [Latham & Watkins EO Analysis](https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards)\n18. [Wiley EO Alert](https://www.wiley.law/alert-White-House-Issues-Executive-Order-to-Promote-National-AI-Policy-Framework-and-Challenge-Certain-State-AI-Laws)\n19. [Cloud Security Alliance Research Note](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf) (2026-04-01)\n20. [NIST AI RMF Maturity Model - arXiv](https://arxiv.org/html/2401.15229v1)\n21. [HLC NIST/NTIA Resources](https://www.hlc.com/en/publications/nist-and-ntia-publish-key-resources-on-ai-risk-management-and-safety)\n22. [Collibra NIST AI RMF Guide](https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps)\n23. [Cooley NIST AI RMF Analysis](https://cdp.cooley.com/us-expands-artificial-intelligence-guidance-with-nist-ai-risk-management-framework)\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": "In the executive summary, change '(high confidence)' to '(medium confidence)' for the sentence describing EU AI Act binding obligations on GPAI providers, so it matches the medium-confidence rating (0.68) given to claim_001/claim_003 and the consistent labeling used elsewhere in the report's Key Findings section. Review the entire report for any other instances where confidence labels in the executive summary or body diverge from the scores in the extracted claims, and ensure uniform confidence terminology throughout (high/medium/low) tied directly to the underlying claim confidence scores.",
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "All factual statements in the body are followed by markdown link citations, and confidence levels are consistently annotated alongside citations. No uncited claims were found."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "All facts, dates, and figures (e.g., Article 53/55 obligations, EO 14179 on Jan 2025, AI Action Plan with '90 voluntary policy actions', Dec 11 2025 EO, NIST AI RMF Govern/Map/Measure/Manage, AI 800-1) trace back to corresponding extracted claims with no invented numbers or dates detected."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report correctly states 'No direct contradictions were identified between sources,' consistent with the ground truth 'Known Contradictions: None detected.' Low-confidence claims are flagged appropriately in the Contradictions & Uncertainties section."
+    },
+    "confidence_assessment": {
+      "passed": false,
+      "notes": "The executive summary states: 'The EU AI Act imposes binding, legally enforceable obligations on providers of general-purpose AI (GPAI) models, including technical documentation, training-data transparency, and enhanced requirements for systemic-risk models (high confidence).' However, the underlying claims (claim_001, claim_003) are rated only 'medium confidence' (0.68) in the ground truth, and the report's own Key Findings section correctly labels these same facts as '(medium confidence)'. This is an internal inconsistency\u2014the executive summary inflates the confidence level beyond what the extracted claims and the report's own body support."
+    },
+    "executive_summary_accuracy": {
+      "passed": false,
+      "notes": "Aside from the confidence-level inflation noted above ('high confidence' in the summary vs. 'medium confidence' used for the identical claims in the body), the executive summary's substantive content (binding EU obligations, US reliance on EOs/voluntary frameworks, Dec 2025 EO trajectory) accurately reflects the body findings. The confidence mismatch undermines the summary's accuracy as a faithful representation of the body's evidentiary weight."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The Knowledge Gaps section closely mirrors the ground truth's Open Issues (absence of binding US federal statute, uncertain fate of preemption legislation, missing enforcement penalty details, unclear state-law interaction, NIST 800-1 finalization status), with no material omissions."
+    }
+  },
+  "review_status": "not_approved",
+  "approved": false,
+  "review_count": 2,
+  "error": null,
+  "researcher": "tools",
+  "tool_research": {
+    "searches": 6,
+    "turns": 4,
+    "ended_by": "finish_research",
+    "told_to_continue": false,
+    "calls": [
+      {
+        "turn": 1,
+        "tool": "search_official",
+        "query": "EU AI Act general-purpose AI model obligations Article 53",
+        "urls": [
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+          "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+          "https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"
+        ],
+        "result": "5 new sources. 5 sources so far, 1 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 1,
+        "tool": "search_web",
+        "query": "EU AI Act foundation model providers requirements GPAI code of practice",
+        "urls": [
+          "https://artificialintelligenceact.eu/introduction-to-code-of-practice",
+          "https://en.wikipedia.org/wiki/General-Purpose_AI_Code_of_Practice",
+          "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20250724-european-commission-issues-guidelines-for-providers-of-general-purpose-ai-models",
+          "https://www.stibbe.com/publications-and-insights/eus-gpai-code-of-practice-the-worlds-first-guidance-for-general-purpose",
+          "https://www.glocertinternational.com/resources/guides/eu-ai-act-gpai-and-foundation-model-compliance"
+        ],
+        "result": "5 new sources. 10 sources so far, 2 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "US federal AI policy 2025 executive order Trump AI Action Plan",
+        "urls": [
+          "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security",
+          "https://www.hklaw.com/en/insights/publications/2025/07/americas-ai-action-plan-whats-in-whats-out-whats-next",
+          "https://www.caidp.org/public-voice/ai-action-plan-ostp-2025",
+          "https://www.seyfarth.com/news-insights/trump-administration-releases-ai-action-plan-and-three-executive-orders-on-ai-what-employment-practitioners-need-to-know.html",
+          "https://www.sidley.com/en/insights/newsupdates/2025/12/unpacking-the-december-11-2025-executive-order"
+        ],
+        "result": "5 new sources. 15 sources so far, 3 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_official",
+        "query": "systemic risk general-purpose AI model Article 55 obligations",
+        "urls": [
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-114",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-82",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16"
+        ],
+        "result": "4 new sources. 19 sources so far, 4 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_web",
+        "query": "Ensuring a National Policy Framework for Artificial Intelligence executive order December 2025 state law preemption",
+        "urls": [
+          "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+          "https://www.maynardnexsen.com/publication-white-house-issues-executive-order-on-national-ai-policy-framework-and-preemption-of-state-ai-laws",
+          "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+          "https://www.wiley.law/alert-White-House-Issues-Executive-Order-to-Promote-National-AI-Policy-Framework-and-Challenge-Certain-State-AI-Laws",
+          "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf"
+        ],
+        "result": "5 new sources. 24 sources so far, 5 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_web",
+        "query": "NIST AI Risk Management Framework voluntary foundation model safety",
+        "urls": [
+          "https://arxiv.org/html/2401.15229v1",
+          "https://www.hlc.com/en/publications/nist-and-ntia-publish-key-resources-on-ai-risk-management-and-safety",
+          "https://www.collibra.com/blog/the-ai-risk-management-framework-nist-ai-rmf-for-models-and-agents-with-implementation-steps",
+          "https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf",
+          "https://cdp.cooley.com/us-expands-artificial-intelligence-guidance-with-nist-ai-risk-management-framework"
+        ],
+        "result": "5 new sources. 29 sources so far, 6 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 4,
+        "tool": "finish_research",
+        "reason": "Collected primary EU AI Act sources (Articles 53/55, GPAI Code of Practice) and multiple analyses on US federal AI policy (2025 AI Action Plan, executive orders, Dec 2025 preemption EO, NIST AI RMF voluntary framework). This provides enough material to compare binding EU obligations vs. largely voluntary/deregulatory US federal approach.",
+        "result": "Research finished.",
+        "is_error": false
+      }
+    ]
+  },
+  "searches": 6,
+  "official_sources": 9,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 179.2,
+  "research_seconds": 25.5,
+  "llm_calls": 9,
+  "input_tokens": 69851,
+  "output_tokens": 19282,
+  "cost_usd": 0.3325,
+  "research_cost_usd": 0.029,
+  "mentions_current_annex_iii_date": false,
+  "timestamp": "2026-10-28T12:50:30",
+  "question_id": "q2",
+  "run": 1
+}

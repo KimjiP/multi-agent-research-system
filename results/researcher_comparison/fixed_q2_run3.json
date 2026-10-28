@@ -1,0 +1,684 @@
+{
+  "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+  "search_queries": [
+    "EU AI Act Article 53 general-purpose AI model provider obligations text",
+    "US federal AI policy framework 2026 executive order compliance requirements",
+    "comparison EU AI Act foundation model regulation versus US AI governance approach"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+      "title": "Article 53: Obligations for providers of general-purpose AI models | AI Act Service Desk",
+      "snippet": "Summary \n\nThe article details the obligations of providers of general-purpose AI models. Providers must maintain technical documentation and make it available to authorities and providers of AI systems who intend to integrate the general-purpose AI model into their AI systems. They must also put in place a copyright policy and provide a public summary of training data. Open-source general-purpose AI models are exempt from some documentation requirements, unless they are classified as general-pur",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+      "title": "General-Purpose AI Models in the AI Act \u2013 Questions & Answers | Shaping Europe\u2019s digital future",
+      "snippet": "The Commission provides further clarification in section 3 of its Guidelines on the scope of the obligations for general-purpose AI models.\n\nWhat are the obligations for providers of general-purpose AI models? \n\nProviders of general-purpose AI models must document technical information about their models for the purpose of providing that information upon request to the AI Office and national competent authorities (Article 53(1)(a) AI Act) and making it available to downstream providers (Article ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer",
+      "title": "AI Act Explorer | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-101",
+      "title": "Article 101: Fines for providers of general-purpose AI models | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+      "snippet": "Section 1: Classification Rules\n\n Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk\n Article 52: Procedure\n\nSection 2: Obligations for Providers of General-Purpose AI Models\n\n Article 53: Obligations for providers of general-purpose AI models\n Article 54: Authorised representatives of providers of general-purpose AI models\n\nSection 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk\n\n Article 55: Obligations of provide",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf",
+      "title": "The Near-term Future of the Transatlantic Relationship",
+      "snippet": "safety concerns. This amendment was removed by the Senate and was not included in the final passage. The key move on AI in late 2025 was President Trump's executive order \"Ensuring a National Policy Framework for Artificial Intelligence,\" which sets a federal policy to create a single, minimally burdensome national AI framework and to pre-empt conflicting state AI laws where possible. The EO directs preparation of a legislative proposal to Congress for a uniform federal AI framework that would o",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.eca.europa.eu/ECAPublications/JOURNAL-2026-01/JOURNAL-2026-01_EN.pdf",
+      "title": "N\u00ba 01/2026 - European Court of Auditors",
+      "snippet": "on prohibited practices. Microsoft has publicly explained that we are updating our contracts, internal policies and product governance processes to align with these requirements. In the United States, by contrast, there is currently no directly comparable single, economy-wide federal AI law with the same horizontal structure, so the compliance environment is less uniform and more sector- or state-specific. So, if one compares a Microsoft AI tool offered in both markets, the core model or service",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/it/apply-ai-alliance/community-content/united-states-age-ai-superpower-world-it-gave-away",
+      "title": "The United States in the Age of AI: A Superpower in a world it gave away | Futurium",
+      "snippet": "The United States must also move beyond executive orders and enact durable, bipartisan AI legislation. Without congressional authority, the nation cannot establish stable guardrails, empower agencies with enforcement mechanisms, or provide the predictability that industry and allies require. Legislation is the only way to transform rapid innovation into long\u2011term governance. Policymakers must rebuild trust with allies by committing to consistent standards and transparent coordination. The U.S. c",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+      "title": "Law & Compliance in AI Security & Data Protection",
+      "snippet": "rights, health, and safety stemming from the use of AI.10 Within the sandbox, all legal requirements remain applicable. Organizations are expected to comply not only with the AI Act\u2019s requirements, but with the GDPR and any sector-specific legislation that covers their AI system or model. Competent authorities still retain their supervisory and corrective powers. However, they are expected to use their discretionary powers in a way that supports innovation.11 Furthermore, the authorities involve",
+      "source_type": "eu_guidance",
+      "published_date": "2025-06-01",
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026SC0502",
+      "title": "Impact Assessment - EUR-Lex - European Union",
+      "snippet": "The Executive Order on promoting the export of the American AI Technology Stack establishes federal support for full-stack AI export packages bundling AI-",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf",
+      "title": "Interplay between the AI Act and the EU digital legislative ...",
+      "snippet": "approaches in the US and China The AI Act represents the EU\u2019s adaptive, rights-based legislative response to AI, built to align with European values while remaining interoperable with global frameworks. The Act has been deliberately framed as adaptive legislation, leaving scope for future adjustment as technology evolves. This positioning becomes clearer when contrasted with the US and Chinese regulatory models. The US and China are presently engaged in vigorous technological, economic and regul",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/698792/EPRS_BRI(2021)698792_EN.pdf",
+      "title": "Artificial intelligence act - European Parliament",
+      "snippet": "of the regulation of GPAI in the AI act, 2024. See also, P. Chavez, An AI challenge: Balancing open and closed systems, 2023. 25 See A. Engler, The EU and U.S. diverge on AI regulation: A transatlantic comparison and steps to alignment, 2023. DISCLAIMER AND COPYRIGHT This document is prepared for, and addressed to, the Members and staff of the European Parliament as background material to assist them in their parliamentary work. The content of the document is the sole responsibility of its autho",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/de/apply-ai-alliance/community-content/practical-organizational-framework-ai-accountability",
+      "title": "A Practical Organizational Framework for AI Accountability | Futurium",
+      "snippet": "Some work has been initiated on the regulatory side. The proposed EU AI Act  sets clear requirements where deemed needed and guides risk assessments throughout a system\u2019s life cycle, also calling for the definition of accountabilities. Similarly, the US Blueprint for an AI Bill of Rights sets out broad principles to adhere to in the development, use, and deployment of AI, however not enforceable . These initiatives reflect increasing efforts to clearly guide responsible AI behavior and clarify r",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://www.eeas.europa.eu/delegations/united-states-america/brussels-bay-eu-ai-act_en",
+      "title": "Brussels to the Bay: The EU AI Act | EEAS",
+      "snippet": "The EU AI Act is the democratic world\u2019s first and most comprehensive legal framework on AI, promoting safety and fundamental rights of citizens whilst supporting innovation. It addresses the key issues that are at the heart of the current AI debate, such as transparency of AI models and accountability of developers, rules for safety of foundation models, definitions of high risk applications and prohibited applications, implementation and enforcement of the rules. [...] EEAS delegation \n\nDelegat",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e528636b79&appId=PPGMS",
+      "title": "VFEyQTQ4M3ptUWZEZTlVYmhDZFR0VkZzalE4djFVZXM=",
+      "snippet": "The centrepiece of the EU\u2019s strategy is the Artificial Intelligence Act (AI Act) , the world\u2019s first comprehensive horizontal legal framework for AI. The Act moves beyond broad ethical statements by adopting a strict risk-based approach, categorising AI systems based on the level of peril they pose to society. This regulatory logic ensures that the intensity of legal oversight is directly proportionate to the potential for harm to fundamental rights and safety. The underlying philosophy of the A",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://www.euaiact.com/article/53",
+      "title": "EU AI Act Article 53: Obligations for Providers",
+      "snippet": "Independent EU AI Act information resourceLegal text verified against EUR-Lex\n\nEU AI Act\nMenu\nCheck readiness\n\nArticle 53\n\n# Obligations for Providers of General-Purpose AI Models\n\nRegulation (EU) 2024/1689\n\n1.\n\nProviders of general-purpose AI models shall:\n\n(a)\n\ndraw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in Annex XI for the purpose o",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://casrai.org/dictionary/term/eu-ai-act-article-53-general-purpose-ai-model-obligations",
+      "title": "EU AI Act Article 53: The 4 GPAI Obligations \u2014 CASRAI",
+      "snippet": "{ \"@context\": \" \"@type\": \"DefinedTerm\", \"@id\": \" \"name\": \"EU AI Act Article 53 (General-Purpose AI Model Obligations)\", \"identifier\": \" \"description\": \"Article 53 of the EU AI Act (Regulation (EU) 2024/1689) sets the baseline obligations that apply to every provider of a general-purpose AI (GPAI) model placed on the EU market -- a model trained on large amounts of data using self-supervision at scale, showing significant generality, and capable of competently performing a wide range of distinct ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/article/53",
+      "title": "Article 53: Obligations for Providers of General-Purpose AI Models | EU Artificial Intelligence Act",
+      "snippet": "1. Providers of general-purpose AI models shall:\n\n(a) draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in Annex XI for the purpose of providing it, upon request, to the AI OfficeAI Officemeans the Commission\u2019s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI gover",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://www.cms-digitallaws.com/en/ai-act/article-53",
+      "title": "Article 53 - Obligations for providers of general-purpose AI models - CMS DigitalLaws",
+      "snippet": "1. Providers of general-purpose AI models shall:\n   1. draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in Annex XI for the purpose of providing it, upon request, to the AI Office and the national competent authorities;\n   2. draw up, keep up-to-date and make available information and documentation to providers of AI systems who intend to i",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act Article 53 general-purpose AI model provider obligations text"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf",
+      "title": "Federal AI Preemption: Enterprise Compliance and Security",
+      "snippet": "The March 20, 2026 National Policy Framework translates the executive order's intent into a formal legislative roadmap for Congress. The document is not regulation and carries no enforcement authority, but it signals where the administration intends to push federal law and identifies which categories of state regulation it considers most problematic. On the same day, Democratic legislators introduced the GUARDRAILS Act \u2014 formally the Guaranteeing and Upholding Americans' Right to Decide Responsi",
+      "source_type": "news_blog",
+      "published_date": "2026-04-01",
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize",
+      "title": "AI regulatory compliance in 2026: EU AI Act, US orders, and state laws, and how to operationalize them | Collibra",
+      "snippet": "The pivot point was a December 2025 executive order directing federal agencies toward a uniform national policy and tasking them with challenging state AI laws seen as inconsistent with it. That order set in motion a Department of Justice litigation effort to contest certain state laws, a Commerce Department evaluation of which state laws are burdensome, and an FTC policy position on how existing consumer-protection law applies to AI. It also signaled that federal funding could be conditioned on",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States",
+      "title": "Regulation of artificial intelligence in the United States - Wikipedia",
+      "snippet": "In June 2026, Trump issued Executive Order 14409, \"Promoting Advanced Artificial Intelligence Innovation and Security\", directing agencies to strengthen federal cybersecurity, expand the use of AI-enabled defensive tools, establish a voluntary framework for secure deployment of frontier AI models, and prioritize enforcement against AI-enabled cybercrime. The framework for secure deployment outlined by the order includes the establishment of a \"covered frontier model\" designation, to be applied b",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.softwareimprovementgroup.com/blog/us-ai-legislation-overview",
+      "title": "AI legislation in the US: A 2026 overview",
+      "snippet": "On March 20, 2026, the White House released a National Policy Framework for Artificial Intelligence, urging Congress to replace the state-law patchwork with a uniform federal approach. The framework is non-binding and creates no immediate compliance obligations. State AI laws remain operative unless and until Congress actually legislates.\n\nFor organizations, the practical implication is straightforward: existing state laws must be complied with now. The federal preemption debate is worth monitor",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.congress.gov/crs_external_products/IF/HTML/IF13268.html",
+      "title": "Controlling Advanced Artificial Intelligence",
+      "snippet": "July 9, 2026 (IF13268) \n\nOn June 2, 2026, President Donald Trump signed Executive Order 14409 (E.O. 14409), _Promoting Advanced Artificial Intelligence Innovation and Security_. The E.O. directs agencies to harden federal government infrastructure against artificial intelligence (AI)-enabled risks and work with the private sector to strengthen AI security. It is the latest in a series of E.O.s addressing AI and cybersecurity. E.O. 14409 frames AI as both a strategic asset and an emerging attack ",
+      "source_type": "national_authority",
+      "published_date": null,
+      "search_query": "US federal AI policy framework 2026 executive order compliance requirements"
+    },
+    {
+      "url": "https://www.3cl.org/the-eu-ai-act-and-usa-ai-gov-action-plan-a-legal-comparison",
+      "title": "The EU AI Act and USA AI.gov Action Plan: A Legal Comparison - 3CL Foundation",
+      "snippet": "# The EU AI Act and USA AI.gov Action Plan: A Legal Comparison\n\nDigital Sovereignty and Trustworthy Systems\n\n\n\nArtificial Intelligence (AI) governance is developing along two main paths. The U.S. AI.gov Action Plan and the EU AI Act take very different approaches. The U.S. focuses on innovation, market forces, private sector leadership, and national security, relying on current laws and executive guidance instead of detailed bans. The EU uses strict, binding rules that prioritise fundamental rig",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://dcnglobal.net/posts/blog/us-vs-eu-ai-plans-a-comparative-analysis-of-the-us-and-european-approaches",
+      "title": "US vs EU AI Plans - A Comparative Analysis of the US and European Approaches",
+      "snippet": "A significant difference lies in the regulatory stability and political influence on AI policy. The US approach is characterized by reactive deregulation, as evidenced by the explicit mention of \"rescinding Biden Executive Order 14110\" and reviewing \"FTC investigations commenced under the previous administration\".This suggests that AI policy can be significantly altered with changes in political administration, potentially leading to instability and uncertainty for businesses. In contrast, the E",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://arxiv.org/html/2410.21279v1",
+      "title": "Comparative Global AI Regulation: Policy Perspectives from the EU, China, and the US",
+      "snippet": "Enforcement is another major area of difference between the EU and the US. The EU AI Acts\u2019 risk model is premised upon prevention. General guidelines, specific penalties, and centralized regulation prohibit activities unless explicitly permitted. In contrast, the current US risk model is permissive. It promotes innovation through competition, encourages decentralized self-regulation, and relies upon an extensive network of existing laws and regulations against abusive, illegal, and negligent pra",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://www.brookings.edu/articles/the-eu-and-us-diverge-on-ai-regulation-a-transatlantic-comparison-and-steps-to-alignment",
+      "title": "The EU and U.S. diverge on AI regulation: A transatlantic comparison and steps to alignment | Brookings",
+      "snippet": "Especially impactful in this landscape are the EU and the U.S., which are both currently implementing foundational policies that will set precedents for the future of AI risk management within their territories and globally. The governance approaches of the EU and U.S. touch on a wide range of AI applications with international implications, including more sophisticated AI in consumer products; a proliferation of AI in regulated socioeconomic decisions; an expansion of AI in a wide variety of on",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    },
+    {
+      "url": "https://www.multistate.us/insider/2023/8/24/regulating-artificial-intelligence-comparing-eu-and-us-frameworks",
+      "title": "Regulating Artificial Intelligence: Comparing EU and U.S. Frameworks | MultiState",
+      "snippet": "The EU AI Act and the U.S. SAFE Innovation Framework share a common focus on prioritizing human safety, ensuring transparency, and addressing bias and discrimination in artificial intelligence systems.\n While both frameworks aim to regulate AI, the EU has taken a legislative approach, categorizing AI systems and implementing specific reporting and oversight requirements, whereas the US framework is currently a suggested framework and emphasizes a bipartisan approach. The EU AI Act places greater",
+      "source_type": "news_blog",
+      "published_date": "2023-08-24",
+      "search_query": "comparison EU AI Act foundation model regulation versus US AI governance approach"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "Providers of general-purpose AI models under the EU AI Act must draw up and maintain technical documentation, including training/testing processes and evaluation results, and provide it to the AI Office and national competent authorities upon request.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+        "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+        "https://www.euaiact.com/article/53",
+        "https://artificialintelligenceact.eu/article/53",
+        "https://www.cms-digitallaws.com/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "Providers of general-purpose AI models must make certain information and documentation available to downstream providers who intend to integrate the model into their own AI systems.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+        "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+        "https://artificialintelligenceact.eu/article/53",
+        "https://www.cms-digitallaws.com/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "Providers of general-purpose AI models must put in place a copyright policy and publish a sufficiently detailed public summary of the content used for training.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "Open-source general-purpose AI models are exempt from some documentation requirements under Article 53, unless classified as general-purpose AI models with systemic risk.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "General-purpose AI models can be classified as having 'systemic risk' under Article 51, triggering additional obligations under Article 55 beyond the baseline Article 53 obligations.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "Article 101 of the AI Act establishes a framework of fines applicable to providers of general-purpose AI models.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-101"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "The EU AI Act is described as the world's first comprehensive horizontal legal framework for AI, regulating AI systems via a risk-based approach including specific rules for foundation models.",
+      "supporting_sources": [
+        "https://www.eeas.europa.eu/delegations/united-states-america/brussels-bay-eu-ai-act_en",
+        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e528636b79&appId=PPGMS"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "In the United States, there is currently no directly comparable single, economy-wide federal AI law with a horizontal structure comparable to the EU AI Act; the US compliance environment is described as more sector- or state-specific.",
+      "supporting_sources": [
+        "https://www.eca.europa.eu/ECAPublications/JOURNAL-2026-01/JOURNAL-2026-01_EN.pdf"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "In late 2025, President Trump issued an executive order, 'Ensuring a National Policy Framework for Artificial Intelligence,' directing creation of a single, minimally burdensome national AI framework and seeking to pre-empt conflicting state AI laws.",
+      "supporting_sources": [
+        "https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "The executive order directed preparation of a legislative proposal to Congress for a uniform federal AI framework.",
+      "supporting_sources": [
+        "https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "On March 20, 2026, the White House released a National Policy Framework for Artificial Intelligence urging Congress to replace the state-law patchwork with a uniform federal approach; the framework is non-binding and creates no immediate compliance obligations, and existing state AI laws remain operative unless Congress legislates.",
+      "supporting_sources": [
+        "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf",
+        "https://www.softwareimprovementgroup.com/blog/us-ai-legislation-overview"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.14,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "The March 2026 National Policy Framework set in motion a DOJ litigation effort to contest certain state AI laws, a Commerce Department evaluation of burdensome state laws, and an FTC policy position on applying consumer-protection law to AI, and signaled possible conditioning of federal funding.",
+      "supporting_sources": [
+        "https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "On the same day the National Policy Framework was released (per source 20), Democratic legislators introduced the GUARDRAILS Act as a competing legislative proposal.",
+      "supporting_sources": [
+        "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.07,
+        "authority": 0.15,
+        "recency": 0.5,
+        "corroboration": 1.0,
+        "undated": false
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "On June 2, 2026, President Trump signed Executive Order 14409, 'Promoting Advanced Artificial Intelligence Innovation and Security,' directing agencies to harden federal infrastructure against AI risks and establishing a voluntary framework for secure deployment of frontier AI models, including a 'covered frontier model' designation.",
+      "supporting_sources": [
+        "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States",
+        "https://www.congress.gov/crs_external_products/IF/HTML/IF13268.html"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.67,
+        "authority": 0.7,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "EO 14409's voluntary frontier model security framework contrasts with the EU AI Act's mandatory, binding obligations for general-purpose AI model providers.",
+      "supporting_sources": [
+        "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States",
+        "https://www.eca.europa.eu/ECAPublications/JOURNAL-2026-01/JOURNAL-2026-01_EN.pdf",
+        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e528636b79&appId=PPGMS"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "The US previously relied on non-binding frameworks such as the Blueprint for an AI Bill of Rights, which set out broad principles but were not enforceable, unlike the EU AI Act's binding requirements.",
+      "supporting_sources": [
+        "https://futurium.ec.europa.eu/de/apply-ai-alliance/community-content/practical-organizational-framework-ai-accountability"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "The US approach to AI governance has been characterized as permissive and focused on innovation, decentralized self-regulation, and reliance on existing laws, in contrast to the EU's prevention-based, prohibition-unless-permitted risk model with centralized regulation and specific penalties.",
+      "supporting_sources": [
+        "https://arxiv.org/html/2410.21279v1"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_018",
+      "text": "US AI policy has been characterized as subject to reactive deregulation and instability across administrations, exemplified by rescission of Biden Executive Order 14110, contrasting with the EU's more stable legislative approach.",
+      "supporting_sources": [
+        "https://dcnglobal.net/posts/blog/us-vs-eu-ai-plans-a-comparative-analysis-of-the-us-and-european-approaches"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_019",
+      "text": "The EU AI Act is framed as adaptive, rights-based legislation intended to remain interoperable with global frameworks, in contrast to current US and Chinese regulatory models.",
+      "supporting_sources": [
+        "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_020",
+      "text": "The US AI.gov Action Plan emphasizes innovation, market forces, private sector leadership, and national security, relying on existing laws and executive guidance rather than detailed bans, in contrast to the EU AI Act's strict, binding rules prioritizing fundamental rights.",
+      "supporting_sources": [
+        "https://www.3cl.org/the-eu-ai-act-and-usa-ai-gov-action-plan-a-legal-comparison"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_021",
+      "text": "As of 2023, the EU AI Act had taken a legislative, categorization-based approach with specific reporting and oversight requirements, while the US SAFE Innovation Framework was a non-binding suggested framework emphasizing bipartisanship.",
+      "supporting_sources": [
+        "https://www.multistate.us/insider/2023/8/24/regulating-artificial-intelligence-comparing-eu-and-us-frameworks"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.03,
+        "authority": 0.15,
+        "recency": 0.2,
+        "corroboration": 1.0,
+        "undated": false
+      }
+    },
+    {
+      "claim_id": "claim_022",
+      "text": "The US has not yet enacted durable, bipartisan federal AI legislation; commentary argues the US must move beyond executive orders to establish stable guardrails and enforcement mechanisms.",
+      "supporting_sources": [
+        "https://futurium.ec.europa.eu/it/apply-ai-alliance/community-content/united-states-age-ai-superpower-world-it-gave-away"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_023",
+      "text": "The EU AI Act addresses foundation model safety rules, transparency, accountability of developers, high-risk application definitions, prohibited applications, and implementation/enforcement mechanisms as part of a comprehensive framework.",
+      "supporting_sources": [
+        "https://www.eeas.europa.eu/delegations/united-states-america/brussels-bay-eu-ai-act_en"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "claim_a": "The key US federal AI policy move in late 2025 was an executive order titled 'Ensuring a National Policy Framework for Artificial Intelligence.'",
+      "claim_b": "The pivotal US federal AI policy document was a National Policy Framework released on March 20, 2026, following a December 2025 executive order.",
+      "source_a": "https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf",
+      "source_b": "https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize",
+      "description": "Source 6 and source 21 describe related but differently dated/named instruments (a late-2025 EO vs. a December 2025 EO followed by a March 2026 Framework document), creating ambiguity about the exact timeline and naming of the key US federal policy pivot."
+    },
+    {
+      "claim_a": "Source 20 states the National Policy Framework was released March 20, 2026, as a legislative roadmap following an earlier executive order.",
+      "claim_b": "Source 23 also dates the National Policy Framework to March 20, 2026, but frames it strictly as non-binding guidance for Congress with no mention of a prior December 2025 EO as framed in source 21.",
+      "source_a": "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf",
+      "source_b": "https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize",
+      "description": "Sources differ on whether the originating executive order was issued in 'late 2025' (source 6) or specifically December 2025 (source 21), and on the precise sequence of EO-to-Framework events."
+    }
+  ],
+  "open_issues": [
+    "How enforcement of EU AI Act Article 53 obligations (fines under Article 101) will be applied in practice to major foundation model providers, and whether any enforcement actions have yet occurred.",
+    "Whether the US legislative proposal directed by the late-2025/December-2025 executive order has been introduced in or passed by Congress, and what specific foundation-model-related obligations it would contain.",
+    "The ultimate fate and content of the GUARDRAILS Act and whether it will be reconciled with the administration's National Policy Framework.",
+    "How EO 14409's voluntary 'covered frontier model' designation and security framework will interact with state-level AI laws and whether it will evolve into binding regulation.",
+    "Whether the US will adopt a single, economy-wide, horizontally binding AI law comparable in scope to the EU AI Act, or continue with sector-specific/state-specific regulation.",
+    "How litigation by the DOJ against state AI laws will resolve, and its effect on the US regulatory patchwork relative to the EU's unified framework.",
+    "The precise legal status and date of the originating executive order referenced inconsistently across sources (late 2025 vs. December 2025)."
+  ],
+  "report": "# EU AI Act Foundation Model Requirements vs. US Federal AI Policy: A Comparative Report\n\n## Executive Summary\nThe EU AI Act imposes binding, detailed obligations on providers of general-purpose AI models, backed by fines, while the United States continues to lack a comparable horizontal federal statute, relying instead on a shifting mix of executive orders, voluntary frameworks, and proposed legislation. This divergence reflects a broader pattern: the EU's prevention-based, rights-centered regulatory model contrasts with the US's innovation-focused, largely non-binding approach, though recent 2025\u20132026 US executive actions signal movement toward a more centralized (if still non-binding) federal posture.\n\n## Key Findings\n\n### EU AI Act Obligations for Foundation Model Providers\nProviders of general-purpose AI models under the EU AI Act must create and maintain technical documentation\u2014covering training/testing processes and evaluation results\u2014and make it available to the AI Office and national authorities on request (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53), [EU AI Act](https://www.euaiact.com/article/53)). They must also share specified information with downstream providers integrating the model into their own systems (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53)). Additional obligations include maintaining a copyright policy and publishing a detailed public summary of training content (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53)). Open-source models receive partial exemptions from these documentation duties unless classified as posing \"systemic risk\" (medium confidence), a classification under Article 51 that triggers added obligations under Article 55 (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53), [AI Act Explorer](https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer)). Non-compliance can trigger fines under Article 101 (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-101)). The Act is widely characterized as the world's first comprehensive, horizontal legal framework for AI, combining risk-based categorization with specific foundation model rules (high confidence) ([EEAS](https://www.eeas.europa.eu/delegations/united-states-america/brussels-bay-eu-ai-act_en)).\n\n### US Federal Approach: Absence of a Comparable Law\nThe US currently has no single, economy-wide federal AI law structurally comparable to the EU AI Act; its compliance landscape is described as sector- and state-specific (medium confidence) ([European Court of Auditors](https://www.eca.europa.eu/ECAPublications/JOURNAL-2026-01/JOURNAL-2026-01_EN.pdf)). Earlier US efforts, such as the Blueprint for an AI Bill of Rights, offered non-binding principles rather than enforceable rules (medium confidence) ([Futurium](https://futurium.ec.europa.eu/de/apply-ai-alliance/community-content/practical-organizational-framework-ai-accountability)).\n\n### Recent US Executive Actions (2025\u20132026)\nIn late 2025, an executive order, \"Ensuring a National Policy Framework for Artificial Intelligence,\" directed creation of a unified, minimally burdensome federal approach and sought to preempt conflicting state AI laws (medium confidence), including directing a legislative proposal to Congress (medium confidence) ([European Parliament](https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf)). A related White House National Policy Framework reportedly released in March 2026 urged Congress to replace the state patchwork with a uniform approach, though it remains non-binding with no immediate compliance obligations (low confidence) ([Cloud Security Alliance](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf)). This framework reportedly spurred a DOJ litigation effort against state AI laws, a Commerce Department review, and FTC consumer-protection activity (low confidence) ([Collibra](https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize)). Separately, on June 2, 2026, Executive Order 14409 established a voluntary framework for securing \"covered frontier models\" and hardening federal infrastructure (medium confidence) ([Wikipedia](https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States), [Congress.gov](https://www.congress.gov/crs_external_products/IF/HTML/IF13268.html)). This voluntary structure stands in clear contrast to the EU's mandatory, binding GPAI requirements (high confidence) ([Wikipedia](https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States), [European Court of Auditors](https://www.eca.europa.eu/ECAPublications/JOURNAL-2026-01/JOURNAL-2026-01_EN.pdf)).\n\n### Broader Interpretive Comparisons\nAnalysts characterize the US approach as permissive, innovation-focused, and reliant on existing laws and self-regulation, versus the EU's prohibition-unless-permitted, centralized risk model (low confidence) ([arXiv](https://arxiv.org/html/2410.21279v1)). US policy has also been described as unstable across administrations, exemplified by the rescission of Executive Order 14110 (low confidence) ([DCN Global](https://dcnglobal.net/posts/blog/us-vs-eu-ai-plans-a-comparative-analysis-of-the-us-and-european-approaches)). The EU AI Act is framed as adaptive, rights-based legislation intended for global interoperability (medium confidence) ([European Parliament](https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf)).\n\n## Contradictions & Uncertainties\nSources disagree on the precise origin and timeline of the key US federal pivot: one describes a \"late 2025\" executive order, while another references distinct December 2025 and March 2026 instruments, creating ambiguity about sequencing and naming ([European Parliament](https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf), [Collibra](https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize)). Several claims regarding the March 2026 Framework, the GUARDRAILS Act, and related enforcement actions carry low confidence (below 0.4) and should be treated cautiously pending verification.\n\n## Knowledge Gaps\nKey unresolved questions include: whether EU Article 101 fines have been applied in practice to GPAI providers; whether the US legislative proposal has been introduced in Congress and what it would require; the fate of the GUARDRAILS Act; how EO 14409's voluntary framework might evolve toward binding rules; the outcome of DOJ litigation against state AI laws; and whether the US will ultimately adopt any horizontal AI statute comparable to the EU AI Act.\n\n## Sources\n1. [Article 53: Obligations for providers of general-purpose AI models](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53) \u2013 no date\n2. [General-Purpose AI Models in the AI Act \u2013 Q&A](https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers) \u2013 no date\n3. [AI Act Explorer](https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer) \u2013 no date\n4. [Article 101: Fines for providers of general-purpose AI models](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-101) \u2013 no date\n5. [EU AI Act Article 53 (euaiact.com)](https://www.euaiact.com/article/53) \u2013 no date\n6. [Article 53 (artificialintelligenceact.eu)](https://artificialintelligenceact.eu/article/53) \u2013 no date\n7. [CMS DigitalLaws Article 53](https://www.cms-digitallaws.com/en/ai-act/article-53) \u2013 no date\n8. [Brussels to the Bay: The EU AI Act](https://www.eeas.europa.eu/delegations/united-states-america/brussels-bay-eu-ai-act_en) \u2013 no date\n9. [EC Research Participants document](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e528636b79&appId=PPGMS) \u2013 no date\n10. [European Court of Auditors Journal 01/2026](https://www.eca.europa.eu/ECAPublications/JOURNAL-2026-01/JOURNAL-2026-01_EN.pdf) \u2013 no date\n11. [Near-term Future of the Transatlantic Relationship](https://espas.secure.europarl.europa.eu/orbis/system/files/generated/document/en/Near-term-Future-Transatlantic-Relationship-FINAL.pdf) \u2013 no date\n12. [CSA Research Note: Federal AI Preemption](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_whitehouse-national-ai-policy-framework-enterprise-security_20260411-csa-styled.pdf) \u2013 2026-04\n13. [Software Improvement Group: US AI Legislation 2026](https://www.softwareimprovementgroup.com/blog/us-ai-legislation-overview) \u2013 no date\n14. [Collibra: AI regulatory compliance 2026](https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize) \u2013 no date\n15. [Regulation of AI in the United States \u2013 Wikipedia](https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States) \u2013 no date\n16. [Congress.gov: Controlling Advanced AI](https://www.congress.gov/crs_external_products/IF/HTML/IF13268.html) \u2013 no date\n17. [Futurium: Practical Organizational Framework for AI Accountability](https://futurium.ec.europa.eu/de/apply-ai-alliance/community-content/practical-organizational-framework-ai-accountability) \u2013 no date\n18. [arXiv: Comparative Global AI Regulation](https://arxiv.org/html/2410.21279v1) \u2013 no date\n19. [DCN Global: US vs EU AI Plans](https://dcnglobal.net/posts/blog/us-vs-eu-ai-plans-a-comparative-analysis-of-the-us-and-european-approaches) \u2013 no date\n20. [European Parliament Study on AI Act Interplay](https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf) \u2013 no date\n21. [3CL Foundation: EU AI Act vs USA AI.gov Action Plan](https://www.3cl.org/the-eu-ai-act-and-usa-ai-gov-action-plan-a-legal-comparison) \u2013 no date\n22. [Futurium: US in the Age of AI](https://futurium.ec.europa.eu/it/apply-ai-alliance/community-content/united-states-age-ai-superpower-world-it-gave-away) \u2013 no date\n23. [MultiState: Regulating AI \u2013 EU and US Frameworks](https://www.multistate.us/insider/2023/8/24/regulating-artificial-intelligence-comparing-eu-and-us-frameworks) \u2013 2023-08-24\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": null,
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "Nearly every factual statement in the report carries a markdown citation; no uncited factual claims were identified."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "Spot-checked facts, dates (e.g., EO 14409 on June 2, 2026; late-2025 executive order), and characterizations against the extracted claims; no invented facts, numbers, or dates were found that are not supported by the claims list."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report's 'Contradictions & Uncertainties' section correctly surfaces the dating/naming ambiguity between the 'late 2025' EO and the December 2025/March 2026 instruments, matching the Known Contradictions in the ground truth, and flags low-confidence claims (GUARDRAILS Act, March 2026 Framework) for caution."
+    },
+    "confidence_assessment": {
+      "passed": true,
+      "notes": "Confidence labels attached to each claim in the report (e.g., high for claims_001/002/007/015, medium for claims_003-006/008-010/014/016/019, low for claims_011/012/017/018) align with the confidence tiers in the extracted claims."
+    },
+    "executive_summary_accuracy": {
+      "passed": true,
+      "notes": "The executive summary's characterization of the EU's binding, prevention-based model versus the US's non-binding, innovation-focused approach, including the note on 2025-2026 executive actions, is consistent with and supported by the body's findings."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The Knowledge Gaps section closely mirrors the Open Issues in the ground truth (Article 101 enforcement, legislative proposal status, GUARDRAILS Act fate, EO 14409 evolution, DOJ litigation outcome, overall US statutory trajectory), clearly disclosing unresolved questions."
+    }
+  },
+  "review_status": "approved",
+  "approved": true,
+  "review_count": 1,
+  "error": null,
+  "researcher": "fixed",
+  "tool_research": null,
+  "searches": 6,
+  "official_sources": 15,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 94.3,
+  "research_seconds": 15.5,
+  "llm_calls": 4,
+  "input_tokens": 30642,
+  "output_tokens": 9426,
+  "cost_usd": 0.1555,
+  "research_cost_usd": 0.0016,
+  "mentions_current_annex_iii_date": false,
+  "timestamp": "2026-10-28T13:25:55",
+  "question_id": "q2",
+  "run": 3
+}

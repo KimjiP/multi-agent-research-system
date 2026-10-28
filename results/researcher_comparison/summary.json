@@ -1,0 +1,737 @@
+{
+  "runs": 24,
+  "by_question": {
+    "q1": {
+      "fixed": {
+        "runs": 3,
+        "sources": [
+          30,
+          28,
+          28
+        ],
+        "official_share": [
+          0.5,
+          0.4643,
+          0.4643
+        ],
+        "searches": [
+          6,
+          6,
+          6
+        ],
+        "approved": 3,
+        "cost_usd": [
+          0.1457,
+          0.2967,
+          0.1959
+        ],
+        "research_cost_usd": [
+          0.0018,
+          0.0018,
+          0.002
+        ],
+        "duration_seconds": [
+          92.3,
+          178.2,
+          136.5
+        ],
+        "research_seconds": [
+          20.7,
+          18.2,
+          21.1
+        ],
+        "mean": {
+          "sources": 28.6667,
+          "official_share": 0.4762,
+          "searches": 6,
+          "cost_usd": 0.2128,
+          "research_cost_usd": 0.0019,
+          "duration_seconds": 135.6667,
+          "research_seconds": 20.0
+        },
+        "tavily_credits": 36,
+        "total_cost_usd": 0.6383
+      },
+      "tools": {
+        "runs": 3,
+        "sources": [
+          28,
+          28,
+          28
+        ],
+        "official_share": [
+          0.5,
+          0.6429,
+          0.6429
+        ],
+        "searches": [
+          6,
+          6,
+          6
+        ],
+        "approved": 3,
+        "cost_usd": [
+          0.1891,
+          0.3332,
+          0.3456
+        ],
+        "research_cost_usd": [
+          0.0269,
+          0.0266,
+          0.0273
+        ],
+        "duration_seconds": [
+          124.2,
+          189.7,
+          201.5
+        ],
+        "research_seconds": [
+          28.8,
+          29.6,
+          27.1
+        ],
+        "mean": {
+          "sources": 28,
+          "official_share": 0.5953,
+          "searches": 6,
+          "cost_usd": 0.2893,
+          "research_cost_usd": 0.0269,
+          "duration_seconds": 171.8,
+          "research_seconds": 28.5
+        },
+        "tavily_credits": 36,
+        "total_cost_usd": 0.8679,
+        "ended_by": {
+          "finish_research": 3
+        },
+        "told_to_continue": 0,
+        "turns": [
+          4,
+          4,
+          4
+        ],
+        "searches_by_tool": {
+          "search_official": 11,
+          "search_web": 7
+        },
+        "searches_refused_at_limit": 0
+      }
+    },
+    "q2": {
+      "fixed": {
+        "runs": 3,
+        "sources": [
+          29,
+          29,
+          29
+        ],
+        "official_share": [
+          0.4828,
+          0.4828,
+          0.5172
+        ],
+        "searches": [
+          6,
+          6,
+          6
+        ],
+        "approved": 3,
+        "cost_usd": [
+          0.2776,
+          0.1886,
+          0.1555
+        ],
+        "research_cost_usd": [
+          0.0015,
+          0.0016,
+          0.0016
+        ],
+        "duration_seconds": [
+          160.9,
+          126.0,
+          94.3
+        ],
+        "research_seconds": [
+          19.9,
+          18.7,
+          15.5
+        ],
+        "mean": {
+          "sources": 29,
+          "official_share": 0.4943,
+          "searches": 6,
+          "cost_usd": 0.2072,
+          "research_cost_usd": 0.0016,
+          "duration_seconds": 127.0667,
+          "research_seconds": 18.0333
+        },
+        "tavily_credits": 36,
+        "total_cost_usd": 0.6217
+      },
+      "tools": {
+        "runs": 3,
+        "sources": [
+          29,
+          35,
+          29
+        ],
+        "official_share": [
+          0.3103,
+          0.2857,
+          0.3103
+        ],
+        "searches": [
+          6,
+          7,
+          6
+        ],
+        "approved": 2,
+        "cost_usd": [
+          0.3325,
+          0.2186,
+          0.1892
+        ],
+        "research_cost_usd": [
+          0.029,
+          0.0329,
+          0.03
+        ],
+        "duration_seconds": [
+          179.2,
+          128.4,
+          109.2
+        ],
+        "research_seconds": [
+          25.5,
+          31.6,
+          28.1
+        ],
+        "mean": {
+          "sources": 31,
+          "official_share": 0.3021,
+          "searches": 6.3333,
+          "cost_usd": 0.2468,
+          "research_cost_usd": 0.0306,
+          "duration_seconds": 138.9333,
+          "research_seconds": 28.4
+        },
+        "tavily_credits": 38,
+        "total_cost_usd": 0.7403,
+        "ended_by": {
+          "finish_research": 3
+        },
+        "told_to_continue": 0,
+        "turns": [
+          4,
+          4,
+          4
+        ],
+        "searches_by_tool": {
+          "search_official": 6,
+          "search_web": 13
+        },
+        "searches_refused_at_limit": 0
+      }
+    },
+    "q3": {
+      "fixed": {
+        "runs": 3,
+        "sources": [
+          27,
+          28,
+          26
+        ],
+        "official_share": [
+          0.5185,
+          0.5,
+          0.5385
+        ],
+        "searches": [
+          6,
+          6,
+          6
+        ],
+        "approved": 3,
+        "cost_usd": [
+          0.2855,
+          0.151,
+          0.1405
+        ],
+        "research_cost_usd": [
+          0.0016,
+          0.0017,
+          0.0016
+        ],
+        "duration_seconds": [
+          173.4,
+          103.1,
+          90.4
+        ],
+        "research_seconds": [
+          19.3,
+          20.0,
+          14.8
+        ],
+        "mean": {
+          "sources": 27,
+          "official_share": 0.519,
+          "searches": 6,
+          "cost_usd": 0.1923,
+          "research_cost_usd": 0.0016,
+          "duration_seconds": 122.3,
+          "research_seconds": 18.0333
+        },
+        "tavily_credits": 36,
+        "total_cost_usd": 0.577
+      },
+      "tools": {
+        "runs": 3,
+        "sources": [
+          34,
+          42,
+          38
+        ],
+        "official_share": [
+          0.6176,
+          0.3571,
+          0.3947
+        ],
+        "searches": [
+          7,
+          9,
+          8
+        ],
+        "approved": 3,
+        "cost_usd": [
+          0.1809,
+          0.2121,
+          0.3421
+        ],
+        "research_cost_usd": [
+          0.0357,
+          0.049,
+          0.0378
+        ],
+        "duration_seconds": [
+          114.4,
+          119.4,
+          190.1
+        ],
+        "research_seconds": [
+          33.9,
+          36.8,
+          38.0
+        ],
+        "mean": {
+          "sources": 38,
+          "official_share": 0.4565,
+          "searches": 8,
+          "cost_usd": 0.245,
+          "research_cost_usd": 0.0408,
+          "duration_seconds": 141.3,
+          "research_seconds": 36.2333
+        },
+        "tavily_credits": 48,
+        "total_cost_usd": 0.7351,
+        "ended_by": {
+          "finish_research": 3
+        },
+        "told_to_continue": 0,
+        "turns": [
+          5,
+          6,
+          5
+        ],
+        "searches_by_tool": {
+          "search_official": 10,
+          "search_web": 14
+        },
+        "searches_refused_at_limit": 0
+      }
+    },
+    "q4": {
+      "fixed": {
+        "runs": 3,
+        "sources": [
+          25,
+          21,
+          24
+        ],
+        "official_share": [
+          0.44,
+          0.5238,
+          0.4167
+        ],
+        "searches": [
+          6,
+          6,
+          6
+        ],
+        "approved": 2,
+        "cost_usd": [
+          0.2764,
+          0.166,
+          0.1958
+        ],
+        "research_cost_usd": [
+          0.0016,
+          0.0016,
+          0.0016
+        ],
+        "duration_seconds": [
+          165.5,
+          120.2,
+          143.8
+        ],
+        "research_seconds": [
+          16.4,
+          18.4,
+          19.0
+        ],
+        "mean": {
+          "sources": 23.3333,
+          "official_share": 0.4602,
+          "searches": 6,
+          "cost_usd": 0.2127,
+          "research_cost_usd": 0.0016,
+          "duration_seconds": 143.1667,
+          "research_seconds": 17.9333
+        },
+        "tavily_credits": 36,
+        "total_cost_usd": 0.6382,
+        "gives_current_annex_iii_date": 3
+      },
+      "tools": {
+        "runs": 3,
+        "sources": [
+          22,
+          22,
+          23
+        ],
+        "official_share": [
+          0.4091,
+          0.7273,
+          0.4348
+        ],
+        "searches": [
+          5,
+          6,
+          5
+        ],
+        "approved": 3,
+        "cost_usd": [
+          0.2701,
+          0.1863,
+          0.1906
+        ],
+        "research_cost_usd": [
+          0.0253,
+          0.0266,
+          0.0257
+        ],
+        "duration_seconds": [
+          149.7,
+          125.1,
+          122.5
+        ],
+        "research_seconds": [
+          21.9,
+          22.9,
+          22.6
+        ],
+        "mean": {
+          "sources": 22.3333,
+          "official_share": 0.5237,
+          "searches": 5.3333,
+          "cost_usd": 0.2157,
+          "research_cost_usd": 0.0259,
+          "duration_seconds": 132.4333,
+          "research_seconds": 22.4667
+        },
+        "tavily_credits": 32,
+        "total_cost_usd": 0.647,
+        "gives_current_annex_iii_date": 3,
+        "ended_by": {
+          "finish_research": 3
+        },
+        "told_to_continue": 0,
+        "turns": [
+          4,
+          4,
+          4
+        ],
+        "searches_by_tool": {
+          "search_official": 8,
+          "search_web": 8
+        },
+        "searches_refused_at_limit": 0
+      }
+    }
+  },
+  "overall": {
+    "fixed": {
+      "runs": 12,
+      "sources": [
+        30,
+        28,
+        28,
+        29,
+        29,
+        29,
+        27,
+        28,
+        26,
+        25,
+        21,
+        24
+      ],
+      "official_share": [
+        0.5,
+        0.4643,
+        0.4643,
+        0.4828,
+        0.4828,
+        0.5172,
+        0.5185,
+        0.5,
+        0.5385,
+        0.44,
+        0.5238,
+        0.4167
+      ],
+      "searches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "approved": 11,
+      "cost_usd": [
+        0.1457,
+        0.2967,
+        0.1959,
+        0.2776,
+        0.1886,
+        0.1555,
+        0.2855,
+        0.151,
+        0.1405,
+        0.2764,
+        0.166,
+        0.1958
+      ],
+      "research_cost_usd": [
+        0.0018,
+        0.0018,
+        0.002,
+        0.0015,
+        0.0016,
+        0.0016,
+        0.0016,
+        0.0017,
+        0.0016,
+        0.0016,
+        0.0016,
+        0.0016
+      ],
+      "duration_seconds": [
+        92.3,
+        178.2,
+        136.5,
+        160.9,
+        126.0,
+        94.3,
+        173.4,
+        103.1,
+        90.4,
+        165.5,
+        120.2,
+        143.8
+      ],
+      "research_seconds": [
+        20.7,
+        18.2,
+        21.1,
+        19.9,
+        18.7,
+        15.5,
+        19.3,
+        20.0,
+        14.8,
+        16.4,
+        18.4,
+        19.0
+      ],
+      "mean": {
+        "sources": 27,
+        "official_share": 0.4874,
+        "searches": 6,
+        "cost_usd": 0.2063,
+        "research_cost_usd": 0.0017,
+        "duration_seconds": 132.05,
+        "research_seconds": 18.5
+      },
+      "tavily_credits": 144,
+      "total_cost_usd": 2.4752
+    },
+    "tools": {
+      "runs": 12,
+      "sources": [
+        28,
+        28,
+        28,
+        29,
+        35,
+        29,
+        34,
+        42,
+        38,
+        22,
+        22,
+        23
+      ],
+      "official_share": [
+        0.5,
+        0.6429,
+        0.6429,
+        0.3103,
+        0.2857,
+        0.3103,
+        0.6176,
+        0.3571,
+        0.3947,
+        0.4091,
+        0.7273,
+        0.4348
+      ],
+      "searches": [
+        6,
+        6,
+        6,
+        6,
+        7,
+        6,
+        7,
+        9,
+        8,
+        5,
+        6,
+        5
+      ],
+      "approved": 11,
+      "cost_usd": [
+        0.1891,
+        0.3332,
+        0.3456,
+        0.3325,
+        0.2186,
+        0.1892,
+        0.1809,
+        0.2121,
+        0.3421,
+        0.2701,
+        0.1863,
+        0.1906
+      ],
+      "research_cost_usd": [
+        0.0269,
+        0.0266,
+        0.0273,
+        0.029,
+        0.0329,
+        0.03,
+        0.0357,
+        0.049,
+        0.0378,
+        0.0253,
+        0.0266,
+        0.0257
+      ],
+      "duration_seconds": [
+        124.2,
+        189.7,
+        201.5,
+        179.2,
+        128.4,
+        109.2,
+        114.4,
+        119.4,
+        190.1,
+        149.7,
+        125.1,
+        122.5
+      ],
+      "research_seconds": [
+        28.8,
+        29.6,
+        27.1,
+        25.5,
+        31.6,
+        28.1,
+        33.9,
+        36.8,
+        38.0,
+        21.9,
+        22.9,
+        22.6
+      ],
+      "mean": {
+        "sources": 29.8333,
+        "official_share": 0.4694,
+        "searches": 6.4167,
+        "cost_usd": 0.2492,
+        "research_cost_usd": 0.0311,
+        "duration_seconds": 146.1167,
+        "research_seconds": 28.9
+      },
+      "tavily_credits": 154,
+      "total_cost_usd": 2.9903,
+      "ended_by": {
+        "finish_research": 12
+      },
+      "told_to_continue": 0,
+      "turns": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        6,
+        5,
+        4,
+        4,
+        4
+      ],
+      "searches_by_tool": {
+        "search_official": 35,
+        "search_web": 42
+      },
+      "searches_refused_at_limit": 0
+    }
+  },
+  "questions_compared": 4,
+  "questions_where_tools_is_higher": {
+    "sources": 2,
+    "official_share": 2,
+    "searches": 2,
+    "cost_usd": 4,
+    "duration_seconds": 3
+  },
+  "questions_where_tools_is_lower": {
+    "sources": 2,
+    "official_share": 2,
+    "searches": 1,
+    "cost_usd": 0,
+    "duration_seconds": 1
+  }
+}

@@ -1,0 +1,882 @@
+{
+  "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+  "search_queries": [
+    "EU AI Act general-purpose AI model obligations",
+    "US federal AI policy 2025 executive order foundation models",
+    "Trump AI Action Plan July 2025 foundation models federal policy",
+    "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta",
+    "executive order rescind Biden AI executive order 14110 Trump January 2025",
+    "AI Act Annex XIII systemic risk thresholds FLOPs 10^25",
+    "Trump executive order state AI law preemption November 2025"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+      "title": "General-Purpose AI Models in the AI Act \u2013 Questions & Answers | Shaping Europe\u2019s digital future",
+      "snippet": "Under the AI Act, providers of general-purpose AI models with systemic risk have additional obligations. They must assess and mitigate systemic risks, in particular by performing model evaluations, keeping track of, documenting, and reporting serious incidents, and ensuring adequate cybersecurity protection for the model and its physical infrastructure (Article 55 AI Act).\n\nThe General-Purpose AI Code of Practice provides signatories with further detail on how to ensure compliance with these obl",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+      "title": "Article 53: Obligations for providers of general-purpose AI models | AI Act Service Desk",
+      "snippet": "Summary \n\nThe article details the obligations of providers of general-purpose AI models. Providers must maintain technical documentation and make it available to authorities and providers of AI systems who intend to integrate the general-purpose AI model into their AI systems. They must also put in place a copyright policy and provide a public summary of training data. Open-source general-purpose AI models are exempt from some documentation requirements, unless they are classified as general-pur",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/guidelines-obligations-general-purpose-ai-providers",
+      "title": "Guidelines on obligations for General-Purpose AI providers | Shaping Europe\u2019s digital future",
+      "snippet": "Since these models are usually trained on vast amounts of data that may include copyright-protected content, the AI Act requires providers to establish copyright policies, and publish summaries of the content used to train their general-purpose AI models.\n\nFinally, general-purpose AI models may present systemic risks that can have a significant impact on the Union market. Providers of such models are subject to additional obligations aimed at assessing and mitigating these systemic risks. These ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations"
+    },
+    {
+      "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143260/JRC143260_01.pdf",
+      "title": "General-Purpose AI Model Reach as a Criterion for Systemic ...",
+      "snippet": "Authors R\u00f6ttger, Paul Hovy, Dirk Nozza, Debora Vanschoren, Joaquin Editors Fern\u00e1ndez Llorca, David Noroozian, Arman G\u00f3mez, Emilia 3 Note from the Editors The EU AI Act entered into force on 1 August 2024, with the aim of promoting innovation in and uptake of AI in the Union, while ensuring a high level of protection of health, safety and fundamental rights, including democracy and the rule of law. Chapter V of the AI Act outlines obligations for the providers of general-purpose AI (GPAI) models,",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+      "title": "Questions and answers on the code of practice for General-Purpose AI | Shaping Europe\u2019s digital future",
+      "snippet": "From 2 August 2025 onwards, providers placing general-purpose AI models on the market must comply with their respective AI Act obligations. Providers must notify the AI Office of general-purpose AI models with systemic risk to be placed on the EU market without delay. In the first year from 2 August 2025 onwards, the AI Office will offer to collaborate closely in particular with providers who adhere to the Code to ensure that models can continue to be placed on the EU market without delays. In p",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act general-purpose AI model obligations"
+    },
+    {
+      "url": "https://web.pdx.edu/~pcooper/TechLawPolicy-css.html",
+      "title": "Technology, AI, and Cybersecurity: Law and Policy in Science, Technology, and Cybersecurity",
+      "snippet": "December 12, 2025. President Trump signed Executive Order 14362 on November 24, launching what the administration refers to as \"the Genesis Mission.\" In explaining the purpose of the policy initiative, the order states: \"This order launches the 'Genesis Mission' as a dedicated, coordinated national effort to unleash a new age of AI-accelerated innovation and discovery that can solve the most challenging problems of this century. The Genesis Mission will build an integrated AI platform to harness",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order foundation models"
+    },
+    {
+      "url": "https://bipartisanpolicy.org/explainer/strategic-federal-actions-aim-to-strengthen-ai-and-energy-infrastructure",
+      "title": "Strategic Federal Actions Aim to Strengthen AI and Energy Infrastructure",
+      "snippet": "### July 2025\u2014America\u2019s AI Action Plan\n\nAmerica\u2019s AI Action Plan is a comprehensive strategic framework that identifies AI as a transformative technology that will have major global impacts. The plan, as detailed by BPC, covers expanding energy generation and grid capacity, accelerating the construction of data centers and semiconductor facilities, securing AI-relevant infrastructure from foreign threats, and building a skilled domestic workforce to operate and maintain these systems.\n\n#### Key ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order foundation models"
+    },
+    {
+      "url": "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+      "title": "White House Executive Order: State Artificial Intelligence Regulation : Moore & Van Allen",
+      "snippet": "December 18, 2025  By: Tiffany E. Payne, Jules W. Carter\n\nOn December 11, 2025, the White House issued an Executive Order titled \u201cEnsuring a National Policy Framework for Artificial Intelligence.\u201d  This EO aims to establish a uniform and \u201cminimally burdensome\u201d Federal standard for AI regulation, including by directing the development of a federal legislative recommendation to preempt the current patchwork of varying state AI laws, except in a few discrete areas: \u201c(i) child safety protections; (i",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order foundation models"
+    },
+    {
+      "url": "https://www.congress.gov/crs-product/R47843",
+      "title": "Highlights of the 2023 Executive Order on Artificial Intelligence for Congress | Congress.gov | Library of Congress",
+      "snippet": "(OMB)December 23, 2024 (180 days from report)4.5(b)Shall be updated periodically after development.\nIssue guidance to agencies for labeling and authenticating digital and synthetic content the federal government uses.OMB\n\n(DOS, DOD, DOJ, NIST, DHS, DNI)June 21, 2025 (180 days from guidance in section 4.5(b))4.5(c)\nConsider amending the Federal Acquisition Regulation to account for guidance established under section 4.5.FARC No date assigned 4.5(d)\nSolicit expert input and report on the risks, be",
+      "source_type": "national_authority",
+      "published_date": null,
+      "search_query": "US federal AI policy 2025 executive order foundation models"
+    },
+    {
+      "url": "https://www.insidegovernmentcontracts.com/2025/08/july-2025-ai-developments-under-the-trump-administration",
+      "title": "July 2025 AI Developments Under the Trump Administration | Inside Government Contracts",
+      "snippet": "AI Infrastructure.  Executive Order 14318 on \u201cAccelerating Federal Permitting of Data Center Infrastructure\u201d directs federal agencies to take various steps to accelerate the development of \u201cqualifying projects,\u201d i.e., data centers requiring more than 100 megawatts for AI inference, training, simulation, or synthetic data generation, and data center components, including energy infrastructure, dispatchable baseload energy sources, semiconductors and semiconductor materials, networking equipment, ",
+      "source_type": "news_blog",
+      "published_date": "2025-08-01",
+      "search_query": "US federal AI policy 2025 executive order foundation models"
+    },
+    {
+      "url": "https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan",
+      "title": "The Trump Administration\u2019s 2025 AI Action Plan \u2013 Winning the Race: America\u2019s AI Action Plan \u2013 and Related Executive Orders | Insights | Sidley Austin LLP",
+      "snippet": "On July 23, 2025, the Trump administration released its much-anticipated AI Action Plan, outlining 90 federal policy positions across three key pillars: Accelerating Innovation, Building American AI Infrastructure, and Leading in International Diplomacy and Security. These pillars are designed to guide near-term action and are underpinned by three cross-cutting priorities: protecting and promoting American workers, ensuring that artificial intelligence (AI) systems are trustworthy and free from ",
+      "source_type": "news_blog",
+      "published_date": "2025-07-01",
+      "search_query": "Trump AI Action Plan July 2025 foundation models federal policy"
+    },
+    {
+      "url": "https://www.consumerfinancemonitor.com/2025/07/28/a-new-era-for-u-s-ai-policy-how-americas-ai-action-plan-will-shape-industry-and-government",
+      "title": "A New Era for U.S. AI Policy: How America\u2019s AI Action Plan Will Shape Industry and Government | Consumer Finance Monitor",
+      "snippet": "On July 23, 2025, the Trump Administration unveiled America\u2019s AI Action Plan, launching the most sweeping federal AI policy initiative to date. Promising to \u201creassert American leadership in artificial intelligence,\u201d the Plan marks a decisive pivot from previous federal efforts, moving aggressively to cut red tape, open access to AI technology, and ignite a new wave of public and private investment. Its goal: to place the United States at the forefront of global AI innovation and competitiveness,",
+      "source_type": "news_blog",
+      "published_date": "2025-07-28",
+      "search_query": "Trump AI Action Plan July 2025 foundation models federal policy"
+    },
+    {
+      "url": "https://www.mofo.com/resources/insights/250729-a-call-to-action-president-trump-s-policy-blueprint",
+      "title": "A Call to Action: President Trump\u2019s Policy Blueprint for AI Development and Innovation",
+      "snippet": "On July 23, 2025, President Trump released his Artificial Intelligence (AI) Action Plan, with the aim of ushering in an era of American dominance in the rapidly emerging technology. The AI Action Plan delivers on a promise first made in Executive Order 14179, \u201cRemoving Barriers to American Leadership in Artificial Intelligence,\u201d to set forth a new American policy on developing and harnessing AI. To implement this new policy, President Trump also issued three new Executive Orders. These Executive",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Trump AI Action Plan July 2025 foundation models federal policy"
+    },
+    {
+      "url": "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+      "title": "AI Watch: Global regulatory tracker - United States | White & Case LLP",
+      "snippet": "AI Action Plan\n\nIn July 2025, the Trump Administration published America's AI Action Plan (\"the AI Action Plan\"),7 which identifies more than 90 federal policy actions, with an aim to secure US AI leadership in artificial intelligence and place innovation at the core of US AI policy. [...] AI National Policy Framework\n\nBuilding on the AI Action Plan, on December 11, 2025, President Trump signed an executive order titled \"Ensuring a National Policy Framework for Artificial Intelligence,\" (\"AI Nat",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Trump AI Action Plan July 2025 foundation models federal policy"
+    },
+    {
+      "url": "https://www.wilsoncenter.org/article/americas-ai-action-plan-after-one-year-what-administration-has-done-and-what-comes-next",
+      "title": "America\u2019s AI Action Plan After One Year: What the Administration Has Done, and What Comes Next | Wilson Center",
+      "snippet": "White House Photo, July 23, 2025\n\nAmerica\u2019s AI Action Plan, launched by the White House in July 2025, was not an exercise in vague future modelling. It set a series of near-term policy goals that the federal government could conceivably execute. The paper presented the judgment that \u201cAmerica is in a race to achieve global dominance in artificial intelligence,\u201d and declared, \u201cThis Action Plan is America\u2019s roadmap to win the race.\u201d Altogether, the plan put forward more than one hundred recommended",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Trump AI Action Plan July 2025 foundation models federal policy"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/introduction-to-code-of-practice",
+      "title": "An Introduction to the Code of Practice for General-Purpose AI | EU Artificial Intelligence Act",
+      "snippet": "Providers of GPAI models with systemic risk can contest the classification by demonstrating that, despite surpassing the compute threshold, their model does not possess \u2018high-impact capabilities\u2019 that match or exceed the most advanced models.22\n\n## Signatures: Who Signed and What Does it Mean\n\nThe Commission has published the signatory form, process description and a list of signatories on its website. The signatories include the majority of companies developing the most advanced GPAI models, wi",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta"
+    },
+    {
+      "url": "https://code-of-practice.ai",
+      "title": "EU AI Act: General-Purpose AI Code of Practice \u00b7 Final Version",
+      "snippet": "The Code is a voluntary tool for General-Purpose AI (GPAI) providers to comply with AI Act obligations (see signatories here). The Safety and Security Chapter of the Code specifies a way of complying with one subset of the AI Act's GPAI obligations: the obligations for \"GPAI with Systemic Risk\" (GPAISR). These are obligations that apply to the providers of the most advanced models on the EU market, such as OpenAI's o3, Anthropic's Claude 4 Opus, and Google's Gemini 2.5 Pro. Like the rest of the ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta"
+    },
+    {
+      "url": "https://founderz.com/blog/what-is-gpai-model",
+      "title": "GPAI model | General-purpose AI rules in the EU AI Act, explained | Founderz",
+      "snippet": "Shortly after publication, the AI code of practice received signatures from most major providers. Those that do not sign must show compliance by other adequate means. Early signatories included Amazon, Anthropic, Google, IBM, Microsoft, Mistral AI and OpenAI. xAI signed only the Safety and Security chapter, and Meta declined to sign.\n\n## When do GPAI requirements take effect?\n\nThe GPAI rules apply in stages. Obligations started in 2025, enforcement powers arrived in 2026, and older models have u",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7",
+      "title": "Meta rejects European Commission's AI Code of Practice",
+      "snippet": "GPAI providers to adhere to the code and published the list of its #signatories. Not all major GPAI providers have fully signed the code of practice yet. #Meta \u0080\u0093 the provider of the Meta AI and Llama models \u0080\u0093 has refused to sign. However, securing the signatures of all major providers would be an important step in implementing the AI Act.\" \u00f0\u009f\u0093\u0083 Source: Marcelin, T., & Apraxine, V. (August 2025). The European Union's AI code of practice: PE 775.890.  \u00f0\u009f\u0094\u0097 Overview:  \u00f0\u009f\u0094\u0097 Press release from 10 J",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/code-of-practice-overview",
+      "title": "Overview of the Code of Practice | EU Artificial Intelligence Act",
+      "snippet": "Clear assignment of systemic risk management responsibilities (Commitment 8).\n Procedures for Framework updates and revisions.\n Signatories must confirm the Framework within four weeks of notifying the Commission that their GPAI model meets the threshold to be classified as a GPAI model with systemic risk, and at minimum two weeks prior to market launch.\n\n#### Measure 1.2: Implementing the Framework\n\nSignatories shall maintain continuous systemic risk assessment through: [...] ### Safety and Sec",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+      "title": "Federal Register\n       :: \n      Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+      "snippet": "# Presidential Document\n\nEnter a search term or FR citation e.g.\n88 FR 382\n30 FR 7878\n2024-13208\nUSDA\n09/05/24\nRULE\n0503-AA39\nSORN\n\nChoosing an item from\nfull text search results\nwill bring you to those results. Pressing enter in the search box\nwill also bring you to search results.\nChoosing an item from\nsuggestions\nwill bring you directly to the content.\n\nBackground and more details are available in the\nSearch & Navigation\nguide.\n\n# Safe, Secure, and Trustworthy Development and Use of Artificia",
+      "source_type": "national_authority",
+      "published_date": "2023-11-01",
+      "search_query": "executive order rescind Biden AI executive order 14110 Trump January 2025"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Executive_Order_14110",
+      "title": "Executive Order 14110 - Wikipedia",
+      "snippet": "Executive Order 14110, titled Executive Order on Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (sometimes referred to as \"Executive Order on Artificial Intelligence\") was the 126th executive order signed by then U.S. president Joe Biden. Signed on October 30, 2023, the order defines the administration's policy goals regarding artificial intelligence (AI), and orders executive agencies to take actions pursuant to these goals. The order is considered to be the most c",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "executive order rescind Biden AI executive order 14110 Trump January 2025"
+    },
+    {
+      "url": "https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know",
+      "title": "President Trump Revokes Biden Administration\u2019s AI EO: What To Know: Wiley",
+      "snippet": "Wiley Rein LLP\n\nCookie Settings Main Content Main Menu Search\n\n People\n Practices\n Insights\n  + Insights\n  + Media Mentions\n  + Press Releases\n  + Alerts\n  + Articles\n  + Blogs\n  + Newsletters\n  + Podcasts & Videos\n  + Events\n  + Handbooks\n  + Webinars\n\nAlert January 22, 2025\n\n# President Trump Revokes Biden Administration\u2019s AI EO: What To Know\n\nJanuary 22, 2025\n\nAs expected, President Trump took action on the first day of his new term to revoke the landmark 2023 Executive Order on Artificial In",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "executive order rescind Biden AI executive order 14110 Trump January 2025"
+    },
+    {
+      "url": "https://www.squirepattonboggs.com/insights/publications/key-insights-on-president-trumps-new-ai-executive-order-and-policy-regulatory-implications",
+      "title": "Key Insights on President Trumps New AI Executive Order and Policy Regulatory Implications | Insights | Squire Patton Boggs",
+      "snippet": "### Select filters\n\n#### Services\n\n#### Industry\n\n#### Locations\n\n#### Role\n\n#### Language\n\nPublication\n\n# Key Insights on President Trump\u2019s New AI Executive Order and Policy & Regulatory Implications\n\nFebruary 2025 | Global\n\nRead full insight\n\nShare to LinkedIn   Share to X   Share via Email   Copy Link to Clipboard\n\nailaw.jpg ailaw.jpg\n\nFebruary 2025 | Global\n\nRead full insight\n\nShare to LinkedIn   Share to X   Share via Email   Copy Link to Clipboard\n\nOn January 23, 2025, President Trump issu",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "executive order rescind Biden AI executive order 14110 Trump January 2025"
+    },
+    {
+      "url": "https://www.skadden.com/insights/publications/executive-briefing/ai-broad-biden-order-is-withdrawn",
+      "title": "AI: Broad Biden Order Is Withdrawn, but Replacement Policies Are Yet To Be Drafted | Insights | Skadden, Arps, Slate, Meagher & Flom LLP",
+      "snippet": "Skadden Logo\n\n# AI: Broad Biden Order Is Withdrawn, but Replacement Policies Are Yet To Be Drafted\n\nKen D. Kumayama\nStuart D. Levi\nWilliam E. Ridgway\n\nOn January 23, 2025, President Donald Trump issued an executive order titled \u201cRemoving Barriers to American Leadership in Artificial Intelligence\u201d (Trump AI Executive Order). The Trump AI Executive Order assigns select advisers to the president to coordinate with the heads of federal agencies and departments, among others, to develop an \u201caction pl",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "executive order rescind Biden AI executive order 14110 Trump January 2025"
+    },
+    {
+      "url": "https://www.esrb.europa.eu/pub/pdf/asc/esrb.ascreport202512_AIandsystemicrisk.fi.pdf?9c33e4591f138527d8b39dab792d242f=",
+      "title": "Advisory Scientific Committee - No 16 / December 2025",
+      "snippet": "Commission can designate a general-purpose AI model as having systemic risk. A threshold based on the cumulative amount of computation used for training (measured in floating-point operations) is set as a presumption for systemic risk. Article 51.2 of the AI Act initially sets the value of this threshold at 10^25 floating-point operations. The threshold will be adjusted over time. According to Article 56, the AI Office must encourage and facilitate the drawing up of codes of practice to contribu",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Annex XIII systemic risk thresholds FLOPs 10^25"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51",
+      "title": "Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk | AI Act Service Desk",
+      "snippet": "(a)it has high impact capabilities evaluated on the basis of appropriate technical tools and methodologies, including indicators and benchmarks;\n\n(b)based on a decision of the Commission, ex officio or following a qualified alert from the scientific panel, it has capabilities or an impact equivalent to those set out in point (a) having regard to the criteria set out in Annex XIII.\n\n2.   A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Annex XIII systemic risk thresholds FLOPs 10^25"
+    },
+    {
+      "url": "https://ec.europa.eu/newsroom/eismea/redirection/item/825283/en/3098",
+      "title": "AI investment: EU and global indicators | Epthinktank | European Parliament",
+      "snippet": "using a total computing power of more than 1025 FLOPs (floating-point operations per second) will be presumed to carry systemic risks. When confirmed by the Commission\u2019s investigations, providers of these models will be required to assess and mitigate those risks continuously and ensure an adequate level of cybersecurity protection. So far only GPT4 and a few other models seem to be close to the 1025 FLOPs threshold. [...] Recent research shows that 73 % of LLMs are being developed in the US and",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Annex XIII systemic risk thresholds FLOPs 10^25"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+      "title": "Law & Compliance in AI Security & Data Protection",
+      "snippet": "For example, the rules on systemic risk under the AI Act apply (by presumption) to advanced models trained over more than 1025 FLOPs, that is, more than ten septillions of those mathematical operations. A few of the models that exist nowadays, such as Google\u2019s Gemini or OpenAI\u2019s GPT-4o, are said to exceed this threshold. As of 2024, most of the compute costs in AI training happen during the training process. However, as some studies suggest (Erdil 2024), there is a trade-off between compute duri",
+      "source_type": "eu_guidance",
+      "published_date": "2025-06-01",
+      "search_query": "AI Act Annex XIII systemic risk thresholds FLOPs 10^25"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/698792/EPRS_BRI(2021)698792_EN.pdf",
+      "title": "Artificial intelligence act - European Parliament",
+      "snippet": "(on public health, safety, public security, fundamental rights, or the society as a whole). GPAI providers must therefore notify the European Commission if their model is trained using a total computing power exceeding 10^25 FLOPs (i.e. floating-point operations per second). When this threshold is met, the presumption will be that the model is a GPAI model posing systemic risks.17 In addition to the requirements on transparency and copyright protection falling on all GPAI models, providers of sy",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Annex XIII systemic risk thresholds FLOPs 10^25"
+    },
+    {
+      "url": "https://fedscoop.com/trump-appears-ready-executive-order-state-ai-law-preemption",
+      "title": "Trump appears to ready executive order on state AI law preemption | FedScoop",
+      "snippet": "WASHINGTON, DC - NOVEMBER 18: U.S. President Donald Trump speaks during a bilateral meeting with Crown Prince and Prime Minister Mohammed bin Salman of Saudi Arabia in the Oval Office of the White House on November 18, 2025 in Washington, DC. Trump is hosting the crown prince for meetings aimed at strengthening economic and defense ties, including the U.S. sale of F-35 fighter jets to Saudi Arabia. (Photo by Win McNamee/Getty Images)\n\nPresident Donald Trump appears to be eyeing an executive orde",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Trump executive order state AI law preemption November 2025"
+    },
+    {
+      "url": "https://www.theemployerreport.com/2025/12/us-pre-emption-by-executive-order-trump-order-moves-to-block-state-ai-laws",
+      "title": "Pre-emption by Executive Order: Trump Order Moves to Block State AI Laws | The Employer Report",
+      "snippet": "Listen to this post\n\nOn December 11, 2025, President Trump signed an Executive Order on \u201cEnsuring A National Policy Framework For Artificial Intelligence\u201d (the \u201cOrder\u201d). The Order represents the Administration\u2019s latest and most pointed attempt to stop and reverse the wave of state AI legislation that has emerged over the preceding year, which the Order asserts \u201ccreates a patchwork of 50 different regulatory regimes.\u201d The Order raises the political stakes regarding state AI laws and creates uncer",
+      "source_type": "news_blog",
+      "published_date": "2025-12-01",
+      "search_query": "Trump executive order state AI law preemption November 2025"
+    },
+    {
+      "url": "https://law-ai.org/legal-issues-raised-by-the-proposed-executive-order-on-ai-preemption",
+      "title": "Legal Issues Raised by the Proposed Executive Order on AI Preemption - Institute for Law & AI",
+      "snippet": "Commentary |\n\nNovember 2025\n\n# Legal Issues Raised by the Proposed Executive Order on AI Preemption\n\nCharlie Bullock\n\nOn November 19, 2025, a draft executive order that the Trump administration may issue as early as Friday, November 21 was publicly leaked. The six-page order consists of nine sections, including prefatory purpose and policy statements, a section containing miscellaneous \u201cgeneral provisions,\u201d and six substantive provisions. This commentary provides a brief overview of some of the ",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Trump executive order state AI law preemption November 2025"
+    },
+    {
+      "url": "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+      "title": "AI Executive Order Targets State Laws and Seeks Uniform Federal Standards",
+      "snippet": "On December 11, 2025, President Trump signed an executive order titled \u201cEnsuring a National Policy Framework for Artificial Intelligence\u201d (the Order). The Order aims to \u201csustain and enhance the United States\u2019 global AI dominance\u201d by establishing a \u201cminimally burdensome national policy framework for AI\u201d and reducing the web of diverging state laws and regulations that has emerged over the past few years.\n\nAmong other things, the Order (i) calls for federal standards and legislation that would pre",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Trump executive order state AI law preemption November 2025"
+    },
+    {
+      "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/New-Executive-Order-aims-to-pre-empt-state-AI-regulation-Top-points",
+      "title": "New Executive Order aims to pre-empt state AI regulation: Top points - DLA Piper GENIE",
+      "snippet": "On December 11, 2025, President Donald Trump signed an EO titled, 'Ensuring a National Policy Framework for Artificial Intelligence.'\n\nThe EO is part of a White House effort to streamline artificial intelligence (AI)-related laws and create a national standard. The order notes that a patchwork of state laws could lead to burdensome compliance regimes and harm innovation necessary for global AI leadership. Congressional attempts to pre-empt or impose a legislative moratorium on state AI laws have",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Trump executive order state AI law preemption November 2025"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "Under the AI Act, providers of general-purpose AI (GPAI) models must maintain technical documentation, make it available to authorities and downstream providers, establish a copyright policy, and publish a summary of training data (Article 53).",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "Open-source GPAI models are exempt from some documentation requirements unless they are classified as having systemic risk.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "Providers of GPAI models with systemic risk have additional obligations under Article 55, including performing model evaluations, assessing and mitigating systemic risks, tracking and reporting serious incidents, and ensuring adequate cybersecurity protection.",
+      "supporting_sources": [
+        "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+        "https://digital-strategy.ec.europa.eu/en/faqs/guidelines-obligations-general-purpose-ai-providers"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "A GPAI model is presumed to pose systemic risk if it is trained using cumulative compute exceeding 10^25 floating-point operations (FLOPs), per Article 51.",
+      "supporting_sources": [
+        "https://www.esrb.europa.eu/pub/pdf/asc/esrb.ascreport202512_AIandsystemicrisk.fi.pdf?9c33e4591f138527d8b39dab792d242f=",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51",
+        "https://ec.europa.eu/newsroom/eismea/redirection/item/825283/en/3098",
+        "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+        "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/698792/EPRS_BRI(2021)698792_EN.pdf"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "The Commission can also designate a model as posing systemic risk via a decision (ex officio or following a qualified alert from the scientific panel) based on Annex XIII criteria, even absent meeting the compute threshold.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "The EU AI Act entered into force on 1 August 2024.",
+      "supporting_sources": [
+        "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143260/JRC143260_01.pdf"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "GPAI obligations under the AI Act apply to providers placing models on the market from 2 August 2025 onwards.",
+      "supporting_sources": [
+        "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+        "https://founderz.com/blog/what-is-gpai-model"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "Enforcement powers for GPAI obligations arrived in 2026, with older models given a transition period.",
+      "supporting_sources": [
+        "https://founderz.com/blog/what-is-gpai-model"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "The General-Purpose AI Code of Practice is a voluntary tool that signatories can use to demonstrate compliance with AI Act obligations, particularly for GPAI models with systemic risk (the Safety and Security Chapter).",
+      "supporting_sources": [
+        "https://artificialintelligenceact.eu/introduction-to-code-of-practice",
+        "https://code-of-practice.ai",
+        "https://artificialintelligenceact.eu/code-of-practice-overview"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "Providers of GPAI models with systemic risk must notify the AI Office without delay and, if signatories to the Code, confirm their risk-management Framework within four weeks of notifying the Commission and at least two weeks before market launch.",
+      "supporting_sources": [
+        "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+        "https://artificialintelligenceact.eu/code-of-practice-overview"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "Major GPAI providers including Amazon, Anthropic, Google, IBM, Microsoft, Mistral AI, and OpenAI signed the Code of Practice; xAI signed only the Safety and Security chapter; Meta declined to sign the Code.",
+      "supporting_sources": [
+        "https://founderz.com/blog/what-is-gpai-model",
+        "https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.14,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "Providers that do not sign the Code of Practice must demonstrate compliance with AI Act obligations through other adequate means.",
+      "supporting_sources": [
+        "https://founderz.com/blog/what-is-gpai-model"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "President Biden signed Executive Order 14110, 'Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence,' on October 30, 2023, directing executive agencies to take various AI-related actions, including labeling/authentication guidance and reporting requirements with specific deadlines.",
+      "supporting_sources": [
+        "https://www.congress.gov/crs-product/R47843",
+        "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+        "https://en.wikipedia.org/wiki/Executive_Order_14110"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.78,
+        "authority": 0.7,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "President Trump revoked Biden's AI Executive Order 14110 upon taking office in January 2025.",
+      "supporting_sources": [
+        "https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.4,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "On January 23, 2025, President Trump issued an executive order titled 'Removing Barriers to American Leadership in Artificial Intelligence,' directing advisers to coordinate development of an AI action plan.",
+      "supporting_sources": [
+        "https://www.squirepattonboggs.com/insights/publications/key-insights-on-president-trumps-new-ai-executive-order-and-policy-regulatory-implications",
+        "https://www.skadden.com/insights/publications/executive-briefing/ai-broad-biden-order-is-withdrawn"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "Following the Biden EO's revocation, replacement federal AI policies had not yet been drafted as of early 2025.",
+      "supporting_sources": [
+        "https://www.skadden.com/insights/publications/executive-briefing/ai-broad-biden-order-is-withdrawn"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.4,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "On July 23, 2025, the Trump Administration released America's AI Action Plan, outlining more than 90 federal policy actions across three pillars: Accelerating Innovation, Building American AI Infrastructure, and Leading in International Diplomacy and Security.",
+      "supporting_sources": [
+        "https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan",
+        "https://www.consumerfinancemonitor.com/2025/07/28/a-new-era-for-u-s-ai-policy-how-americas-ai-action-plan-will-shape-industry-and-government",
+        "https://www.mofo.com/resources/insights/250729-a-call-to-action-president-trump-s-policy-blueprint",
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+        "https://www.wilsoncenter.org/article/americas-ai-action-plan-after-one-year-what-administration-has-done-and-what-comes-next"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_018",
+      "text": "The AI Action Plan and related executive orders emphasize deregulation, infrastructure expansion (energy, data centers, semiconductors), and US global AI leadership rather than imposing binding safety obligations on foundation model developers akin to the EU's systemic-risk regime.",
+      "supporting_sources": [
+        "https://bipartisanpolicy.org/explainer/strategic-federal-actions-aim-to-strengthen-ai-and-energy-infrastructure",
+        "https://www.insidegovernmentcontracts.com/2025/08/july-2025-ai-developments-under-the-trump-administration",
+        "https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan",
+        "https://www.consumerfinancemonitor.com/2025/07/28/a-new-era-for-u-s-ai-policy-how-americas-ai-action-plan-will-shape-industry-and-government",
+        "https://www.mofo.com/resources/insights/250729-a-call-to-action-president-trump-s-policy-blueprint",
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+        "https://www.wilsoncenter.org/article/americas-ai-action-plan-after-one-year-what-administration-has-done-and-what-comes-next"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_019",
+      "text": "Executive Order 14318, 'Accelerating Federal Permitting of Data Center Infrastructure,' directs agencies to expedite permitting for large AI data centers (over 100 MW) and related infrastructure.",
+      "supporting_sources": [
+        "https://www.insidegovernmentcontracts.com/2025/08/july-2025-ai-developments-under-the-trump-administration"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.03,
+        "authority": 0.15,
+        "recency": 0.2,
+        "corroboration": 1.0,
+        "undated": false
+      }
+    },
+    {
+      "claim_id": "claim_020",
+      "text": "President Trump signed Executive Order 14362 on November 24, 2025, launching the 'Genesis Mission,' a national effort to build an integrated AI platform for scientific discovery.",
+      "supporting_sources": [
+        "https://web.pdx.edu/~pcooper/TechLawPolicy-css.html"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_021",
+      "text": "On December 11, 2025, President Trump signed an Executive Order titled 'Ensuring a National Policy Framework for Artificial Intelligence,' aiming to establish a uniform, minimally burdensome federal AI standard and to preempt the patchwork of state AI laws, with limited exceptions (e.g., child safety protections).",
+      "supporting_sources": [
+        "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+        "https://fedscoop.com/trump-appears-ready-executive-order-state-ai-law-preemption",
+        "https://www.theemployerreport.com/2025/12/us-pre-emption-by-executive-order-trump-order-moves-to-block-state-ai-laws",
+        "https://law-ai.org/legal-issues-raised-by-the-proposed-executive-order-on-ai-preemption",
+        "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+        "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/New-Executive-Order-aims-to-pre-empt-state-AI-regulation-Top-points"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_022",
+      "text": "The December 2025 EO directs development of a federal legislative recommendation to preempt state AI laws rather than itself enacting binding substantive AI safety requirements for foundation model providers.",
+      "supporting_sources": [
+        "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+        "https://www.theemployerreport.com/2025/12/us-pre-emption-by-executive-order-trump-order-moves-to-block-state-ai-laws",
+        "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+        "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/New-Executive-Order-aims-to-pre-empt-state-AI-regulation-Top-points"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_023",
+      "text": "As of late 2025, the US federal approach to AI has consisted primarily of executive orders promoting innovation, infrastructure, and deregulation, with no enacted federal statute imposing EU-style systemic-risk obligations (e.g., mandatory risk assessments, incident reporting, cybersecurity requirements) on foundation model developers.",
+      "supporting_sources": [
+        "https://web.pdx.edu/~pcooper/TechLawPolicy-css.html",
+        "https://bipartisanpolicy.org/explainer/strategic-federal-actions-aim-to-strengthen-ai-and-energy-infrastructure",
+        "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+        "https://www.insidegovernmentcontracts.com/2025/08/july-2025-ai-developments-under-the-trump-administration",
+        "https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan",
+        "https://www.consumerfinancemonitor.com/2025/07/28/a-new-era-for-u-s-ai-policy-how-americas-ai-action-plan-will-shape-industry-and-government",
+        "https://www.mofo.com/resources/insights/250729-a-call-to-action-president-trump-s-policy-blueprint",
+        "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+        "https://www.wilsoncenter.org/article/americas-ai-action-plan-after-one-year-what-administration-has-done-and-what-comes-next",
+        "https://fedscoop.com/trump-appears-ready-executive-order-state-ai-law-preemption",
+        "https://www.theemployerreport.com/2025/12/us-pre-emption-by-executive-order-trump-order-moves-to-block-state-ai-laws",
+        "https://law-ai.org/legal-issues-raised-by-the-proposed-executive-order-on-ai-preemption",
+        "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+        "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/New-Executive-Order-aims-to-pre-empt-state-AI-regulation-Top-points"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.56,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "claim_a": "So far only GPT-4 and a few other models seem to be close to the 10^25 FLOPs threshold.",
+      "claim_b": "A few of the models that exist nowadays, such as Google's Gemini or OpenAI's GPT-4o, are said to exceed this threshold.",
+      "source_a": "https://ec.europa.eu/newsroom/eismea/redirection/item/825283/en/3098",
+      "source_b": "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+      "description": "Source 28 suggests models are merely approaching the systemic-risk compute threshold, while source 29 (published later, June 2025) states some current models already exceed it, reflecting differing assessments possibly due to publication timing or differing estimates of model compute."
+    },
+    {
+      "claim_a": "President Trump revoked Biden's AI EO 14110 upon taking office (reported as action taken on first day of new term, i.e., January 20, 2025).",
+      "claim_b": "President Trump issued a new AI executive order, 'Removing Barriers to American Leadership in Artificial Intelligence,' on January 23, 2025.",
+      "source_a": "https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know",
+      "source_b": "https://www.squirepattonboggs.com/insights/publications/key-insights-on-president-trumps-new-ai-executive-order-and-policy-regulatory-implications",
+      "description": "Source 23 implies the revocation occurred on Trump's first day in office (around January 20, 2025) via an alert dated January 22, 2025, while sources 24 and 25 date the substantive replacement policy order to January 23, 2025; sources do not clarify whether the revocation and the new EO were simultaneous or sequential, creating ambiguity about exact timeline of the policy transition."
+    }
+  ],
+  "open_issues": [
+    "No source specifies whether the US has enacted, or plans to enact, any binding federal statute or regulation imposing obligations on foundation model providers comparable to the EU AI Act's Article 51/55 systemic-risk regime (e.g., mandatory risk assessment, incident reporting, cybersecurity requirements).",
+    "The sources do not clarify the final content or legal force of the federal legislative recommendation called for by the December 11, 2025 Executive Order on state AI law preemption, nor whether Congress has acted on it.",
+    "It is unclear how enforcement of the EU AI Act's GPAI systemic-risk obligations is proceeding in practice now that 'enforcement powers arrived in 2026,' including whether any penalties or investigations have occurred.",
+    "The sources do not address how Meta's refusal to sign the EU Code of Practice affects its compliance status or whether it faces different obligations or enforcement risk.",
+    "There is no information on how the US Genesis Mission or AI Action Plan interacts with existing sector-specific US AI regulations (e.g., NIST frameworks) or whether they impose any mandatory requirements on foundation model developers.",
+    "The sources do not clarify whether the EU's compute-based systemic risk threshold (10^25 FLOPs) has been or will be adjusted, despite noting it 'will be adjusted over time.'",
+    "No source discusses how the EU AI Act's foundation model rules will be reconciled or interact with the new US federal preemption framework for companies operating in both jurisdictions.",
+    "The sources do not indicate whether the December 2025 US Executive Order on state AI preemption has faced or will face legal challenges, and what the outcome might be."
+  ],
+  "report": "# EU AI Act vs. US Federal AI Policy: Comparing Approaches to Foundation Model Governance\n\n## Executive Summary\nThe EU AI Act imposes binding, tiered legal obligations on general-purpose AI (GPAI) model providers, with heightened requirements for models posing \"systemic risk,\" while US federal policy has relied almost entirely on executive orders favoring deregulation, infrastructure expansion, and state-law preemption rather than binding safety mandates. As of late 2025, no enacted US federal statute imposes obligations comparable to the EU's systemic-risk regime (medium confidence).\n\n## Key Findings\n\n### EU AI Act: Binding Obligations for GPAI Providers\nUnder Article 53, GPAI providers must maintain technical documentation, share it with authorities and downstream providers, establish a copyright policy, and publish a training-data summary (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53)). Open-source models are exempt from some of these requirements unless classified as posing systemic risk (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53)). Providers of GPAI models with systemic risk face additional Article 55 duties: model evaluations, systemic risk assessment and mitigation, serious-incident tracking/reporting, and cybersecurity protections (medium confidence) ([Digital Strategy FAQ](https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers)). A model is presumed systemic-risk if trained with cumulative compute exceeding 10^25 FLOPs under Article 51 (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51)), and the Commission can also designate systemic-risk status via Annex XIII criteria absent meeting this threshold (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51)).\n\n### EU Implementation Timeline and Voluntary Compliance Tools\nThe Act entered into force 1 August 2024 (medium confidence) ([JRC](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143260/JRC143260_01.pdf)), with GPAI obligations applying from 2 August 2025 (high confidence) ([Digital Strategy FAQ](https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai)). The voluntary General-Purpose AI Code of Practice lets signatories demonstrate compliance, particularly via its Safety and Security Chapter for systemic-risk models (medium confidence) ([Code of Practice](https://artificialintelligenceact.eu/introduction-to-code-of-practice)). Systemic-risk providers must notify the AI Office without delay, and Code signatories must confirm risk-management frameworks within set deadlines (high confidence) ([Digital Strategy FAQ](https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai)). Major providers including Amazon, Anthropic, Google, IBM, Microsoft, Mistral AI, and OpenAI signed the Code; Meta declined (low confidence) ([Founderz](https://founderz.com/blog/what-is-gpai-model)).\n\n### US Federal Approach: Executive Orders, Deregulation, Preemption\nBiden's Executive Order 14110 (October 2023) directed agencies toward labeling, authentication guidance, and reporting deadlines (high confidence) ([Federal Register](https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence)), but Trump revoked it upon taking office in January 2025 (medium confidence) ([Wiley](https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know)), replacing it with an order prioritizing \"American AI leadership\" (medium confidence) ([Squire Patton Boggs](https://www.squirepattonboggs.com/insights/publications/key-insights-on-president-trumps-new-ai-executive-order-and-policy-regulatory-implications)). Replacement policies were not yet drafted in early 2025 (medium confidence) ([Skadden](https://www.skadden.com/insights/publications/executive-briefing/ai-broad-biden-order-is-withdrawn)). In July 2025, the Administration released America's AI Action Plan, with 90+ actions emphasizing innovation, infrastructure, and global leadership rather than binding safety obligations (medium confidence) ([Sidley](https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan)). In December 2025, an executive order sought a uniform federal AI standard preempting state laws, directing development of a legislative recommendation rather than enacting binding substantive requirements itself (medium confidence) ([MVA Law](https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions)).\n\n## Contradictions & Uncertainties\nSources disagree on whether current models exceed the EU's 10^25 FLOPs threshold or merely approach it, likely due to differing publication dates ([European Parliament item](https://ec.europa.eu/newsroom/eismea/redirection/item/825283/en/3098) vs. [EDPB, June 2025](https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf)). The exact sequencing of Trump's EO revocation and replacement order is unclear across sources. Low-confidence claims include enforcement timing for GPAI obligations arriving in 2026 ([Founderz](https://founderz.com/blog/what-is-gpai-model)), details of Code of Practice signatories ([LinkedIn post](https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7)), and the Genesis Mission EO ([Portland State](https://web.pdx.edu/~pcooper/TechLawPolicy-css.html)).\n\n## Knowledge Gaps\nNo source confirms whether the US plans any binding federal statute comparable to the EU's Article 51/55 regime. The content and legislative prospects of the federal preemption recommendation remain unspecified. Practical enforcement of EU GPAI obligations since 2026, Meta's compliance status absent Code signature, and interactions between US federal initiatives and existing frameworks (e.g., NIST) are unaddressed. Cross-jurisdictional reconciliation for companies subject to both regimes is also unexplored.\n\n## Sources\n1. [AI Act Service Desk \u2013 Article 53](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53)\n2. [Digital Strategy FAQ \u2013 GPAI Models](https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers)\n3. [AI Act Service Desk \u2013 Article 51](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51)\n4. [JRC Report](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143260/JRC143260_01.pdf)\n5. [Digital Strategy FAQ \u2013 Code of Practice](https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai)\n6. [Code of Practice Introduction](https://artificialintelligenceact.eu/introduction-to-code-of-practice)\n7. [Founderz \u2013 GPAI Model](https://founderz.com/blog/what-is-gpai-model)\n8. [Federal Register EO 14110, 2023-11-01](https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence)\n9. [Wiley \u2013 Trump Revokes Biden AI EO](https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know)\n10. [Squire Patton Boggs \u2013 Trump AI EO](https://www.squirepattonboggs.com/insights/publications/key-insights-on-president-trumps-new-ai-executive-order-and-policy-regulatory-implications)\n11. [Skadden \u2013 Biden Order Withdrawn](https://www.skadden.com/insights/publications/executive-briefing/ai-broad-biden-order-is-withdrawn)\n12. [Sidley \u2013 2025 AI Action Plan, 2025-07](https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan)\n13. [MVA Law \u2013 State AI Preemption EO](https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions)\n14. [European Parliament Newsroom Item](https://ec.europa.eu/newsroom/eismea/redirection/item/825283/en/3098)\n15. [EDPB Training, 2025-06](https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf)\n16. [LinkedIn \u2013 Meta Rejects Code](https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7)\n17. [Portland State Tech Law Policy](https://web.pdx.edu/~pcooper/TechLawPolicy-css.html)\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": null,
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "Every factual statement in the Key Findings and Contradictions sections carries a markdown citation link. No uncited factual claims were found."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "All facts, dates, and figures (e.g., 10^25 FLOPs, 1 Aug 2024 entry into force, 2 Aug 2025 GPAI obligations, EO 14110 Oct 2023, Jan 2025 revocation, July 2025 AI Action Plan with 90+ actions, Dec 2025 preemption EO) match the extracted claims with no invented or altered numbers/dates."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report's 'Contradictions & Uncertainties' section accurately reflects both known contradictions (FLOPs threshold disagreement, EO revocation/replacement sequencing) and flags low-confidence claims (enforcement timing, Code signatories, Genesis Mission)."
+    },
+    "confidence_assessment": {
+      "passed": true,
+      "notes": "Confidence labels attached to each claim in the report (e.g., high for Article 51 FLOPs threshold and EO 14110; medium for Article 53/55 obligations, timeline items, and AI Action Plan; low for Code signatory details) align with the confidence levels assigned in the extracted claims."
+    },
+    "executive_summary_accuracy": {
+      "passed": true,
+      "notes": "The executive summary's characterization of the EU's tiered binding obligations versus the US's executive-order-driven, deregulatory, preemption-focused approach accurately mirrors the detailed findings in the body, including the medium-confidence conclusion that no comparable binding US statute exists."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The 'Knowledge Gaps' section clearly states open issues (no binding US statute comparable to EU regime, unspecified preemption legislative content, unaddressed enforcement since 2026, Meta's compliance status, NIST interaction, cross-jurisdictional reconciliation), consistent with the extracted open issues list."
+    }
+  },
+  "review_status": "approved",
+  "approved": true,
+  "review_count": 1,
+  "error": null,
+  "researcher": "tools",
+  "tool_research": {
+    "searches": 7,
+    "turns": 4,
+    "ended_by": "finish_research",
+    "told_to_continue": false,
+    "calls": [
+      {
+        "turn": 1,
+        "tool": "search_official",
+        "query": "EU AI Act general-purpose AI model obligations",
+        "urls": [
+          "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+          "https://digital-strategy.ec.europa.eu/en/faqs/guidelines-obligations-general-purpose-ai-providers",
+          "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143260/JRC143260_01.pdf",
+          "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai"
+        ],
+        "result": "5 new sources. 5 sources so far, 1 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 1,
+        "tool": "search_web",
+        "query": "US federal AI policy 2025 executive order foundation models",
+        "urls": [
+          "https://web.pdx.edu/~pcooper/TechLawPolicy-css.html",
+          "https://bipartisanpolicy.org/explainer/strategic-federal-actions-aim-to-strengthen-ai-and-energy-infrastructure",
+          "https://www.mvalaw.com/data-points/president-trump-takes-aim-at-state-artificial-intelligence-regulation-with-limited-exceptions",
+          "https://www.congress.gov/crs-product/R47843",
+          "https://www.insidegovernmentcontracts.com/2025/08/july-2025-ai-developments-under-the-trump-administration"
+        ],
+        "result": "5 new sources. 10 sources so far, 2 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "Trump AI Action Plan July 2025 foundation models federal policy",
+        "urls": [
+          "https://www.sidley.com/en/insights/newsupdates/2025/07/the-trump-administrations-2025-ai-action-plan",
+          "https://www.consumerfinancemonitor.com/2025/07/28/a-new-era-for-u-s-ai-policy-how-americas-ai-action-plan-will-shape-industry-and-government",
+          "https://www.mofo.com/resources/insights/250729-a-call-to-action-president-trump-s-policy-blueprint",
+          "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-united-states",
+          "https://www.wilsoncenter.org/article/americas-ai-action-plan-after-one-year-what-administration-has-done-and-what-comes-next"
+        ],
+        "result": "5 new sources. 15 sources so far, 3 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "EU AI Act GPAI Code of Practice systemic risk signatories OpenAI Google Meta",
+        "urls": [
+          "https://artificialintelligenceact.eu/introduction-to-code-of-practice",
+          "https://code-of-practice.ai",
+          "https://founderz.com/blog/what-is-gpai-model",
+          "https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7",
+          "https://artificialintelligenceact.eu/code-of-practice-overview"
+        ],
+        "result": "5 new sources. 20 sources so far, 4 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "executive order rescind Biden AI executive order 14110 Trump January 2025",
+        "urls": [
+          "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+          "https://en.wikipedia.org/wiki/Executive_Order_14110",
+          "https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know",
+          "https://www.squirepattonboggs.com/insights/publications/key-insights-on-president-trumps-new-ai-executive-order-and-policy-regulatory-implications",
+          "https://www.skadden.com/insights/publications/executive-briefing/ai-broad-biden-order-is-withdrawn"
+        ],
+        "result": "5 new sources. 25 sources so far, 5 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_official",
+        "query": "AI Act Annex XIII systemic risk thresholds FLOPs 10^25",
+        "urls": [
+          "https://www.esrb.europa.eu/pub/pdf/asc/esrb.ascreport202512_AIandsystemicrisk.fi.pdf?9c33e4591f138527d8b39dab792d242f=",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51",
+          "https://ec.europa.eu/newsroom/eismea/redirection/item/825283/en/3098",
+          "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+          "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/698792/EPRS_BRI(2021)698792_EN.pdf"
+        ],
+        "result": "5 new sources. 30 sources so far, 6 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_web",
+        "query": "Trump executive order state AI law preemption November 2025",
+        "urls": [
+          "https://fedscoop.com/trump-appears-ready-executive-order-state-ai-law-preemption",
+          "https://www.theemployerreport.com/2025/12/us-pre-emption-by-executive-order-trump-order-moves-to-block-state-ai-laws",
+          "https://law-ai.org/legal-issues-raised-by-the-proposed-executive-order-on-ai-preemption",
+          "https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards",
+          "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/New-Executive-Order-aims-to-pre-empt-state-AI-regulation-Top-points"
+        ],
+        "result": "5 new sources. 35 sources so far, 7 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 4,
+        "tool": "finish_research",
+        "reason": "Collected sufficient primary and secondary sources covering EU AI Act GPAI/foundation model obligations (Articles 51/53, Annex XIII, Code of Practice) and US federal AI policy (rescinded EO 14110, 2025 AI Action Plan, state-preemption executive order), enabling a thorough comparison.",
+        "result": "Research finished.",
+        "is_error": false
+      }
+    ]
+  },
+  "searches": 7,
+  "official_sources": 10,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 128.4,
+  "research_seconds": 31.6,
+  "llm_calls": 7,
+  "input_tokens": 48726,
+  "output_tokens": 12110,
+  "cost_usd": 0.2186,
+  "research_cost_usd": 0.0329,
+  "mentions_current_annex_iii_date": false,
+  "timestamp": "2026-10-28T13:10:55",
+  "question_id": "q2",
+  "run": 2
+}

@@ -1,0 +1,684 @@
+{
+  "question": "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
+  "search_queries": [
+    "AI Act high-risk employment recruitment Annex III obligations deployer",
+    "AI Act Article 26 obligations deployers high-risk AI system",
+    "EU AI Act enforcement action hiring AI tool 2026",
+    "AI Act high-risk recruitment compliance checklist conformity assessment CE marking",
+    "Garante privacy AI recruitment fine algorithm hiring Italy enforcement",
+    "AI Act penalties Article 99 market surveillance authority national implementation"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "title": "Article 26: Obligations of deployers of high-risk AI systems | AI Act Service Desk",
+      "snippet": "Member States may introduce, in accordance with Union law, more restrictive laws on the use of post-remote biometric identification systems.\n\n11.   Without prejudice to Article 50 of this Regulation, deployers of high-risk AI systems referred to in Annex III that make decisions or assist in making decisions related to natural persons shall inform the natural persons that they are subject to the use of the high-risk AI system. For high-risk AI systems used for law enforcement purposes Article 13 ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act high-risk employment recruitment Annex III obligations deployer"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out",
+      "title": "The office has become a DIY AI lab \u2014 who is checking what goes in and what comes out? | Futurium",
+      "snippet": "### Where the EU AI Act comes in  \n  \nThe Act looks at how AI is \\\\used\\\\. A business that uses AI at work is a deployer. Article 3(4) defines a deployer as \"a natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity\".  \n  \nSome uses carry much heavier duties than others. Annex III, point 4 lists, among other things, \"AI systems intended to be used for the recrui",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act high-risk employment recruitment Annex III obligations deployer"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf",
+      "title": "Interplay between the AI Act and the EU digital legislative ...",
+      "snippet": "system on the market or putting it into service. Even more explicitly, Article 27 requires deployers of certain high-risk AI systems to conduct a fundamental rights impact assessment prior to their first deployment. This applies where the deployer is a body governed by public law, or a private entity providing public services, or another specified deployer of high-risk AI systems referred to in Annex III. The outcome of that assessment must be notified to the competent market surveillance author",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act high-risk employment recruitment Annex III obligations deployer"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+      "title": "Article 27: Fundamental rights impact assessment for high-risk AI systems | AI Act Service Desk",
+      "snippet": "1.   Prior to deploying a high-risk AI system referred to in Article 6(2), with the exception of high-risk AI systems intended to be used in the area listed in point 2 of Annex III, deployers that are bodies governed by public law, or are private entities providing public services, and deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III, shall perform an assessment of the impact on fundamental rights that the use of such system may produce. For that purpose, deploy",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act high-risk employment recruitment Annex III obligations deployer"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+      "title": "ANNEX III | AI Act Service Desk",
+      "snippet": "Chapter II: Prohibited AI Practices \n\n Article 5: Prohibited AI practices\n\n  Chapter III: High-Risk AI Systems \n\nSection 1: Classification of AI Systems as High-Risk\n\n Article 6: Classification rules for high-risk AI systems\n Article 7: Amendments to Annex III\n\nSection 2: Requirements for High-Risk AI Systems\n\n Article 8: Compliance with the requirements\n Article 9: Risk management system\n Article 10: Data and data governance\n Article 11: Technical documentation\n Article 12: Record-keeping\n Arti",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act high-risk employment recruitment Annex III obligations deployer"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+      "title": "Law & Compliance in AI Security & Data Protection",
+      "snippet": "And doing so is in its interest, as organizations remain responsible for the effects of data processing that they control. For high-risk AI systems under the AI Act, evaluating the risks that happen is an actual obligation. Under Article 26(5) AI Act, organizations deploying high-risk AI systems must monitor the system\u2019s operation, following the instructions for use given by the system\u2019s provider. Deployers must inform any serious incidents to the provider. They are not Unit 9. Operation and Mon",
+      "source_type": "eu_guidance",
+      "published_date": "2025-06-01",
+      "search_query": "AI Act Article 26 obligations deployers high-risk AI system"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-92",
+      "title": "AI Act Service Desk - Recital 92",
+      "snippet": "Article 26: Obligations of deployers of high-risk AI systems. View the official text. The text used in this tool is the 'Artificial Intelligence Act",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Article 26 obligations deployers high-risk AI system"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+      "snippet": "Article 16: Obligations of providers of high-risk AI systems\n Article 17: Quality management system\n Article 18: Documentation keeping\n Article 19: Automatically generated logs\n Article 20: Corrective actions and duty of information\n Article 21: Cooperation with competent authorities\n Article 22: Authorised representatives of providers of high-risk AI systems\n Article 23: Obligations of importers\n Article 24: Obligations of distributors\n Article 25: Responsibilities along the AI value chain\n Art",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Article 26 obligations deployers high-risk AI system"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer",
+      "title": "AI Act Explorer | AI Act Service Desk",
+      "snippet": "Article 16: Obligations of providers of high-risk AI systems\n Article 17: Quality management system\n Article 18: Documentation keeping\n Article 19: Automatically generated logs\n Article 20: Corrective actions and duty of information\n Article 21: Cooperation with competent authorities\n Article 22: Authorised representatives of providers of high-risk AI systems\n Article 23: Obligations of importers\n Article 24: Obligations of distributors\n Article 25: Responsibilities along the AI value chain\n Art",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act Article 26 obligations deployers high-risk AI system"
+    },
+    {
+      "url": "https://www.warden-ai.com/resources/eu-ai-act-hiring-recruitment",
+      "title": "EU AI Act for Hiring: Risk Tiers & Compliance Steps - Warden AI",
+      "snippet": "04 Sep 2026\n\n/\n\nPublished:\n\n03 Jul 2026\n\nMany organizations believe that if they purchase an AI tool from a vendor, the responsibility for legal compliance rests with the provider. The EU AI Act directly challenges this assumption by creating a chain of shared liability. The law distinguishes between \"providers,\" the companies that build AI systems, and \"deployers,\" the businesses that use them. If your company uses AI to screen r\u00e9sum\u00e9s or assess candidates, you are a deployer and share responsi",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act enforcement action hiring AI tool 2026"
+    },
+    {
+      "url": "https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide",
+      "title": "EU AI Act for HR Managers: The 2026 Compliance Guide",
+      "snippet": "Q3 2025: Complete an AI tool inventory. List every tool that touches an employment decision.\n Q4 2025: Run a DPIA for each high-risk tool. Update employment contracts and privacy notices.\n Q1 2026: Establish human oversight roles, logging procedures, and incident reporting channels.\n Q2 2026: Complete first bias analysis cycle. Deliver AI literacy training. File training records.\n 2 August 2026: Full compliance required.\n\nPenalties for non-compliance with high-risk obligations can reach \u20ac15 mill",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act enforcement action hiring AI tool 2026"
+    },
+    {
+      "url": "https://ninjahire.co/thoughts/eu-ai-act-hiring-explained",
+      "title": "EU AI Act Hiring Rules: What Recruiters Must Do Before 2026 | Ninjahire Thoughts",
+      "snippet": "Establish logging and record-retention processes for AI tool usage in hiring, with retention periods aligned to applicable employment law in your jurisdiction\n Conduct AI literacy training for all staff who use, review outputs from, or manage vendor relationships with AI hiring tools\n Develop a process for responding to candidate requests for explanation of AI-assisted hiring decisions\n Assess whether a Fundamental Rights Impact Assessment is required for your specific use of AI in hiring, parti",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act enforcement action hiring AI tool 2026"
+    },
+    {
+      "url": "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary",
+      "title": "A comprehensive EU AI Act Summary [August 2026 update] - SIG",
+      "snippet": "The Omnibus confirms two fixed dates for the Act\u2019s toughest tier: high-risk obligations for stand-alone systems (Annex III, covering hiring, credit scoring, education, and critical infrastructure) are deferred to 2 December 2027, and high-risk AI embedded in already-regulated products (Annex I, covering medical devices, machinery, and toys) is deferred to 2 August 2028. Neither date is conditional on further Commission decisions. The earlier \u201c6 or 12 months after standards are confirmed\u201d mechani",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act enforcement action hiring AI tool 2026"
+    },
+    {
+      "url": "https://www.tenzo.ai/blog/ai-hiring-compliance-2026",
+      "title": "AI Hiring Compliance in 2026: NYC, EU AI Act, State Laws",
+      "snippet": "In 2026, that gap matters more than it did a year ago. New York City\u2019s AEDT law is already operational. The EU AI Act is moving hiring AI into a more formal regulatory regime. Colorado\u2019s law takes effect in 2026 and brings a broader governance model that buyers across the U.S. should pay attention to. Meanwhile, Illinois and Maryland continue to matter for narrower but very real use cases involving video interviews and facial recognition.\n\nThe short version: [...] In plain English, a lot of what",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act enforcement action hiring AI tool 2026"
+    },
+    {
+      "url": "https://www.dpo-consulting.com/blog/ai-conformity-assessment",
+      "title": "AI Conformity Assessment Under the EU AI Act: A Practical Guide for High-Risk AI Compliance",
+      "snippet": "An AI conformity assessment is the process through which a provider demonstrates that a high-risk AI system complies with the mandatory requirements of the EU AI Act before it is placed on the market or put into service. It is not a simple checklist exercise. It requires evidence that the system has been designed, tested, documented, governed and monitored in accordance with the regulation.\n\nFor legal teams, CISOs, product leaders, compliance officers and executives, understanding conformity ass",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act high-risk recruitment compliance checklist conformity assessment CE marking"
+    },
+    {
+      "url": "https://www.resemble.ai/resources/eu-ai-act-compliance-checklist-ai-companies",
+      "title": "10-Step EU AI Act Compliance Checklist for AI Companies in 2026",
+      "snippet": "Conformity assessment checklist:\n\n Determine whether your high-risk system requires self-assessment or a notified body assessment under Article 43\n Complete the conformity assessment against the requirements in Articles 8 through 15\n Issue an EU Declaration of Conformity under Article 47, signed by an authorized representative\n Affix CE marking under Article 48 before placing the system on the market\n Register the system in the EU database for high-risk AI systems under Article 49 and Annex VIII",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act high-risk recruitment compliance checklist conformity assessment CE marking"
+    },
+    {
+      "url": "https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide",
+      "title": "High-risk AI systems under the EU AI Act: A complete guide for April 2026 | Openlayer",
+      "snippet": "By August 2, 2026, your high-risk system must have a functioning risk management process, complete technical documentation, finished conformity assessment with CE marking affixed, registration submitted to the EU database, and post-market monitoring active in production. The European Commission missed its February 2026 guidance deadline, but that creates interpretive risk, not a compliance extension. Treat August 2026 as binding.\n\n### Can I self-certify conformity for a high-risk recruitment scr",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act high-risk recruitment compliance checklist conformity assessment CE marking"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48",
+      "title": "Article 48: CE marking | AI Act Service Desk",
+      "snippet": "## Article 48: CE marking\n\nSummary \n\nHigh-risk AI systems should include CE marking. For AI systems provided digitally, a digital CE marking must be easily accessible. The CE marking must be clearly visible and permanent, or affixed to the packaging or documentation if not possible. Where applicable, the marking should include the identification number of the notified body responsible for conformity assessment. If the AI system is subject to other EU laws requiring CE marking, the marking must i",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act high-risk recruitment compliance checklist conformity assessment CE marking"
+    },
+    {
+      "url": "https://www.regulatoryai.eu/ai-act-compliance-checklist",
+      "title": "EU AI Act Compliance Checklist (2026)",
+      "snippet": "## Checklist \u2014 frequently asked questions\n\nWhat's on the EU AI Act compliance checklist?\n\nInventory your AI; classify each system into the four tiers; remove any prohibited use (Art 5); for high-risk meet Articles 9\u201315 plus the Annex IV technical file, conformity assessment, CE marking and registration; meet Article 50 transparency; do the GPAI duties (Art 53) if you provide a model; take AI-literacy measures (Art 4); and cover deployer duties incl. a FRIA where required (Art 26\u201327).\n\n Is there ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act high-risk recruitment compliance checklist conformity assessment CE marking"
+    },
+    {
+      "url": "https://pwjennings.com/guidance/privacy-law-gdpr-italy-2026",
+      "title": "Italian Privacy Law 2026: Garante & AI | PWJennings | PWJennings",
+      "snippet": "## The 2026 Statutory Framework: The AI Act\n\nUnder the current Garante guidelines, any enterprise utilizing Artificial Intelligence (AI) for employee monitoring, recruitment, or credit scoring within the Italian territory must execute a specialized DPIA (Data Protection Impact Assessment). This assessment must specifically address \"Algorithmic Bias\" and satisfy the transparency requirements of both the GDPR and the European AI Act.\n\nThe AI Transparency Mandate\\\\: Individuals must be explicitly n",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Garante privacy AI recruitment fine algorithm hiring Italy enforcement"
+    },
+    {
+      "url": "https://www.legal500.com/intelligence/italy/privacy/laws-guidance-and-recommendations-what-to-consider-when-using-ai-to-hire-employees-in-italy",
+      "title": "What To Consider When Using AI To Hire Employees In Italy",
+      "snippet": "Oct 3, 2024 \u2014 Privacy Violation: OpenAI/ChatGPT To Pay A Fine Of 15 Million Euros The Italian data protection authority, Garante",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "Garante privacy AI recruitment fine algorithm hiring Italy enforcement"
+    },
+    {
+      "url": "https://regulations.ai/regulations/RAI-IT-NA-SUMMARY-2026",
+      "title": "Italy AI Regulation Overview | Regulations.AI",
+      "snippet": "Source \u2197\n10. Enforcement orderJan 30, 2025\n\n    ### Garante per la protezione dei dati personali (Garante Privacy)vs Hangzhou DeepSeek Artificial Intelligence, Beijing DeepSeek Artificial Intelligence\n\n    Sector: Generative AI\n\n    The Garante imposed an urgent and immediate definitive limitation on the processing of Italian users' personal data by the companies behind the DeepSeek chatbot service. This action was due to insufficient responses regarding data collection, storage in China, and ov",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Garante privacy AI recruitment fine algorithm hiring Italy enforcement"
+    },
+    {
+      "url": "https://gdprfine.com/dpa/italy-garante",
+      "title": "Italian Garante GDPR Fines: Enforcement Record & AI Cases | GDPRFine.com",
+      "snippet": "Clearview AI (Provvedimento 9751362, February 2022): the Garante imposed a \u20ac20 million fine on Clearview AI Inc, ordered deletion of data relating to Italian residents, prohibited further processing of biometric data of Italian residents, and required the designation of an EU representative under Article 27. The decision applied Article 3 extraterritoriality to a US-only company on the basis that scraping and indexing facial images of Italian residents constitutes monitoring of behaviour within ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Garante privacy AI recruitment fine algorithm hiring Italy enforcement"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/analytics-india-magazine_italys-the-italian-data-protection-authority-activity-7276495412784517120-Szxq",
+      "title": "AIM's Post",
+      "snippet": "Italy's (The Italian Data Protection Authority), Garante, has imposed a \u20ac15.58 million fine on OpenAI, citing violations of GDPR in",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "Garante privacy AI recruitment fine algorithm hiring Italy enforcement"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-74",
+      "title": "Article 74: Market surveillance and control of AI systems in the Union market | AI Act Service Desk",
+      "snippet": "Chapter X: Codes of Conduct and Guidelines \n\n Article 95: Codes of conduct for voluntary application of specific requirements\n Article 96: Guidelines from the Commission on the implementation of this Regulation\n\n  Chapter XI: Delegation of Power and Committee Procedure \n\n Article 97: Exercise of the delegation\n Article 98: Committee procedure\n\n  Chapter XII: Penalties \n\n Article 99: Penalties\n Article 100: Administrative fines on Union institutions, bodies, offices and agencies\n Article 101: Fin",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act penalties Article 99 market surveillance authority national implementation"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99",
+      "title": "Article 99: Penalties | AI Act Service Desk",
+      "snippet": "Article 74: Market surveillance and control of AI systems in the Union market\n Article 75: Market surveillance and control of AI systems and mutual assistance\n Article 75a: Supervisory and enforcement powers of the AI Office\n Article 75b: Commitments\n Article 75c: Non-compliance, fines and periodic penalty payments\n Article 75d: Safeguards and further specification\n Article 76: Supervision of testing in real world conditions by market surveillance authorities\n Article 77: Powers of authorities p",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act penalties Article 99 market surveillance authority national implementation"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-80",
+      "title": "Article 80: Procedure for dealing with AI systems classified by the provider as non-high-risk in application of Annex III | AI Act Service Desk",
+      "snippet": "7.   Where, in the course of the evaluation pursuant to paragraph 1 of this Article, the market surveillance authority establishes that the AI system was misclassified by the provider as non-high-risk in order to circumvent the application of requirements in Chapter III, Section 2, the provider shall be subject to fines in accordance with Article 99.\n\n8.   In exercising their power to monitor the application of this Article, and in accordance with Article 11 of Regulation (EU) 2019/1020, market ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act penalties Article 99 market surveillance authority national implementation"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-79",
+      "title": "Article 79: Procedure at national level for dealing with AI systems presenting a risk | AI Act Service Desk",
+      "snippet": "Chapter X: Codes of Conduct and Guidelines \n\n Article 95: Codes of conduct for voluntary application of specific requirements\n Article 96: Guidelines from the Commission on the implementation of this Regulation\n\n  Chapter XI: Delegation of Power and Committee Procedure \n\n Article 97: Exercise of the delegation\n Article 98: Committee procedure\n\n  Chapter XII: Penalties \n\n Article 99: Penalties\n Article 100: Administrative fines on Union institutions, bodies, offices and agencies\n Article 101: Fin",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act penalties Article 99 market surveillance authority national implementation"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "AI systems intended to be used for recruitment or selection of natural persons are listed as high-risk under Annex III, point 4 of the AI Act.",
+      "supporting_sources": [
+        "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "A 'deployer' is defined under Article 3(4) as a natural or legal person, public authority, agency or other body using an AI system under its authority, except in purely personal non-professional use.",
+      "supporting_sources": [
+        "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "Deployers of high-risk AI systems listed in Annex III that make or assist in decisions about natural persons must inform those persons that they are subject to the use of the high-risk AI system (Article 26(11)).",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "Under Article 26(5), deployers of high-risk AI systems must monitor the system's operation based on the provider's instructions for use and must inform the provider of any serious incidents.",
+      "supporting_sources": [
+        "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.17,
+        "authority": 0.85,
+        "recency": 0.2,
+        "corroboration": 1.0,
+        "undated": false
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "Article 27 requires a Fundamental Rights Impact Assessment (FRIA) prior to first deployment, but only for deployers that are bodies governed by public law, private entities providing public services, or deployers of Annex III points 5(b) and (c); general private-sector employers deploying hiring tools (Annex III point 4) are not explicitly named in this list.",
+      "supporting_sources": [
+        "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "Providers of high-risk AI systems must complete a conformity assessment (Articles 8-15, 43), issue an EU Declaration of Conformity (Article 47), affix CE marking (Article 48), and register the system in the EU database (Article 49).",
+      "supporting_sources": [
+        "https://www.dpo-consulting.com/blog/ai-conformity-assessment",
+        "https://www.resemble.ai/resources/eu-ai-act-compliance-checklist-ai-companies",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "Market surveillance authorities may evaluate AI systems that providers misclassified as non-high-risk to circumvent Chapter III, Section 2 requirements, and impose fines under Article 99 if misclassification is established.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-80"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "The AI Act establishes national procedures (Articles 74, 79, 80) and penalty provisions (Chapter XII, Articles 99-101) for market surveillance and non-compliance of AI systems, including high-risk systems.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-74",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-80",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-79"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "Penalties for non-compliance with high-risk AI obligations can reach \u20ac15 million (or a percentage of global turnover, per secondary reporting).",
+      "supporting_sources": [
+        "https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "Industry guides recommend deployer compliance steps such as AI tool inventories, DPIAs/FRIAs, human oversight roles, logging and record-retention, bias analysis, AI literacy training, and candidate explanation processes ahead of enforcement deadlines.",
+      "supporting_sources": [
+        "https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide",
+        "https://ninjahire.co/thoughts/eu-ai-act-hiring-explained",
+        "https://www.regulatoryai.eu/ai-act-compliance-checklist"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.17,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "Some sources state that full compliance for high-risk AI obligations, including hiring tools, is required by 2 August 2026.",
+      "supporting_sources": [
+        "https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide",
+        "https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.14,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "A source referencing an 'Omnibus' legislative update states that high-risk obligations for stand-alone Annex III systems (including hiring) have been deferred to 2 December 2027, with Annex I embedded high-risk systems deferred to 2 August 2028, and that these dates are fixed and not conditional on further Commission decisions.",
+      "supporting_sources": [
+        "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "The European Commission missed its February 2026 guidance deadline related to AI Act implementation, which one source says creates interpretive risk but not a compliance extension.",
+      "supporting_sources": [
+        "https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "Under Italian Garante guidance, companies using AI for recruitment must perform a specialized DPIA addressing algorithmic bias and satisfy transparency requirements under both GDPR and the AI Act.",
+      "supporting_sources": [
+        "https://pwjennings.com/guidance/privacy-law-gdpr-italy-2026"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "The Italian Garante fined OpenAI/ChatGPT approximately \u20ac15-15.58 million for GDPR violations.",
+      "supporting_sources": [
+        "https://www.legal500.com/intelligence/italy/privacy/laws-guidance-and-recommendations-what-to-consider-when-using-ai-to-hire-employees-in-italy",
+        "https://www.linkedin.com/posts/analytics-india-magazine_italys-the-italian-data-protection-authority-activity-7276495412784517120-Szxq"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "The Italian Garante fined Clearview AI \u20ac20 million in February 2022 for unlawful biometric data processing of Italian residents, ordering data deletion and an EU representative designation.",
+      "supporting_sources": [
+        "https://gdprfine.com/dpa/italy-garante"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "The Italian Garante imposed an urgent limitation on DeepSeek's processing of Italian users' personal data in January 2025 over data protection concerns.",
+      "supporting_sources": [
+        "https://regulations.ai/regulations/RAI-IT-NA-SUMMARY-2026"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "claim_a": "Full compliance with high-risk AI obligations (including hiring tools) is required by 2 August 2026.",
+      "claim_b": "High-risk obligations for stand-alone Annex III systems (including hiring) have been deferred to 2 December 2027 under an Omnibus legislative update, with these dates described as fixed.",
+      "source_a": "https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide",
+      "source_b": "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary",
+      "description": "Sources disagree on the applicable compliance deadline for high-risk hiring AI systems: 2 August 2026 versus 2 December 2027. It is unclear whether the Omnibus deferral referenced in source 13 has been formally adopted or is a proposal, which would resolve the discrepancy."
+    },
+    {
+      "claim_a": "By August 2, 2026, your high-risk system must have a functioning risk management process, complete technical documentation, finished conformity assessment with CE marking affixed, registration submitted, and post-market monitoring active; treat August 2026 as binding.",
+      "claim_b": "The Omnibus confirms that high-risk obligations for stand-alone Annex III systems, including hiring, are deferred to 2 December 2027, and this date is not conditional on further Commission decisions.",
+      "source_a": "https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide",
+      "source_b": "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary",
+      "description": "Direct conflict over whether the August 2026 deadline remains binding for hiring-related high-risk AI systems or has been superseded by a later 2027 deadline."
+    }
+  ],
+  "open_issues": [
+    "No source documents an enforcement action taken specifically under the EU AI Act against a deployer or provider of a high-risk hiring tool; the cited enforcement actions (OpenAI, Clearview AI, DeepSeek) were brought under GDPR by the Italian Garante, not under the AI Act itself.",
+    "It is unclear whether general private-sector employers deploying hiring AI (Annex III point 4) are required to conduct a Fundamental Rights Impact Assessment under Article 27, since the article's text appears to limit this obligation to public bodies, private entities providing public services, and Annex III points 5(b)/(c), while several compliance guides suggest broader applicability without clarifying this limitation.",
+    "The status of the 'Omnibus' legislative changes referenced in source 13 (deferring high-risk obligations to December 2027) is not clarified as adopted law versus a pending proposal, creating uncertainty about the true current compliance deadline.",
+    "No source specifies the exact fine tiers or percentage-of-turnover penalty figures under Article 99 for high-risk AI non-compliance beyond a general reference to a \u20ac15 million figure from a non-legal secondary source.",
+    "It is unclear what practical effect the European Commission's missed February 2026 guidance deadline has on deployer compliance obligations or on any grace period.",
+    "No source clarifies how GDPR-based enforcement (DPIAs, Garante fines) interacts procedurally with AI Act market surveillance and penalty mechanisms (Articles 74-80, 99) for hiring AI tools specifically.",
+    "No source confirms any completed conformity assessments, registrations, or CE markings for specific hiring AI tools, so actual market compliance status is unknown."
+  ],
+  "report": "# Compliance Requirements and Enforcement for High-Risk AI Hiring Tools Under the EU AI Act\n\n## Executive Summary\nAI recruitment and selection tools are classified as high-risk under the EU AI Act, triggering obligations for both providers (conformity assessment, CE marking, registration) and deployers (monitoring, transparency to candidates) (high confidence). However, significant uncertainty remains around the applicable compliance deadline, the scope of Fundamental Rights Impact Assessment obligations for private employers, and whether any enforcement actions have actually occurred under the AI Act itself as opposed to GDPR.\n\n## Key Findings\n\n### Classification and Scope\nAI systems used for recruitment or selection of natural persons are explicitly listed as high-risk under Annex III, point 4 of the AI Act (high confidence) ([Futurium](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out), [ANNEX III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)). A \"deployer\" is defined under Article 3(4) as any natural or legal person, public authority, agency, or body using an AI system under its authority, excluding purely personal non-professional use \u2014 meaning most employers using hiring AI qualify (medium confidence) ([Futurium](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out)).\n\n### Provider Obligations\nProviders of high-risk AI systems must complete a conformity assessment, issue an EU Declaration of Conformity, affix CE marking, and register the system in the EU database before placing it on the market (high confidence) ([DPO Consulting](https://www.dpo-consulting.com/blog/ai-conformity-assessment), [Resemble AI](https://www.resemble.ai/resources/eu-ai-act-compliance-checklist-ai-companies), [AI Act Service Desk, Art. 48](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48)).\n\n### Deployer Obligations\nDeployers must inform individuals subject to high-risk AI decisions that such a system is being used (Article 26(11)) (medium confidence) ([AI Act Service Desk, Art. 26](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26)). Deployers are also required to monitor system operation per the provider's instructions and report serious incidents, though this claim carries low confidence due to limited corroboration (low confidence) ([EDPB](https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf)). A Fundamental Rights Impact Assessment (FRIA) is required under Article 27 before first deployment, but the text appears to limit this obligation to public bodies, private entities providing public services, and certain Annex III categories (5(b)/(c)) \u2014 general private-sector employers deploying hiring tools under Annex III point 4 are not explicitly named (high confidence) ([European Parliament study](https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf), [AI Act Service Desk, Art. 27](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27)). Industry guides nonetheless recommend broader deployer practices\u2014tool inventories, DPIAs/FRIAs, human oversight, logging, bias analysis, staff AI literacy training, and candidate explanation processes\u2014though these recommendations carry low confidence as interpretive, non-authoritative guidance ([Khairos](https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide), [Ninjahire](https://ninjahire.co/thoughts/eu-ai-act-hiring-explained), [RegulatoryAI](https://www.regulatoryai.eu/ai-act-compliance-checklist)).\n\n### Timelines\nSources conflict on the compliance deadline: some state full high-risk obligations, including for hiring tools, apply from 2 August 2026 (low confidence) ([Khairos](https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide), [Openlayer](https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide)), while another source claims an \"Omnibus\" legislative update deferred stand-alone Annex III obligations (including hiring) to 2 December 2027 (low confidence) ([SIG](https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary)). One source also notes the European Commission missed a February 2026 guidance deadline, creating interpretive uncertainty but not a formal extension (low confidence) ([Openlayer](https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide)).\n\n### Enforcement Mechanisms and Penalties\nThe AI Act establishes national market surveillance procedures and penalty provisions under Articles 74, 79, 80, and 99\u2013101 for non-compliance, including misclassification of high-risk systems to evade obligations (medium confidence) ([AI Act Service Desk, Art. 74](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-74), [Art. 99](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99), [Art. 80](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-80)). A secondary source cites penalties of up to \u20ac15 million or a percentage of global turnover, but this figure is low confidence and not confirmed by primary legal text ([Khairos](https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide)).\n\n### Related Enforcement (GDPR, not AI Act)\nNo AI Act enforcement action against a hiring-tool provider or deployer has been documented. The Italian Garante has fined OpenAI roughly \u20ac15 million under GDPR (medium confidence) ([Legal500](https://www.legal500.com/intelligence/italy/privacy/laws-guidance-and-recommendations-what-to-consider-when-using-ai-to-hire-employees-in-italy)), fined Clearview AI \u20ac20 million in 2022 for biometric data violations (low confidence) ([GDPRFine.com](https://gdprfine.com/dpa/italy-garante)), and restricted DeepSeek's processing of Italian users' data in 2025 (low confidence) ([Regulations.AI](https://regulations.ai/regulations/RAI-IT-NA-SUMMARY-2026)). The Garante also recommends recruitment-specific DPIAs addressing algorithmic bias (low confidence) ([PWJennings](https://pwjennings.com/guidance/privacy-law-gdpr-italy-2026)).\n\n## Contradictions & Uncertainties\nThe most significant contradiction concerns the compliance deadline: 2 August 2026 versus 2 December 2027, with no clarity on whether the later date reflects adopted law or a proposal. All enforcement-related claims regarding fine amounts, penalty tiers, and the \"Omnibus\" deferral are below 0.4 confidence and should be treated cautiously. No GDPR enforcement action cited has occurred under the AI Act itself.\n\n## Knowledge Gaps\nIt remains unclear whether private-sector hiring deployers are legally required to conduct a FRIA; the true legal status of the Omnibus deferral; exact Article 99 penalty tiers; the practical effect of the Commission's missed guidance deadline; how GDPR and AI Act enforcement interact procedurally for hiring tools; and whether any hiring AI systems have completed conformity assessments or registration to date.\n\n## Sources\n1. [Article 26 \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26)\n2. [Futurium \u2013 Office DIY AI Lab](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out)\n3. [European Parliament Study (2025)](https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf)\n4. [Article 27 \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27)\n5. [Annex III \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)\n6. [EDPB Training Materials (2025)](https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf)\n7. [DPO Consulting \u2013 AI Conformity Assessment](https://www.dpo-consulting.com/blog/ai-conformity-assessment)\n8. [Resemble AI \u2013 Compliance Checklist](https://www.resemble.ai/resources/eu-ai-act-compliance-checklist-ai-companies)\n9. [Article 48 \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48)\n10. [Khairos \u2013 EU AI Act for HR Managers](https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide)\n11. [Ninjahire \u2013 EU AI Act Hiring Rules](https://ninjahire.co/thoughts/eu-ai-act-hiring-explained)\n12. [RegulatoryAI \u2013 Compliance Checklist](https://www.regulatoryai.eu/ai-act-compliance-checklist)\n13. [SIG \u2013 EU AI Act Summary](https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary)\n14. [Openlayer \u2013 High-Risk AI Systems Guide](https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide)\n15. [PWJennings \u2013 Italian Privacy Law 2026](https://pwjennings.com/guidance/privacy-law-gdpr-italy-2026)\n16. [Legal500 \u2013 AI Hiring in Italy](https://www.legal500.com/intelligence/italy/privacy/laws-guidance-and-recommendations-what-to-consider-when-using-ai-to-hire-employees-in-italy)\n17. [Regulations.AI \u2013 Italy Overview](https://regulations.ai/regulations/RAI-IT-NA-SUMMARY-2026)\n18. [GDPRFine.com \u2013 Italian Garante](https://gdprfine.com/dpa/italy-garante)\n19. [LinkedIn Post \u2013 AIM](https://www.linkedin.com/posts/analytics-india-magazine_italys-the-italian-data-protection-authority-activity-7276495412784517120-Szxq)\n20. [Article 74 \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-74)\n21. [Article 99 \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99)\n22. [Article 80 \u2013 AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-80)\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": null,
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "Every factual statement in the report carries an inline markdown citation; no uncited factual claims were found."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "All figures (e.g., \u20ac15M OpenAI fine, \u20ac20M Clearview fine, 2 Aug 2026 vs 2 Dec 2027 deadlines, Article numbers) match the extracted claims without alteration or invention of new facts."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report explicitly surfaces the August 2026 vs December 2027 deadline conflict and the ambiguity of the Omnibus deferral's legal status, consistent with the 'Known Contradictions' list, and includes a dedicated 'Contradictions & Uncertainties' section."
+    },
+    "confidence_assessment": {
+      "passed": true,
+      "notes": "Confidence labels in the report align with the extracted claim scores (e.g., FRIA scope claim labeled high confidence matching claim_005's 0.82 score; deployer monitoring claim labeled low confidence matching claim_004's 0.17 score; fine figures labeled low/medium confidence matching claim_009/claim_015/claim_016/claim_017 scores)."
+    },
+    "executive_summary_accuracy": {
+      "passed": true,
+      "notes": "The executive summary's claims about provider/deployer obligations, deadline uncertainty, FRIA scope ambiguity, and absence of confirmed AI Act enforcement accurately reflect the detailed findings in the body sections."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The 'Knowledge Gaps' section comprehensively mirrors the 'Open Issues' list, covering FRIA applicability to private employers, Omnibus deferral status, exact penalty tiers, the missed Commission guidance deadline, GDPR/AI Act enforcement interplay, and lack of confirmed conformity assessments."
+    }
+  },
+  "review_status": "approved",
+  "approved": true,
+  "review_count": 1,
+  "error": null,
+  "researcher": "tools",
+  "tool_research": {
+    "searches": 6,
+    "turns": 4,
+    "ended_by": "finish_research",
+    "told_to_continue": false,
+    "calls": [
+      {
+        "turn": 1,
+        "tool": "search_official",
+        "query": "AI Act high-risk employment recruitment Annex III obligations deployer",
+        "urls": [
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+          "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/office-has-become-diy-ai-lab-who-checking-what-goes-and-what-comes-out",
+          "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3"
+        ],
+        "result": "5 new sources. 5 sources so far, 1 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 1,
+        "tool": "search_official",
+        "query": "AI Act Article 26 obligations deployers high-risk AI system",
+        "urls": [
+          "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-92",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer"
+        ],
+        "result": "4 new sources. 9 sources so far, 2 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "EU AI Act enforcement action hiring AI tool 2026",
+        "urls": [
+          "https://www.warden-ai.com/resources/eu-ai-act-hiring-recruitment",
+          "https://www.khairos.ai/blog/comply/eu-ai-act-for-hr-managers-2026-guide",
+          "https://ninjahire.co/thoughts/eu-ai-act-hiring-explained",
+          "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary",
+          "https://www.tenzo.ai/blog/ai-hiring-compliance-2026"
+        ],
+        "result": "5 new sources. 14 sources so far, 3 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "AI Act high-risk recruitment compliance checklist conformity assessment CE marking",
+        "urls": [
+          "https://www.dpo-consulting.com/blog/ai-conformity-assessment",
+          "https://www.resemble.ai/resources/eu-ai-act-compliance-checklist-ai-companies",
+          "https://www.openlayer.com/blog/high-risk-ai-systems-eu-ai-act-guide",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48",
+          "https://www.regulatoryai.eu/ai-act-compliance-checklist"
+        ],
+        "result": "5 new sources. 19 sources so far, 4 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_web",
+        "query": "Garante privacy AI recruitment fine algorithm hiring Italy enforcement",
+        "urls": [
+          "https://pwjennings.com/guidance/privacy-law-gdpr-italy-2026",
+          "https://www.legal500.com/intelligence/italy/privacy/laws-guidance-and-recommendations-what-to-consider-when-using-ai-to-hire-employees-in-italy",
+          "https://regulations.ai/regulations/RAI-IT-NA-SUMMARY-2026",
+          "https://gdprfine.com/dpa/italy-garante",
+          "https://www.linkedin.com/posts/analytics-india-magazine_italys-the-italian-data-protection-authority-activity-7276495412784517120-Szxq"
+        ],
+        "result": "5 new sources. 24 sources so far, 5 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_official",
+        "query": "AI Act penalties Article 99 market surveillance authority national implementation",
+        "urls": [
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-74",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-80",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-79"
+        ],
+        "result": "4 new sources. 28 sources so far, 6 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 4,
+        "tool": "finish_research",
+        "reason": "Gathered primary EU AI Act legal sources (Articles 26, 27, 50, 74, 79, 80, 99, Annex III) covering deployer obligations for high-risk AI hiring systems, plus secondary analyses on compliance timelines/checklists and related enforcement context (GDPR-based AI hiring enforcement in Italy, since AI Act's own high-risk enforcement regime is not yet active). Sufficient to answer the question.",
+        "result": "Research finished.",
+        "is_error": false
+      }
+    ]
+  },
+  "searches": 6,
+  "official_sources": 14,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 124.2,
+  "research_seconds": 28.8,
+  "llm_calls": 7,
+  "input_tokens": 36552,
+  "output_tokens": 11598,
+  "cost_usd": 0.1891,
+  "research_cost_usd": 0.0269,
+  "mentions_current_annex_iii_date": true,
+  "timestamp": "2026-10-28T12:44:50",
+  "question_id": "q1",
+  "run": 1
+}

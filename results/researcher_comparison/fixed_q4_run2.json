@@ -1,0 +1,542 @@
+{
+  "question": "When do the obligations for high-risk AI systems listed in Annex III of the EU AI Act start to apply?",
+  "search_queries": [
+    "EU AI Act Annex III high-risk AI systems obligations application date",
+    "EU AI Act Article 6 Annex III high-risk classification timeline August 2026",
+    "AI Act transitional provisions Annex III high-risk systems compliance deadline"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start",
+      "title": "When does enforcement start? | AI Act Service Desk",
+      "snippet": "Transparency obligations will enter into application and be enforceable from 2 August 2026, although providers of AI systems placed on the market before that date have until 2 December 2026 to comply with marking and detection obligation under Article 50(2).\n The new prohibitions relating to the generation or manipulation of non-consensual intimate material and child sexual abuse material will apply from 2 December 2026.\n The rules for high-risk AI systems set out in Annex III to the AI Act will",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+      "title": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+      "snippet": "New prohibitions + Article 50(2) transition apply \\\\\n\n    Prohibitions, for AI systems generating non-consensual sexual deepfakes and child sexual abuse material, start to apply.\n    Transitional deadline for certain providers of AI systems, including GPAI systems, generating synthetic content, that were already placed on the market before 02 Aug 2026, to comply with Article 50(2).\n6. 02 Aug 2027\n\n   Member States should have at least one AI regulatory sandbox per country operational\n7. 02 Dec 2",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/library/report-review-prohibitions-and-high-risk-ai",
+      "title": "Report on the review of prohibitions and high-risk AI | Shaping Europe\u2019s digital future",
+      "snippet": "The provisions of the AI Act related to prohibited AI practices entered into application on 2 February 2025 and the rules on enforcement are not yet applicable. Thus, the report concludes that the assessment of other AI practices that are particularly harmful and abusive and that contradict EU values and fundamental rights are still at an early stage. There is also a lack of practical experience with the prohibitions.\n\nA more substantive evaluation of the application of Article 5 AI Act will onl",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16",
+      "title": "Article 16: Obligations of providers of high-risk AI systems | AI Act Service Desk",
+      "snippet": "Relevant recitals\n:    Recital 79\n     Recital 80\n     Recital 81\n     Recital 82\n     Recital 83\n     Recital 84\n     Recital 85\n     Recital 86\n     Recital 87\n     Recital 88\n     Recital 101\n     Recital 104\n     Recital 106\n     Recital 109\n     Recital 114\n     Recital 117\n     Recital 118\n     Recital 119\n     Recital 136\n     Recital 145\n\nView the official text. The text used in this tool is the \u2018Artificial Intelligence Act (Regulation (EU) 2024/1689), Official version of 13 June 2024\u2019. ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+      "title": "Article 14: Human oversight | AI Act Service Desk",
+      "snippet": "The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate.\n\nRelevant recitals\n:    Recital 27\n     Recital 66\n     Recital 73\n     Recital 91\n\nView the official text. The text used in this tool is the \u2018Artificial Intelligence Act (Regulation (EU) 2024/1689), Officia",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026DC0234",
+      "title": "IMMC.COM%282026%29234%20final.ENG.xhtml.1_EN_ACT_part1_v7.docx",
+      "snippet": "The Commission proposed in the Digital Omnibus on AI to align the timeline for the high-risk AI rules to the availability of standards and other support tools. Once the Commission confirms these are sufficiently available, the rules will start to apply after a 6-month transition period for high-risk AI systems in Annex III and in any case no later than 2 December 2027. This remains under negotiation and is subject to agreement between the European Parliament and the Council. For more details, se",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "EU AI Act Article 6 Annex III high-risk classification timeline August 2026"
+    },
+    {
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules",
+      "title": "Artificial Intelligence: Council and Parliament agree to simplify and streamline rules  - Consilium",
+      "snippet": "The Commission had proposed to adjust the timeline for applying rules on high-risk AI systems by up to 16 months, so that the rules start to apply once the Commission confirms the needed standards and tools are available. The Commission had also proposed further targeted amendments to the AI act that would extend certain regulatory exemptions granted to SMEs also to small mid-caps (SMCs), reduce requirements in a very limited number of cases, extend the possibility to process sensitive personal ",
+      "source_type": "eu_guidance",
+      "published_date": "2026-05-07",
+      "search_query": "EU AI Act Article 6 Annex III high-risk classification timeline August 2026"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+      "title": "Frequently Asked Questions | AI Act Service Desk",
+      "snippet": "Transparency obligations will enter into application and be enforceable from 2 August 2026, although providers of AI systems placed on the market before that date have until 2 December 2026 to comply with marking and detection obligation under Article 50(2).\n The new prohibitions relating to the generation or manipulation of non-consensual intimate material and child sexual abuse material will apply from 2 December 2026.\n The rules for high-risk AI systems set out in Annex III to the AI Act will",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 6 Annex III high-risk classification timeline August 2026"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-ai-act-go-effect-what-its-timeline-implementation",
+      "title": "When does the AI Act go into effect? What is its timeline for implementation? | AI Act Service Desk",
+      "snippet": "The obligations regarding high-risk systems listed in Annex III will enter into force on 2 December 2027 and the obligations for high-risk AI systems that classify as high-risk because they are embedded in regulated products, listed in Annex I (list of Union harmonisation legislation), will enter into force on 2 August 2028.\n\n#### Related resources\n\nTimeline for the Implementation of the EU AI Act\n\n#### Category\n\nAI Act: General questions\n\nGovernance & Enforcement\n\nSee all FAQs",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 6 Annex III high-risk classification timeline August 2026"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836",
+      "title": "IMMC.COM%282025%29836%20final.ENG.xhtml.1_EN_ACT_part1_v7.docx",
+      "snippet": "it is appropriate to put in place a mechanism that links the entry into application to the availability of measures in support of compliance with Chapter III, which may include harmonised standards, common specifications, and Commission guidelines. This should be confirmed by the Commission by decision, following which the rules obligations for high-risk AI systems should apply after 6 months as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III and after 12 months",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "AI Act transitional provisions Annex III high-risk systems compliance deadline"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/eu-ai-act-and-recruitment-why-december-2027-extension-prep-window-not-free-pass",
+      "title": "EU AI Act and Recruitment: Why the December 2027 Extension Is a Prep Window, Not a Free Pass | Futurium",
+      "snippet": "29 July 2026 - updated 2 months ago\n\nSummary\n\nWith compliance obligations for standalone high-risk AI systems (Annex III) formally deferred to 2 December 2027 following the Digital Omnibus agreement, organizations employing AI in recruitment and talent evaluation have been granted critical breathing room. However, treating this schedule adjustment as a permission slip to pause governance is a major strategic misstep. Foundational duties\u2014including AI literacy measures under Article 4 and upcoming",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act transitional provisions Annex III high-risk systems compliance deadline"
+    },
+    {
+      "url": "https://www.questa-ai.com/privacy-cafe/eu-ai-act-countdown-is-your-annex-iii-system-ready-for-august-2",
+      "title": "EU AI Act Annex III: High-Risk Deadline Moved to 2027",
+      "snippet": "The current application date for Annex III high-risk obligations is December 2, 2027, following the Digital Omnibus on AI, which entered into force on July 27, 2026.\n\nNo. August 2, 2026 is when other EU AI Act obligations took effect, including Article 50 transparency rules and enforcement of existing prohibitions and GPAI obligations. The Annex III high-risk regime itself applies from December 2, 2027.\n\nThey apply from December 2, 2027, for standalone high-risk AI systems under Annex III. High-",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://annexops.com/eu-ai-act-annex-iii-deadline-2027",
+      "title": "EU AI Act Annex III Deadline 2027: Complete Guide",
+      "snippet": "December 2, 2027 is the Annex III milestone this guide is centered on, when standalone high-risk AI systems must meet the full set of obligations.\n\nAugust 2, 2028 is the application date for the Chapter III Sections 1\u20133 high-risk AI rules for systems classified as high-risk under Article 6(1) and Annex I, including relevant AI systems embedded in products covered by EU harmonisation legislation.\n\nReading the timeline this way makes it clear that Annex III is one milestone among several, not the ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://www.euaiact.com/blog/eu-ai-act-high-risk-classification",
+      "title": "EU AI Act High-Risk Classification Guide",
+      "snippet": "## Frequently asked questions\n\nWhat makes an AI system high-risk under the EU AI Act?\n:   One of two independent tests. Under Article 6(1) a system is high-risk if it is a safety component of, or is itself, a product covered by the Union harmonisation legislation in Annex I and that product already requires third-party conformity assessment. Under Article 6(2) a system is high-risk if its intended purpose falls within one of the eight use-case areas in Annex III. Meeting either test is enough.\n\n",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20",
+      "title": "EU AI Act High-Risk Deadline: Enterprise Readiness Gap \u2013 Lab Space",
+      "snippet": "## Background\n\nThe EU Artificial Intelligence Act (Regulation 2024/1689) entered into force on August 1, 2024, widely described as establishing the world\u2019s first comprehensive horizontal legal framework for AI systems. The regulation takes a tiered approach, with obligations scaling to the assessed risk level of each system. The most consequential tier for the majority of enterprises\u2014obligations applicable to high-risk AI systems under Annex III\u2014become enforceable on August 2, 2026 . [...] Augus",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/high-level-summary",
+      "title": "High-level summary of the AI Act | EU Artificial Intelligence Act",
+      "snippet": "The transparency obligations under Article 50 apply from 2 August 2026. There is a grace period for AI systems placed on the market before this date, which have time to comply with Article 50(2) by 2 December 2026.\n The obligations for AI systems that are high-risk under Article 6(2) and Annex III AI Act will become applicable on 2 December 2027.\n The obligations for AI systems that are high-risk under Article 6(1) and Annex I AI Act will come into play on 2 August 2028.",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act Annex III high-risk AI systems obligations application date"
+    },
+    {
+      "url": "https://euaicompass.com/timeline.html",
+      "title": "EU AI Act timeline and planning dates | EU AI Compass",
+      "snippet": "| Annex III Article 6(2) high-risk AI obligations | 2 December 2027 under Regulation (EU) 2026/1744. | Regulation (EU) 2026/1744 sets 2 December 2027 for Article 6(2)/Annex III high-risk AI systems, under Regulation (EU) 2026/1744. | Keep inventory, risk rationale, instructions for use, oversight records, logs, and vendor evidence. |\n| Article 50 transparency | Article 50 generally applied from 2 August 2026, subject to route-specific exceptions. | A narrow Article 50(2) legacy-system transition",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 6 Annex III high-risk classification timeline August 2026"
+    },
+    {
+      "url": "https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance",
+      "title": "EU AI Act August 2026: your compliance countdown | RAIL",
+      "snippet": "High-risk classification applies to AI systems in:\n\n- Biometrics: Remote biometric identification, categorization, emotion recognition\n- Critical infrastructure: Management and operation of critical digital or physical infrastructure\n- Education: Access to education, student assessment, exam proctoring\n- Employment: Recruitment, selection, promotion, termination, task allocation\n- Essential services: Creditworthiness, insurance pricing, emergency dispatch\n- Law enforcement: Predictive policing, ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 6 Annex III high-risk classification timeline August 2026"
+    },
+    {
+      "url": "https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines",
+      "title": "EU AI Act Compliance Deadlines: Key Dates | JAGGAER",
+      "snippet": "## Phase 3 High-Risk Systems Compliance Deadline\n\nThe original date for complying with obligations for high-risk systems was 2 August 2026. But Digital Omnibus moved the deadline for standalone Annex III systems to 2 December 2027. This change is still pending formal adoption. Until it is published in the EU Official Journal, 2 August 2026 remains the binding date.\n\nAI systems which can pose risks to safety, health and fundamental rights are tagged as high-risk systems. Various applications incl",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act transitional provisions Annex III high-risk systems compliance deadline"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+      "title": "EU AI Act High-Risk Deadline Pushed to December 2027 \u2013 Lab Space",
+      "snippet": "On June 29, 2026, the Council of the European Union gave final approval to the \u201cDigital Omnibus\u201d simplification package, formally pushing back the compliance deadline for stand-alone high-risk AI systems under Annex III of the EU AI Act from August 2, 2026, to December 2, 2027 \u2014 a 16-month reprieve . High-risk AI systems embedded in regulated products, such as medical devices and machinery, receive a parallel 12-month extension, moving their deadline from August 2, 2027, to August 2, 2028 . The ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act transitional provisions Annex III high-risk systems compliance deadline"
+    },
+    {
+      "url": "https://www.regulation-ai.eu/en/articles/article-6",
+      "title": "Article 6 \u2014 Classification rules for high-risk AI | Regulation AI",
+      "snippet": "2 December 2027 \u2014 Article 6 and the full high-risk obligations under Title III, Chapter 2 become enforceable for AI systems listed in Annex III. This is the primary compliance deadline for most high-risk standalone AI systems.\n\n2 August 2028 \u2014 Extended transitional deadline for AI systems that are safety components of Annex I products and were already placed on the market or put into service before 2 August 2026 under existing sectoral law, provided no significant change has occurred.\n\nProviders",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act transitional provisions Annex III high-risk systems compliance deadline"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "As adopted in Regulation (EU) 2024/1689 (official text of 13 June 2024), the obligations for high-risk AI systems under Article 6(2) and Annex III were originally scheduled to apply/become enforceable from 2 August 2026.",
+      "supporting_sources": [
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20",
+        "https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance",
+        "https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.17,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "The Commission's Digital Omnibus on AI proposal (COM(2025)836) proposed linking entry into application of Annex III high-risk rules to the availability of supporting measures (harmonised standards, common specifications, Commission guidelines), with the rules applying 6 months after Commission confirmation for Article 6(2)/Annex III systems and 12 months for Article 6(1)/Annex I systems.",
+      "supporting_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.8,
+        "authority": 1.0,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "A later Commission document (COM(2026)234) restates the Digital Omnibus proposal: Annex III high-risk rules would start to apply after a 6-month transition period once the Commission confirms sufficient availability of standards, and in any case no later than 2 December 2027, but explicitly states this 'remains under negotiation and is subject to agreement between the European Parliament and the Council.'",
+      "supporting_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026DC0234"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.8,
+        "authority": 1.0,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "On 7 May 2026 the Council and Parliament reached an agreement to adjust the timeline for applying high-risk AI (Annex III) rules by up to 16 months, so that the rules would start to apply once the Commission confirms the needed standards and tools are available.",
+      "supporting_sources": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": false
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "Multiple secondary/legal-analysis sources state that the Digital Omnibus process resulted in a new application date of 2 December 2027 for standalone high-risk AI systems under Annex III (Article 6(2)).",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-ai-act-go-effect-what-its-timeline-implementation",
+        "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/eu-ai-act-and-recruitment-why-december-2027-extension-prep-window-not-free-pass",
+        "https://www.questa-ai.com/privacy-cafe/eu-ai-act-countdown-is-your-annex-iii-system-ready-for-august-2",
+        "https://annexops.com/eu-ai-act-annex-iii-deadline-2027",
+        "https://artificialintelligenceact.eu/high-level-summary",
+        "https://euaicompass.com/timeline.html",
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+        "https://www.regulation-ai.eu/en/articles/article-6"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "The Council of the EU gave final approval to the Digital Omnibus simplification package on 29 June 2026, formally pushing the Annex III high-risk compliance deadline from 2 August 2026 to 2 December 2027, with a parallel 12-month extension for Annex I embedded high-risk systems from 2 August 2027 to 2 August 2028.",
+      "supporting_sources": [
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "The Digital Omnibus on AI is described as having entered into force on 27 July 2026, after which the Annex III high-risk regime application date became 2 December 2027.",
+      "supporting_sources": [
+        "https://www.questa-ai.com/privacy-cafe/eu-ai-act-countdown-is-your-annex-iii-system-ready-for-august-2"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "The 2 December 2027 date for Article 6(2)/Annex III high-risk AI obligations is attributed to a specific enacted instrument, Regulation (EU) 2026/1744.",
+      "supporting_sources": [
+        "https://euaicompass.com/timeline.html"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "The shift of the Annex III high-risk compliance deadline to 2 December 2027 is described as still pending formal adoption; until published in the EU Official Journal, 2 August 2026 remains the legally binding date.",
+      "supporting_sources": [
+        "https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "Obligations for high-risk AI systems that qualify as high-risk because they are safety components of, or themselves, products covered by Union harmonisation legislation in Annex I (Article 6(1)) apply from 2 August 2028.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-ai-act-go-effect-what-its-timeline-implementation",
+        "https://annexops.com/eu-ai-act-annex-iii-deadline-2027",
+        "https://artificialintelligenceact.eu/high-level-summary",
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+        "https://www.regulation-ai.eu/en/articles/article-6"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "Transparency obligations under Article 50 apply from 2 August 2026, with a transitional deadline of 2 December 2026 for providers of systems placed on the market before that date to comply with Article 50(2) marking/detection obligations.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+        "https://ai-act-service-desk.ec.europa.eu/en/faq",
+        "https://artificialintelligenceact.eu/high-level-summary",
+        "https://euaicompass.com/timeline.html"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.95,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "New prohibitions on AI systems generating non-consensual intimate material and child sexual abuse material apply from 2 December 2026.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "Prohibited AI practices under Article 5 entered into application on 2 February 2025, while enforcement rules for these prohibitions are not yet fully applicable, leaving limited practical experience with their application.",
+      "supporting_sources": [
+        "https://digital-strategy.ec.europa.eu/en/library/report-review-prohibitions-and-high-risk-ai"
+      ],
+      "category": "enforcement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "The EU AI Act (Regulation 2024/1689) entered into force on 1 August 2024 and establishes a tiered compliance timeline with obligations scaling to assessed risk level.",
+      "supporting_sources": [
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "A system is classified as high-risk if it meets either of two independent tests: being a safety component of/itself a product under Annex I Union harmonisation legislation requiring third-party conformity assessment (Article 6(1)), or having an intended purpose within one of the eight use-case areas listed in Annex III (Article 6(2)).",
+      "supporting_sources": [
+        "https://www.euaiact.com/blog/eu-ai-act-high-risk-classification"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "High-risk classification under Annex III covers use-case areas including biometrics, critical infrastructure, education, employment, essential services, and law enforcement, among others.",
+      "supporting_sources": [
+        "https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "Under the pre-Digital-Omnibus original Article 6 framework, Article 6 and full high-risk obligations under Title III Chapter 2 were set to become enforceable for Annex III systems, with this later superseded/reported as 2 December 2027 in revised commentary.",
+      "supporting_sources": [
+        "https://www.regulation-ai.eu/en/articles/article-6"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "claim_a": "Obligations for high-risk AI systems under Annex III become enforceable on 2 August 2026 (the original, as-adopted application date).",
+      "claim_b": "The Annex III high-risk regime application date has been moved/finalized to 2 December 2027.",
+      "source_a": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20",
+      "source_b": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+      "description": "Source 15 (undated) states the original 2 August 2026 date is the operative enforcement date for Annex III obligations, reflecting the as-adopted AI Act text, whereas source 20 (and several other 2026-published or secondary sources) states this deadline has been formally pushed to 2 December 2027 via the Digital Omnibus, reflecting a later legislative development not incorporated into source 15."
+    },
+    {
+      "claim_a": "The Digital Omnibus's proposed delay of Annex III obligations to no later than 2 December 2027 'remains under negotiation and is subject to agreement between the European Parliament and the Council' (i.e., not yet adopted).",
+      "claim_b": "The Council of the EU gave 'final approval' to the Digital Omnibus package on 29 June 2026, formally setting 2 December 2027 as the new Annex III deadline, and the Omnibus is reported to have entered into force on 27 July 2026, with the date codified in Regulation (EU) 2026/1744.",
+      "source_a": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026DC0234",
+      "source_b": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+      "description": "Source 6, a Commission document, characterizes the Digital Omnibus timeline change as still unresolved and pending EP-Council agreement, while sources 20, 12, and 17 describe the measure as already finally approved, in force, and even assign it a specific regulation number, indicating disagreement over whether the change has been legally adopted."
+    },
+    {
+      "claim_a": "The shift of the Annex III deadline to 2 December 2027 is still pending formal adoption; until published in the Official Journal, 2 August 2026 remains the binding date.",
+      "claim_b": "The Digital Omnibus package was finally approved by the Council on 29 June 2026 and/or entered into force on 27 July 2026, making 2 December 2027 the applicable Annex III deadline.",
+      "source_a": "https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines",
+      "source_b": "https://www.questa-ai.com/privacy-cafe/eu-ai-act-countdown-is-your-annex-iii-system-ready-for-august-2",
+      "description": "Source 19 treats the Dec 2027 date as not yet legally binding pending Official Journal publication, directly conflicting with sources 12 and 20, which describe the change as already finalized and in force."
+    }
+  ],
+  "open_issues": [
+    "Whether the Digital Omnibus on AI (and the associated shift of the Annex III high-risk deadline to 2 December 2027) has actually been formally adopted and published in the EU Official Journal, given conflicting statements among sources about its legal status as of late 2026.",
+    "What the precise, currently legally binding application date is for Annex III high-risk obligations if the Digital Omnibus has not yet been published/entered into force.",
+    "What specific standards, common specifications, or Commission guidelines must be confirmed as 'sufficiently available' before the 6-month transition period begins, and whether the Commission has made such a confirmation.",
+    "Whether the application date for Annex III obligations could occur earlier than 2 December 2027 if the Commission confirms standards availability sooner, since several sources describe 2 December 2027 as a 'no later than' backstop rather than a fixed date.",
+    "The full content of the truncated statements in sources 1, 2, and 8 regarding what happens to 'the rules for high-risk AI systems set out in Annex III' is unclear, leaving ambiguity about their exact claimed timeline.",
+    "Whether Regulation (EU) 2026/1744, cited by source 17 as codifying the 2 December 2027 date, is a genuinely adopted and in-force legal instrument or a placeholder/anticipated designation."
+  ],
+  "report": "# When Do Annex III High-Risk AI Obligations Apply Under the EU AI Act?\n\n## Executive Summary\nAs originally adopted, obligations for high-risk AI systems under Article 6(2) and Annex III of Regulation (EU) 2024/1689 were due to apply from 2 August 2026 (low confidence) ([CSA Research Note](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20)). However, the Commission's Digital Omnibus on AI proposal and subsequent EU institutional developments have moved to delay this deadline to no later than 2 December 2027, contingent on confirmation that supporting standards are available (high confidence) ([EUR-Lex COM(2025)836](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836); [EUR-Lex COM(2026)234](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026DC0234)). Crucially, sources disagree on whether this change has been formally and legally adopted, making the precise binding application date uncertain as of the available research.\n\n## Key Findings\n\n### Original Statutory Timeline\nAs adopted in the official text of Regulation (EU) 2024/1689 (13 June 2024), high-risk obligations under Article 6(2) and Annex III were originally scheduled to apply from 2 August 2026 (low confidence) ([Responsible AI Labs](https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance); [Jaggaer](https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines)). The Act entered into force on 1 August 2024, establishing a tiered compliance timeline scaled to risk level (low confidence) ([CSA Research Note](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20)).\n\n### The Digital Omnibus Proposal and Revised Timeline\nThe Commission's Digital Omnibus on AI proposal (COM(2025)836) would link the start of Annex III rules to confirmation that supporting measures\u2014harmonised standards, common specifications, and Commission guidelines\u2014are sufficiently available, with application beginning 6 months after such confirmation for Article 6(2)/Annex III systems (high confidence) ([EUR-Lex COM(2025)836](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836)). A later Commission document, COM(2026)234, restates this approach, specifying that application would begin no later than 2 December 2027 as a backstop, but explicitly notes the proposal \"remains under negotiation and is subject to agreement between the European Parliament and the Council\" (high confidence) ([EUR-Lex COM(2026)234](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026DC0234)).\n\nOn 7 May 2026, the Council and Parliament reportedly reached political agreement to adjust the Annex III timeline by up to 16 months, tying application to Commission confirmation of standards availability (medium confidence) ([Consilium](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules)). Multiple secondary and legal-analysis sources now describe 2 December 2027 as the resulting application date for standalone Annex III high-risk systems (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-ai-act-go-effect-what-its-timeline-implementation); [artificialintelligenceact.eu](https://artificialintelligenceact.eu/high-level-summary); [EU AI Compass](https://euaicompass.com/timeline.html)).\n\n### Related Deadlines\nObligations for Annex I high-risk systems (Article 6(1), safety components of regulated products) apply from 2 August 2028 (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-ai-act-go-effect-what-its-timeline-implementation); [artificialintelligenceact.eu](https://artificialintelligenceact.eu/high-level-summary)). Transparency obligations under Article 50 apply from 2 August 2026, with a transitional deadline of 2 December 2026 for certain marking obligations (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start)). New prohibitions on AI-generated non-consensual intimate material and CSAM apply from 2 December 2026 (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start)). Article 5 prohibited practices entered into application on 2 February 2025, though enforcement mechanisms remain incomplete (medium confidence) ([Digital Strategy report](https://digital-strategy.ec.europa.eu/en/library/report-review-prohibitions-and-high-risk-ai)).\n\n## Contradictions & Uncertainties\nThere is significant disagreement over the legal status of the December 2027 deadline. One source states the Digital Omnibus package received Council final approval on 29 June 2026 (low confidence, 0.12) ([CSA Research Note - Omnibus](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260)), and another claims it entered into force on 27 July 2026 (low confidence, 0.12) ([Questa AI](https://www.questa-ai.com/privacy-cafe/eu-ai-act-countdown-is-your-annex-iii-system-ready-for-august-2)), with one source even citing a specific regulation number, 2026/1744 (low confidence, 0.12) ([EU AI Compass](https://euaicompass.com/timeline.html)). However, the Commission's own document COM(2026)234 states the change \"remains under negotiation,\" and another source argues that until published in the Official Journal, 2 August 2026 remains the legally binding date (low confidence, 0.12) ([Jaggaer](https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines)). These conflicting accounts cannot be reconciled with the available evidence.\n\n## Knowledge Gaps\nIt remains unclear whether the Digital Omnibus on AI has been formally adopted and published in the Official Journal. The precise criteria the Commission will use to confirm \"sufficient availability\" of standards, and whether such confirmation has occurred, are unknown. It is also unclear whether application could occur earlier than 2 December 2027 if standards become available sooner, since several sources frame this date as a backstop rather than a fixed deadline. The authenticity of \"Regulation (EU) 2026/1744\" as a genuinely enacted instrument requires verification.\n\n## Sources\n1. [When does enforcement start? | AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start) \u2014 no date\n2. [Report on the review of prohibitions and high-risk AI](https://digital-strategy.ec.europa.eu/en/library/report-review-prohibitions-and-high-risk-ai) \u2014 no date\n3. [COM(2026)234](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52026DC0234) \u2014 no date\n4. [Council and Parliament agree to simplify and streamline rules](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules) \u2014 7 May 2026\n5. [COM(2025)836](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836) \u2014 no date\n6. [EU AI Act Annex III: High-Risk Deadline Moved to 2027](https://www.questa-ai.com/privacy-cafe/eu-ai-act-countdown-is-your-annex-iii-system-ready-for-august-2) \u2014 no date\n7. [EU AI Act High-Risk Deadline: Enterprise Readiness Gap](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20) \u2014 no date\n8. [EU AI Act High-Risk Deadline Pushed to December 2027](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260) \u2014 no date\n9. [EU AI Act Compliance Deadlines](https://www.jaggaer.com/blog/eu-ai-act-compliance-deadlines) \u2014 no date\n10. [EU AI Act timeline and planning dates](https://euaicompass.com/timeline.html) \u2014 no date\n11. [High-level summary of the AI Act](https://artificialintelligenceact.eu/high-level-summary) \u2014 no date\n12. [EU AI Act August 2026: your compliance countdown](https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance) \u2014 no date\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": null,
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "Virtually all factual statements carry markdown citations consistent with the extracted claims; interpretive/summary sentences without direct citations (e.g., the closing sentence of the executive summary) are supported by citations elsewhere in the same paragraph/section."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "All dates, confidence levels, and figures (2 Aug 2026, 2 Dec 2027, 2 Aug 2028, 2 Dec 2026, 2 Feb 2025, the 29 June 2026 approval claim, the 27 July 2026 entry-into-force claim, and 'Regulation (EU) 2026/1744') trace directly to corresponding claims (claim_001 through claim_014) with matching confidence levels. No invented facts or numbers were found."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report includes a dedicated 'Contradictions & Uncertainties' section that accurately surfaces the three known contradictions (final-approval date disputes, the 'remains under negotiation' vs. 'already enacted' conflict, and the Official Journal publication status dispute), matching the ground-truth Known Contradictions list."
+    },
+    "confidence_assessment": {
+      "passed": true,
+      "notes": "Confidence labels attached to each claim (e.g., 'low confidence' for the original 2 Aug 2026 date, 'high confidence' for COM(2025)836/COM(2026)234 and the secondary-source corroboration of 2 Dec 2027, 'medium confidence' for the Council/Parliament agreement and CSAM prohibitions) correctly mirror the confidence scores in the extracted claims."
+    },
+    "executive_summary_accuracy": {
+      "passed": true,
+      "notes": "The executive summary accurately previews the body's findings: original 2 Aug 2026 date, the Digital Omnibus proposal to delay to no later than 2 Dec 2027, and the unresolved legal status of that delay, all of which are elaborated correctly in the Key Findings and Contradictions sections."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The Knowledge Gaps section closely mirrors the ground-truth Open Issues, covering formal adoption/OJ publication status, the 'sufficient availability' confirmation criteria, the possibility of an earlier-than-backstop date, and the authenticity of 'Regulation (EU) 2026/1744'."
+    }
+  },
+  "review_status": "approved",
+  "approved": true,
+  "review_count": 1,
+  "error": null,
+  "researcher": "fixed",
+  "tool_research": null,
+  "searches": 6,
+  "official_sources": 11,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 120.2,
+  "research_seconds": 18.4,
+  "llm_calls": 4,
+  "input_tokens": 25568,
+  "output_tokens": 11483,
+  "cost_usd": 0.166,
+  "research_cost_usd": 0.0016,
+  "mentions_current_annex_iii_date": true,
+  "timestamp": "2026-10-28T13:16:38",
+  "question_id": "q4",
+  "run": 2
+}

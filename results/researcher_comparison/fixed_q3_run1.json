@@ -1,0 +1,597 @@
+{
+  "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+  "search_queries": [
+    "EU AI Act conformity assessment procedures high-risk AI systems Annex VII",
+    "list designated notified bodies AI Act NANDO database 2026",
+    "EU AI Act Article 43 conformity assessment third-party vs internal control"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43",
+      "title": "Article 43: Conformity assessment | AI Act Service Desk",
+      "snippet": "In demonstrating the compliance of a high-risk AI system with the requirements set out in Section 2, the provider shall follow the conformity assessment procedure set out in Annex VII where:\n\n(a)   harmonised standards referred to in Article 40 do not exist, and common specifications referred to in Article 41 are not available;\n\n(b)   the provider has not applied, or has applied only part of, the harmonised standard;\n\n(c)   the common specifications referred to in point (a) exist, but the provid",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7",
+      "title": "ANNEX VII | AI Act Service Desk",
+      "snippet": "4.5. Where necessary to assess the conformity of the high-risk AI system with the requirements set out in Chapter III, Section 2, after all other reasonable means to verify conformity have been exhausted and have proven to be insufficient, and upon a reasoned request, the notified body shall also be granted access to the training and trained models of the AI system, including its relevant parameters. Such access shall be subject to existing Union law on the protection of intellectual property an",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46",
+      "title": "Article 46: Derogation from conformity assessment procedure | AI Act Service Desk",
+      "snippet": "1.   By way of derogation from Article 43 and upon a duly justified request, any market surveillance authority may authorise the placing on the market or the putting into service of specific high-risk AI systems within the territory of the Member State concerned, for exceptional reasons of public security or the protection of life and health of persons, environmental protection or the protection of key industrial and infrastructural assets. That authorisation shall be for a limited period while ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-17",
+      "title": "Article 17: Quality management system | AI Act Service Desk",
+      "snippet": "1.   Providers of high-risk AI systems shall put a quality management system in place that ensures compliance with this Regulation. That system shall be documented in a systematic and orderly manner in the form of written policies, procedures and instructions, and shall include at least the following aspects:\n\n(a)a strategy for regulatory compliance, including compliance with conformity assessment procedures and procedures for the management of modifications to the high-risk AI system;\n\n(b)techn",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29",
+      "title": "Article 29: Application of a conformity assessment body for notification | AI Act Service Desk",
+      "snippet": "Chapter VII: Governance \n\nSection 1: Governance at Union Level\n\n Article 64: AI Office\n Article 65: Establishment and structure of the European Artificial Intelligence Board\n Article 66: Tasks of the Board\n Article 67: Advisory forum\n Article 68: Scientific panel of independent experts\n Article 69: Access to the pool of experts by the Member States\n\nSection 2: National competent authorities\n\n Article 70: Designation of national competent authorities and single points of contact\n\n  Chapter VIII: ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://data.consilium.europa.eu/doc/document/WK-3257-2026-INIT/en/pdf",
+      "title": "LIMITE EN - Data - European Union",
+      "snippet": "authorities propose these changes to facilitate the designation of notified bodies under both the AI Act and sector specific legislation. The single application and single assessment procedure referred to in this paragraph shall also be made available to notified bodies already designated under the Union harmonisation legislation listed in Section A of DE (Drafting suggestions): Digital Omnibus on AI Deadline: 26 February 2026 From: AT, BE, CZ, DE, DK, EE, EL, ES, FI, FR, HU, IE, IT, LV, MT, NL,",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836",
+      "title": "IMMC.COM%282025%29836%20final.ENG.xhtml.1_EN_ACT_part1_v7.docx",
+      "snippet": "\u00b7Paragraph 12 amends Article 30 AI Act by requiring conformity assessment bodies which apply to be designated as notified bodies to make that application in accordance with the codes, categories, and corresponding types of AI systems referred to in a new Annex XIV for the Commission\u2019s New Approach Notified and Designated Organisations (\u2018NANDO\u2019) information system, and empowers the Commission to amend these codes, categories, and corresponding types in light of technological developments. [...] F",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051",
+      "title": "1_EN_evaluation_part1_v5.docx - EUR-Lex - European Union",
+      "snippet": "Dec 16, 2025 \u2014 the NANDO system lists 51 MDR-designated notified bodies and 19 IVDR-designated bodies, with 12 MDR and 6 IVDR designation applications pending",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://webgate.ec.europa.eu/single-market-compliance-space/notified-bodies",
+      "title": "EUROPA \u2013 European Commission \u2013 Growth \u2013 Regulatory policy",
+      "snippet": "Market surveillance\n    Products investigated\n    Market surveillance authorities\n    Market surveillance documents\n    Forced Labour Authorities\n\nGlossary\n\n1.   Home\n2.   Notified Bodies \n\n# Notified bodies (NANDO)\n\nNANDO ( New Approach Notified and Designated Organisations ) Information System\n\n Page contents \n\n    and other countries with which the EU has concluded Mutual recognition agreements (MRAs) and Protocols to the Europe Agreements on Conformity Assessment and Acceptance of Industrial",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://data.consilium.europa.eu/doc/document/ST-7322-2026-INIT/en/pdf",
+      "title": "pdf",
+      "snippet": "1. Introduction \n\nConformity assessment of high-risk AI systems under this Regulation may require involvement of conformity assessment bodies. Only conformity assessment bodies 7322/26 52 ANNEX EN \n\nthat have been designated in accordance with this Regulation may carry out conformity assessments and only for the activities related to the types of AI systems concerned. The list of codes, categories, and corresponding types of AI systems sets the scope of the designation of conformity assessment b",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+      "title": "Law & Compliance in AI Security & Data Protection",
+      "snippet": "of an AI system is required under EU law. They will also be able to describe the key features of self-regulation mechanisms. Unit 14. Standards, Certifications, and Self-Regulation 228 The AI Act also falls short of making third-party certification mandatory. In fact, for most AI systems, conformity with the applicable legal requirements must be demonstrated by the providers themselves through an internal assessment procedure. Article 43 AI Act further clarifies that this procedure does not leav",
+      "source_type": "eu_guidance",
+      "published_date": "2025-06-01",
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf",
+      "title": "[PDF] EU Artificial Intelligence Act - The European Approach to AI - Futurium",
+      "snippet": "can be applied for via a procedure as described in article 43. Article 43 Conformity assessment 1. For high-risk AI systems listed in point 1 of Annex III, where, in demonstrating the compliance of a high-risk AI system with the requirements set out in Chapter 2 of this Title, the provider has applied harmonised standards referred to in Article 40, or, where applicable, common specifications referred to in Article 41, the provider shall follow one of the following procedures: (a)the conformity a",
+      "source_type": "eu_guidance",
+      "published_date": "2021-10-01",
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A02024R1689-20260727",
+      "title": "32024R1689 \u2014 EN \u2014 27.07.2026",
+      "snippet": "The AI Office shall be responsible for conformity assessments and tests of AI systems referred to in paragraph 1 of this Article that are classified as high-risk and subject to a third-party conformity assessment pursuant to Article 43 before such AI systems are placed on the market or put into service. Those tests and assessments shall verify that the systems comply with the relevant requirements of this Regulation and may be placed on the market or put into service in the Union in accordance w",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/after-mythos-why-frontier-ai-conformity-assessment-requires-cryptographic-layer",
+      "title": "After Mythos: Why Frontier AI Conformity Assessment Requires a Cryptographic Layer | Futurium",
+      "snippet": "The European Union\u2019s Regulation 2024/1689 (AI Act) requires, for high-risk systems falling within Annex III, that conformity assessment be carried out by a notified body under Article 43, against the obligations of Articles 9\u201315 \u2014 including robustness and cybersecurity (Art. 15). The emerging class of frontier models creates a concrete tension that existing conformity assessment methodology does not resolve:  \n    \u2022    Meaningful assessment requires access to the model, its training data, or its",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf",
+      "title": "Conformity Assessments under the EU AI Act",
+      "snippet": "by the provider or its authorized representative. Third-party conformity assessment (Annex VII of the AIA) Alternatively, in the case of a third-party CA, an assessment by an independent CA body is required. Annex VII of the AIA describes the conformity assessment procedure that combines an evaluation of the provider\u2019s quality management system (QMS) and a review of technical documentation of high-risk AI systems by a 'notified body,' which performs conformity assessment activities, such as test",
+      "source_type": "news_blog",
+      "published_date": "2025-04-01",
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/ai-act-explorer",
+      "title": "EU Artificial Intelligence Act",
+      "snippet": "Annex VII shall apply.For high-risk AI systems covered by the Union harmonisation legislation listed in Section A of Annex I, the providerprovidermeans a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of chargeArticle 3(3) shall follow t",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/article/43",
+      "title": "Article 43: Conformity Assessment | EU Artificial Intelligence Act",
+      "snippet": "3. For high-risk AI systems covered by the Union harmonisation legislation listed in Section A of Annex I, the provider shall follow the relevant conformity assessment procedure as required under those legal acts. The requirements set out in Section 2 of this Chapter shall apply to those high-risk AI systems and shall be part of that assessment. Points 4.3., 4.4., 4.5. and the fifth paragraph of point 4.6 of Annex VII shall also apply. For the purposes of that assessment, notified bodies which h",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://arxiv.org/html/2512.13907v3",
+      "title": "Assessing High-Risk AI Systems under the EU AI Act: From Legal Requirements to Technical Verification",
+      "snippet": "This paper addresses the need for an explicit and operational mapping between AI Act requirements and concrete verification activities that can be executed, documented, and compared across the AI lifecycle. The objective is to operationalise compliance by making the link between regulatory intent and technical and organisational assurance practices explicit, reproducible, and auditable. The focus is on high-risk AI systems as defined in Article 6 and Annex III, which concern application domains ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act conformity assessment procedures high-risk AI systems Annex VII"
+    },
+    {
+      "url": "https://www.cyberresilienceact.eu/news/cra-notified-bodies-rules-apply-11-june-2026.html",
+      "title": "On 11 June 2026, the CRA's Rules on Notified Bodies Started to Apply, but None Are Designated Yet \u00b7 cyberresilienceact.eu",
+      "snippet": "Status at 26 June 2026\n\nAlthough Chapter IV applies from 11 June 2026, no notified bodies have yet been designated for the CRA in the Commission's NANDO database. Manufacturers of products that require a third-party assessment cannot complete it until designations appear. Article 35(2) sets the target: Member States are to strive to ensure a sufficient number of notified bodies by 11 December 2026, specifically to avoid bottlenecks that hinder market entry.\n\n### What manufacturers should do now\n",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://www.cybercertlabs.com/case-studies/insights-cra-notified-bodies-2026",
+      "title": "CRA Notified Bodies 2026: What Manufacturers Need to Know",
+      "snippet": "started to apply on 11 June 2026. These are the rules governing notified bodies, the third party assessors some manufacturers must use before placing a product on the EU market.\n As of late June 2026, zero notified bodies have been designated for the CRA in the Commission\u2019s NANDO database.\n Article 35(2) sets a target of 11 December 2026 for sufficient notified body capacity across Member States.\n The CRA applies in full from 11 December 2027.\n Most manufacturers can self assess under module A (",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans",
+      "title": "Overview of all AI Act National Implementation Plans | EU Artificial Intelligence Act",
+      "snippet": "| Ireland | Clear.  Statutory Instrument No 366 of 2025 implemented a decentralised model, with 15 existing bodies designated as market surveillance authorities. The Minister for Enterprise, Tourism and Employment is the single point of contact. A National AI Office is expected to be established by 2 August 2026 as the central coordinating authority and will become the new single point of contact.  The notifying authorities are the Minister for Enterprise, Tourism and Employment, the Minister fo",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://eyreact.com/notified-bodies-ai-act",
+      "title": "Notified Bodies Under the EU AI Act: The Gatekeepers You Haven\u2019t Met Yet \u2013 eyreACT: AI Compliance Automation Platform",
+      "snippet": "As of March 2026, the designation process is ongoing. Very few bodies have been fully designated specifically for AI Act conformity assessment. Existing notified bodies under product legislation (MDR, Machinery Regulation, etc.) can assess AI components within their existing scope, but AI-specific designation remains limited. This is a known bottleneck that the Digital Omnibus aims to address through extended timelines.\n\n### How long does a notified body assessment take?\n\nEstimates range from 9 ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/reading-eu-ai-act-articles-3539-auditors-part-2-11-farayola-phd-g8hie",
+      "title": "Reading the EU AI Act, Articles 35\u201339: The AI Auditors Part 2",
+      "snippet": "Article 35(2) \u2192 NANDO database: Commission maintains publicly accessible and up-to-date list of all notified bodies, their identification",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "list designated notified bodies AI Act NANDO database 2026"
+    },
+    {
+      "url": "https://www.euaiact.com/key-issue/2",
+      "title": "EU AI Act Key Issue 2: Conformity Assessment",
+      "snippet": "In the case of the internal conformity assessment process, the provider, distributor, importer or other third-party must demonstrate conformity by an \u2018assessment based on internal control\u2019 i.e., self-certification (Article 43(1)). There are three major checks that such entities must carry out:\n\n1. Verify that the established quality management system is compliant with the requirements set out in Article 17\n2. Examine the information in the technical documentation to assess whether the requiremen",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://www.onetrust.com/blog/what-you-need-to-know-about-conformity-assessments-under-the-eu-ai-act",
+      "title": "What You Need to Know About Conformity Assessments Under The EU AI Act | Blog | OneTrust",
+      "snippet": "## Who Actually Conducts Conformity Assessments?\n\nConformity assessments can be conducted in two ways: either internally, or by a third-party process. As the names suggests, internal CAs are conducted by the provider (or the responsible actor) while third-party CAs are conducted by an external \u201cnotified body.\u201d \n\nArticle 43 of the AI Act lays out more explicit guidance on which cases require an internal CA and which ones should go through a third-party process; you can also find more detailed ste",
+      "source_type": "industry",
+      "published_date": null,
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_43.html",
+      "title": "Article 43, Conformity assessment, EU AI Act",
+      "snippet": "# The EU AI Act | Article 43\n\n  \n   \n\nArticle 43, Conformity assessment.\n\n  \n\n1. For high-risk AI systems listed in point 1 of Annex III, where, in demonstrating the compliance of a high-risk AI system with the requirements set out in Section 2, the provider has applied harmonised standards referred to in Article 40, or, where applicable, common specifications referred to in Article 41, the provider shall opt for one of the following conformity assessment procedures based on:\n\n(a) the internal c",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    },
+    {
+      "url": "https://www.vde.com/topics-en/artificial-intelligence/blog/conformity-assessment-high-risk-ai",
+      "title": "Conformity assessment of high\u2011risk AI systems under the EU AI Act: what providers need to know",
+      "snippet": "By means of a delegated act, the European Commission can amend the AI Act so that high-risk AI systems from other critical areas must also undergo a third-party conformity assessment if no harmonized standards or common specifications are applied (Art. 43 (6) AI Act).\n\n### Substantial modifications\n\nWhenever a high\u2011risk AI system undergoes a substantial modification according to Art. 3 (23), it must undergo a new conformity assessment, except where the modifications are pre\u2011determined and docume",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "EU AI Act Article 43 conformity assessment third-party vs internal control"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "Article 43 requires that, for high-risk AI systems, the provider follow the conformity assessment procedure set out in Annex VII where harmonised standards or common specifications do not exist or have not been (fully) applied.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "For high-risk AI systems listed in point 1 of Annex III, where the provider has applied harmonised standards (Article 40) or common specifications (Article 41), the provider may choose between conformity assessment based on internal control (Annex VI) or the procedure involving a notified body based on quality management system and technical documentation assessment (Annex VII).",
+      "supporting_sources": [
+        "https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf",
+        "https://www.euaiact.com/key-issue/2",
+        "https://www.onetrust.com/blog/what-you-need-to-know-about-conformity-assessments-under-the-eu-ai-act",
+        "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_43.html"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.34,
+        "authority": 0.3,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "For most high-risk AI systems not falling under point 1 of Annex III, conformity can be demonstrated by the provider itself through an internal/self-assessment procedure (Annex VI), without mandatory third-party certification.",
+      "supporting_sources": [
+        "https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+        "https://www.euaiact.com/key-issue/2",
+        "https://www.onetrust.com/blog/what-you-need-to-know-about-conformity-assessments-under-the-eu-ai-act"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.34,
+        "authority": 0.3,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "Annex VII describes a third-party conformity assessment procedure combining evaluation of the provider's quality management system (QMS, per Article 17) and review of technical documentation of the high-risk AI system by a notified body.",
+      "supporting_sources": [
+        "https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-17"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "Under Annex VII point 4.5, where necessary and after other reasonable means have been exhausted, a notified body may, upon reasoned request, be granted access to the training and trained models of the AI system, including relevant parameters, subject to IP and confidentiality protections.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "Article 46 allows a market surveillance authority to derogate from the Article 43 conformity assessment procedure, authorising placing on the market or putting into service of specific high-risk AI systems for a limited time for exceptional reasons of public security, health, environmental protection, or protection of key industrial/infrastructural assets.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "For high-risk AI systems covered by Union harmonisation legislation listed in Section A of Annex I, the provider must follow the relevant conformity assessment procedure required under those sector-specific legal acts, with the Chapter III Section 2 requirements incorporated, and only points 4.3, 4.4, 4.5 and part of 4.6 of Annex VII additionally applying.",
+      "supporting_sources": [
+        "https://artificialintelligenceact.eu/article/43",
+        "https://artificialintelligenceact.eu/ai-act-explorer"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.4,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "Conformity assessment bodies must apply to be designated as notified bodies under Article 29, and only designated bodies may carry out conformity assessments, limited to the activities/types of AI systems for which they are designated.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29",
+        "https://data.consilium.europa.eu/doc/document/ST-7322-2026-INIT/en/pdf"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "A 2025 Commission proposal (COM(2025)836) would amend Article 30 to require conformity assessment bodies applying for notified body status to do so according to codes, categories and types of AI systems referenced in a new Annex XIV for the NANDO system, with Commission power to amend these codes.",
+      "supporting_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.8,
+        "authority": 1.0,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "A Council 'Digital Omnibus on AI' drafting document (deadline 26 February 2026) proposes facilitating notified body designation under both the AI Act and sector-specific legislation via a single application and single assessment procedure, including for bodies already designated under other Union harmonisation legislation.",
+      "supporting_sources": [
+        "https://data.consilium.europa.eu/doc/document/WK-3257-2026-INIT/en/pdf"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "The NANDO database is the Commission's public information system listing all designated notified bodies, including those for AI Act purposes.",
+      "supporting_sources": [
+        "https://webgate.ec.europa.eu/single-market-compliance-space/notified-bodies",
+        "https://www.linkedin.com/pulse/reading-eu-ai-act-articles-3539-auditors-part-2-11-farayola-phd-g8hie"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "As of 16 December 2025, the NANDO system listed 51 MDR-designated notified bodies and 19 IVDR-designated bodies, with 12 MDR and 6 IVDR designation applications pending (these figures concern medical device regulations, not the AI Act specifically).",
+      "supporting_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.8,
+        "authority": 1.0,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "As of March 2026, the AI Act notified body designation process was ongoing, with very few bodies fully designated specifically for AI Act conformity assessment; existing notified bodies under other product legislation (e.g., MDR, Machinery Regulation) can assess AI components within their existing scope but AI-specific designation remains limited, described as a bottleneck that the Digital Omnibus aims to address through extended timelines.",
+      "supporting_sources": [
+        "https://eyreact.com/notified-bodies-ai-act"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "Article 35(2) requires the Commission to maintain a publicly accessible, up-to-date list of all notified bodies, including their identification numbers, in the NANDO database.",
+      "supporting_sources": [
+        "https://www.linkedin.com/pulse/reading-eu-ai-act-articles-3539-auditors-part-2-11-farayola-phd-g8hie"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "Under a provision in the consolidated AI Act text (version dated 27 July 2026), the AI Office is to be responsible for conformity assessments and tests of high-risk AI systems subject to third-party conformity assessment under Article 43 before such systems are placed on the market or put into service.",
+      "supporting_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A02024R1689-20260727"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.8,
+        "authority": 1.0,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "The AI Act (Regulation 2024/1689) requires that, for high-risk systems within Annex III, conformity assessment be carried out by a notified body under Article 43 against the obligations of Articles 9\u201315, including robustness and cybersecurity (Article 15).",
+      "supporting_sources": [
+        "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/after-mythos-why-frontier-ai-conformity-assessment-requires-cryptographic-layer"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "Whenever a high-risk AI system undergoes a substantial modification as defined in Article 3(23), it must generally undergo a new conformity assessment, except where modifications are pre-determined and documented.",
+      "supporting_sources": [
+        "https://www.vde.com/topics-en/artificial-intelligence/blog/conformity-assessment-high-risk-ai"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_018",
+      "text": "Via delegated act, the Commission can amend the AI Act so that high-risk AI systems from other critical areas must also undergo third-party conformity assessment where no harmonised standards or common specifications are applied (Article 43(6)).",
+      "supporting_sources": [
+        "https://www.vde.com/topics-en/artificial-intelligence/blog/conformity-assessment-high-risk-ai"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "claim_a": "Article 13 (source 14) states that notified-body conformity assessment under Article 43 applies to high-risk systems 'falling within Annex III' generally.",
+      "claim_b": "Multiple legal-text sources (12, 24, 25, 26) specify that the choice between internal and notified-body (Annex VII) assessment, when harmonised standards/common specifications have been applied, is specifically limited to high-risk AI systems listed in point 1 of Annex III, not all of Annex III.",
+      "source_a": "https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/after-mythos-why-frontier-ai-conformity-assessment-requires-cryptographic-layer",
+      "source_b": "https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf",
+      "description": "Source 14 generalizes third-party/notified body assessment to all Annex III high-risk systems, while sources 12, 24, 25, 26 (citing Article 43 text) restrict the optional internal/third-party choice to point 1 of Annex III specifically, implying other Annex III categories follow different (generally internal) procedures."
+    },
+    {
+      "claim_a": "Source 13 (AI Act consolidated text, 27 July 2026 version) states the AI Office is responsible for conducting conformity assessments and tests of certain high-risk AI systems subject to third-party assessment under Article 43.",
+      "claim_b": "Other sources (1, 5, 10, 15) describe conformity assessment as carried out by independently designated 'notified bodies' (private/public conformity assessment bodies), not by the AI Office itself.",
+      "source_a": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A02024R1689-20260727",
+      "source_b": "https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf",
+      "description": "There appears to be a discrepancy regarding who performs certain third-party conformity assessments: source 13 suggests the AI Office itself conducts some assessments and tests, while the general framework described elsewhere assigns this role to independently designated notified bodies; this may reflect a GPAI-specific or amended provision not clearly reconciled with the general notified-body framework in other sources."
+    },
+    {
+      "claim_a": "Source 8 reports 51 MDR-designated and 19 IVDR-designated notified bodies as of 16 December 2025 (medical devices sector, not AI Act specific).",
+      "claim_b": "Source 22 states that as of March 2026, very few bodies have been fully designated specifically for AI Act conformity assessment, while source 19/20 (CRA-specific, different regulation) report zero notified bodies designated under the Cyber Resilience Act as of June 2026.",
+      "source_a": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051",
+      "source_b": "https://eyreact.com/notified-bodies-ai-act",
+      "description": "Sources report differing notified-body designation counts, but these pertain to different regulatory regimes (MDR/IVDR vs. AI Act vs. CRA) and different dates, which could be mistakenly conflated; no source gives a definitive count of AI Act-specific notified bodies designated as of the question date."
+    }
+  ],
+  "open_issues": [
+    "No source provides a definitive, current count or list of notified bodies specifically designated for AI Act conformity assessment as of the research date (28 October 2026).",
+    "It is unclear from the sources whether the proposed Digital Omnibus on AI amendments (single application/assessment procedure, new Annex XIV codes) have been formally adopted or remain proposals as of October 2026.",
+    "The sources do not clarify the current operational status or membership of the NANDO database specifically for AI Act notified bodies, only general NANDO information and MDR/IVDR/CRA data points.",
+    "It is unclear whether the AI Office's role in conducting conformity assessments and tests (per source 13) applies broadly to high-risk AI systems or is limited to a specific category (e.g., GPAI models with systemic risk), and how this interacts with the notified body framework.",
+    "The sources do not specify how many Member States have operational national notified-body designation processes in place for the AI Act as of the question date.",
+    "It is unclear from the sources what penalties or consequences apply if a high-risk AI system requiring third-party conformity assessment cannot undergo it due to lack of designated notified bodies, beyond the derogation mechanism in Article 46.",
+    "The timeline and status of the Annex XIV codes/categories system proposed in COM(2025)836 is not clearly established as adopted or still pending in the sources provided."
+  ],
+  "report": "# Conformity Assessment Procedures for High-Risk AI Systems Under the EU AI Act\n\n## Executive Summary\nThe EU AI Act establishes two main conformity assessment routes for high-risk AI systems: internal control (Annex VI) and third-party assessment involving a notified body (Annex VII), with the applicable route depending on the system's category and whether harmonised standards have been applied ([AI Act Service Desk, Article 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43)). However, the notified-body ecosystem for AI Act-specific assessments remains underdeveloped, with no source confirming a definitive list of fully AI Act-designated notified bodies as of late 2026, and pending Commission and Council proposals could still reshape the designation process ([COM(2025)836](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836); [Council WK-3257-2026-INIT](https://data.consilium.europa.eu/doc/document/WK-3257-2026-INIT/en/pdf)).\n\n## Key Findings\n\n### Conformity Assessment Routes\nArticle 43 requires providers to follow the Annex VII procedure where harmonised standards or common specifications do not exist or have not been fully applied (medium confidence) ([AI Act Service Desk, Article 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43)). For high-risk systems under point 1 of Annex III where harmonised standards or common specifications have been applied, providers may choose between internal control (Annex VI) or notified-body assessment (Annex VII) (low confidence) ([Futurium](https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf); [EU AI Act Key Issue 2](https://www.euaiact.com/key-issue/2)). For most other high-risk systems outside point 1 of Annex III, self-assessment via Annex VI suffices without mandatory third-party certification (low confidence) ([EDPB](https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf); [OneTrust](https://www.onetrust.com/blog/what-you-need-to-know-about-conformity-assessments-under-the-eu-ai-act)).\n\n### Annex VII Third-Party Procedure\nAnnex VII combines evaluation of the provider's quality management system (per Article 17) with review of technical documentation by a notified body (high confidence) ([FPF](https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf); [AI Act Service Desk, Article 17](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-17)). Under Annex VII point 4.5, notified bodies may, upon reasoned request and after exhausting other means, gain access to training and trained models, subject to IP and confidentiality safeguards (medium confidence) ([AI Act Service Desk, Annex VII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7)). For systems already covered by Union harmonisation legislation (Annex I, Section A), providers follow the sector-specific procedure, with only limited Annex VII points (4.3, 4.4, 4.5, part of 4.6) additionally applying (medium confidence) ([artificialintelligenceact.eu, Article 43](https://artificialintelligenceact.eu/article/43)).\n\n### Derogations and Modifications\nArticle 46 permits market surveillance authorities to derogate from standard conformity assessment, authorising temporary market placement for exceptional public security, health, environmental, or critical-infrastructure reasons (medium confidence) ([AI Act Service Desk, Article 46](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46)). Substantial modifications generally trigger a new conformity assessment unless pre-determined and documented (low confidence) ([VDE](https://www.vde.com/topics-en/artificial-intelligence/blog/conformity-assessment-high-risk-ai)).\n\n### Notified Body Designation\nConformity assessment bodies must apply under Article 29 and are designated only for specific activities/system types (high confidence) ([AI Act Service Desk, Article 29](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29)). The Commission maintains the NANDO database listing all designated notified bodies, including for AI Act purposes (high confidence) ([NANDO](https://webgate.ec.europa.eu/single-market-compliance-space/notified-bodies)). A 2025 Commission proposal (COM(2025)836) would require applicants to specify codes/categories under a new Annex XIV (high confidence) ([EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836)), while a Council draft proposes streamlining designation via a single application process (medium confidence) ([Council WK-3257-2026-INIT](https://data.consilium.europa.eu/doc/document/WK-3257-2026-INIT/en/pdf)). As of March 2026, very few bodies were specifically designated for AI Act assessments, described as a bottleneck (low confidence) ([eyreACT](https://eyreact.com/notified-bodies-ai-act)).\n\n## Contradictions & Uncertainties\nSources disagree on scope: the Futurium \"After Mythos\" piece generalizes notified-body assessment to all high-risk systems under Annex III (low confidence) ([Futurium, After Mythos](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/after-mythos-why-frontier-ai-conformity-assessment-requires-cryptographic-layer)), whereas Article 43 itself and interpretive sources restrict the optional internal/third-party choice specifically to point 1 of Annex III (low confidence) ([AI Act Service Desk, Article 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43); [Futurium 2021](https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf); [EU AI Act Key Issue 2](https://www.euaiact.com/key-issue/2)). A possible discrepancy exists regarding whether the AI Office itself conducts certain conformity assessments (high confidence claim from a 2026 consolidated text) versus the standard notified-body framework\u2014this may reflect an amendment not fully reconciled across sources ([EUR-Lex 2026 text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A02024R1689-20260727); [FPF](https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf)). Several low-confidence claims (0.12\u20130.34) regarding designation counts and substantial-modification rules should be treated cautiously given weak sourcing, including the claim that AI Act-specific notified-body designations remain very limited and bottlenecked as of March 2026 ([eyreACT](https://eyreact.com/notified-bodies-ai-act)), and the claim that substantial modifications generally trigger a new conformity assessment unless pre-determined and documented ([VDE](https://www.vde.com/topics-en/artificial-intelligence/blog/conformity-assessment-high-risk-ai)).\n\n## Knowledge Gaps\nNo source confirms a current, definitive count of AI Act-specific notified bodies as of October 2026. It remains unclear whether the Digital Omnibus and Annex XIV proposals have been adopted or remain pending. The AI Office's precise role in conformity assessments versus notified bodies is unresolved, as is the consequence of insufficient notified-body capacity beyond Article 46 derogations.\n\n## Sources\n1. [Article 43: Conformity assessment](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43) \u2013 no date\n2. [ANNEX VII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7) \u2013 no date\n3. [Article 46: Derogation](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46) \u2013 no date\n4. [Article 17: Quality management system](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-17) \u2013 no date\n5. [Article 29: Application for notification](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29) \u2013 no date\n6. [Council WK-3257-2026-INIT](https://data.consilium.europa.eu/doc/document/WK-3257-2026-INIT/en/pdf) \u2013 no date\n7. [COM(2025)836](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025PC0836) \u2013 no date\n8. [SWD 2025SC1051](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051) \u2013 no date\n9. [NANDO database](https://webgate.ec.europa.eu/single-market-compliance-space/notified-bodies) \u2013 no date\n10. [Council ST-7322-2026-INIT](https://data.consilium.europa.eu/doc/document/ST-7322-2026-INIT/en/pdf) \u2013 no date\n11. [EDPB training material](https://www.edpb.europa.eu/system/files/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf) \u2013 2025-06-01\n12. [Futurium: EU AI Act European Approach](https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf) \u2013 2021-10-01\n13. [Consolidated AI Act 2026-07-27](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A02024R1689-20260727) \u2013 no date\n14. [Futurium: After Mythos](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/after-mythos-why-frontier-ai-conformity-assessment-requires-cryptographic-layer) \u2013 no date\n15. [FPF: Conformity Assessments under the EU AI Act](https://fpf.org/wp-content/uploads/2025/04/OT-comformity-assessment-under-the-eu-ai-act-WP-1.pdf) \u2013 2025-04-01\n16. [artificialintelligenceact.eu Article 43](https://artificialintelligenceact.eu/article/43) \u2013 no date\n17. [eyreACT: Notified Bodies](https://eyreact.com/notified-bodies-ai-act) \u2013 no date\n18. [LinkedIn: AI Auditors Part 2](https://www.linkedin.com/pulse/reading-eu-ai-act-articles-3539-auditors-part-2-11-farayola-phd-g8hie) \u2013 no date\n19. [EU AI Act Key Issue 2](https://www.euaiact.com/key-issue/2) \u2013 no date\n20. [OneTrust blog](https://www.onetrust.com/blog/what-you-need-to-know-about-conformity-assessments-under-the-eu-ai-act) \u2013 no date\n21. [VDE blog](https://www.vde.com/topics-en/artificial-intelligence/blog/conformity-assessment-high-risk-ai) \u2013 no date\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": null,
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "Nearly every factual statement in the report carries an inline markdown citation, including nuanced qualifiers (e.g., 'Several low-confidence claims (0.12\u20130.34) regarding designation counts and substantial-modification rules...' is sourced to eyreACT and VDE)."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "Spot-checked all major factual claims (Annex VII QMS+technical documentation review, Article 46 derogation grounds, Article 29 designation requirement, COM(2025)836 Annex XIV proposal, Council single-application proposal, NANDO database role) against the extracted claims list and found no invented facts, numbers, or dates not present in the ground-truth claims."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report's 'Contradictions & Uncertainties' section explicitly surfaces all three known contradictions (scope of Article 43 choice vs. Futurium's 'After Mythos' generalization, the AI Office vs. notified-body role discrepancy, and the unreliable low-confidence designation-count/modification claims), matching the ground-truth contradiction list closely."
+    },
+    "confidence_assessment": {
+      "passed": true,
+      "notes": "Confidence labels generally track the underlying scores (e.g., claim_004 0.82\u2192'high confidence', claim_009 0.80\u2192'high confidence', claim_002/003 0.34\u2192'low confidence', claim_013/017/018 0.12\u2192'low confidence'). One minor ambiguity: claim_007 (0.40, derived from authority 0.5) is labeled 'medium confidence' in the report, which sits between the clear low (~0.12-0.34) and medium (~0.68) bands used elsewhere, though this is a defensible borderline call rather than a clear misstatement."
+    },
+    "executive_summary_accuracy": {
+      "passed": true,
+      "notes": "The executive summary's claims (two main routes under Annex VI/VII, underdeveloped notified-body ecosystem, lack of a definitive AI Act-specific notified body list as of late 2026, pending Commission/Council proposals) are all substantiated and elaborated upon in the body and knowledge gaps sections."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The 'Knowledge Gaps' section explicitly states the lack of a definitive AI Act notified-body count, uncertainty over adoption status of the Digital Omnibus/Annex XIV proposals, and the unresolved AI Office vs. notified-body role question\u2014closely mirroring the extracted 'Open Issues' list."
+    }
+  },
+  "review_status": "approved",
+  "approved": true,
+  "review_count": 2,
+  "error": null,
+  "researcher": "fixed",
+  "tool_research": null,
+  "searches": 6,
+  "official_sources": 14,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 173.4,
+  "research_seconds": 19.3,
+  "llm_calls": 6,
+  "input_tokens": 52246,
+  "output_tokens": 18104,
+  "cost_usd": 0.2855,
+  "research_cost_usd": 0.0016,
+  "mentions_current_annex_iii_date": false,
+  "timestamp": "2026-10-28T12:53:23",
+  "question_id": "q3",
+  "run": 1
+}

@@ -1,0 +1,878 @@
+{
+  "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+  "search_queries": [
+    "AI Act conformity assessment high-risk AI systems Annex VII notified bodies",
+    "AI Act notified bodies designated NANDO database",
+    "Article 43 conformity assessment Annex VI internal control high-risk AI system",
+    "first notified body designated AI Act 2025",
+    "NANDO notified bodies list Regulation 2024/1689 artificial intelligence",
+    "\"notified body\" AI Act designated T\u00dcV DEKRA 2026",
+    "DEKRA first notified body AI Act biometric 2025 accreditation Annex III",
+    "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed"
+  ],
+  "gathered_sources": [
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43",
+      "title": "Article 43: Conformity assessment | AI Act Service Desk",
+      "snippet": "For the purposes of the conformity assessment procedure referred to in Annex VII, the provider may choose any of the notified bodies. However, where the high-risk AI system is intended to be put into service by law enforcement, immigration or asylum authorities or by Union institutions, bodies, offices or agencies, the market surveillance authority referred to in Article 74(8) or (9), as applicable, shall act as a notified body.\n\n2.   For high-risk AI systems referred to in points 2 to 8 of Anne",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act conformity assessment high-risk AI systems Annex VII notified bodies"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7",
+      "title": "ANNEX VII | AI Act Service Desk",
+      "snippet": "4.5. Where necessary to assess the conformity of the high-risk AI system with the requirements set out in Chapter III, Section 2, after all other reasonable means to verify conformity have been exhausted and have proven to be insufficient, and upon a reasoned request, the notified body shall also be granted access to the training and trained models of the AI system, including its relevant parameters. Such access shall be subject to existing Union law on the protection of intellectual property an",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act conformity assessment high-risk AI systems Annex VII notified bodies"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-31",
+      "title": "Article 31: Requirements relating to notified bodies | AI Act Service Desk",
+      "snippet": "4.   Notified bodies shall be independent of the provider of a high-risk AI system in relation to which they perform conformity assessment activities. Notified bodies shall also be independent of any other operator having an economic interest in high-risk AI systems assessed, as well as of any competitors of the provider. This shall not preclude the use of assessed high-risk AI systems that are necessary for the operations of the conformity assessment body, or the use of such high-risk AI system",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act conformity assessment high-risk AI systems Annex VII notified bodies"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-34",
+      "title": "Article 34: Operational obligations of notified bodies | AI Act Service Desk",
+      "snippet": "Summary \n\nNotified bodies must verify the conformity of high-risk AI systems according to specified procedures set out in Article 43, while avoiding unnecessary burdens for providers, especially SMEs. They must consider the provider's size, sector, structure, and system complexity, but ensure compliance with the AI Act\u2019s requirements. Notified bodies must make all relevant documentation available to the notifying authority upon request to facilitate assessment and monitoring activities.\n\nThe sum",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act conformity assessment high-risk AI systems Annex VII notified bodies"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29",
+      "title": "Article 29: Application of a conformity assessment body for notification | AI Act Service Desk",
+      "snippet": "Article 16: Obligations of providers of high-risk AI systems\n Article 17: Quality management system\n Article 18: Documentation keeping\n Article 19: Automatically generated logs\n Article 20: Corrective actions and duty of information\n Article 21: Cooperation with competent authorities\n Article 22: Authorised representatives of providers of high-risk AI systems\n Article 23: Obligations of importers\n Article 24: Obligations of distributors\n Article 25: Responsibilities along the AI value chain\n Art",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act conformity assessment high-risk AI systems Annex VII notified bodies"
+    },
+    {
+      "url": "https://data.consilium.europa.eu/doc/document/ST-15708-2025-INIT/en/pdf",
+      "title": "COM(2025) 836 - Data - European Union",
+      "snippet": "and corresponding types of AI systems referred to in a new Annex XIV for the Commission\u2019s New Approach Notified and Designated Organisations (\u2018NANDO\u2019) information system. Article 2 makes amendments with regards to Regulation (EU) 2018/1139, to allow a smooth integration of the AI Act\u2019s high-risk requirements into that Regulation. Article 3 provides the rule of entry into force and the binding nature of this Regulation. EN 11 EN 2025/0359 (COD) Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act notified bodies designated NANDO database"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051",
+      "title": "1_EN_evaluation_part1_v5.docx - EUR-Lex - European Union",
+      "snippet": "Dec 16, 2025 \u2014 the NANDO system lists 51 MDR-designated notified bodies and 19 IVDR-designated bodies, with 12 MDR and 6 IVDR designation applications pending",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "AI Act notified bodies designated NANDO database"
+    },
+    {
+      "url": "https://data.consilium.europa.eu/doc/document/WK-1063-2026-INIT/en/pdf",
+      "title": "LIMITE EN - Data - European Union",
+      "snippet": "in Section A of Annex I shall have the power to assess the conformity of high-risk AI systems with the requirements set out in Section 2, provided that the compliance of those notified bodies with the requirements laid down in Article 31(4), (5), (10) and (11) has been assessed in the context of the notification procedure under the relevant Union harmonisation legislation. Without prejudice to Article 28, such notified bodies which have been notified under the Union harmonisation legislation in ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act notified bodies designated NANDO database"
+    },
+    {
+      "url": "https://ec.europa.eu/growth/tools-databases/nando",
+      "title": "EUROPA \u2013 European Commission \u2013 Growth \u2013 Regulatory policy",
+      "snippet": "## Notified bodies (NANDO)\n\nNotification is an act whereby a Member State informs the Commission and the other Member States that a body, which fulfils the relevant requirements, has been designated to carry out conformity assessment according to a directive. Notification of Notified Bodies and their withdrawal are the responsibility of the notifying Member State.\n\nInformation about bodies including their contact and notification details can be found in section Notified bodies.\n\n## Market survei",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act notified bodies designated NANDO database"
+    },
+    {
+      "url": "https://health.ec.europa.eu/medical-devices-topics-interest/notified-bodies-medical-devices_en",
+      "title": "Notified bodies for medical devices - Public Health - European Commission",
+      "snippet": "The Commission publishes a list of designated notified bodies in the NANDO information system. The information can be filtered by legislation to identify:\n\nAdditional information on the designation process and other aspects related to notified bodies:\n\n## Monitoring of Notified Bodies\n\nArticle 44 (12) of Regulation (EU) 2017/745 and Article 40 (12) of Regulation (EU) 2017/746 require to make publicly available Member States summaries of the annual reports on the monitoring and on-site assessment",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "AI Act notified bodies designated NANDO database"
+    },
+    {
+      "url": "https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf",
+      "title": "[PDF] EU Artificial Intelligence Act - The European Approach to AI - Futurium",
+      "snippet": "can be applied for via a procedure as described in article 43. Article 43 Conformity assessment 1. For high-risk AI systems listed in point 1 of Annex III, where, in demonstrating the compliance of a high-risk AI system with the requirements set out in Chapter 2 of this Title, the provider has applied harmonised standards referred to in Article 40, or, where applicable, common specifications referred to in Article 41, the provider shall follow one of the following procedures: (a)the conformity a",
+      "source_type": "eu_guidance",
+      "published_date": "2021-10-01",
+      "search_query": "Article 43 conformity assessment Annex VI internal control high-risk AI system"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46",
+      "title": "Article 46: Derogation from conformity assessment procedure | AI Act Service Desk",
+      "snippet": "1.   By way of derogation from Article 43 and upon a duly justified request, any market surveillance authority may authorise the placing on the market or the putting into service of specific high-risk AI systems within the territory of the Member State concerned, for exceptional reasons of public security or the protection of life and health of persons, environmental protection or the protection of key industrial and infrastructural assets. That authorisation shall be for a limited period while ",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "Article 43 conformity assessment Annex VI internal control high-risk AI system"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48",
+      "title": "Article 48: CE marking | AI Act Service Desk",
+      "snippet": "4.   Where applicable, the CE marking shall be followed by the identification number of the notified body responsible for the conformity assessment procedures set out in Article 43. The identification number of the notified body shall be affixed by the body itself or, under its instructions, by the provider or by the provider\u2019s authorised representative. The identification number shall also be indicated in any promotional material which mentions that the high-risk AI system fulfils the requireme",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "Article 43 conformity assessment Annex VI internal control high-risk AI system"
+    },
+    {
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6",
+      "title": "ANNEX VI | AI Act Service Desk",
+      "snippet": "ANNEX I\n\nANNEX II\n\nANNEX III\n\nANNEX IV\n\nANNEX V\n\nANNEX VI\n\nANNEX VII\n\nANNEX VIII\n\nANNEX IX\n\nANNEX X\n\nANNEX XI\n\nANNEX XII\n\nANNEX XIII\n\nANNEX XIV\n\n## ANNEX VI\n\nConformity assessment procedure based on internal control\n\n1. The conformity assessment procedure based on internal control is the conformity assessment procedure based on points 2, 3 and 4.\n\n2. The provider verifies that the established quality management system is in compliance with the requirements of Article 17.\n\n3. The provider examine",
+      "source_type": "eu_guidance",
+      "published_date": null,
+      "search_query": "Article 43 conformity assessment Annex VI internal control high-risk AI system"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans",
+      "title": "Overview of all AI Act National Implementation Plans | EU Artificial Intelligence Act",
+      "snippet": "| Italy | Clear.  Law No. 132/2025, Provisions and delegations to the Government on artificial intelligence (Disposizioni e deleghe al Governo in materia di intelligenza artificiale) entered into force on 10 October 2025. The law designates the National Cybersecurity Agency (Agenzia per la Cybersicurezza Nazionale, ACN) as market surveillance authority and the single point of contact.  It also designates the Agency for Digital Italy (Agenzia per l\u2019Italia Digitale, AgID) as notifying authority. |",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "first notified body designated AI Act 2025"
+    },
+    {
+      "url": "https://www.studiolegalestefanelli.it/en/insights/italy-ai-act-implementing-decree",
+      "title": "The AI Act, National Authorities and Penalties: What Changes with the First Implementing Decree of Law No. 132/2025 | Stefanelli& Stefanelli Law Firm",
+      "snippet": "Designated as the national notifying authority under Article 70(1) of the Regulation (Article 4 of the decree), AgID will assess, designate and notify conformity assessment bodies. It will also monitor their continued compliance through periodic and ad hoc audits, up to the possible limitation, suspension or withdrawal of designation under Article 36 of the Regulation (Article 13 of the decree). The costs of these checks fall on the bodies themselves. [...] This is a highly sensitive task, becau",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "first notified body designated AI Act 2025"
+    },
+    {
+      "url": "https://medenvoyglobal.com/blog/the-eu-ai-act-and-notified-bodies",
+      "title": "The EU AI Act and Notified Bodies\u00a0 - MedEnvoy",
+      "snippet": "As an economic operator, MedEnvoy recognizes both the potential and the challenges of artificial intelligence (AI) and its growing impact on the regulatory landscape. We remain committed to providing accurate, timely information to help our clients navigate the EU market efficiently and without disruption.\n\nIn this article, we take a closer look at three key challenges facing Notified Bodies under the EU AI Act, offering insights into how these may influence regulatory processes moving forward.\n",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "first notified body designated AI Act 2025"
+    },
+    {
+      "url": "https://artificialintelligenceact.eu/implementation-timeline",
+      "title": "Implementation Timeline | EU Artificial Intelligence Act",
+      "snippet": "Date\n\n2 August 2025 (and every two years thereafter)\n\nMember States: Deadline for Member States to report to the Commission on the status of the financial and human resources of the national competent authorities.\n\nRelated AI Act Content\n\nArticle 70(6)\n\nDate\n\n2 August 2025\n\nMember States: Deadline for Member States to designate national competent authorities (notifying authorities and market surveillance authorities), communicate them to the Commission, and make their contact details publicly av",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "first notified body designated AI Act 2025"
+    },
+    {
+      "url": "https://www.dlapiper.com/en/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect",
+      "title": "Latest wave of obligations under the EU AI Act take effect: Key considerations | DLA Piper",
+      "snippet": "As of August 2, 2025, the AI Office is accompanied by the AI Board, a formal EU-level coordination body consisting of Member State representatives tasked with advising and assisting the Commission and the Member States to facilitate the consistent and pragmatic application of the EU AI Act.(#2)\n\n#### National market surveillance and notifying authorities\n\nUnder the EU AI Act, Member States must have designated their national competent authorities by August 2, 2025. These should consist of at lea",
+      "source_type": "legal_analysis",
+      "published_date": "2025-08-01",
+      "search_query": "first notified body designated AI Act 2025"
+    },
+    {
+      "url": "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html",
+      "title": "Article 35, Identification numbers and lists of notified bodies, Artificial Intelligence Act",
+      "snippet": "# The final text of the AI Act (Regulation (EU) 2024/1689)\n\n  \n   \n\nArticle 35, Identification numbers and lists of notified bodies.\n\n  \n\n1. The Commission shall assign a single identification number to each notified body, even where a body is notified under more than one Union act.\n\n  \n\n2. The Commission shall make publicly available the list of the bodies notified under this Regulation, including their identification numbers and the activities for which they have been notified. The Commission ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NANDO notified bodies list Regulation 2024/1689 artificial intelligence"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "title": "Regulation - EU - 2024/1689 - EN",
+      "snippet": "10.Notified bodies shall be capable of carrying out all their tasks under this Regulation with the highest degree of professional integrity and the requisite competence in the specific field, whether those tasks are carried out by notified bodies themselves or on their behalf and under their responsibility.\n\n11.Notified bodies shall have sufficient internal competences to be able effectively to evaluate the tasks conducted by external parties on their behalf. The notified body shall have permane",
+      "source_type": "official_eu",
+      "published_date": null,
+      "search_query": "NANDO notified bodies list Regulation 2024/1689 artificial intelligence"
+    },
+    {
+      "url": "https://www.artificial-intelligence-act.com",
+      "title": "EU AI Act - Updates, Compliance, Training",
+      "snippet": "Under Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (the AI Act or the Regulation), the European Data Protection Supervisor (EDPS) has been designated as a market surveillance authority (MSA) for AI systems put into service or used by European Union institutions, bodies, offices and agencies (EUIs). The AI Act also designates the EDPS as a notified body for conformity assessments of certain high-risk AI systems. [...] 3. Chapter III Section 4 (Notifying author",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NANDO notified bodies list Regulation 2024/1689 artificial intelligence"
+    },
+    {
+      "url": "https://service.betterregulation.com/document/741607",
+      "title": "Regulation 2024/1689/EU - EU Artificial Intelligence Act (EU AI Act) | Regulation 2024/1689/EU - EU Artificial Intelligence Act (EU AI Act) | Better Regulation",
+      "snippet": "along the AI value chainArticle 26 Obligations of deployers of high-risk AI systemsArticle 27 Fundamental rights impact assessment for high-risk AI systemsSection 4 Notifying authorities and notified bodies (arts. 28-39)Article 28 Notifying authoritiesArticle 29 Application of a conformity assessment body for notificationArticle 30 Notification procedureArticle 31 Requirements relating to notified bodiesArticle 32 Presumption of conformity with requirements relating to notified bodiesArticle 33 ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NANDO notified bodies list Regulation 2024/1689 artificial intelligence"
+    },
+    {
+      "url": "https://www.compliancegate.com/eu-artificial-intelligence-act",
+      "title": "AI Act (Artificial Intelligence Regulation (EU) 2024/1689): An Overview",
+      "snippet": "If a notified body is responsible for the conformity assessment of the AI system, the CE marking must be followed by the notified body\u2019s identification number. Further, the number should be indicated in any promotional material that asserts the AI system\u2019s fulfilment of CE marking requirements.\n\nAdditionally, the following traceability information must appear on the high-risk AI system, its packaging or accompanying documentation:\n\n Provider\u2019s name, registered trade name or registered trade mark",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "NANDO notified bodies list Regulation 2024/1689 artificial intelligence"
+    },
+    {
+      "url": "https://eucertify.com/find-notified-body",
+      "title": "MDR Notified Body List 2026: All 52 Designated Bodies (+ IVDR)",
+      "snippet": "| NB number | Notified Body | Country | MDR | IVDR |\n ---  --- \n| 0044 | T\u00dcV NORD CERT GmbH | Germany | \u2713 | \u2013 |\n| 0050 | National Standards Authority of Ireland (NSAI) | Ireland | \u2713 | \u2713 |\n| 0051 | IMQ ISTITUTO ITALIANO DEL MARCHIO DI QUALIT\u00c0 S.P.A. | Italy | \u2713 | \u2713 |\n| 0068 | MTIC InterCert S.r.l. | Italy | \u2713 | \u2013 |\n| 0123 | T\u00dcV S\u00dcD Product Service GmbH | Germany | \u2713 | \u2713 |\n| 0124 | DEKRA Certification GmbH | Germany | \u2713 | \u2713 |\n| 0197 | T\u00dcV Rheinland LGA Products GmbH | Germany | \u2713 | \u2713 |\n| 0297 | DQ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "\"notified body\" AI Act designated T\u00dcV DEKRA 2026"
+    },
+    {
+      "url": "https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai",
+      "title": "Nobody Is Ready to Certify Europe's AI | Think Different",
+      "snippet": "## The Accreditation Bottleneck\n\nMore Notified Bodies will be designated over time. The accreditation process for new Notified Bodies \u2014 which requires national accreditation bodies (T\u00dcV, COFRAC in France, UKAS in the UK) to assess the applicant organization\u2019s competence \u2014 takes 18 to 24 months in normal circumstances. As of August 2026, there are 43 applications for AI Act Notified Body designation pending across EU member state accreditation processes. [...] Finding a single person with all fou",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "\"notified body\" AI Act designated T\u00dcV DEKRA 2026"
+    },
+    {
+      "url": "https://www.dekra.com/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+      "title": "DEKRA becomes the First Accredited Certification Body for AI Biometric Systems Under the EU AI Act",
+      "snippet": "MediaCareer\n\nLogo\n\nHomepageMediaPress Release Details\n\nStandards for Trustworthy and Compliant AI\n\n# DEKRA becomes the First Accredited Certification Body for AI Biometric Systems Under the EU AI Act\n\nMar 10, 2026Digital & Product Solutions\n\nDEKRA, a global leader in testing, inspection, and certification (TIC) services, is now the first officially accredited for AI Biometric Systems under the EU Artificial Intelligence Act (EU AI Act) \u2013 empowering manufacturers to navigate the EU\u2019s evolving reg",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "\"notified body\" AI Act designated T\u00dcV DEKRA 2026"
+    },
+    {
+      "url": "https://www.dekra.us/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+      "title": "DEKRA becomes the First Accredited Certification Body for AI Biometric Systems Under the EU AI Act",
+      "snippet": "Career\n\nLogo\n\nHomepageAbout DEKRANews & MediaPress ReleasesPress Release\n\nStandards for Trustworthy and Compliant AI\n\n# DEKRA becomes the First Accredited Certification Body for AI Biometric Systems Under the EU AI Act\n\nMar 10, 2026Digital & Product Solutions\n\nDEKRA, a global leader in testing, inspection, and certification (TIC) services, is now the first officially accredited for AI Biometric Systems under the EU Artificial Intelligence Act (EU AI Act) \u2013 empowering manufacturers to navigate th",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "\"notified body\" AI Act designated T\u00dcV DEKRA 2026"
+    },
+    {
+      "url": "https://eyreact.com/notified-bodies-ai-act",
+      "title": "Notified Bodies Under the EU AI Act: The Gatekeepers You Haven\u2019t Met Yet \u2013 eyreACT: AI Compliance Automation Platform",
+      "snippet": "As of March 2026, the designation process is ongoing. Very few bodies have been fully designated specifically for AI Act conformity assessment. Existing notified bodies under product legislation (MDR, Machinery Regulation, etc.) can assess AI components within their existing scope, but AI-specific designation remains limited. This is a known bottleneck that the Digital Omnibus aims to address through extended timelines.\n\n### How long does a notified body assessment take?\n\nEstimates range from 9 ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "\"notified body\" AI Act designated T\u00dcV DEKRA 2026"
+    },
+    {
+      "url": "https://sovereign.tenova.io/guides/dekra-biometric-conformity-evidence.html",
+      "title": "Continuous Evidence for Biometric AI Conformity Assessment",
+      "snippet": "DEKRA became the first accredited certification body for AI biometric systems under the EU AI Act in March 2026, accredited by the Dutch Accreditation Council (",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "DEKRA first notified body AI Act biometric 2025 accreditation Annex III"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/stan-zurkiewicz_yet-another-proof-of-dekras-leadership-in-activity-7437396849935818752-eN7q",
+      "title": "Stan Zurkiewicz's Post - dekra",
+      "snippet": "DEKRA is now the world's first Certification Body accredited for AI Biometric Systems under the EU AI Act. ory compliance for high-risk AI",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "DEKRA first notified body AI Act biometric 2025 accreditation Annex III"
+    },
+    {
+      "url": "https://www.prnewswire.com/apac/news-releases/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act-302717226.html",
+      "title": "DEKRA becomes the First Accredited Certification Body for ...",
+      "snippet": "DEKRA becomes the First Accredited Certification Body for AI Biometric Systems Under the EU AI Act. APAC - English. APAC - Traditional Chinese.",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "DEKRA first notified body AI Act biometric 2025 accreditation Annex III"
+    },
+    {
+      "url": "https://www.biometricupdate.com/companies/dekra",
+      "title": "DEKRA",
+      "snippet": "DEKRA, a global leader in testing, inspection, and certification services, is the first officially accredited for AI Biometric Systems under",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "DEKRA first notified body AI Act biometric 2025 accreditation Annex III"
+    },
+    {
+      "url": "https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-2/update-ai-enabled-medical-devices-and-ivds-confirmed-as-high-risk",
+      "title": "Update: AI-Enabled Medical Devices and IVDs Confirmed as \u201cHigh-Risk\u201d",
+      "snippet": "Postponed application date: For high-risk AI embedded in regulated products under Annex I \u2013 including medical devices and IVDs \u2013 the application date is deferred from 2 August 2027 to 2 August 2028 (a one-year postponement). For stand-alone high-risk AI systems under Annex III, the date moves from 2 August 2026 to 2 December 2027. The agreed text replaces the Commission\u2019s originally proposed conditional \u201ctrigger\u201d mechanism with these fixed dates, acknowledging that the necessary harmonised stand",
+      "source_type": "legal_analysis",
+      "published_date": null,
+      "search_query": "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+      "title": "EU AI Act High-Risk Deadline Pushed to December 2027 \u2013 Lab Space",
+      "snippet": "for systems already deployed receiving a four-month grace period to December 2, 2026 . For enterprises that spent the first half of 2026 working toward an August compliance deadline, the practical effect is an additional 16 months to close governance gaps that CSA\u2019s own research found were still wide as recently as March 2026 . Security and compliance leaders should treat the extension as a planning reprieve rather than a reason to stand down, since the underlying obligations \u2014 risk management, ",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed"
+    },
+    {
+      "url": "https://www.modulos.ai/blog/is-the-eu-ai-act-delayed",
+      "title": "Is the EU AI Act Delayed? 2026 Status Check | Modulos Blog",
+      "snippet": "The Modulos documentation has a step-by-step readiness guide covering role identification, classification, technical documentation, conformity assessment, and post-market monitoring. The fastest first step is mapping your AI portfolio against the high-risk classification rules currently in force.\n\n## Why the Omnibus was supposed to delay it\n\nIn November 2025, the European Commission proposed the Digital Omnibus, a simplification package that would amend the AI Act and adjacent files (GDPR, Data ",
+      "source_type": "industry",
+      "published_date": null,
+      "search_query": "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed"
+    },
+    {
+      "url": "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html",
+      "title": "Yes, August 2 Still Matters: The EU Approved a High-Risk AI Delay, but Most Transparency Obligations Remain | Jones Walker LLP",
+      "snippet": "This should be treated as a reprieve rather than a repeal. The EU deferred the high-risk timeline because national authorities and harmonized technical standards were not ready, not because it abandoned the requirements. Obligations for stand-alone high-risk systems within the specified Annex III use cases, including employment and worker management, creditworthiness assessment, certain life and health insurance underwriting contexts, education, and access to essential services, will now apply D",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed"
+    },
+    {
+      "url": "https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance",
+      "title": "EU AI Act August 2026: your compliance countdown | RAIL",
+      "snippet": "Additional obligations include Quality Management Systems (Art. 17), conformity assessment, CE marking, EU database registration, post-market monitoring, serious incident reporting, and fundamental rights impact assessments for deployers.\n\n### Harmonised standards -- delayed\n\nCEN/CENELEC harmonised standards are being developed by over 1,000 European experts across 5 working groups. These standards are significantly delayed -- the original April 2025 deadline was pushed to August 2025, and first",
+      "source_type": "news_blog",
+      "published_date": null,
+      "search_query": "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed"
+    }
+  ],
+  "iteration_count": 1,
+  "extracted_claims": [
+    {
+      "claim_id": "claim_001",
+      "text": "Under Article 43, for high-risk AI systems under Annex III the provider may choose any notified body, except where the system is intended for use by law enforcement, immigration, asylum authorities or Union institutions/bodies/agencies, in which case the relevant market surveillance authority (Art. 74(8) or (9)) acts as the notified body.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_002",
+      "text": "Article 43 sets distinct conformity assessment procedures depending on whether harmonised standards or common specifications have been applied, referencing procedures such as those in Annex VI and Annex VII.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43",
+        "https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_003",
+      "text": "Annex VI describes the conformity assessment procedure based on internal control, requiring the provider to verify its quality management system complies with Article 17 and to examine the technical documentation.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_004",
+      "text": "Annex VII sets out the conformity assessment procedure based on assessment of the quality management system and assessment of the technical documentation, including notified body access to training and trained models when necessary and after other verification means are exhausted.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_005",
+      "text": "Article 48 requires that where a notified body is responsible for conformity assessment, the CE marking must be followed by the notified body's identification number, affixed by the body or under its instruction, and included in relevant promotional material.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48",
+        "https://www.compliancegate.com/eu-artificial-intelligence-act"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.82,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_006",
+      "text": "Article 46 allows a market surveillance authority to authorise, by way of derogation from Article 43 and for a limited period, the placing on the market or putting into service of specific high-risk AI systems for exceptional reasons of public security, protection of life/health, environmental protection, or protection of key industrial/infrastructural assets.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_007",
+      "text": "Article 31 requires notified bodies to be independent of the provider and of any other operator with an economic interest in the high-risk AI systems assessed, as well as independent of competitors of the provider.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-31"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_008",
+      "text": "Article 34 requires notified bodies to verify conformity of high-risk AI systems per Article 43 procedures while avoiding unnecessary burdens, considering provider size, sector, structure and system complexity, and to make documentation available to notifying authorities on request.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-34"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_009",
+      "text": "Article 29 sets out the application procedure for a conformity assessment body seeking notification, referencing related provider obligations under Articles 16-25.",
+      "supporting_sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_010",
+      "text": "Article 35 requires the Commission to assign a single identification number to each notified body and to publicly list notified bodies along with their identification numbers and notified activities.",
+      "supporting_sources": [
+        "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_011",
+      "text": "A draft/consultation document (WK-1063-2026) describes that notified bodies already notified under relevant Union harmonisation legislation (per Annex I Section A), and assessed against Article 31(4),(5),(10),(11), have power to assess conformity of high-risk AI systems, subject to Article 28.",
+      "supporting_sources": [
+        "https://data.consilium.europa.eu/doc/document/WK-1063-2026-INIT/en/pdf"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_012",
+      "text": "A Council document (COM(2025) 836) references a proposed new Annex XIV listing notified and designated organisations in the Commission's NANDO system, and amendments integrating AI Act high-risk requirements into Regulation (EU) 2018/1139.",
+      "supporting_sources": [
+        "https://data.consilium.europa.eu/doc/document/ST-15708-2025-INIT/en/pdf"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.68,
+        "authority": 0.85,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_013",
+      "text": "As of December 16, 2025, the NANDO system lists 51 MDR-designated notified bodies and 19 IVDR-designated bodies, with 12 MDR and 6 IVDR designation applications pending (medical device sector, not AI-Act-specific).",
+      "supporting_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.8,
+        "authority": 1.0,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_014",
+      "text": "Member States were required to designate national competent authorities (notifying authorities and market surveillance authorities) by 2 August 2025 and communicate them to the Commission.",
+      "supporting_sources": [
+        "https://artificialintelligenceact.eu/implementation-timeline",
+        "https://www.dlapiper.com/en/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_015",
+      "text": "Italy's Law No. 132/2025, effective 10 October 2025, designates AgID (Agency for Digital Italy) as the national notifying authority responsible for assessing, designating and notifying conformity assessment bodies, and ACN as market surveillance authority.",
+      "supporting_sources": [
+        "https://artificialintelligenceact.eu/national-implementation-plans",
+        "https://www.studiolegalestefanelli.it/en/insights/italy-ai-act-implementing-decree"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_016",
+      "text": "The European Data Protection Supervisor (EDPS) has been designated as the market surveillance authority for EU institutions, bodies, offices and agencies, and is also designated as a notified body for conformity assessments of certain high-risk AI systems.",
+      "supporting_sources": [
+        "https://www.artificial-intelligence-act.com"
+      ],
+      "category": "legal_requirement",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_017",
+      "text": "As of August 2026, there are 43 applications for AI Act Notified Body designation pending across EU member state accreditation processes, with the accreditation process typically taking 18-24 months.",
+      "supporting_sources": [
+        "https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_018",
+      "text": "As of March 2026, very few bodies have been fully designated specifically for AI Act conformity assessment; existing notified bodies under other product legislation (e.g., MDR, Machinery Regulation) can assess AI components within their existing scope, but AI-specific designation remains limited.",
+      "supporting_sources": [
+        "https://eyreact.com/notified-bodies-ai-act"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_019",
+      "text": "In March 2026, DEKRA became the first body officially accredited for AI Biometric Systems under the EU AI Act, accredited by the Dutch Accreditation Council.",
+      "supporting_sources": [
+        "https://www.dekra.com/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+        "https://www.dekra.us/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+        "https://sovereign.tenova.io/guides/dekra-biometric-conformity-evidence.html",
+        "https://www.linkedin.com/posts/stan-zurkiewicz_yet-another-proof-of-dekras-leadership-in-activity-7437396849935818752-eN7q",
+        "https://www.prnewswire.com/apac/news-releases/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act-302717226.html",
+        "https://www.biometricupdate.com/companies/dekra"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.17,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.4,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_020",
+      "text": "For high-risk AI embedded in regulated products under Annex I (e.g., medical devices, IVDs), the application date was deferred from 2 August 2027 to 2 August 2028; for stand-alone high-risk AI systems under Annex III, the date moved from 2 August 2026 to 2 December 2027.",
+      "supporting_sources": [
+        "https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-2/update-ai-enabled-medical-devices-and-ivds-confirmed-as-high-risk",
+        "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.48,
+        "authority": 0.5,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_021",
+      "text": "Harmonised standards (CEN/CENELEC) needed to support conformity assessment have been delayed, with the original April 2025 deadline pushed to August 2025 and further delays since.",
+      "supporting_sources": [
+        "https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance"
+      ],
+      "category": "timeline",
+      "confidence": {
+        "score": 0.12,
+        "authority": 0.15,
+        "recency": 0.8,
+        "corroboration": 1.0,
+        "undated": true
+      }
+    },
+    {
+      "claim_id": "claim_022",
+      "text": "The Digital Omnibus simplification package, proposed by the European Commission in November 2025, aims to amend the AI Act and address bottlenecks including the limited availability of designated notified bodies.",
+      "supporting_sources": [
+        "https://eyreact.com/notified-bodies-ai-act",
+        "https://www.modulos.ai/blog/is-the-eu-ai-act-delayed"
+      ],
+      "category": "interpretation",
+      "confidence": {
+        "score": 0.29,
+        "authority": 0.3,
+        "recency": 0.8,
+        "corroboration": 1.2,
+        "undated": true
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "claim_a": "The accreditation process for AI Act Notified Body designation takes 18-24 months, with 43 applications pending as of August 2026 and 'more Notified Bodies will be designated over time.'",
+      "claim_b": "As of March 2026, very few bodies have been fully designated specifically for AI Act conformity assessment, with AI-specific designation described as a known bottleneck.",
+      "source_a": "https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai",
+      "source_b": "https://eyreact.com/notified-bodies-ai-act",
+      "description": "Both sources agree designation is limited and ongoing, but they report different timepoints (March 2026 vs August 2026) and slightly different framings of progress, making it unclear exactly how many (if any) AI-Act-specific notified bodies were designated between these dates; neither source names a confirmed, fully AI-Act-designated notified body distinct from DEKRA's biometric accreditation."
+    },
+    {
+      "claim_a": "DEKRA became the first officially accredited certification body for AI Biometric Systems under the EU AI Act in March 2026.",
+      "claim_b": "As of March 2026, the AI Act notified body designation process is ongoing and very few bodies have been fully designated specifically for AI Act conformity assessment.",
+      "source_a": "https://www.dekra.com/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+      "source_b": "https://eyreact.com/notified-bodies-ai-act",
+      "description": "Source 29 implies no or almost no AI-Act-specific notified bodies existed as of March 2026, while sources 27/28/30-33 report DEKRA achieved an 'accreditation' (not necessarily full EU-level 'notification' under the AI Act) in that same month, raising ambiguity about whether 'accreditation' equates to formal notified body designation under the Act."
+    },
+    {
+      "claim_a": "For stand-alone high-risk AI systems under Annex III, the application date moved from 2 August 2026 to 2 December 2027 (Taylor Wessing).",
+      "claim_b": "The EU AI Act high-risk deadline was pushed to December 2027, with systems already deployed receiving a four-month grace period to December 2, 2026 (Cloud Security Alliance).",
+      "source_a": "https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-2/update-ai-enabled-medical-devices-and-ivds-confirmed-as-high-risk",
+      "source_b": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+      "description": "Both sources describe a delay of the high-risk AI deadline to around December 2027, but they differ on specifics: source 34 cites a direct postponement to 2 December 2027 for Annex III systems, while source 35 describes a more complex structure including an interim 4-month grace period to December 2026 for already-deployed systems, suggesting possible differences in how the Digital Omnibus delay was finally structured or reported."
+    }
+  ],
+  "open_issues": [
+    "How many notified bodies, if any, have been fully and formally notified (not just accredited) specifically for AI Act conformity assessment as of the most recent date (October 2026)?",
+    "What is the exact legal status of the Digital Omnibus proposal (COM(2025) 836 and related Council documents) \u2014 has it been formally adopted, and if so, on what date, and how does it affect Article 43 procedures and notified body designation timelines?",
+    "Which specific notified bodies beyond DEKRA (if any) have received full AI Act notification status, and under which Annex III categories?",
+    "How does DEKRA's 'accreditation' for AI biometric systems (March 2026) map onto formal 'notification' status under the AI Act notification procedure (Articles 29-30)? Is accreditation sufficient or is further Commission/Member State notification pending?",
+    "What is the final, confirmed application timeline for high-risk AI Act obligations given the apparently differing accounts of delay mechanisms (fixed postponement vs. grace period structure) in sources 34 and 35?",
+    "Has the proposed new Annex XIV (NANDO integration) referenced in COM(2025) 836 been formally adopted into the AI Act, and what entities would it list?",
+    "What is the current count of notified bodies designated under the AI Act specifically (as opposed to MDR/IVDR/Machinery Regulation bodies), and how has this evolved from 2025 to late 2026?",
+    "How are the harmonised standards delays (CEN/CENELEC) affecting the ability of notified bodies to conduct conformity assessments under Article 43 procedures requiring harmonised standards?"
+  ],
+  "report": "# Conformity Assessment Procedures and Notified Bodies Under the EU AI Act\n\n## Executive Summary\nThe EU AI Act establishes a two-track conformity assessment system for high-risk AI systems under Article 43, supported by detailed procedures in Annexes VI and VII, but actual designation of AI-Act-specific notified bodies remains at a very early stage. While national competent authorities were due to be designated by mid-2025, as of early-to-mid 2026 few if any notified bodies had completed full AI Act-specific designation, with DEKRA's March 2026 accreditation for AI biometric systems representing the most concrete reported milestone (low confidence).\n\n## Key Findings\n\n### Conformity Assessment Procedures\nArticle 43 establishes distinct conformity assessment pathways depending on whether harmonised standards or common specifications apply, directing providers to procedures set out in Annex VI (internal control) or Annex VII (quality management system and technical documentation assessment) (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43)). For Annex III high-risk systems, providers may generally choose any notified body, except where systems are intended for law enforcement, immigration, asylum, or EU institutional use, in which case the relevant market surveillance authority under Article 74(8)/(9) performs the notified body function (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43)). Annex VI requires providers to verify their own quality management system complies with Article 17 and examine technical documentation internally, without third-party involvement (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6)). Annex VII, by contrast, requires notified body assessment of both the quality management system and technical documentation, including potential access to training and trained models as a last resort (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7)). Article 46 permits market surveillance authorities to derogate from Article 43 for a limited period on exceptional public security, health, environmental, or critical infrastructure grounds (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46)). Where a notified body is involved, Article 48 requires its identification number to accompany the CE marking (high confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48); [ComplianceGate](https://www.compliancegate.com/eu-artificial-intelligence-act)).\n\n### Notified Body Requirements and Designation Process\nNotified bodies must be independent of providers, other economic operators, and competitors (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-31)), and must conduct assessments proportionately to provider size and complexity while retaining documentation for notifying authorities (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-34)). Article 29 sets out the application procedure for conformity assessment bodies seeking notification (medium confidence) ([AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29)). A draft Council document indicates bodies already notified under other Union harmonisation legislation may be assessed against Article 31 criteria to gain AI Act notification authority, subject to Article 28 (medium confidence) ([Council document WK-1063-2026](https://data.consilium.europa.eu/doc/document/WK-1063-2026-INIT/en/pdf)). A separate Council document references a proposed new Annex XIV listing notified bodies in the Commission's NANDO system (medium confidence) ([COM(2025) 836](https://data.consilium.europa.eu/doc/document/ST-15708-2025-INIT/en/pdf)).\n\n### Current Designation Status\nMember States were required to designate notifying authorities and market surveillance authorities by 2 August 2025 (medium confidence) ([artificialintelligenceact.eu](https://artificialintelligenceact.eu/implementation-timeline); [DLA Piper](https://www.dlapiper.com/en/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect)). Italy designated AgID as notifying authority and ACN as market surveillance authority effective October 2025 (medium confidence) ([artificialintelligenceact.eu](https://artificialintelligenceact.eu/national-implementation-plans); [Studio Legale Stefanelli](https://www.studiolegalestefanelli.it/en/insights/italy-ai-act-implementing-decree)). As of August 2026, reports indicate roughly 43 pending applications for AI Act notified body designation, with accreditation processes taking 18\u201324 months (low confidence) ([Think Different](https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai)). DEKRA reportedly became the first body accredited for AI biometric systems in March 2026 via the Dutch Accreditation Council (low confidence, though corroborated by multiple industry sources) ([DEKRA](https://www.dekra.com/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act); [PR Newswire](https://www.prnewswire.com/apac/news-releases/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act-302717226.html)).\n\n## Contradictions & Uncertainties\nSources disagree on the pace of designation: one source implies near-zero AI-Act-specific notified bodies as of March 2026, while DEKRA's accreditation announcement in the same month suggests some progress\u2014raising ambiguity over whether \"accreditation\" equals formal AI Act \"notification\" (both low confidence) ([Think Different](https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai); [eyreACT](https://eyreact.com/notified-bodies-ai-act)). Sources also diverge on the exact structure of the Annex III deadline delay to around December 2027, with one citing a direct postponement and another describing an interim grace-period mechanism (medium vs. low confidence) ([Taylor Wessing](https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-2/update-ai-enabled-medical-devices-and-ivds-confirmed-as-high-risk); [CSA Research Note](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260)). The claim that the EDPS has been designated both as market surveillance authority for EU institutions and as a notified body for certain high-risk AI systems is flagged as low confidence due to weak sourcing ([artificial-intelligence-act.com](https://www.artificial-intelligence-act.com)). Similarly, the claim that Article 35 requires the Commission to assign identification numbers and publicly list notified bodies and their notified activities is flagged as low confidence due to weak sourcing ([Article 35](https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html)).\n\n## Knowledge Gaps\nIt remains unclear how many notified bodies have achieved full, formal AI Act notification (versus mere accreditation) as of late 2026; whether the Digital Omnibus package (COM(2025) 836) has been formally adopted; and how CEN/CENELEC harmonised standards delays are affecting Article 43 implementation. The precise final timeline for high-risk AI obligations also requires clarification.\n\n## Sources\n1. [Article 43: Conformity assessment](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43) \u2013 EU Guidance, undated\n2. [ANNEX VI](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6) \u2013 EU Guidance, undated\n3. [ANNEX VII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7) \u2013 EU Guidance, undated\n4. [Article 31](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-31) \u2013 EU Guidance, undated\n5. [Article 34](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-34) \u2013 EU Guidance, undated\n6. [Article 29](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29) \u2013 EU Guidance, undated\n7. [Article 46](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46) \u2013 EU Guidance, undated\n8. [Article 48: CE marking](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48) \u2013 EU Guidance, undated\n9. [COM(2025) 836](https://data.consilium.europa.eu/doc/document/ST-15708-2025-INIT/en/pdf) \u2013 EU Guidance, undated\n10. [WK-1063-2026-INIT](https://data.consilium.europa.eu/doc/document/WK-1063-2026-INIT/en/pdf) \u2013 EU Guidance, undated\n11. [ComplianceGate](https://www.compliancegate.com/eu-artificial-intelligence-act) \u2013 News/Blog, undated\n12. [Implementation Timeline](https://artificialintelligenceact.eu/implementation-timeline) \u2013 Legal Analysis, undated\n13. [DLA Piper](https://www.dlapiper.com/en/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect) \u2013 Legal Analysis, 2025-08\n14. [National Implementation Plans](https://artificialintelligenceact.eu/national-implementation-plans) \u2013 Legal Analysis, undated\n15. [Studio Legale Stefanelli](https://www.studiolegalestefanelli.it/en/insights/italy-ai-act-implementing-decree) \u2013 Legal Analysis, undated\n16. [Think Different](https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai) \u2013 News/Blog, undated\n17. [eyreACT](https://eyreact.com/notified-bodies-ai-act) \u2013 News/Blog, undated\n18. [DEKRA](https://www.dekra.com/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act) \u2013 News/Blog, undated\n19. [PR Newswire](https://www.prnewswire.com/apac/news-releases/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act-302717226.html) \u2013 News/Blog, undated\n20. [Taylor Wessing](https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-2/update-ai-enabled-medical-devices-and-ivds-confirmed-as-high-risk) \u2013 Legal Analysis, undated\n21. [CSA Research Note](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260) \u2013 News/Blog, undated\n22. [artificial-intelligence-act.com](https://www.artificial-intelligence-act.com) \u2013 News/Blog, undated\n23. [Article 35, Identification numbers and lists of notified bodies](https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html) \u2013 News/Blog, undated\n\n## Methodology Note\nThis report was produced by an automated research pipeline: web search, source classification, confidence scores computed from source authority, recency and corroboration, and an automated review against the extracted claims.",
+  "review_feedback": null,
+  "review_checklist": {
+    "source_links": {
+      "passed": true,
+      "notes": "Every link points to a gathered source."
+    },
+    "citation_coverage": {
+      "passed": true,
+      "notes": "Nearly every factual statement is followed by a markdown citation link (e.g., Article 43, Annex VI/VII, Article 46/48/31/34/29, Council documents, DEKRA, Italy designation). Only the Knowledge Gaps section lacks citations, but these are framed as open questions rather than factual claims, which is appropriate."
+    },
+    "hallucination_check": {
+      "passed": true,
+      "notes": "Checked all numeric and date claims against extracted claims: '2 August 2025' deadline (claim_014), Italy AgID/ACN 'effective October 2025' (claim_015), '43 pending applications' and '18\u201324 months' (claim_017), DEKRA 'March 2026' accreditation (claim_019), Article 43/46/48/31/34/29 descriptions (claims_001-009), WK-1063-2026 and COM(2025) 836 (claims_011-012) all match the ground truth claims. No invented facts or numbers were found. One minor imprecision: the executive summary says national competent authorities were 'due to be designated by mid-2025' rather than the exact date '2 August 2025' used elsewhere in the body (claim_014), but this is a loose paraphrase rather than a factual error."
+    },
+    "contradiction_disclosure": {
+      "passed": true,
+      "notes": "The report's 'Contradictions & Uncertainties' section accurately reflects the three known contradictions: (1) disagreement on pace of designation between Think Different and eyreACT/DEKRA sources, including the accreditation-vs-notification ambiguity; (2) divergent structure of the Annex III deadline delay (Taylor Wessing vs. CSA Research Note); (3) low-confidence flags on the EDPS notified-body claim and Article 35 claim. All match the 'Known Contradictions' ground truth."
+    },
+    "confidence_assessment": {
+      "passed": true,
+      "notes": "Confidence labels in the report align with extracted claim confidence scores: e.g., Article 43 pathway claim marked 'high confidence' (claim_002, 0.82); Article 43 notified-body-choice exception marked 'medium confidence' (claim_001, 0.68); Annex VI/VII marked 'medium confidence' (claims_003/004, 0.68); DEKRA and 43-pending-applications claims marked 'low confidence' (claims_017/019, 0.12-0.17); Article 35/EDPS claims marked 'low confidence due to weak sourcing' (claims_010/016, 0.12). No mismatches found."
+    },
+    "executive_summary_accuracy": {
+      "passed": true,
+      "notes": "The executive summary's characterization of a 'two-track conformity assessment system,' the early-stage designation status, and the DEKRA milestone as 'the most concrete reported milestone (low confidence)' are all consistent with and supported by the body's Key Findings and Contradictions sections."
+    },
+    "knowledge_gaps": {
+      "passed": true,
+      "notes": "The Knowledge Gaps section comprehensively mirrors the 'Open Issues' ground truth list, covering the count of fully notified bodies, Digital Omnibus adoption status, CEN/CENELEC harmonised standards delays, and the final timeline for high-risk obligations."
+    }
+  },
+  "review_status": "approved",
+  "approved": true,
+  "review_count": 2,
+  "error": null,
+  "researcher": "tools",
+  "tool_research": {
+    "searches": 8,
+    "turns": 5,
+    "ended_by": "finish_research",
+    "told_to_continue": false,
+    "calls": [
+      {
+        "turn": 1,
+        "tool": "search_official",
+        "query": "AI Act conformity assessment high-risk AI systems Annex VII notified bodies",
+        "urls": [
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-31",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-34",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-29"
+        ],
+        "result": "5 new sources. 5 sources so far, 1 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 1,
+        "tool": "search_official",
+        "query": "AI Act notified bodies designated NANDO database",
+        "urls": [
+          "https://data.consilium.europa.eu/doc/document/ST-15708-2025-INIT/en/pdf",
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A52025SC1051",
+          "https://data.consilium.europa.eu/doc/document/WK-1063-2026-INIT/en/pdf",
+          "https://ec.europa.eu/growth/tools-databases/nando",
+          "https://health.ec.europa.eu/medical-devices-topics-interest/notified-bodies-medical-devices_en"
+        ],
+        "result": "5 new sources. 10 sources so far, 2 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_official",
+        "query": "Article 43 conformity assessment Annex VI internal control high-risk AI system",
+        "urls": [
+          "https://futurium.ec.europa.eu/sites/default/files/2021-10/Kop_EU%20Artificial%20Intelligence%20Act%20-%20The%20European%20Approach%20to%20AI_21092021_0.pdf",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-46",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-48",
+          "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6"
+        ],
+        "result": "4 new sources. 14 sources so far, 3 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 2,
+        "tool": "search_web",
+        "query": "first notified body designated AI Act 2025",
+        "urls": [
+          "https://artificialintelligenceact.eu/national-implementation-plans",
+          "https://www.studiolegalestefanelli.it/en/insights/italy-ai-act-implementing-decree",
+          "https://medenvoyglobal.com/blog/the-eu-ai-act-and-notified-bodies",
+          "https://artificialintelligenceact.eu/implementation-timeline",
+          "https://www.dlapiper.com/en/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect"
+        ],
+        "result": "5 new sources. 19 sources so far, 4 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_web",
+        "query": "NANDO notified bodies list Regulation 2024/1689 artificial intelligence",
+        "urls": [
+          "https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Article_35.html",
+          "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "https://www.artificial-intelligence-act.com",
+          "https://service.betterregulation.com/document/741607",
+          "https://www.compliancegate.com/eu-artificial-intelligence-act"
+        ],
+        "result": "5 new sources. 24 sources so far, 5 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 3,
+        "tool": "search_web",
+        "query": "\"notified body\" AI Act designated T\u00dcV DEKRA 2026",
+        "urls": [
+          "https://eucertify.com/find-notified-body",
+          "https://www.thinkdifferent.blog/blog/nobody-is-ready-to-certify-europe-s-ai",
+          "https://www.dekra.com/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+          "https://www.dekra.us/en/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act",
+          "https://eyreact.com/notified-bodies-ai-act"
+        ],
+        "result": "5 new sources. 29 sources so far, 6 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 4,
+        "tool": "search_web",
+        "query": "DEKRA first notified body AI Act biometric 2025 accreditation Annex III",
+        "urls": [
+          "https://sovereign.tenova.io/guides/dekra-biometric-conformity-evidence.html",
+          "https://www.linkedin.com/posts/stan-zurkiewicz_yet-another-proof-of-dekras-leadership-in-activity-7437396849935818752-eN7q",
+          "https://www.prnewswire.com/apac/news-releases/dekra-becomes-the-first-accredited-certification-body-for-ai-biometric-systems-under-the-eu-ai-act-302717226.html",
+          "https://www.biometricupdate.com/companies/dekra"
+        ],
+        "result": "4 new sources. 33 sources so far, 7 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 4,
+        "tool": "search_web",
+        "query": "AI Act delay conformity assessment harmonised standards 2026 high-risk postponed",
+        "urls": [
+          "https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-2/update-ai-enabled-medical-devices-and-ivds-confirmed-as-high-risk",
+          "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260",
+          "https://www.modulos.ai/blog/is-the-eu-ai-act-delayed",
+          "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html",
+          "https://responsibleailabs.ai/knowledge-hub/articles/eu-ai-act-august-2026-compliance"
+        ],
+        "result": "5 new sources. 38 sources so far, 8 of 18 searches used.",
+        "is_error": false
+      },
+      {
+        "turn": 5,
+        "tool": "finish_research",
+        "reason": "Gathered primary sources on Articles 29-49 and Annexes VI-VII of the AI Act regarding conformity assessment procedures, plus web sources on notified body designation status (DEKRA as first accredited body), NANDO database, and recent delays to high-risk obligations deadlines. Sufficient to answer the question.",
+        "result": "Research finished.",
+        "is_error": false
+      }
+    ]
+  },
+  "searches": 8,
+  "official_sources": 15,
+  "model": "claude-sonnet-5",
+  "settings": {
+    "max_tool_searches": 18,
+    "max_tool_turns": 12,
+    "researcher_effort": "low"
+  },
+  "duration_seconds": 190.1,
+  "research_seconds": 38.0,
+  "llm_calls": 10,
+  "input_tokens": 76486,
+  "output_tokens": 18909,
+  "cost_usd": 0.3421,
+  "research_cost_usd": 0.0378,
+  "mentions_current_annex_iii_date": true,
+  "timestamp": "2026-10-28T13:32:25",
+  "question_id": "q3",
+  "run": 3
+}
