@@ -1,0 +1,225 @@
+{
+  "benchmark_file": "v2_20260927_235716.json",
+  "cost_usd": 0.8202,
+  "summary": {
+    "clean": {
+      "false_alarms": 3,
+      "n": 4,
+      "flagged_by": {
+        "hallucination_check": 2,
+        "confidence_assessment": 1,
+        "knowledge_gaps": 2,
+        "citation_coverage": 1
+      }
+    },
+    "fabricated_link": {
+      "caught": 4,
+      "n": 4,
+      "flagged_by": {
+        "source_links": 4,
+        "hallucination_check": 4,
+        "executive_summary_accuracy": 1,
+        "citation_coverage": 1,
+        "confidence_assessment": 2
+      }
+    },
+    "unsupported_claim": {
+      "caught": 4,
+      "n": 4,
+      "flagged_by": {
+        "hallucination_check": 4,
+        "confidence_assessment": 3,
+        "citation_coverage": 2
+      }
+    },
+    "uncited_claim": {
+      "caught": 4,
+      "n": 4,
+      "flagged_by": {
+        "citation_coverage": 4,
+        "confidence_assessment": 1,
+        "executive_summary_accuracy": 1
+      }
+    },
+    "changed_date": {
+      "caught": 1,
+      "n": 1,
+      "flagged_by": {
+        "hallucination_check": 1,
+        "executive_summary_accuracy": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "question": "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
+      "error_type": "clean",
+      "planted": "unmodified report",
+      "approved": true,
+      "failed_checks": {}
+    },
+    {
+      "question": "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
+      "error_type": "fabricated_link",
+      "planted": "The European Commission has confirmed that it will not propose any further changes to these deadlines ([European Commission press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "source_links": "Links to URLs that are not among the gathered sources: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417",
+        "hallucination_check": "The sentence 'The European Commission has confirmed that it will not propose any further changes to these deadlines' (Key Findings) has no corresponding extracted claim and cites a press release URL not present in the claims or sources list \u2014 this appears to be a fabricated fact and fabricated citation, which is a serious hallucination.",
+        "executive_summary_accuracy": "The executive summary itself is largely accurate and consistent with the body (classification low confidence, obligations high confidence, timeline deferral high confidence, no enforcement actions found). However, because the body contains a fabricated, uncited-in-claims assertion about the Commission confirming no further deadline changes, and this fabricated claim is presented under 'Key Findings' without corresponding treatment in the executive summary, there is an inconsistency between what the executive summary implies (based on legitimate findings) and an unsupported assertion elsewhere in the report that readers might take as part of the vetted findings."
+      }
+    },
+    {
+      "question": "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
+      "error_type": "unsupported_claim",
+      "planted": "Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market ([EU AI Act and Recruitment: Why the December 2027 ...](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/eu-ai-act-and-recruitment-why-december-2027-extension-prep-window-not-free-pass)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "hallucination_check": "The key finding bullet 'Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market' (cited to the Futurium source, high confidence) does not correspond to any extracted claim (claim_001\u2013claim_022). None of the claims mention a DPA notification requirement or a 30-day pre-market notice period. This appears to be a fabricated/unsupported fact not present in the ground truth.",
+        "confidence_assessment": "Most confidence labels align with the extracted claims (e.g., claim_007 low, claim_008 high, claim_014 medium, claim_017 low, claim_019 high). However, the unsupported DPA-notification bullet is labeled '(high confidence)' despite having no corresponding claim or confidence score at all, which is an inconsistent and unjustified confidence assignment."
+      }
+    },
+    {
+      "question": "What are the current compliance requirements for a company deploying a high-risk AI hiring tool under the EU AI Act, and what enforcement actions have been taken so far?",
+      "error_type": "uncited_claim",
+      "planted": "High-risk deployer obligations include: using the system per provider instructions, implementing human oversight, monitoring performance and reporting serious incidents, informing workers/representatives when AI affects employment decisions, and not using the system outside its intended purpose.",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "The single bullet under '## Key Findings' \u2014 'High-risk deployer obligations include: using the system per provider instructions, implementing human oversight, monitoring performance and reporting serious incidents, informing workers/representatives when AI affects employment decisions, and not using the system outside its intended purpose.' \u2014 has no markdown citation link attached, even though the same claim is cited later in the 'Deployer Obligations' section. Every factual bullet should carry its own citation."
+      }
+    },
+    {
+      "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+      "error_type": "clean",
+      "planted": "unmodified report",
+      "approved": false,
+      "failed_checks": {
+        "hallucination_check": "The sentence 'The July 2025 US AI Action Plan focuses on boosting data center capacity and exporting American AI technology rather than imposing provider obligations (high confidence)' adds the claim 'rather than imposing provider obligations' which is not stated in claim_019 (EUR-Lex) and is not supported by any extracted claim. This is a hallucinated inference presented with the same high confidence as the sourced facts, and it directly contradicts the report's own Knowledge Gaps section, which states 'The sources do not detail specific compliance obligations imposed by the US AI Action Plan (July 2025) on foundation model or GPAI providers, if any.'",
+        "confidence_assessment": "Most confidence labels match the extracted claims' scores (e.g., claim_001/002/005 high, claim_003/017/018/020 medium, claim_004/006/007/008/010/014/021/023 low). However, the unsupported assertion 'rather than imposing provider obligations' is labeled 'high confidence' by association with claim_019, even though no claim supports it at any confidence level\u2014this misrepresents an inference as a high-confidence sourced fact.",
+        "knowledge_gaps": "The knowledge gaps section correctly lists 'what specific provider obligations (if any) the 2025 AI Action Plan imposes' as unclear, but this directly conflicts with the body's assertion that the Action Plan does NOT impose provider obligations (stated as high confidence). This internal inconsistency undermines the knowledge-gaps disclosure."
+      }
+    },
+    {
+      "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+      "error_type": "fabricated_link",
+      "planted": "The European Commission has confirmed that it will not propose any further changes to these deadlines ([European Commission press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "source_links": "Links to URLs that are not among the gathered sources: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417",
+        "citation_coverage": "The bullet 'The European Commission has confirmed that it will not propose any further changes to these deadlines' cites https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417, a URL that does not appear anywhere in the extracted claims or the report's own Sources list (1-21). This citation does not correspond to any verifiable source provided to the reviewer.",
+        "hallucination_check": "The claim 'The European Commission has confirmed that it will not propose any further changes to these deadlines ... (high confidence)' has no corresponding entry in the extracted claims list. No claim discusses the Commission confirming it will not change deadlines, and the cited press release is not among the 26 listed sources. This appears to be a fabricated fact with a fabricated/unverifiable citation, and it is asserted as 'high confidence' despite having zero evidentiary basis in the claim set.",
+        "confidence_assessment": "Most confidence labels align with the extracted claims (e.g., Article 53 documentation/copyright duties correctly marked high confidence matching claim_001/002; open-source exemption correctly medium per claim_003; fines/timeline/enforcement correctly low per claims_006-010). However, the fabricated EC press-release bullet is labeled '(high confidence)' with no supporting claim at all, which is an unjustified and inconsistent confidence assignment that undermines the overall confidence framework."
+      }
+    },
+    {
+      "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+      "error_type": "unsupported_claim",
+      "planted": "Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market ([Stakeholder consultation on AI and copyright compliance](https://digital-strategy.ec.europa.eu/en/faqs/stakeholder-consultation-ai-and-copyright-compliance)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "Most statements are properly cited, but the Key Findings bullet 'Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market' cites the 'Stakeholder consultation on AI and copyright compliance' source, which is about copyright compliance stakeholder consultation, not data protection authority notification timelines. The citation does not support the claim content, so this counts as inadequate/misattributed citation coverage.'",
+        "hallucination_check": "The sole bullet under 'Key Findings' states: 'Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market... (high confidence)'. No extracted claim mentions a national data protection authority, a 30-day notification period, or high-risk AI system market placement. This appears to be fabricated and falsely attributed to a high confidence level and to a source (stakeholder consultation on copyright) that does not support it. This is a clear hallucination that must be removed or properly sourced.",
+        "confidence_assessment": "Most confidence labels align well with the extracted claims' confidence scores (e.g., high confidence for Article 53 documentation/training-data-summary claims, low confidence for fines/timelines/enforcement claims). However, the fabricated data-protection-authority notification claim is labeled '(high confidence)' despite having no corresponding extracted claim at all, which is a serious inconsistency\u2014confidence cannot be assessed for a claim that does not exist in the ground truth, and labeling an unsupported fact as 'high confidence' is misleading."
+      }
+    },
+    {
+      "question": "How do the EU AI Act's requirements for foundation model providers compare to current US federal AI policy approaches?",
+      "error_type": "uncited_claim",
+      "planted": "Article 53 AI Act requires GPAI model providers to maintain technical documentation, make information available to downstream providers, and put in place a policy to comply with EU copyright law, including identifying and complying with TDM opt-out reservations of rights.",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "The standalone bullet under 'Key Findings' \u2014 \"Article 53 AI Act requires GPAI model providers to maintain technical documentation, make information available to downstream providers, and put in place a policy to comply with EU copyright law, including identifying and complying with TDM opt-out reservations of rights.\" \u2014 has no citation link, even though the same claim is cited later in the body. Every factual bullet should carry its own citation."
+      }
+    },
+    {
+      "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+      "error_type": "clean",
+      "planted": "unmodified report",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "The Executive Summary contains factual claims with no citations attached. E.g., \"The EU AI Act establishes two main conformity assessment routes for high-risk AI systems\u2014internal control (Annex VI) and third-party assessment via notified bodies (Annex VII)\u2014with the applicable route depending on the AI system's category and whether harmonised standards exist (low confidence).\" has no markdown link, and the following sentence about March\u2013April 2026 notified body status also lacks any citation despite being a factual (if low-confidence) claim.",
+        "knowledge_gaps": "The Knowledge Gaps section omits any mention of claim_009 (Article 35 administrative rules on identification numbers and lists of notified bodies), which appears nowhere in the report body or gaps section, despite being part of the extracted claims. This is a silent omission rather than a disclosed gap."
+      }
+    },
+    {
+      "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+      "error_type": "fabricated_link",
+      "planted": "The European Commission has confirmed that it will not propose any further changes to these deadlines ([European Commission press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "source_links": "Links to URLs that are not among the gathered sources: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417",
+        "hallucination_check": "The Key Finding 'The European Commission has confirmed that it will not propose any further changes to these deadlines' (cited as high confidence) has no corresponding entry in the extracted claims list (claim_001\u2013claim_018), and its cited source (ip_26_4417 press release) does not appear in the Sources list at all. This is a fabricated claim presented with high confidence, directly contradicting the report's own surrounding narrative of uncertainty about deadlines and designation status.",
+        "confidence_assessment": "Most confidence levels align with the extracted claims (e.g., claim_002 high, claim_004/005/006/007 medium, claim_012/013 low). However, the fabricated 'no further changes to deadlines' finding is labeled 'high confidence' despite having zero support in the ground truth claims, which is an unjustified and inconsistent confidence assignment."
+      }
+    },
+    {
+      "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+      "error_type": "unsupported_claim",
+      "planted": "Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market ([AI Act Service Desk - Article 43: Conformity assessment](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "The key finding \"Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market\" cites the Article 43 AI Act Service Desk page, but the extracted claims from that exact source (claim_004, claim_005) contain no such requirement, and no other claim supports it either. The citation is present but does not actually substantiate the claim\u2014this is a fabricated requirement with a misleading citation.",
+        "hallucination_check": "The statement \"Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market\" does not correspond to any extracted claim. There is no DPA pre-notification requirement of this kind in the ground truth (Article 43 claims only cover choice of notified body, substantial modification, derogations, model access, and delegated acts). This appears to be an invented fact presented as a 'high confidence' key finding.",
+        "confidence_assessment": "The fabricated DPA notification claim is labeled '(high confidence)' despite having zero support in the extracted claims\u2014this is the opposite of appropriate confidence calibration, since an unsupported/hallucinated fact should not carry high confidence. Aside from this, other confidence labels (e.g., claim_001 'low confidence', claim_002 'high confidence', claim_004/005/006/007 'medium confidence') are generally consistent with the ground-truth scores."
+      }
+    },
+    {
+      "question": "What conformity assessment procedures are required for high-risk AI systems under the EU AI Act, and which notified bodies have been designated so far?",
+      "error_type": "uncited_claim",
+      "planted": "The Commission publishes lists of designated notified bodies (for various EU legislation, including medical devices) in the NANDO information system, which can be filtered by legislation.",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "The Key Findings bullet 'The Commission publishes lists of designated notified bodies (for various EU legislation, including medical devices) in the NANDO information system, which can be filtered by legislation.' has no markdown link attached despite being a standalone factual claim. Additionally, the Contradictions section states 'Multiple claims regarding designation timelines, delegated act powers, and Article 35 administrative rules are rated low confidence' \u2014 this references Article 35 (claim_009) without any citation, and the source for that claim (regulation-ai.eu) is not included anywhere in the report's own Sources list (1-18), making this claim both uncited and unsourced in the bibliography.",
+        "confidence_assessment": "The executive summary labels the entire sentence describing the two conformity assessment routes and their dependency on harmonised standards as 'low confidence,' but this conflates claim_001 (low confidence, 0.24) with claim_002 (high confidence, 0.82, sectoral route under Annex I Section A). Attaching a single low-confidence tag to the general framework misrepresents the high-confidence status of the sectoral/Annex I route requirement.",
+        "executive_summary_accuracy": "The executive summary omits any mention of the medium-confidence findings about notified body designation infrastructure (Council ST-7322-2026 Annex I.A codes, COM(2025) 836 creating NANDO Annex XIV) which are substantive findings presented in the body under 'Notified Body Designation Infrastructure and Status.' As written, the summary gives the impression that the only notable finding is the absence of designations, undercutting the body's more nuanced picture of ongoing institutional groundwork."
+      }
+    },
+    {
+      "question": "When do the obligations for high-risk AI systems listed in Annex III of the EU AI Act start to apply?",
+      "error_type": "clean",
+      "planted": "unmodified report",
+      "approved": false,
+      "failed_checks": {
+        "hallucination_check": "The sentence 'raising ambiguity about whether this guidance has been fully updated (low confidence flag) ([LinkedIn/Oliver Patel](...))' misattributes the LinkedIn/Oliver Patel source to the EUR-Lex vs. Article 111 discrepancy. In the ground truth, that contradiction (EUR-Lex generic language vs. Article 111 naming 2 August 2026) is supported only by the EUR-Lex and AI Act Service Desk/Article 111 sources; the LinkedIn post actually supports a different claim (claim_010, the 'backstop' scenario). This is a citation-claim mismatch that could mislead a reader about source support."
+      }
+    },
+    {
+      "question": "When do the obligations for high-risk AI systems listed in Annex III of the EU AI Act start to apply?",
+      "error_type": "fabricated_link",
+      "planted": "The European Commission has confirmed that it will not propose any further changes to these deadlines ([European Commission press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "source_links": "Links to URLs that are not among the gathered sources: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417",
+        "hallucination_check": "The Key Findings bullet 'The European Commission has confirmed that it will not propose any further changes to these deadlines' is cited to https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417, which does not appear anywhere in the extracted claims or the provided sources list. This is a fabricated fact and a fabricated/unsupported citation not traceable to any ground-truth claim."
+      }
+    },
+    {
+      "question": "When do the obligations for high-risk AI systems listed in Annex III of the EU AI Act start to apply?",
+      "error_type": "unsupported_claim",
+      "planted": "Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market ([32024R1689 \u2014 EN \u2014 27.07.2026 - EUR-Lex - European Union](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML?uri=CELEX%3A02024R1689-20260727)) (high confidence).",
+      "approved": false,
+      "failed_checks": {
+        "hallucination_check": "The bullet 'Providers must also notify their national data protection authority at least 30 days before placing a high-risk AI system on the market' cites EUR-Lex but has no corresponding entry in the extracted claims (claim_001\u2013claim_011). This appears to be a fabricated/hallucinated fact not grounded in the provided ground truth and should be removed or re-verified against the actual source text."
+      }
+    },
+    {
+      "question": "When do the obligations for high-risk AI systems listed in Annex III of the EU AI Act start to apply?",
+      "error_type": "changed_date",
+      "planted": "'2 August 2026' changed to '2 August 2025'",
+      "approved": false,
+      "failed_checks": {
+        "hallucination_check": "The 'Original Timeline' section states: \"obligations for high-risk AI systems\u2014including those enumerated in Annex III\u2014were scheduled to become applicable 36 months after entry into force, corresponding to 2 August 2025 (high confidence)\". This contradicts claim_001, which explicitly states the original application date was 2 August 2026, not 2025. This is a factual error/hallucinated date not supported by any extracted claim, and it also contradicts the Executive Summary's own correct statement of 2 August 2026 earlier in the report.",
+        "executive_summary_accuracy": "The executive summary correctly states the original application date as 2 August 2026, but the body's 'Original Timeline' section states 2 August 2025 for the same fact, creating an internal contradiction between summary and body that undermines the summary's accuracy relative to the (erroneous) body text."
+      }
+    },
+    {
+      "question": "When do the obligations for high-risk AI systems listed in Annex III of the EU AI Act start to apply?",
+      "error_type": "uncited_claim",
+      "planted": "Under Article 111(2)/Article 113 transitional provisions, the Regulation applies to operators of high-risk AI systems (other than certain excepted systems) that were placed on the market or put into service before the date of application of Chapter III (2 August 2026 per one source), only if those systems undergo significant design changes from that date.",
+      "approved": false,
+      "failed_checks": {
+        "citation_coverage": "The Key Findings bullet point \"Under Article 111(2)/Article 113 transitional provisions, the Regulation applies to operators of high-risk AI systems (other than certain excepted systems) that were placed on the market or put into service before the date of application of Chapter III (2 August 2026 per one source), only if those systems undergo significant design changes from that date.\" contains no markdown citation link at all, despite being a direct factual claim (duplicated later in the 'Transitional Provisions' section where it IS cited). Every factual statement must carry its own citation where it appears."
+      }
+    }
+  ]
+}

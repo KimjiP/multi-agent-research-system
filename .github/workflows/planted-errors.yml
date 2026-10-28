@@ -1,0 +1,51 @@
+# The Reviewer's planted-error test as a gate: it fails when a planted error gets
+# through, or when the Reviewer rejects more clean reports than the limit in
+# eval_reviewer.py. It calls the Claude API (about $0.72 a run), so it runs only by
+# hand and on pushes to main that change the pipeline. Pull requests never run it,
+# so the API key is never available to code from a fork.
+name: Planted errors
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "eval_reviewer.py"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: planted-errors
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          version: "0.10.1"
+          enable-cache: true
+
+      - name: Install the locked dependencies
+        run: uv sync --locked
+
+      - name: The Reviewer catches every planted error
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: uv run python eval_reviewer.py --gate
+
+      - name: Keep the Reviewer's verdicts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: reviewer-eval
+          path: results/reviewer_eval_*.json
+          if-no-files-found: ignore

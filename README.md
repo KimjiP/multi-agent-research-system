@@ -1,5 +1,7 @@
 # Multi-Agent Research System (EU AI Act)
 
+[![Tests](https://github.com/KimjiP/multi-agent-research-system/actions/workflows/tests.yml/badge.svg)](https://github.com/KimjiP/multi-agent-research-system/actions/workflows/tests.yml)
+
 A LangGraph research pipeline that turns a question into a cited report. The model says which sources support each claim, and code computes the claim's confidence from those sources. A reviewer checks every report before it is approved, and the reviewer has its own test: errors planted in finished reports. Demoed on EU AI Act compliance; nothing in the architecture is specific to it.
 
 Companion code for the Signal Syntax post [Building and Testing an AI Research Agent in Five Steps: An EU AI Act Example](https://signalsyntax.no/blog/eu-ai-act-research-agent/).

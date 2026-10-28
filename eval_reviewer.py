@@ -15,11 +15,18 @@ A planted error counts as caught when the Reviewer does not approve the copy.
 The script also records which checks flagged it, and how often the Reviewer
 rejects an unmodified report (false alarms).
 
+With --gate the script is a test: it exits with an error when a planted error
+gets through, or when the Reviewer rejects more clean reports than
+GATE_MAX_FALSE_ALARMS. The planted-errors workflow in .github/workflows runs it
+on GATE_FILE.
+
 Usage:
     uv run python eval_reviewer.py                      # latest results/v2_*.json
     uv run python eval_reviewer.py results/v2_<run>.json
+    uv run python eval_reviewer.py --gate               # the gate, on GATE_FILE
 """
 
+import argparse
 import json
 import logging
 import re
@@ -35,6 +42,16 @@ from src.state import Claim, Contradiction, SourceDoc
 logging.basicConfig(level=logging.WARNING)
 
 RESULTS_DIR = Path("results")
+# The gate: at least GATE_MIN_CAUGHT of the 13 errors planted in GATE_FILE are caught, and
+# at most GATE_MAX_FALSE_ALARMS of its 4 clean reports are rejected. Set on 28 October 2026
+# after 3 local runs on GATE_FILE: 13, 13 and 12 of 13 caught, and 3 of 4 clean reports
+# rejected each time. The Reviewer's verdicts vary between runs, so one miss is allowed,
+# and only a Reviewer that rejects every clean report fails the second limit. Loosening the
+# limits makes the gate weaker.
+GATE_FILE = RESULTS_DIR / "v2_20260927_235716.json"
+GATE_PLANTED = 13
+GATE_MIN_CAUGHT = 12
+GATE_MAX_FALSE_ALARMS = 3
 FAKE_URL = "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4417"
 _DATE = re.compile(
     r"\b(\d{1,2}) (January|February|March|April|May|June|July|August|September|October|"
@@ -136,8 +153,28 @@ def summarize(rows: list[dict]) -> dict:
     return summary
 
 
+def gate_failures(summary: dict) -> list[str]:
+    """Why the gate fails, or an empty list when it passes."""
+    planted = {t: s for t, s in summary.items() if t != "clean"}
+    n_planted = sum(s["n"] for s in planted.values())
+    caught = sum(s["caught"] for s in planted.values())
+    false_alarms = summary["clean"]["false_alarms"]
+    failures = []
+    if n_planted != GATE_PLANTED:
+        failures.append(f"{n_planted} errors were planted, expected {GATE_PLANTED}")
+    if caught < GATE_MIN_CAUGHT:
+        failures.append(f"only {caught} of {n_planted} planted errors were caught, the minimum is {GATE_MIN_CAUGHT}")
+    if false_alarms > GATE_MAX_FALSE_ALARMS:
+        failures.append(f"{false_alarms} clean reports were rejected, the limit is {GATE_MAX_FALSE_ALARMS}")
+    return failures
+
+
 def main() -> None:
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else sorted(RESULTS_DIR.glob("v2_*.json"))[-1]
+    parser = argparse.ArgumentParser()
+    parser.add_argument("benchmark_file", nargs="?", type=Path, help="default: the latest results/v2_*.json")
+    parser.add_argument("--gate", action="store_true", help=f"exit with an error when the Reviewer misses the gate (on {GATE_FILE})")
+    args = parser.parse_args()
+    path = args.benchmark_file or (GATE_FILE if args.gate else sorted(RESULTS_DIR.glob("v2_*.json"))[-1])
     with open(path) as f:
         results = json.load(f)
 
@@ -165,6 +202,16 @@ def main() -> None:
             indent=2,
         )
     print(f"\nResults saved to {output}")
+
+    if args.gate:
+        if path.resolve() != GATE_FILE.resolve():
+            sys.exit(f"Gate: the gate runs on {GATE_FILE}, not on {path}")
+        if failures := gate_failures(summary):
+            sys.exit("Gate failed: " + "; ".join(failures))
+        print(
+            f"Gate passed: at least {GATE_MIN_CAUGHT} of {GATE_PLANTED} planted errors caught, "
+            f"at most {GATE_MAX_FALSE_ALARMS} of 4 clean reports rejected"
+        )
 
 
 if __name__ == "__main__":
